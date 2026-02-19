@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.planetgis.cn/archives/439abb6.html</loc>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.planetgis.cn/archives/506169c4.html</loc>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
     <loc>http://blog.planetgis.cn/archives/f92bb231.html</loc>
     <lastmod>2026-02-15</lastmod>
   </url>
@@ -42,10 +50,6 @@
   </url>
   <url>
     <loc>http://blog.planetgis.cn/archives/7ac24357.html</loc>
-    <lastmod>2026-02-15</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.planetgis.cn/archives/439abb6.html</loc>
     <lastmod>2026-02-15</lastmod>
   </url>
 </urlset> 
