@@ -797,4 +797,53 @@
         <tag>中国</tag>
       </tags>
   </entry>
+  <entry>
+    <title>我是如何制作一张含有“南”字的城市地图？</title>
+    <url>/archives/394e17de.html</url>
+    <content><![CDATA[<h1 id="一、背景介绍"><a href="#一、背景介绍" class="headerlink" title="一、背景介绍"></a>一、背景介绍</h1><p>我曾经以“板牙”的制图人员名字，制作了很多地理专题图。其中，有一个系列是“盘点我国含有X字的城市”系列。下面是我制作的部分地图（备注：所用数据及成果图均符合国家标准，审图号GS(2024)050）。</p>
+<p><img src="/../source/images/85e53a8cbb77be409836a44620a4094e-sz_246897.png"></p>
+<p>接下来，我将以“我国含有‘南’字的城市”为例子，展现我是如何一步步将地图制作出来的，以及在制图过程中，我是如何思考将地图用更好的方式将数据呈现出来。</p>
+<h1 id="二、制图过程"><a href="#二、制图过程" class="headerlink" title="二、制图过程"></a>二、制图过程</h1><p>首先声明：本教程将会是从专业化的角度来呈现整个制图过程，其中并不会过多的科普处理过程中用到的软件、数据、处理方法等。如果大家感兴趣，我可以另外制作一个入门系列课程。</p>
+<h2 id="（1）成果图展示部分"><a href="#（1）成果图展示部分" class="headerlink" title="（1）成果图展示部分"></a>（1）成果图展示部分</h2><p>废话少说，先看成果图。</p>
+<p><img src="/../source/images/db65bfdad438924faa1429459a0bb290-sz_172198.png"></p>
+<p>这是我制作的“我国含有‘南’字的城市”专题图，包含了我国含有“南”字的省份、地级市、区县级、以及补充表格。</p>
+<h2 id="（2）前期准备"><a href="#（2）前期准备" class="headerlink" title="（2）前期准备"></a>（2）前期准备</h2><p>1.专业地理制图软件ArcGIS，直接下载是需要付费的，因此大家可以自行寻找破解版ArcGIS安装教程。</p>
+<p><img src="/../source/images/deabe7cea2adcb214fb344c50af68db3-sz_446989.png"></p>
+<p>2.全国省市县行政区划shp矢量数据（审图号GS（2024）0650），可以在天地图中下载geojson版本。需要自行转换为shp格式。</p>
+<p><img src="/../source/images/9f81f327b05cfeee040abe3dcd36c589-sz_213352.png"></p>
+<h2 id="（3）数据预处理"><a href="#（3）数据预处理" class="headerlink" title="（3）数据预处理"></a>（3）数据预处理</h2><p>首先，是需要将转换后的shp文件（省、市、区县）加载到ArcGIS中。并且设置好投影坐标系（本文选用EPSG:3857，Web墨卡托投影）。</p>
+<p><img src="/../source/images/28b1243f1aaa235eeaf1d5de793927c7-sz_446484.png"></p>
+<p>接下来，首先处理省级数据，右键省级数据，打开属性表，进入到属性表的界面。</p>
+<p><img src="/../source/images/72096ca4c37c610774e0566863ceefd2-sz_470278.png"></p>
+<p>接下来，需要在这么多省份中，找到含有“南”字的省份。具体操作是在属性表内，点击左上角的图标，选择“按属性选择”，选择省份名称所在的字段，图中是“name”字段，可以直接在下方框中输入 “name” LIKE’%南%’ ，验证成果后点击应用，即可筛选出所有含有“南”字的省。</p>
+<p><img src="/../source/images/95ebac964676172cbe31b3ad1ca758da-sz_355845.png"></p>
+<p>含有“南”字的省份当然可以直接找出来，但是到市、区县级就没办法一个个数，只能靠上述方法进行操作。</p>
+<p><img src="/../source/images/7b62927dc034ef1b5525b5df2f6b5b81-sz_409001.png"></p>
+<p>这样一来，我们就筛选出了四个含有“南”字的省份，分别是河南省、湖南省、云南省、海南省。在省级shp数据中右键–数据–导出数据，得到四个省份的单独数据，留着备用。</p>
+<p><img src="/../source/images/35adcafe2b109b4de217b16ac24e4038-sz_251858.png"></p>
+<p>用同样的方法，筛选出市级、区县级区划中含有“南”字的地图。</p>
+<p><img src="/../source/images/08c50d26b13fb795111fef67ac0d45b2-sz_202361.png"></p>
+<p><img src="/../source/images/a26e81adf3688e49d8fed9f8ded2e03e-sz_255735.png"></p>
+<h2 id="（3）制图阶段"><a href="#（3）制图阶段" class="headerlink" title="（3）制图阶段"></a>（3）制图阶段</h2><p>首先，切换到制图模式，仅显示省级行政区，以及四个含有“南”字的省级行政区。注意：需要添加十段线。</p>
+<p><img src="/../source/images/c7efc8829bc417a14df94192022df416-sz_117098.png"></p>
+<p>添加地图三要素：图例、比例尺、指北针。并将地图颜色设置成自己喜欢的样子。我这里选择将底图设置为灰色、边界为白色；四个省份为橙色，边界为白色。</p>
+<p><img src="/../source/images/41d5850bd4c99adcf72767be18be9da8-sz_162279.png"></p>
+<p>然后，选择插入文字，将标题、制图人员、以及主题符号（“南”字），放置在地图合适位置，调整字体、大小。</p>
+<p><img src="/../source/images/e0c1b22d22f29b93a07bc82957b8b457-sz_185534.png"></p>
+<p>随后，点击软件左上角的 文件–导出地图，即可得到高清版的地图。</p>
+<p><img src="/../source/images/d03ff44328171b91a94fbbbfd84c462d-sz_275868.png"></p>
+<p>运用同样的方法，即可得到市、区县的地图。可以自行发挥，补充一些文字内容（如下图所示）。</p>
+<p><img src="/../source/images/c8642c7c450703a126de5218990b0b7a-sz_268640.png"></p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a>三、最后说说</h1><p>本文简单的介绍了制图的过程，其实每制作一张地图，都要耗费不少时间，而且很多是重复性工作，加上ArcGIS软件过于专业化，学习门槛较高。因此有考虑自己开发一款轻量化的地理制图软件，大家有什么想了解的，欢迎在评论区发表您的想法。</p>
+]]></content>
+      <categories>
+        <category>GIS教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>ArcGIS</tag>
+        <tag>制图教程</tag>
+        <tag>GIS教程</tag>
+      </tags>
+  </entry>
 </search>
