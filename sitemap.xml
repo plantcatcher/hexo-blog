@@ -2,61 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/439abb6.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/7ac24357.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/e629bf1a.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/72620b27.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/506169c4.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/d9a2fa56.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/a3801040.html</loc>
+    <loc>http://blog.planetgis.cn/archives/dbd4ed2e.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -66,6 +12,24 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/d4a08a7f.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/444643dc.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/d9a2fa56.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -92,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/dbd4ed2e.html</loc>
+    <loc>http://blog.planetgis.cn/archives/72620b27.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -101,7 +65,61 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/444643dc.html</loc>
+    <loc>http://blog.planetgis.cn/archives/fcf5b7c7.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/363881ae.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/7ac24357.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/439abb6.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/e629bf1a.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/506169c4.html</loc>
+    
+    <lastmod>2026-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/a3801040.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -111,15 +129,6 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/84287a70.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/0.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -138,15 +147,6 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/f92bb231.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/fcf5b7c7.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -183,15 +183,6 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/4b870eb6.html</loc>
-    
-    <lastmod>2026-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/archives/363881ae.html</loc>
     
     <lastmod>2026-02-26</lastmod>
     
@@ -428,5 +419,12 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://blog.planetgis.cn/categories/%E9%97%B2%E8%81%8A/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
