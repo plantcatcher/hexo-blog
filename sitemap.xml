@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/17c71a11.html</loc>
+    <loc>http://blog.planetgis.cn/archives/9ab3aaec.html</loc>
+    
+    <lastmod>2026-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/a3de7f73.html</loc>
+    
+    <lastmod>2026-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/d9dcb0bb.html</loc>
     
     <lastmod>2026-03-02</lastmod>
     
@@ -21,6 +39,15 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/86d761b5.html</loc>
+    
+    <lastmod>2026-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/17c71a11.html</loc>
     
     <lastmod>2026-03-02</lastmod>
     
@@ -491,6 +518,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E6%96%B0%E7%96%86/</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E5%A1%94%E5%85%8B%E6%8B%89%E7%8E%9B%E5%B9%B2%E6%B2%99%E6%BC%A0/</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -509,6 +557,13 @@
   
   <url>
     <loc>http://blog.planetgis.cn/categories/GIS%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/categories/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
