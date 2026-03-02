@@ -1442,4 +1442,170 @@
         <tag>中国</tag>
       </tags>
   </entry>
+  <entry>
+    <title>回顾1998特大洪水：长沙当时到底有多险？</title>
+    <url>/archives/17c71a11.html</url>
+    <content><![CDATA[<p>大家还记得1998年特大洪水吗？那是一场包括长江、嫩江、松花江等江河流域地区的大洪水。</p>
+<p>据初步统计，包括受灾最重的江西、湖南、湖北、黑龙江四省，全国共有29个省（区、市）遭受了不同程度的洪涝灾害，受灾面积3.18亿亩，成灾面积1.96亿亩，受灾人口2.23亿人，死亡4150人，倒塌房屋685万间，直接经济损失达1660亿元。</p>
+<h1 id="湘江长沙段洪水"><a href="#湘江长沙段洪水" class="headerlink" title="湘江长沙段洪水"></a>湘江长沙段洪水</h1><p>1998年6月27日，湘江长沙段水位达到了39.18米，形势十分严峻。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-89de271703ab9a501e89f22fceb5ebc7-sz_1159584.png" alt="img"></p>
+<p>我们不会以此话题为乐，吃人血馒头。而是带着记忆往昔，并伴随着一定的科研精神，试着模拟洪水上涨时长沙所面临的境况。</p>
+<p><strong>声明：本文无任何不良引导！</strong></p>
+<h1 id="洪水模拟"><a href="#洪水模拟" class="headerlink" title="洪水模拟"></a>洪水模拟</h1><p>长沙，位于湖南省东部偏北，湘江下游和长浏盆地西缘，境内地势起伏较大，地形以山地、岗地、平原为主，湘江穿市区而过。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9a5d313af7ed29c3a92147ba396da581-sz_767669.png" alt="img"></p>
+<p>本次模拟基于高程DEM数据，利用ArcGIS等软件进行模拟。长沙地形海拔如下图所示，最低海拔19米（湘江平均水面），最高海拔1833米，平均海拔180米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-63056d95f9263f153ae0dbbcc4a2b3f6-sz_342107.png" alt="img"></p>
+<h2 id="2-当洪水上涨0米"><a href="#2-当洪水上涨0米" class="headerlink" title="2.当洪水上涨0米"></a>2.<strong>当洪水上涨0米</strong></h2><p>首先，大家可以观察一下长沙的地形（下图所示）。湘江穿城区而过，支流包括捞刀河、白沙河和浏阳河。湘江东部，有谷山森林公园（海拔362米）、岳麓山风景名胜区（海拔300米）、桃花岭景区（海拔200米）等。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0a094c2bb7ad11f2e645b1dcc5b54899-sz_1643609.jpeg" alt="img"></p>
+<p>此时，让我们观察湘江长沙段的海拔。选取随机点，显示海拔在20米左右。（备注：随后的模拟洪水上涨不以海拔高度进行描述，而以湘江海拔为起点，模拟洪水上升高度）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-b5ec489df206b5d9c24b15c7e8c417e4-sz_847239.png" alt="img"></p>
+<h2 id="2-当洪水上涨10米"><a href="#2-当洪水上涨10米" class="headerlink" title="2.当洪水上涨10米"></a>2.<strong>当洪水上涨10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-59c5eaacd3d1281ac6f38fd21fa7af16-sz_1637528.jpeg" alt="img"></p>
+<p>从图中可以看到，当水位从湘江（海拔20米左右）上涨10米时（即海拔30米），开福区部分区域被洪水淹没了。此时，让我们观察一下开福区的海拔（下图所示），开福区海拔在30米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-281e2b8a31da0f93124b6d57b955c6b5-sz_840721.png" alt="img"></p>
+<h2 id="3-当洪水上涨15米"><a href="#3-当洪水上涨15米" class="headerlink" title="3.当洪水上涨15米"></a>3.<strong>当洪水上涨15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9212c53ef6666b6e9de1d2ea33704352-sz_1582783.jpeg" alt="img"></p>
+<p>当洪水上涨15米（海拔35米左右），芙蓉区被洪水吞噬，从下图中可以看到，其随机点海拔在36米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-acba1ae97ba918157d0650f0e9897de9-sz_827448.png" alt="img"></p>
+<h2 id="4-当洪水上涨25米"><a href="#4-当洪水上涨25米" class="headerlink" title="4.当洪水上涨25米"></a>4.<strong>当洪水上涨25米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d456e7399b519167d2582bbd6616e82f-sz_1483321.jpeg" alt="img"></p>
+<p>紧接着，雨花区被淹没（海拔40米左右，如下图所示），浏阳河流域几乎被洪水填满了。此时，图中仅剩岳麓区、长沙县和天心区并没有被洪水淹没，但也收到不小波及。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f83f3402316d87e2a5a6a0cef5ff4815-sz_759800.png" alt="img"></p>
+<h2 id="5-当洪水上涨35米"><a href="#5-当洪水上涨35米" class="headerlink" title="5.当洪水上涨35米"></a>5.<strong>当洪水上涨35米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-961110a3af06d747c8eac79dc7b91338-sz_1401963.jpeg" alt="img"></p>
+<p>当洪水上涨35米（海拔55米左右），岳麓区、长沙县坐标点与洪水几乎是紧贴着，部分城区已经被淹没。而天心区凭借着高海拔（随机点显示海拔在93米）受损并没有其它城区大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da58225f27381b86eec3f9ce069ba262-sz_764328.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f6575092ab6e2e307eb6efb525310304-sz_751542.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d89c693a855008f99dafedddd380943d-sz_649817.png" alt="img"></p>
+<h1 id="模拟总结"><a href="#模拟总结" class="headerlink" title="模拟总结"></a>模拟总结</h1><p>本次模拟基于高程DEM数据，利用ArcGIS等软件，对湖南省长沙市进行洪水上升10米、15米、25米、35米的模拟。其目的是反映长沙地形地貌特征，效果仅供参考。</p>
+<p><strong>再次声明：无任何不良引导！</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>海平面模拟</tag>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>Geojson</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>湖南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>地理数据+洪水模型：我是如何“淹没”四川盆地的？</title>
+    <url>/archives/86d761b5.html</url>
+    <content><![CDATA[<h1 id="一、什么是四川盆地？"><a href="#一、什么是四川盆地？" class="headerlink" title="一、什么是四川盆地？"></a><strong>一、什么是四川盆地？</strong></h1><p>我国有四大盆地，从北往南是准噶尔盆地、塔里木盆地、柴达木盆地、四川盆地，其中四川盆地的海拔最低。</p>
+<p>四川盆地，大部分位于四川省内，总面积约26万多平方千米。我们先来看看四川盆地的具体地理位置。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-abc5945ebcd9522e2982144f6c4b4de5-sz_213234.jpeg" alt="img"></p>
+<p>四川盆地位于四川省、陕西省、重庆市、贵州省、云南省等交界处，其中大部分位于四川省和重庆市辖区。主要城市有成都市、宜宾市、重庆市等。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ab41ecff5e06cc45c1ba17e3f8d833c9-sz_88838.jpeg" alt="img"></p>
+<p>四川盆地被巫山、大巴山、横断山、大娄山包围，且山峰海拔都在1000~300米之间。盆地内部有岷沱江、涪江、嘉陵江、渠江，以及长江。四川盆地一半是山地丘陵，海拔较高；一半是平原，海拔约200米-750米。</p>
+<p>金沙江自西南流入盆地，与岷江汇合后注入长江，最后从巫峡流出。长江、岷江、沱江、嘉陵江四条大河，合称“四川”，似乎也是四川盆地的由来。</p>
+<h1 id="二、洪水模拟"><a href="#二、洪水模拟" class="headerlink" title="二、洪水模拟"></a><strong>二、洪水模拟</strong></h1><p>为了更直观的感受四川盆地的地形地貌，也出于个人的好奇，因此进行了洪水模拟。声明：基于高程DEM数据，效果仅供参考。</p>
+<h2 id="1-选取四川盆地附近dem数据，进行裁切"><a href="#1-选取四川盆地附近dem数据，进行裁切" class="headerlink" title="1.选取四川盆地附近dem数据，进行裁切"></a>1.选取四川盆地附近dem数据，进行裁切</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-a562dd88ad2e1cc00952b34f1b736b12-sz_1979225.png" alt="img"></p>
+<p>从图中可以看到，高程范围在67米—7000米之间，而四川盆地的最低点众说纷纭，因此我采用较为常规的做法：从长江流域开始增加水量。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d3be8db4a566cfd087dd7915a69d5a6f-sz_2464694.png" alt="img"></p>
+<p>我随机选取了长江位于四川盆地下游的某区域，查询到高程为95米（取整100米左右），因此接下来会在100米的基础上增加水面高度。</p>
+<h2 id="2-模拟水位上升至380米"><a href="#2-模拟水位上升至380米" class="headerlink" title="2.模拟水位上升至380米"></a>2.模拟水位上升至380米</h2><p>当水位海拔上升至380米，即涨水180米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-84ab36c9203c0cbe062367696725ff1e-sz_6047008.png" alt="img"></p>
+<p>可以看到达州市、南充市、遂宁市、广安市、内江市、自贡市、宜宾市、泸州市、乐山市、资阳市和重庆市已经被淹了。</p>
+<p>下面是部分城市城区随机位置的海拔，仅供参考。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2efe2a1cee13814876f7c6350e1427b5-sz_861700.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-fab87ba6f42a9875da0ddc1fc6a88913-sz_772035.png" alt="img"></p>
+<h2 id="3-模拟水位上升至400米"><a href="#3-模拟水位上升至400米" class="headerlink" title="3.模拟水位上升至400米"></a>3.模拟水位上升至400米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0dff198b8006897f27eecd50ce1f1604-sz_6053005.png" alt="img"></p>
+<p>这个水位，巴中市已经部分被淹了，但由于比例尺原因看不太清楚。结合海拔高度图可以看出，巴中市部分城区海拔在390米左右，部分甚至更低。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2d764d7382ba9da73a0443022ac47f27-sz_670171.png" alt="img"></p>
+<p>另外，留意到南充市和广安市中间有一块区域并没有被淹没，好奇查询了海拔高度，为452米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-eed5957f860647d58a3db8a05020236b-sz_773056.png" alt="img"></p>
+<h2 id="4-模拟水位上升至500米"><a href="#4-模拟水位上升至500米" class="headerlink" title="4.模拟水位上升至500米"></a>4.模拟水位上升至500米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ae3d53c15952dcb9f650f3a79a3b65b6-sz_5898048.png" alt="img"></p>
+<p>可以看到洪水漫延到成都市、绵阳市，通过海拔图可以看到成都城区海拔在500米左右，绵阳城区在460米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1080fbdf3eb4f55d942919bce0100909-sz_818961.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-44321cf7ab84afab7a5970ed29cf42c6-sz_700812.png" alt="img"></p>
+<p>但此时，德阳市、广元市海拔 和 成都、绵阳海拔类似，如下图所示。但为什么没有被淹没？目前解释是洪水漫延需要考虑到地形因素，龙泉山 为德阳市挡住了洪水。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1a228718ab49338d2330eae2014781e3-sz_591409.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1e6078c3ada8f05bb96df22a769ec0d6-sz_483130.png" alt="img"></p>
+<p>而广元市被山峰环绕，洪水从嘉陵江倒灌需要时间…</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-90152306f5b3f394f59eeacd44b1953c-sz_657998.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-08ae2c683db565d6a6be06c3315f9a48-sz_885851.png" alt="img"></p>
+<h2 id="5-当水位上升至600米"><a href="#5-当水位上升至600米" class="headerlink" title="5.当水位上升至600米"></a>5.当水位上升至600米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-6cd6b2e9ba5d7893c99fa8324c96330a-sz_5780274.png" alt="img"></p>
+<p>此时四川盆地大部分地市都被淹没了，雅安市城区海拔550米左右，已经被淹没（比例尺原因看不清楚），也有部分原始是地形原因洪水倒灌有延迟。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da998ae29e46fa28141095b7ee4d3482-sz_573099.png" alt="img"></p>
+<p>而再来看看四川盆地北部区域，可以清晰的看到山脉的脉络和走势。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-40be8b275279b23eb0957bf5732381c8-sz_1441660.png" alt="img"></p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h1><p>模拟基于高程DEM数据，模拟范围为四川盆地区域。基础水平面高度为100米（长江位于四川盆地下游的随机点），水面上升高度为280米、300米、400米、500米（等价于海拔600米）。其目的为更直观地感受四川盆地的地形，无任何不良引导！</p>
+<p>满是水的四川盆地，可能就是二亿多年前的巴蜀湖吧。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0647359a2776a6d9c865c4475f2ddfa0-sz_271630.png" alt="img"></p>
+<p>欢迎各位发表您的看法</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>海平面模拟</tag>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>Geojson</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>四川</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面下降40-60米，台湾海峡会变成陆地吗？</title>
+    <url>/archives/9e16dd6.html</url>
+    <content><![CDATA[<p>你有没有想过：如果海平面不断下降，台湾海峡会变成什么样子？</p>
+<p>从福建徒步走到台湾，真的只是科幻想象吗？</p>
+<p>答案藏在海底地形里。</p>
+<p>只要海水退去几十米，曾经的海峡就会露出陆地，一条连通两岸的 “史前陆桥” 将重新出现。</p>
+<p>到底退多少米可行？海底最深处在哪？历史上真的存在过这样的通道吗？</p>
+<hr>
+<h1 id="一、台湾海峡介绍"><a href="#一、台湾海峡介绍" class="headerlink" title="一、台湾海峡介绍"></a><strong>一、台湾海峡介绍</strong></h1><p>台湾海峡纵长约400公里，面积约9万平方公里。南宽北窄，南口宽约400公里，北口宽约200公里，北部最窄处为130公里。处于中国东海大陆架上，地形起伏不平，<strong>平均水深约60米。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-20260302202125427.png"></p>
+<p>下图中，可以看到海峡中间标注有两处浅滩：<strong>台中浅滩</strong>和<strong>台湾浅滩</strong>。由于我之后模拟数据来源于高程DEM，大家也可以看到当海水褪去时，这两处浅滩的位置。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-20260302202221430.png"></p>
+<h1 id="二、海平面下降模拟"><a href="#二、海平面下降模拟" class="headerlink" title="二、海平面下降模拟"></a><strong>二、海平面下降模拟</strong></h1><h2 id="1-选取模拟范围"><a href="#1-选取模拟范围" class="headerlink" title="1.选取模拟范围"></a><strong>1.选取模拟范围</strong></h2><p>本次模拟范围为台湾海峡，因此也会包含海峡两岸的台湾省与福建省部分领土（如下所示）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-640.webp" alt="640"></p>
+<p>裁剪完成后，大家可以稍稍观察台湾海峡的海底地形。由于精度和分辨率原因，感觉海峡相对平缓，但实际上海底起伏不平、丘谷相间，地势十分复杂（模拟海水褪去时能有更直观的感受）。</p>
+<p>![640 (1)](<a href="https://blogphoto.planetgis.cn/PicGo/2026-03-02-640">https://blogphoto.planetgis.cn/PicGo/2026-03-02-640</a> -1-.webp)</p>
+<h2 id="2-模拟海平面下降0米"><a href="#2-模拟海平面下降0米" class="headerlink" title="2.模拟海平面下降0米"></a><strong>2.模拟海平面下降0米</strong></h2><p>此时和大家看到的正常地图没有不同，之后将以本图为基准，慢慢将海水褪去。大家感觉海平面下降多少米，我们能够徒步穿越台湾海峡呢？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-abc8853e812afb6e4d3f4f1a91188e56-sz_2584300.png" alt="img"></p>
+<h2 id="3-模拟海平面下降10米"><a href="#3-模拟海平面下降10米" class="headerlink" title="3.模拟海平面下降10米"></a><strong>3.模拟海平面下降10米</strong></h2><p>此时，<strong>澎湖列岛</strong>已经开始明显有联合的区域了。<strong>台湾浅滩</strong>（图中左下角区域）也裸露出零星的“岛屿”。</p>
+<p>再来看看我国福建省，<strong>厦门湾</strong>大部分水域、滩涂海拔在10米左右。当海平面下降10米，厦门市已经和内陆相连了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d80a97a67fc39dd7cef4fc2e41e1e859-sz_2606433.png" alt="img"></p>
+<h2 id="4-模拟海平面下降20米"><a href="#4-模拟海平面下降20米" class="headerlink" title="4.模拟海平面下降20米"></a><strong>4.模拟海平面下降20米</strong></h2><p><strong>台湾浅滩</strong>明显范围扩大。</p>
+<p><strong>漳州市、厦门市、泉州市、莆田市、福州市和宁德市</strong>向海处出现大面积浅滩。另外，还能看到浅滩中有零星水域，那则是海水无法褪去的凹地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-97e3453549d61e8ea22cf40981679c36-sz_2634176.png" alt="img"></p>
+<h2 id="5-模拟海平面下降30米"><a href="#5-模拟海平面下降30米" class="headerlink" title="5.模拟海平面下降30米"></a><strong>5.模拟海平面下降30米</strong></h2><p>大家可以看到一个明显的变化，<strong>台湾浅滩</strong>和<strong>福建内陆</strong>出现了部分连接。</p>
+<p><em>学界通常称这道浅滩为：“海峡陆桥”或“东山陆桥”。面积约8800平方千米。西部水深30–40米，东部水深浅于20米，最浅8.6米。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-bffdeb90c22fcb6e7c6cb507b61058b8-sz_2658119.png" alt="img"></p>
+<h2 id="6-模拟海平面下降40米"><a href="#6-模拟海平面下降40米" class="headerlink" title="6.模拟海平面下降40米"></a><strong>6.模拟海平面下降40米</strong></h2><p>当海平面下降40米，<strong>福建省</strong>和<strong>台湾浅滩</strong>相连，<strong>中国台湾省</strong>和<strong>台中浅滩</strong>相连。两个浅滩之间，则是<strong>澎湖列岛。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-b10bcde64e7a3d1c25bb2ff12f2ae1e8-sz_2660802.png" alt="img"></p>
+<h2 id="7-模拟海平面下降50米"><a href="#7-模拟海平面下降50米" class="headerlink" title="7.模拟海平面下降50米"></a><strong>7.模拟海平面下降50米</strong></h2><p>此时，内部海水逐渐被排干，浅滩和陆地部分更紧密相连。大家猜测一下，使得中国台湾省和福建省相连的“通道”将在哪里出现呢？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-7efb11fb73744e2dca009d4d7e537ae7-sz_2682525.png" alt="img"></p>
+<h2 id="8-模拟海平面下降60米"><a href="#8-模拟海平面下降60米" class="headerlink" title="8.模拟海平面下降60米"></a><strong>8.模拟海平面下降60米</strong></h2><p><em><strong>当海平面下降60米，台湾省和祖国大陆实现了地理意义上的“统一”。</strong></em>我本以为会从厦门市通过台湾浅滩、跨越澎湖列岛，再与台湾省本岛相连。但事实上却是通过台中浅滩，与福州市“握手”了。</p>
+<p>所以说，当海平面下降60米左右，我们能够实现徒步穿越台湾海峡的梦想。（备注：模拟数据基于高程DEM，可能存在精度不够的情况，因此效果仅供参考哦）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-8a6fd05274d686fa5052fb81ae34901e-sz_2711545.png" alt="img"></p>
+<h2 id="9-模拟海平面下降70米"><a href="#9-模拟海平面下降70米" class="headerlink" title="9.模拟海平面下降70米"></a><strong>9.模拟海平面下降70米</strong></h2><p>大家能够看到，第二条海陆通道依旧是通过台中浅滩，与厦门市连通。通过本次海平面下降模拟，确实能够对台湾海峡地形有更深的了解。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-6b4a06ac252cb15b6c1cce70f669c8e9-sz_2717311.png" alt="img"></p>
+<h2 id="10-模拟海平面下降80米"><a href="#10-模拟海平面下降80米" class="headerlink" title="10.模拟海平面下降80米"></a><strong>10.模拟海平面下降80米</strong></h2><p>随着海平面下降到80米，中国台湾省和福建省迎接更大范围的相通。真真正正的“如履平地”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-19f20a2fc511070cdbeb706adba5bc1e-sz_2731364.png" alt="img"></p>
+<h2 id="11-模拟海平面下降100米"><a href="#11-模拟海平面下降100米" class="headerlink" title="11.模拟海平面下降100米"></a><strong>11.模拟海平面下降100米</strong></h2><p>其实，在海峡两岸贯通后的模拟，仅是为了满足“有始有终”的习惯罢了。此时，130-400公里宽的台湾海峡消失了，取而代之的是“台湾平原”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-c218b69ebeb80b3646973e2702de55c5-sz_2703490.png" alt="img"></p>
+<h1 id="三、模拟总结"><a href="#三、模拟总结" class="headerlink" title="三、模拟总结"></a><strong>三、模拟总结</strong></h1><p>本次模拟基于DEM高程数据，利用ArcGIS等软件，对台湾海峡海平面下降模拟。海平面下降深度分别是：0米、10米、20米、30米、40米、50米、60米、70米、80米、100米。</p>
+<p><strong>声明：本次模拟其目的是了解台湾海峡的海底地形，并且为了满足一定的好奇心，无任何不良引导！</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>海平面模拟</tag>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>Geojson</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>台湾</tag>
+      </tags>
+  </entry>
 </search>
