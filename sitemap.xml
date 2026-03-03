@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.planetgis.cn/archives/87d9d03c.html</loc>
+    
+    <lastmod>2026-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.planetgis.cn/archives/index.html</loc>
     
     <lastmod>2026-03-03</lastmod>
@@ -587,6 +596,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://blog.planetgis.cn/tags/GPlates%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -612,6 +628,13 @@
   
   <url>
     <loc>http://blog.planetgis.cn/categories/%E9%97%B2%E8%81%8A/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/categories/GPlates%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

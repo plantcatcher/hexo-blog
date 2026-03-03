@@ -1954,4 +1954,52 @@
         <tag>中国</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【GPlates2.5软件教程】第一期：软件介绍、下载与安装</title>
+    <url>/archives/87d9d03c.html</url>
+    <content><![CDATA[<p>在地球漫长的演化史中，板块运动藏着无数地质奥秘。而GPlates，正是一款专为地球科学家、教育工作者与学生打造的开源跨平台桌面软件。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-03-c2d42ab5d3a6dea4ccf33744e295aec3-sz_1876618.png" alt="img"></p>
+<p>它能交互式可视化、操作板块构造及各类地质数据，轻松破解地球板块运动重建的复杂难题，成为探索地球动态演化过程的强力工具。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-Pic1.png" alt="Pic1"></p>
+<p>自发布以来，GPlates 凭借专业、易用的特性，早已成为全球地学界板块重建、古地理制图、地球动力学研究的核心利器，助力科研与教学解锁地球的前世今生。</p>
+<p>作为一名GIS专业的地理自媒体，不写GPlates的教程简直说不过去。因此就有了这篇文章。</p>
+<h2 id="01-软件介绍"><a href="#01-软件介绍" class="headerlink" title="01 软件介绍"></a><strong>01 软件介绍</strong></h2><p>GPlates 是一款板块构造学专业程序。可在地质时间尺度上处理地质与古地理特征的重建工作，能交互式可视化矢量、栅格和体数据。PyGPlates 是 GPlates 的 Python 函数库，可让你在 Python 脚本中精细化调用 GPlates 的各项功能。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-3cb35664e98c11c32f589c5074430f43-sz_715231.png" alt="img"></p>
+<p><strong>术语补充说明（适配地质领域使用）：</strong></p>
+<ol>
+<li>plate-tectonics：板块构造学（地质学科核心术语，而非简单直译 “板块构造”）</li>
+<li>reconstructions：重建（地质领域特指 “地质 &#x2F; 古地理特征的复原重建”）</li>
+<li>vector, raster and volume data：矢量、栅格和体数据（GPlates 核心数据类型，体数据对应三维地质数据）</li>
+<li>fine-grained access：精细化调用（而非字面 “细粒度访问”，贴合编程 + 地质场景的表达）</li>
+</ol>
+<p><strong>GPlates的功能包括：</strong></p>
+<ol>
+<li>处理和可视化多种几何体和格式的数据，包括栅格数据</li>
+<li>将板块运动学与地球动力学模型连接起来</li>
+<li>作为网格计算网络中的交互客户端</li>
+<li>以便制作高质量的古地理地图</li>
+</ol>
+<p>而我对这个软件感兴趣，则单纯是因为它能自主的模拟板块运动。</p>
+<h2 id="02-软件下载"><a href="#02-软件下载" class="headerlink" title="02 软件下载"></a><strong>02 软件下载</strong></h2><p>首先，在浏览器搜索“GPlates软件”，找到图中的网站地址，点击进入。（推荐大家用必应搜索，国内可用且广告少）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-c1adbc9a400c581ede5df16b9ca1ac5d-sz_250841.png" alt="img"></p>
+<p>在网站首页就有三个下载按钮，我们选择第一个。另外两个，均是python相关的，可以等到以后进阶时再学。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-05542f0475a95209ba9bf2b732a5614d-sz_1628182.png" alt="img"></p>
+<p>跳转网页后，直接滑倒最底下，出现Download selection字样。按着下图的步骤走就行。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-aef8047b388bb04eea107d91e6879f95-sz_127517.png" alt="img"></p>
+<p>至此，软件下载完成。</p>
+<h2 id="03-软件安装"><a href="#03-软件安装" class="headerlink" title="03 软件安装"></a><strong>03 软件安装</strong></h2><p>这一步没啥技术含量，一直下一步就行。可以将安装目录改为D盘。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-3c7f6a7a0e067717d5fc7d99cacf62e5-sz_86560.png" alt="img"></p>
+<h2 id="04-软件界面介绍"><a href="#04-软件界面介绍" class="headerlink" title="04 软件界面介绍"></a><strong>04 软件界面介绍</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-eda2e178a0440c26cc33b88fe485f59e-sz_204442.png" alt="img"></p>
+<p>这就是软件大体的样子，需要注意的是，打开软件时候弹出的命令行不要退出，不然软件也会一并退出。</p>
+<p>好了，这就是第一期的教程，等有空后出第二期。</p>
+]]></content>
+      <categories>
+        <category>GPlates教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>GIS教程</tag>
+        <tag>GPlates教程</tag>
+      </tags>
+  </entry>
 </search>
