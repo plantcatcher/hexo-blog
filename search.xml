@@ -108,6 +108,114 @@
       </tags>
   </entry>
   <entry>
+    <title>地理数据+洪水模型：我是如何“淹没”四川盆地的？</title>
+    <url>/archives/86d761b5.html</url>
+    <content><![CDATA[<h1 id="一、什么是四川盆地？"><a href="#一、什么是四川盆地？" class="headerlink" title="一、什么是四川盆地？"></a><strong>一、什么是四川盆地？</strong></h1><p>我国有四大盆地，从北往南是准噶尔盆地、塔里木盆地、柴达木盆地、四川盆地，其中四川盆地的海拔最低。</p>
+<p>四川盆地，大部分位于四川省内，总面积约26万多平方千米。我们先来看看四川盆地的具体地理位置。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-abc5945ebcd9522e2982144f6c4b4de5-sz_213234.jpeg" alt="img"></p>
+<p>四川盆地位于四川省、陕西省、重庆市、贵州省、云南省等交界处，其中大部分位于四川省和重庆市辖区。主要城市有成都市、宜宾市、重庆市等。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ab41ecff5e06cc45c1ba17e3f8d833c9-sz_88838.jpeg" alt="img"></p>
+<p>四川盆地被巫山、大巴山、横断山、大娄山包围，且山峰海拔都在1000~300米之间。盆地内部有岷沱江、涪江、嘉陵江、渠江，以及长江。四川盆地一半是山地丘陵，海拔较高；一半是平原，海拔约200米-750米。</p>
+<p>金沙江自西南流入盆地，与岷江汇合后注入长江，最后从巫峡流出。长江、岷江、沱江、嘉陵江四条大河，合称“四川”，似乎也是四川盆地的由来。</p>
+<h1 id="二、洪水模拟"><a href="#二、洪水模拟" class="headerlink" title="二、洪水模拟"></a><strong>二、洪水模拟</strong></h1><p>为了更直观的感受四川盆地的地形地貌，也出于个人的好奇，因此进行了洪水模拟。声明：基于高程DEM数据，效果仅供参考。</p>
+<h2 id="1-选取四川盆地附近dem数据，进行裁切"><a href="#1-选取四川盆地附近dem数据，进行裁切" class="headerlink" title="1.选取四川盆地附近dem数据，进行裁切"></a>1.选取四川盆地附近dem数据，进行裁切</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-a562dd88ad2e1cc00952b34f1b736b12-sz_1979225.png" alt="img"></p>
+<p>从图中可以看到，高程范围在67米—7000米之间，而四川盆地的最低点众说纷纭，因此我采用较为常规的做法：从长江流域开始增加水量。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d3be8db4a566cfd087dd7915a69d5a6f-sz_2464694.png" alt="img"></p>
+<p>我随机选取了长江位于四川盆地下游的某区域，查询到高程为95米（取整100米左右），因此接下来会在100米的基础上增加水面高度。</p>
+<h2 id="2-模拟水位上升至380米"><a href="#2-模拟水位上升至380米" class="headerlink" title="2.模拟水位上升至380米"></a>2.模拟水位上升至380米</h2><p>当水位海拔上升至380米，即涨水180米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-84ab36c9203c0cbe062367696725ff1e-sz_6047008.png" alt="img"></p>
+<p>可以看到达州市、南充市、遂宁市、广安市、内江市、自贡市、宜宾市、泸州市、乐山市、资阳市和重庆市已经被淹了。</p>
+<p>下面是部分城市城区随机位置的海拔，仅供参考。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2efe2a1cee13814876f7c6350e1427b5-sz_861700.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-fab87ba6f42a9875da0ddc1fc6a88913-sz_772035.png" alt="img"></p>
+<h2 id="3-模拟水位上升至400米"><a href="#3-模拟水位上升至400米" class="headerlink" title="3.模拟水位上升至400米"></a>3.模拟水位上升至400米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0dff198b8006897f27eecd50ce1f1604-sz_6053005.png" alt="img"></p>
+<p>这个水位，巴中市已经部分被淹了，但由于比例尺原因看不太清楚。结合海拔高度图可以看出，巴中市部分城区海拔在390米左右，部分甚至更低。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2d764d7382ba9da73a0443022ac47f27-sz_670171.png" alt="img"></p>
+<p>另外，留意到南充市和广安市中间有一块区域并没有被淹没，好奇查询了海拔高度，为452米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-eed5957f860647d58a3db8a05020236b-sz_773056.png" alt="img"></p>
+<h2 id="4-模拟水位上升至500米"><a href="#4-模拟水位上升至500米" class="headerlink" title="4.模拟水位上升至500米"></a>4.模拟水位上升至500米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ae3d53c15952dcb9f650f3a79a3b65b6-sz_5898048.png" alt="img"></p>
+<p>可以看到洪水漫延到成都市、绵阳市，通过海拔图可以看到成都城区海拔在500米左右，绵阳城区在460米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1080fbdf3eb4f55d942919bce0100909-sz_818961.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-44321cf7ab84afab7a5970ed29cf42c6-sz_700812.png" alt="img"></p>
+<p>但此时，德阳市、广元市海拔 和 成都、绵阳海拔类似，如下图所示。但为什么没有被淹没？目前解释是洪水漫延需要考虑到地形因素，龙泉山 为德阳市挡住了洪水。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1a228718ab49338d2330eae2014781e3-sz_591409.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1e6078c3ada8f05bb96df22a769ec0d6-sz_483130.png" alt="img"></p>
+<p>而广元市被山峰环绕，洪水从嘉陵江倒灌需要时间…</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-90152306f5b3f394f59eeacd44b1953c-sz_657998.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-08ae2c683db565d6a6be06c3315f9a48-sz_885851.png" alt="img"></p>
+<h2 id="5-当水位上升至600米"><a href="#5-当水位上升至600米" class="headerlink" title="5.当水位上升至600米"></a>5.当水位上升至600米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-6cd6b2e9ba5d7893c99fa8324c96330a-sz_5780274.png" alt="img"></p>
+<p>此时四川盆地大部分地市都被淹没了，雅安市城区海拔550米左右，已经被淹没（比例尺原因看不清楚），也有部分原始是地形原因洪水倒灌有延迟。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da998ae29e46fa28141095b7ee4d3482-sz_573099.png" alt="img"></p>
+<p>而再来看看四川盆地北部区域，可以清晰的看到山脉的脉络和走势。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-40be8b275279b23eb0957bf5732381c8-sz_1441660.png" alt="img"></p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h1><p>模拟基于高程DEM数据，模拟范围为四川盆地区域。基础水平面高度为100米（长江位于四川盆地下游的随机点），水面上升高度为280米、300米、400米、500米（等价于海拔600米）。其目的为更直观地感受四川盆地的地形，无任何不良引导！</p>
+<p>满是水的四川盆地，可能就是二亿多年前的巴蜀湖吧。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0647359a2776a6d9c865c4475f2ddfa0-sz_271630.png" alt="img"></p>
+<p>欢迎各位发表您的看法</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>四川</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>回顾1998特大洪水：长沙当时到底有多险？</title>
+    <url>/archives/17c71a11.html</url>
+    <content><![CDATA[<p>大家还记得1998年特大洪水吗？那是一场包括长江、嫩江、松花江等江河流域地区的大洪水。</p>
+<p>据初步统计，包括受灾最重的江西、湖南、湖北、黑龙江四省，全国共有29个省（区、市）遭受了不同程度的洪涝灾害，受灾面积3.18亿亩，成灾面积1.96亿亩，受灾人口2.23亿人，死亡4150人，倒塌房屋685万间，直接经济损失达1660亿元。</p>
+<h1 id="湘江长沙段洪水"><a href="#湘江长沙段洪水" class="headerlink" title="湘江长沙段洪水"></a>湘江长沙段洪水</h1><p>1998年6月27日，湘江长沙段水位达到了39.18米，形势十分严峻。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-89de271703ab9a501e89f22fceb5ebc7-sz_1159584.png" alt="img"></p>
+<p>我们不会以此话题为乐，吃人血馒头。而是带着记忆往昔，并伴随着一定的科研精神，试着模拟洪水上涨时长沙所面临的境况。</p>
+<p><strong>声明：本文无任何不良引导！</strong></p>
+<h1 id="洪水模拟"><a href="#洪水模拟" class="headerlink" title="洪水模拟"></a>洪水模拟</h1><p>长沙，位于湖南省东部偏北，湘江下游和长浏盆地西缘，境内地势起伏较大，地形以山地、岗地、平原为主，湘江穿市区而过。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9a5d313af7ed29c3a92147ba396da581-sz_767669.png" alt="img"></p>
+<p>本次模拟基于高程DEM数据，利用ArcGIS等软件进行模拟。长沙地形海拔如下图所示，最低海拔19米（湘江平均水面），最高海拔1833米，平均海拔180米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-63056d95f9263f153ae0dbbcc4a2b3f6-sz_342107.png" alt="img"></p>
+<h2 id="2-当洪水上涨0米"><a href="#2-当洪水上涨0米" class="headerlink" title="2.当洪水上涨0米"></a>2.<strong>当洪水上涨0米</strong></h2><p>首先，大家可以观察一下长沙的地形（下图所示）。湘江穿城区而过，支流包括捞刀河、白沙河和浏阳河。湘江东部，有谷山森林公园（海拔362米）、岳麓山风景名胜区（海拔300米）、桃花岭景区（海拔200米）等。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0a094c2bb7ad11f2e645b1dcc5b54899-sz_1643609.jpeg" alt="img"></p>
+<p>此时，让我们观察湘江长沙段的海拔。选取随机点，显示海拔在20米左右。（备注：随后的模拟洪水上涨不以海拔高度进行描述，而以湘江海拔为起点，模拟洪水上升高度）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-b5ec489df206b5d9c24b15c7e8c417e4-sz_847239.png" alt="img"></p>
+<h2 id="2-当洪水上涨10米"><a href="#2-当洪水上涨10米" class="headerlink" title="2.当洪水上涨10米"></a>2.<strong>当洪水上涨10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-59c5eaacd3d1281ac6f38fd21fa7af16-sz_1637528.jpeg" alt="img"></p>
+<p>从图中可以看到，当水位从湘江（海拔20米左右）上涨10米时（即海拔30米），开福区部分区域被洪水淹没了。此时，让我们观察一下开福区的海拔（下图所示），开福区海拔在30米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-281e2b8a31da0f93124b6d57b955c6b5-sz_840721.png" alt="img"></p>
+<h2 id="3-当洪水上涨15米"><a href="#3-当洪水上涨15米" class="headerlink" title="3.当洪水上涨15米"></a>3.<strong>当洪水上涨15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9212c53ef6666b6e9de1d2ea33704352-sz_1582783.jpeg" alt="img"></p>
+<p>当洪水上涨15米（海拔35米左右），芙蓉区被洪水吞噬，从下图中可以看到，其随机点海拔在36米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-acba1ae97ba918157d0650f0e9897de9-sz_827448.png" alt="img"></p>
+<h2 id="4-当洪水上涨25米"><a href="#4-当洪水上涨25米" class="headerlink" title="4.当洪水上涨25米"></a>4.<strong>当洪水上涨25米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d456e7399b519167d2582bbd6616e82f-sz_1483321.jpeg" alt="img"></p>
+<p>紧接着，雨花区被淹没（海拔40米左右，如下图所示），浏阳河流域几乎被洪水填满了。此时，图中仅剩岳麓区、长沙县和天心区并没有被洪水淹没，但也收到不小波及。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f83f3402316d87e2a5a6a0cef5ff4815-sz_759800.png" alt="img"></p>
+<h2 id="5-当洪水上涨35米"><a href="#5-当洪水上涨35米" class="headerlink" title="5.当洪水上涨35米"></a>5.<strong>当洪水上涨35米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-961110a3af06d747c8eac79dc7b91338-sz_1401963.jpeg" alt="img"></p>
+<p>当洪水上涨35米（海拔55米左右），岳麓区、长沙县坐标点与洪水几乎是紧贴着，部分城区已经被淹没。而天心区凭借着高海拔（随机点显示海拔在93米）受损并没有其它城区大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da58225f27381b86eec3f9ce069ba262-sz_764328.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f6575092ab6e2e307eb6efb525310304-sz_751542.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d89c693a855008f99dafedddd380943d-sz_649817.png" alt="img"></p>
+<h1 id="模拟总结"><a href="#模拟总结" class="headerlink" title="模拟总结"></a>模拟总结</h1><p>本次模拟基于高程DEM数据，利用ArcGIS等软件，对湖南省长沙市进行洪水上升10米、15米、25米、35米的模拟。其目的是反映长沙地形地貌特征，效果仅供参考。</p>
+<p><strong>再次声明：无任何不良引导！</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>湖南</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>别只聊日本沉没，海平面下降才更震撼：全新地理模拟来了</title>
     <url>/archives/a3de7f73.html</url>
     <content><![CDATA[<p>一直以来，“日本沉没” 的猜想被反复提及，但从现实地质与海平面变化来看，这种场景发生的概率其实微乎其微。与其执着于不可能的沉没，不如换个更颠覆的视角 ——<strong>反向模拟：海平面大幅下降</strong>。</p>
@@ -172,114 +280,6 @@
         <tag>Geojson</tag>
         <tag>海平面下降</tag>
         <tag>日本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>回顾1998特大洪水：长沙当时到底有多险？</title>
-    <url>/archives/17c71a11.html</url>
-    <content><![CDATA[<p>大家还记得1998年特大洪水吗？那是一场包括长江、嫩江、松花江等江河流域地区的大洪水。</p>
-<p>据初步统计，包括受灾最重的江西、湖南、湖北、黑龙江四省，全国共有29个省（区、市）遭受了不同程度的洪涝灾害，受灾面积3.18亿亩，成灾面积1.96亿亩，受灾人口2.23亿人，死亡4150人，倒塌房屋685万间，直接经济损失达1660亿元。</p>
-<h1 id="湘江长沙段洪水"><a href="#湘江长沙段洪水" class="headerlink" title="湘江长沙段洪水"></a>湘江长沙段洪水</h1><p>1998年6月27日，湘江长沙段水位达到了39.18米，形势十分严峻。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-89de271703ab9a501e89f22fceb5ebc7-sz_1159584.png" alt="img"></p>
-<p>我们不会以此话题为乐，吃人血馒头。而是带着记忆往昔，并伴随着一定的科研精神，试着模拟洪水上涨时长沙所面临的境况。</p>
-<p><strong>声明：本文无任何不良引导！</strong></p>
-<h1 id="洪水模拟"><a href="#洪水模拟" class="headerlink" title="洪水模拟"></a>洪水模拟</h1><p>长沙，位于湖南省东部偏北，湘江下游和长浏盆地西缘，境内地势起伏较大，地形以山地、岗地、平原为主，湘江穿市区而过。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9a5d313af7ed29c3a92147ba396da581-sz_767669.png" alt="img"></p>
-<p>本次模拟基于高程DEM数据，利用ArcGIS等软件进行模拟。长沙地形海拔如下图所示，最低海拔19米（湘江平均水面），最高海拔1833米，平均海拔180米。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-63056d95f9263f153ae0dbbcc4a2b3f6-sz_342107.png" alt="img"></p>
-<h2 id="2-当洪水上涨0米"><a href="#2-当洪水上涨0米" class="headerlink" title="2.当洪水上涨0米"></a>2.<strong>当洪水上涨0米</strong></h2><p>首先，大家可以观察一下长沙的地形（下图所示）。湘江穿城区而过，支流包括捞刀河、白沙河和浏阳河。湘江东部，有谷山森林公园（海拔362米）、岳麓山风景名胜区（海拔300米）、桃花岭景区（海拔200米）等。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0a094c2bb7ad11f2e645b1dcc5b54899-sz_1643609.jpeg" alt="img"></p>
-<p>此时，让我们观察湘江长沙段的海拔。选取随机点，显示海拔在20米左右。（备注：随后的模拟洪水上涨不以海拔高度进行描述，而以湘江海拔为起点，模拟洪水上升高度）</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-b5ec489df206b5d9c24b15c7e8c417e4-sz_847239.png" alt="img"></p>
-<h2 id="2-当洪水上涨10米"><a href="#2-当洪水上涨10米" class="headerlink" title="2.当洪水上涨10米"></a>2.<strong>当洪水上涨10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-59c5eaacd3d1281ac6f38fd21fa7af16-sz_1637528.jpeg" alt="img"></p>
-<p>从图中可以看到，当水位从湘江（海拔20米左右）上涨10米时（即海拔30米），开福区部分区域被洪水淹没了。此时，让我们观察一下开福区的海拔（下图所示），开福区海拔在30米左右。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-281e2b8a31da0f93124b6d57b955c6b5-sz_840721.png" alt="img"></p>
-<h2 id="3-当洪水上涨15米"><a href="#3-当洪水上涨15米" class="headerlink" title="3.当洪水上涨15米"></a>3.<strong>当洪水上涨15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-9212c53ef6666b6e9de1d2ea33704352-sz_1582783.jpeg" alt="img"></p>
-<p>当洪水上涨15米（海拔35米左右），芙蓉区被洪水吞噬，从下图中可以看到，其随机点海拔在36米。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-acba1ae97ba918157d0650f0e9897de9-sz_827448.png" alt="img"></p>
-<h2 id="4-当洪水上涨25米"><a href="#4-当洪水上涨25米" class="headerlink" title="4.当洪水上涨25米"></a>4.<strong>当洪水上涨25米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d456e7399b519167d2582bbd6616e82f-sz_1483321.jpeg" alt="img"></p>
-<p>紧接着，雨花区被淹没（海拔40米左右，如下图所示），浏阳河流域几乎被洪水填满了。此时，图中仅剩岳麓区、长沙县和天心区并没有被洪水淹没，但也收到不小波及。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f83f3402316d87e2a5a6a0cef5ff4815-sz_759800.png" alt="img"></p>
-<h2 id="5-当洪水上涨35米"><a href="#5-当洪水上涨35米" class="headerlink" title="5.当洪水上涨35米"></a>5.<strong>当洪水上涨35米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-961110a3af06d747c8eac79dc7b91338-sz_1401963.jpeg" alt="img"></p>
-<p>当洪水上涨35米（海拔55米左右），岳麓区、长沙县坐标点与洪水几乎是紧贴着，部分城区已经被淹没。而天心区凭借着高海拔（随机点显示海拔在93米）受损并没有其它城区大。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da58225f27381b86eec3f9ce069ba262-sz_764328.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-f6575092ab6e2e307eb6efb525310304-sz_751542.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d89c693a855008f99dafedddd380943d-sz_649817.png" alt="img"></p>
-<h1 id="模拟总结"><a href="#模拟总结" class="headerlink" title="模拟总结"></a>模拟总结</h1><p>本次模拟基于高程DEM数据，利用ArcGIS等软件，对湖南省长沙市进行洪水上升10米、15米、25米、35米的模拟。其目的是反映长沙地形地貌特征，效果仅供参考。</p>
-<p><strong>再次声明：无任何不良引导！</strong></p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>湖南</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>中国</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>地理数据+洪水模型：我是如何“淹没”四川盆地的？</title>
-    <url>/archives/86d761b5.html</url>
-    <content><![CDATA[<h1 id="一、什么是四川盆地？"><a href="#一、什么是四川盆地？" class="headerlink" title="一、什么是四川盆地？"></a><strong>一、什么是四川盆地？</strong></h1><p>我国有四大盆地，从北往南是准噶尔盆地、塔里木盆地、柴达木盆地、四川盆地，其中四川盆地的海拔最低。</p>
-<p>四川盆地，大部分位于四川省内，总面积约26万多平方千米。我们先来看看四川盆地的具体地理位置。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-abc5945ebcd9522e2982144f6c4b4de5-sz_213234.jpeg" alt="img"></p>
-<p>四川盆地位于四川省、陕西省、重庆市、贵州省、云南省等交界处，其中大部分位于四川省和重庆市辖区。主要城市有成都市、宜宾市、重庆市等。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ab41ecff5e06cc45c1ba17e3f8d833c9-sz_88838.jpeg" alt="img"></p>
-<p>四川盆地被巫山、大巴山、横断山、大娄山包围，且山峰海拔都在1000~300米之间。盆地内部有岷沱江、涪江、嘉陵江、渠江，以及长江。四川盆地一半是山地丘陵，海拔较高；一半是平原，海拔约200米-750米。</p>
-<p>金沙江自西南流入盆地，与岷江汇合后注入长江，最后从巫峡流出。长江、岷江、沱江、嘉陵江四条大河，合称“四川”，似乎也是四川盆地的由来。</p>
-<h1 id="二、洪水模拟"><a href="#二、洪水模拟" class="headerlink" title="二、洪水模拟"></a><strong>二、洪水模拟</strong></h1><p>为了更直观的感受四川盆地的地形地貌，也出于个人的好奇，因此进行了洪水模拟。声明：基于高程DEM数据，效果仅供参考。</p>
-<h2 id="1-选取四川盆地附近dem数据，进行裁切"><a href="#1-选取四川盆地附近dem数据，进行裁切" class="headerlink" title="1.选取四川盆地附近dem数据，进行裁切"></a>1.选取四川盆地附近dem数据，进行裁切</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-a562dd88ad2e1cc00952b34f1b736b12-sz_1979225.png" alt="img"></p>
-<p>从图中可以看到，高程范围在67米—7000米之间，而四川盆地的最低点众说纷纭，因此我采用较为常规的做法：从长江流域开始增加水量。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-d3be8db4a566cfd087dd7915a69d5a6f-sz_2464694.png" alt="img"></p>
-<p>我随机选取了长江位于四川盆地下游的某区域，查询到高程为95米（取整100米左右），因此接下来会在100米的基础上增加水面高度。</p>
-<h2 id="2-模拟水位上升至380米"><a href="#2-模拟水位上升至380米" class="headerlink" title="2.模拟水位上升至380米"></a>2.模拟水位上升至380米</h2><p>当水位海拔上升至380米，即涨水180米左右。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-84ab36c9203c0cbe062367696725ff1e-sz_6047008.png" alt="img"></p>
-<p>可以看到达州市、南充市、遂宁市、广安市、内江市、自贡市、宜宾市、泸州市、乐山市、资阳市和重庆市已经被淹了。</p>
-<p>下面是部分城市城区随机位置的海拔，仅供参考。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2efe2a1cee13814876f7c6350e1427b5-sz_861700.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-fab87ba6f42a9875da0ddc1fc6a88913-sz_772035.png" alt="img"></p>
-<h2 id="3-模拟水位上升至400米"><a href="#3-模拟水位上升至400米" class="headerlink" title="3.模拟水位上升至400米"></a>3.模拟水位上升至400米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0dff198b8006897f27eecd50ce1f1604-sz_6053005.png" alt="img"></p>
-<p>这个水位，巴中市已经部分被淹了，但由于比例尺原因看不太清楚。结合海拔高度图可以看出，巴中市部分城区海拔在390米左右，部分甚至更低。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-2d764d7382ba9da73a0443022ac47f27-sz_670171.png" alt="img"></p>
-<p>另外，留意到南充市和广安市中间有一块区域并没有被淹没，好奇查询了海拔高度，为452米。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-eed5957f860647d58a3db8a05020236b-sz_773056.png" alt="img"></p>
-<h2 id="4-模拟水位上升至500米"><a href="#4-模拟水位上升至500米" class="headerlink" title="4.模拟水位上升至500米"></a>4.模拟水位上升至500米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-ae3d53c15952dcb9f650f3a79a3b65b6-sz_5898048.png" alt="img"></p>
-<p>可以看到洪水漫延到成都市、绵阳市，通过海拔图可以看到成都城区海拔在500米左右，绵阳城区在460米左右。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1080fbdf3eb4f55d942919bce0100909-sz_818961.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-44321cf7ab84afab7a5970ed29cf42c6-sz_700812.png" alt="img"></p>
-<p>但此时，德阳市、广元市海拔 和 成都、绵阳海拔类似，如下图所示。但为什么没有被淹没？目前解释是洪水漫延需要考虑到地形因素，龙泉山 为德阳市挡住了洪水。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1a228718ab49338d2330eae2014781e3-sz_591409.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-1e6078c3ada8f05bb96df22a769ec0d6-sz_483130.png" alt="img"></p>
-<p>而广元市被山峰环绕，洪水从嘉陵江倒灌需要时间…</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-90152306f5b3f394f59eeacd44b1953c-sz_657998.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-08ae2c683db565d6a6be06c3315f9a48-sz_885851.png" alt="img"></p>
-<h2 id="5-当水位上升至600米"><a href="#5-当水位上升至600米" class="headerlink" title="5.当水位上升至600米"></a>5.当水位上升至600米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-6cd6b2e9ba5d7893c99fa8324c96330a-sz_5780274.png" alt="img"></p>
-<p>此时四川盆地大部分地市都被淹没了，雅安市城区海拔550米左右，已经被淹没（比例尺原因看不清楚），也有部分原始是地形原因洪水倒灌有延迟。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-da998ae29e46fa28141095b7ee4d3482-sz_573099.png" alt="img"></p>
-<p>而再来看看四川盆地北部区域，可以清晰的看到山脉的脉络和走势。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-40be8b275279b23eb0957bf5732381c8-sz_1441660.png" alt="img"></p>
-<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h1><p>模拟基于高程DEM数据，模拟范围为四川盆地区域。基础水平面高度为100米（长江位于四川盆地下游的随机点），水面上升高度为280米、300米、400米、500米（等价于海拔600米）。其目的为更直观地感受四川盆地的地形，无任何不良引导！</p>
-<p>满是水的四川盆地，可能就是二亿多年前的巴蜀湖吧。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-0647359a2776a6d9c865c4475f2ddfa0-sz_271630.png" alt="img"></p>
-<p>欢迎各位发表您的看法</p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>中国</tag>
-        <tag>四川</tag>
       </tags>
   </entry>
   <entry>
@@ -376,135 +376,6 @@
       </tags>
   </entry>
   <entry>
-    <title>模拟海平面上升 500 米：半个中国被淹的震撼场景</title>
-    <url>/archives/83f2eb8.html</url>
-    <content><![CDATA[<h1 id="一、中国地形图"><a href="#一、中国地形图" class="headerlink" title="一、中国地形图"></a><strong>一、中国地形图</strong></h1><p>这是一张我国区域的三维地形图，可以看到我国地势西高东低的三级阶梯状分布，从西部的高原山地过渡到东部的平原丘陵。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3818a6ecc7f38f708621c27a7d166fa5-sz_243834-d3cfce.jpeg" alt="img"></p>
-<p>接下来，我将模拟海平面上升500米，观察其地形地貌特征。声明：全球冰盖融化，海平面上升66米左右，因此本次模拟仅供参考，仅用于反映地形地貌特征。</p>
-<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
-<ol>
-<li><em>其目的是反映 中国 的地形地貌特征；</em></li>
-<li><em>数据基于NASA，利用专业制图软件进行模拟；</em></li>
-<li><em>上升高度为500米（海拔）。</em></li>
-</ol>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-417b00da35428266ee84b7d33c407aaf-sz_6163749-f45a91.png" alt="img"></p>
-<p>这张图是一张海平面上升 500 米后的中国及周边地区模拟地形图，直观展示了极端海平面上升对我国地理格局的影响：</p>
-<ul>
-<li><strong>东部沿海</strong>：我国东部沿海几乎全部被海水淹没，形成广阔的内陆海。被淹没的主要城市包括：北京、天津、上海、南京、杭州、广州、深圳、香港、澳门、台北等。</li>
-<li><strong>中部地区</strong>：长江、黄河等大河河道被海水倒灌，形成狭长的海湾。武汉、长沙、南昌、合肥、郑州等城市也将被淹没或成为沿海城市。</li>
-<li><strong>西部与高原</strong>：青藏高原、云贵高原、黄土高原等海拔较高的地区基本不受影响，成为新的 “沿海” 地带。成都、重庆、贵阳、昆明、西安、兰州等城市将成为新的内陆或沿海城市。</li>
-</ul>
-<p>接下来，将对局部进行分析。</p>
-<h2 id="（1）东北区域"><a href="#（1）东北区域" class="headerlink" title="（1）东北区域"></a><strong>（1）东北区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8688c950b303f65b724398d28d32a6a2-sz_5379321-ee06b4.png" alt="img"></p>
-<ul>
-<li><strong>东北平原</strong>：整个东北平原（松嫩平原、辽河平原）被海水完全淹没，形成一片广阔的内陆海。主要城市如沈阳、长春被淹没，仅哈尔滨因地处松嫩平原北部，海拔相对较高，成为新的沿海城市。</li>
-<li>大兴安岭、长白山脉因海拔较高，从平原中 “浮出”，成为新的海岸线和岛屿。</li>
-<li><strong>朝鲜半岛</strong>：朝鲜半岛的西部和南部沿海平原被淹没，仅中部和东部的山地（如太白山脉）保留，形成狭长的半岛岛屿。</li>
-<li><strong>渤海与日本海</strong>：渤海与新形成的东北内陆海连成一片，日本海的海岸线则向内陆大幅推进。</li>
-</ul>
-<h2 id="（2）华北区域"><a href="#（2）华北区域" class="headerlink" title="（2）华北区域"></a><strong>（2）华北区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bf9e74c0228a4f18b31605dd143f24df-sz_4795272-03c082.png" alt="img"></p>
-<ul>
-<li><strong>华北平原</strong>：整个华北平原被海水完全淹没，形成广阔的内陆海，与渤海、黄海连成一体。主要城市如北京、天津、石家庄、济南、郑州均被淹没。</li>
-<li><strong>岛屿化</strong>：山东丘陵、辽东半岛、朝鲜半岛山地从平原中 “浮出”，成为孤立的岛屿或半岛。</li>
-</ul>
-<h2 id="（3）东海区域"><a href="#（3）东海区域" class="headerlink" title="（3）东海区域"></a><strong>（3）东海区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6d5b239f1536fce50926f896d6dc3097-sz_4830843-91221f.png" alt="img"></p>
-<ul>
-<li><strong>长江中下游平原</strong>：整个长江中下游平原被海水完全淹没，形成一片广阔的内陆海，与东海连成一体。主要城市如上海、南京、杭州、合肥、武汉、南昌、长沙均被淹没，仅福州、台北因地处武夷山脉和台湾岛，海拔较高，成为新的沿海城市。</li>
-<li><strong>长江及湖泊</strong>：长江河道被海水倒灌，从武汉附近开始成为宽阔的海湾；洞庭湖、鄱阳湖、太湖、洪泽湖等淡水湖则与海洋连通，成为咸水湾。</li>
-</ul>
-<h2 id="（4）中部区域"><a href="#（4）中部区域" class="headerlink" title="（4）中部区域"></a><strong>（4）中部区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-03225413e6e4e06b30e999eff04b3f9b-sz_7744245-8d719b.png" alt="img"></p>
-<ul>
-<li><strong>四川盆地</strong>：四川盆地被海水完全淹没，形成一个大型内陆湖，成都、重庆等城市均被淹没，仅盆地边缘的山地（如大巴山、巫山）成为半岛。</li>
-<li><strong>关中盆地</strong>：关中盆地部分被海水侵入，西安成为新的沿海城市，黄河河道也被海水倒灌。</li>
-<li><strong>内陆湖形成</strong>：四川盆地成为大型内陆湖，与东部的内陆海通过长江峡谷相连。</li>
-</ul>
-<h2 id="（5）华南区域"><a href="#（5）华南区域" class="headerlink" title="（5）华南区域"></a><strong>（5）华南区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8cc7bedce2ab90d0bb7ca15770da2273-sz_6647137-597922.png" alt="img"></p>
-<ul>
-<li><strong>华南沿海平原</strong>：珠江三角洲、雷州半岛等沿海平原被海水完全淹没，形成广阔的内陆海，与南海连成一体。主要城市如广州、香港、澳门、南宁、海口均被淹没。</li>
-<li><strong>珠江</strong>：河道被海水倒灌，最新出海口位于广西境内。</li>
-</ul>
-<h2 id="（6）西藏区域"><a href="#（6）西藏区域" class="headerlink" title="（6）西藏区域"></a><strong>（6）西藏区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-faa55e360ee8f2aebd9889bf65c88610-sz_7046111-1d42ce.png" alt="img"></p>
-<ul>
-<li><strong>青藏高原及周边</strong>：青藏高原平均海拔超过 4000 米，因此在海平面上升 500 米的模拟中，拉萨、贵阳、昆明等城市均未被淹没。</li>
-<li><strong>中南半岛北部</strong>：横断山脉以东、以南的低海拔地区被海水淹没，中南半岛北部沿海平原消失，仅那加山、若开山脉等山地保留，形成孤立的岛屿或半岛。</li>
-</ul>
-<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>本文通过模拟海平面上升 500 米后的中国地形，直观展现架空世界的地理巨变：东部平原、沿海发达城市群尽数淹没，新海岸线西移至高原山地边缘，青藏高原、云贵高原等成 “新沿海”。效果仅供参考。</p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>中国</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我为什么建立一个博客网站？</title>
-    <url>/archives/7ac24357.html</url>
-    <content><![CDATA[<p>我有一个公众号，叫“<strong>那山那海那座城</strong>”。我利用GIS专业的知识，一直在写关于地理相关的文章，内容包括地理冷知识、地铁知识，以及海平面模拟。</p>
-<p>不少人对于如何模拟海平面上升和下降很感兴趣，但不知道如何操作。为了满足广大网友的求知欲，我制作了这个博客网站，用来更新GIS的各种教程（不限于海平面升降的模拟）。</p>
-]]></content>
-      <categories>
-        <category>闲聊</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>如何制作一张标注所有带 “南” 字城市的地图？</title>
-    <url>/archives/394e17de.html</url>
-    <content><![CDATA[<h1 id="一、背景介绍"><a href="#一、背景介绍" class="headerlink" title="一、背景介绍"></a><strong>一、背景介绍</strong></h1><p>我曾经以“板牙”的制图人员名字，制作了很多地理专题图。其中，有一个系列是“盘点我国含有X字的城市”系列。下面是我制作的部分地图（备注：所用数据及成果图均符合国家标准，审图号GS(2024)050）。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-85e53a8cbb77be409836a44620a4094e-sz_246897-f9dda8.png" alt="img"></p>
-<p>接下来，我将以“我国含有‘南’字的城市”为例子，展现我是如何一步步将地图制作出来的，以及在制图过程中，我是如何思考将地图用更好的方式将数据呈现出来。</p>
-<h1 id="二、制图过程"><a href="#二、制图过程" class="headerlink" title="二、制图过程"></a><strong>二、制图过程</strong></h1><p>首先声明：本教程将会是从专业化的角度来呈现整个制图过程，其中并不会过多的科普处理过程中用到的软件、数据、处理方法等。如果大家感兴趣，我可以另外制作一个入门系列课程。</p>
-<h2 id="（1）成果图展示部分"><a href="#（1）成果图展示部分" class="headerlink" title="（1）成果图展示部分"></a><strong>（1）成果图展示部分</strong></h2><p>废话少说，先看成果图。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-db65bfdad438924faa1429459a0bb290-sz_172198-60336e.png" alt="img"></p>
-<p>这是我制作的“我国含有‘南’字的城市”专题图，包含了我国含有“南”字的省份、地级市、区县级、以及补充表格。</p>
-<h2 id="（2）前期准备"><a href="#（2）前期准备" class="headerlink" title="（2）前期准备"></a><strong>（2）前期准备</strong></h2><ol>
-<li>专业地理制图软件ArcGIS，直接下载是需要付费的，因此大家可以自行寻找破解版ArcGIS安装教程。</li>
-</ol>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-deabe7cea2adcb214fb344c50af68db3-sz_446989-4b1b48.png" alt="img"></p>
-<p>2.全国省市县行政区划shp矢量数据（审图号GS（2024）0650），可以在天地图中下载geojson版本。需要自行转换为shp格式。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9f81f327b05cfeee040abe3dcd36c589-sz_213352-c9e1e8.png" alt="img"></p>
-<h2 id="（3）数据预处理"><a href="#（3）数据预处理" class="headerlink" title="（3）数据预处理"></a><strong>（3）数据预处理</strong></h2><p>首先，是需要将转换后的shp文件（省、市、区县）加载到ArcGIS中。并且设置好投影坐标系（本文选用EPSG:3857，Web墨卡托投影）。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-28b1243f1aaa235eeaf1d5de793927c7-sz_446484-1e414f.png" alt="img"></p>
-<p>接下来，首先处理省级数据，右键省级数据，打开属性表，进入到属性表的界面。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-72096ca4c37c610774e0566863ceefd2-sz_470278-812f94.png" alt="img"></p>
-<p>接下来，需要在这么多省份中，找到含有“南”字的省份。具体操作是在属性表内，点击左上角的图标，选择“按属性选择”，选择省份名称所在的字段，图中是“name”字段，可以直接在下方框中输入 “name” LIKE’%南%’ ，验证成果后点击应用，即可筛选出所有含有“南”字的省。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-95ebac964676172cbe31b3ad1ca758da-sz_355845-bd8248.png" alt="img"></p>
-<p>含有“南”字的省份当然可以直接找出来，但是到市、区县级就没办法一个个数，只能靠上述方法进行操作。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-7b62927dc034ef1b5525b5df2f6b5b81-sz_409001-c4ca47.png" alt="img"></p>
-<p>这样一来，我们就筛选出了四个含有“南”字的省份，分别是河南省、湖南省、云南省、海南省。在省级shp数据中右键–数据–导出数据，得到四个省份的单独数据，留着备用。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-35adcafe2b109b4de217b16ac24e4038-sz_251858-8ae6b1.png" alt="img"></p>
-<p>用同样的方法，筛选出市级、区县级区划中含有“南”字的地图。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-08c50d26b13fb795111fef67ac0d45b2-sz_202361-dc31e6.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-a26e81adf3688e49d8fed9f8ded2e03e-sz_255735-6b485d.png" alt="img"></p>
-<h2 id="（3）制图阶段"><a href="#（3）制图阶段" class="headerlink" title="（3）制图阶段"></a><strong>（3）制图阶段</strong></h2><p>首先，切换到制图模式，仅显示省级行政区，以及四个含有“南”字的省级行政区。注意：需要添加十段线。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c7efc8829bc417a14df94192022df416-sz_117098-9810d0.png" alt="img"></p>
-<p>添加地图三要素：图例、比例尺、指北针。并将地图颜色设置成自己喜欢的样子。我这里选择将底图设置为灰色、边界为白色；四个省份为橙色，边界为白色。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-41d5850bd4c99adcf72767be18be9da8-sz_162279-e39fed.png" alt="img"></p>
-<p>然后，选择插入文字，将标题、制图人员、以及主题符号（“南”字），放置在地图合适位置，调整字体、大小。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e0c1b22d22f29b93a07bc82957b8b457-sz_185534-e56eab.png" alt="img"></p>
-<p>随后，点击软件左上角的 文件–导出地图，即可得到高清版的地图。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d03ff44328171b91a94fbbbfd84c462d-sz_275868-1ca62e.png" alt="img"></p>
-<p>运用同样的方法，即可得到市、区县的地图。可以自行发挥，补充一些文字内容（如下图所示）。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c8642c7c450703a126de5218990b0b7a-sz_268640-52d002.png" alt="img"></p>
-<h2 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h2><p>本文简单的介绍了制图的过程，其实每制作一张地图，都要耗费不少时间，而且很多是重复性工作，加上ArcGIS软件过于专业化，学习门槛较高。因此有考虑自己开发一款轻量化的地理制图软件，大家有什么想了解的，欢迎在评论区发表您的想法。</p>
-]]></content>
-      <categories>
-        <category>GIS教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>ArcGIS</tag>
-        <tag>制图教程</tag>
-        <tag>GIS教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>海平面上升对辽宁的影响：沿海地区会发生什么变化</title>
     <url>/archives/3aebb07.html</url>
     <content><![CDATA[<p><strong>无论哪个人类文明，都曾有过关于大洪水的传说。天降大雨、陆地下沉，抑或是海啸、海平面上升，对于沿海城市而言都是灾难级别的。</strong></p>
@@ -579,6 +450,135 @@
         <tag>中国</tag>
         <tag>辽宁</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>模拟海平面上升 500 米：半个中国被淹的震撼场景</title>
+    <url>/archives/83f2eb8.html</url>
+    <content><![CDATA[<h1 id="一、中国地形图"><a href="#一、中国地形图" class="headerlink" title="一、中国地形图"></a><strong>一、中国地形图</strong></h1><p>这是一张我国区域的三维地形图，可以看到我国地势西高东低的三级阶梯状分布，从西部的高原山地过渡到东部的平原丘陵。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3818a6ecc7f38f708621c27a7d166fa5-sz_243834-d3cfce.jpeg" alt="img"></p>
+<p>接下来，我将模拟海平面上升500米，观察其地形地貌特征。声明：全球冰盖融化，海平面上升66米左右，因此本次模拟仅供参考，仅用于反映地形地貌特征。</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>其目的是反映 中国 的地形地貌特征；</em></li>
+<li><em>数据基于NASA，利用专业制图软件进行模拟；</em></li>
+<li><em>上升高度为500米（海拔）。</em></li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-417b00da35428266ee84b7d33c407aaf-sz_6163749-f45a91.png" alt="img"></p>
+<p>这张图是一张海平面上升 500 米后的中国及周边地区模拟地形图，直观展示了极端海平面上升对我国地理格局的影响：</p>
+<ul>
+<li><strong>东部沿海</strong>：我国东部沿海几乎全部被海水淹没，形成广阔的内陆海。被淹没的主要城市包括：北京、天津、上海、南京、杭州、广州、深圳、香港、澳门、台北等。</li>
+<li><strong>中部地区</strong>：长江、黄河等大河河道被海水倒灌，形成狭长的海湾。武汉、长沙、南昌、合肥、郑州等城市也将被淹没或成为沿海城市。</li>
+<li><strong>西部与高原</strong>：青藏高原、云贵高原、黄土高原等海拔较高的地区基本不受影响，成为新的 “沿海” 地带。成都、重庆、贵阳、昆明、西安、兰州等城市将成为新的内陆或沿海城市。</li>
+</ul>
+<p>接下来，将对局部进行分析。</p>
+<h2 id="（1）东北区域"><a href="#（1）东北区域" class="headerlink" title="（1）东北区域"></a><strong>（1）东北区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8688c950b303f65b724398d28d32a6a2-sz_5379321-ee06b4.png" alt="img"></p>
+<ul>
+<li><strong>东北平原</strong>：整个东北平原（松嫩平原、辽河平原）被海水完全淹没，形成一片广阔的内陆海。主要城市如沈阳、长春被淹没，仅哈尔滨因地处松嫩平原北部，海拔相对较高，成为新的沿海城市。</li>
+<li>大兴安岭、长白山脉因海拔较高，从平原中 “浮出”，成为新的海岸线和岛屿。</li>
+<li><strong>朝鲜半岛</strong>：朝鲜半岛的西部和南部沿海平原被淹没，仅中部和东部的山地（如太白山脉）保留，形成狭长的半岛岛屿。</li>
+<li><strong>渤海与日本海</strong>：渤海与新形成的东北内陆海连成一片，日本海的海岸线则向内陆大幅推进。</li>
+</ul>
+<h2 id="（2）华北区域"><a href="#（2）华北区域" class="headerlink" title="（2）华北区域"></a><strong>（2）华北区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bf9e74c0228a4f18b31605dd143f24df-sz_4795272-03c082.png" alt="img"></p>
+<ul>
+<li><strong>华北平原</strong>：整个华北平原被海水完全淹没，形成广阔的内陆海，与渤海、黄海连成一体。主要城市如北京、天津、石家庄、济南、郑州均被淹没。</li>
+<li><strong>岛屿化</strong>：山东丘陵、辽东半岛、朝鲜半岛山地从平原中 “浮出”，成为孤立的岛屿或半岛。</li>
+</ul>
+<h2 id="（3）东海区域"><a href="#（3）东海区域" class="headerlink" title="（3）东海区域"></a><strong>（3）东海区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6d5b239f1536fce50926f896d6dc3097-sz_4830843-91221f.png" alt="img"></p>
+<ul>
+<li><strong>长江中下游平原</strong>：整个长江中下游平原被海水完全淹没，形成一片广阔的内陆海，与东海连成一体。主要城市如上海、南京、杭州、合肥、武汉、南昌、长沙均被淹没，仅福州、台北因地处武夷山脉和台湾岛，海拔较高，成为新的沿海城市。</li>
+<li><strong>长江及湖泊</strong>：长江河道被海水倒灌，从武汉附近开始成为宽阔的海湾；洞庭湖、鄱阳湖、太湖、洪泽湖等淡水湖则与海洋连通，成为咸水湾。</li>
+</ul>
+<h2 id="（4）中部区域"><a href="#（4）中部区域" class="headerlink" title="（4）中部区域"></a><strong>（4）中部区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-03225413e6e4e06b30e999eff04b3f9b-sz_7744245-8d719b.png" alt="img"></p>
+<ul>
+<li><strong>四川盆地</strong>：四川盆地被海水完全淹没，形成一个大型内陆湖，成都、重庆等城市均被淹没，仅盆地边缘的山地（如大巴山、巫山）成为半岛。</li>
+<li><strong>关中盆地</strong>：关中盆地部分被海水侵入，西安成为新的沿海城市，黄河河道也被海水倒灌。</li>
+<li><strong>内陆湖形成</strong>：四川盆地成为大型内陆湖，与东部的内陆海通过长江峡谷相连。</li>
+</ul>
+<h2 id="（5）华南区域"><a href="#（5）华南区域" class="headerlink" title="（5）华南区域"></a><strong>（5）华南区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8cc7bedce2ab90d0bb7ca15770da2273-sz_6647137-597922.png" alt="img"></p>
+<ul>
+<li><strong>华南沿海平原</strong>：珠江三角洲、雷州半岛等沿海平原被海水完全淹没，形成广阔的内陆海，与南海连成一体。主要城市如广州、香港、澳门、南宁、海口均被淹没。</li>
+<li><strong>珠江</strong>：河道被海水倒灌，最新出海口位于广西境内。</li>
+</ul>
+<h2 id="（6）西藏区域"><a href="#（6）西藏区域" class="headerlink" title="（6）西藏区域"></a><strong>（6）西藏区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-faa55e360ee8f2aebd9889bf65c88610-sz_7046111-1d42ce.png" alt="img"></p>
+<ul>
+<li><strong>青藏高原及周边</strong>：青藏高原平均海拔超过 4000 米，因此在海平面上升 500 米的模拟中，拉萨、贵阳、昆明等城市均未被淹没。</li>
+<li><strong>中南半岛北部</strong>：横断山脉以东、以南的低海拔地区被海水淹没，中南半岛北部沿海平原消失，仅那加山、若开山脉等山地保留，形成孤立的岛屿或半岛。</li>
+</ul>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>本文通过模拟海平面上升 500 米后的中国地形，直观展现架空世界的地理巨变：东部平原、沿海发达城市群尽数淹没，新海岸线西移至高原山地边缘，青藏高原、云贵高原等成 “新沿海”。效果仅供参考。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何制作一张标注所有带 “南” 字城市的地图？</title>
+    <url>/archives/394e17de.html</url>
+    <content><![CDATA[<h1 id="一、背景介绍"><a href="#一、背景介绍" class="headerlink" title="一、背景介绍"></a><strong>一、背景介绍</strong></h1><p>我曾经以“板牙”的制图人员名字，制作了很多地理专题图。其中，有一个系列是“盘点我国含有X字的城市”系列。下面是我制作的部分地图（备注：所用数据及成果图均符合国家标准，审图号GS(2024)050）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-85e53a8cbb77be409836a44620a4094e-sz_246897-f9dda8.png" alt="img"></p>
+<p>接下来，我将以“我国含有‘南’字的城市”为例子，展现我是如何一步步将地图制作出来的，以及在制图过程中，我是如何思考将地图用更好的方式将数据呈现出来。</p>
+<h1 id="二、制图过程"><a href="#二、制图过程" class="headerlink" title="二、制图过程"></a><strong>二、制图过程</strong></h1><p>首先声明：本教程将会是从专业化的角度来呈现整个制图过程，其中并不会过多的科普处理过程中用到的软件、数据、处理方法等。如果大家感兴趣，我可以另外制作一个入门系列课程。</p>
+<h2 id="（1）成果图展示部分"><a href="#（1）成果图展示部分" class="headerlink" title="（1）成果图展示部分"></a><strong>（1）成果图展示部分</strong></h2><p>废话少说，先看成果图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-db65bfdad438924faa1429459a0bb290-sz_172198-60336e.png" alt="img"></p>
+<p>这是我制作的“我国含有‘南’字的城市”专题图，包含了我国含有“南”字的省份、地级市、区县级、以及补充表格。</p>
+<h2 id="（2）前期准备"><a href="#（2）前期准备" class="headerlink" title="（2）前期准备"></a><strong>（2）前期准备</strong></h2><ol>
+<li>专业地理制图软件ArcGIS，直接下载是需要付费的，因此大家可以自行寻找破解版ArcGIS安装教程。</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-deabe7cea2adcb214fb344c50af68db3-sz_446989-4b1b48.png" alt="img"></p>
+<p>2.全国省市县行政区划shp矢量数据（审图号GS（2024）0650），可以在天地图中下载geojson版本。需要自行转换为shp格式。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9f81f327b05cfeee040abe3dcd36c589-sz_213352-c9e1e8.png" alt="img"></p>
+<h2 id="（3）数据预处理"><a href="#（3）数据预处理" class="headerlink" title="（3）数据预处理"></a><strong>（3）数据预处理</strong></h2><p>首先，是需要将转换后的shp文件（省、市、区县）加载到ArcGIS中。并且设置好投影坐标系（本文选用EPSG:3857，Web墨卡托投影）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-28b1243f1aaa235eeaf1d5de793927c7-sz_446484-1e414f.png" alt="img"></p>
+<p>接下来，首先处理省级数据，右键省级数据，打开属性表，进入到属性表的界面。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-72096ca4c37c610774e0566863ceefd2-sz_470278-812f94.png" alt="img"></p>
+<p>接下来，需要在这么多省份中，找到含有“南”字的省份。具体操作是在属性表内，点击左上角的图标，选择“按属性选择”，选择省份名称所在的字段，图中是“name”字段，可以直接在下方框中输入 “name” LIKE’%南%’ ，验证成果后点击应用，即可筛选出所有含有“南”字的省。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-95ebac964676172cbe31b3ad1ca758da-sz_355845-bd8248.png" alt="img"></p>
+<p>含有“南”字的省份当然可以直接找出来，但是到市、区县级就没办法一个个数，只能靠上述方法进行操作。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-7b62927dc034ef1b5525b5df2f6b5b81-sz_409001-c4ca47.png" alt="img"></p>
+<p>这样一来，我们就筛选出了四个含有“南”字的省份，分别是河南省、湖南省、云南省、海南省。在省级shp数据中右键–数据–导出数据，得到四个省份的单独数据，留着备用。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-35adcafe2b109b4de217b16ac24e4038-sz_251858-8ae6b1.png" alt="img"></p>
+<p>用同样的方法，筛选出市级、区县级区划中含有“南”字的地图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-08c50d26b13fb795111fef67ac0d45b2-sz_202361-dc31e6.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-a26e81adf3688e49d8fed9f8ded2e03e-sz_255735-6b485d.png" alt="img"></p>
+<h2 id="（3）制图阶段"><a href="#（3）制图阶段" class="headerlink" title="（3）制图阶段"></a><strong>（3）制图阶段</strong></h2><p>首先，切换到制图模式，仅显示省级行政区，以及四个含有“南”字的省级行政区。注意：需要添加十段线。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c7efc8829bc417a14df94192022df416-sz_117098-9810d0.png" alt="img"></p>
+<p>添加地图三要素：图例、比例尺、指北针。并将地图颜色设置成自己喜欢的样子。我这里选择将底图设置为灰色、边界为白色；四个省份为橙色，边界为白色。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-41d5850bd4c99adcf72767be18be9da8-sz_162279-e39fed.png" alt="img"></p>
+<p>然后，选择插入文字，将标题、制图人员、以及主题符号（“南”字），放置在地图合适位置，调整字体、大小。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e0c1b22d22f29b93a07bc82957b8b457-sz_185534-e56eab.png" alt="img"></p>
+<p>随后，点击软件左上角的 文件–导出地图，即可得到高清版的地图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d03ff44328171b91a94fbbbfd84c462d-sz_275868-1ca62e.png" alt="img"></p>
+<p>运用同样的方法，即可得到市、区县的地图。可以自行发挥，补充一些文字内容（如下图所示）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c8642c7c450703a126de5218990b0b7a-sz_268640-52d002.png" alt="img"></p>
+<h2 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h2><p>本文简单的介绍了制图的过程，其实每制作一张地图，都要耗费不少时间，而且很多是重复性工作，加上ArcGIS软件过于专业化，学习门槛较高。因此有考虑自己开发一款轻量化的地理制图软件，大家有什么想了解的，欢迎在评论区发表您的想法。</p>
+]]></content>
+      <categories>
+        <category>GIS教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>ArcGIS</tag>
+        <tag>制图教程</tag>
+        <tag>GIS教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我为什么建立一个博客网站？</title>
+    <url>/archives/7ac24357.html</url>
+    <content><![CDATA[<p>我有一个公众号，叫“<strong>那山那海那座城</strong>”。我利用GIS专业的知识，一直在写关于地理相关的文章，内容包括地理冷知识、地铁知识，以及海平面模拟。</p>
+<p>不少人对于如何模拟海平面上升和下降很感兴趣，但不知道如何操作。为了满足广大网友的求知欲，我制作了这个博客网站，用来更新GIS的各种教程（不限于海平面升降的模拟）。</p>
+]]></content>
+      <categories>
+        <category>闲聊</category>
+      </categories>
   </entry>
   <entry>
     <title>把塔克拉玛干沙漠灌满水会怎样？超震撼水面上升模拟</title>
@@ -1016,6 +1016,74 @@
       </tags>
   </entry>
   <entry>
+    <title>海平面上升淹没模拟：河南最后幸存的城市是谁</title>
+    <url>/archives/6cff404e.html</url>
+    <content><![CDATA[<h1 id="一、河南"><a href="#一、河南" class="headerlink" title="一、河南"></a>一、河南</h1><p>河南省，位于中国中东部、黄河中下游地区，总面积16.7万平方千米。截至2024年8月，河南省辖17个地级市，21个县级市，1个省辖县级行政单位。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ba1442532f6139d6e33ba219b05f68fc-sz_159899-502d9e.jpeg" alt="img"></p>
+<p>（图片来源于网络）</p>
+<p>河南省地势望北向南、承东启西，西高东低，由平原和盆地、山地、丘陵、通江达海的水面构成；地跨海河、黄河、淮河、长江四大流域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-dfb479b41698d317c7ad67a8998931b0-sz_1598105-398f54.png" alt="img"></p>
+<p>北、西、南三面太行山、伏牛山、桐柏山、大别山沿省界呈半环形分布；中、东部为黄淮海冲积平原；西南部为南阳盆地。豫东平原，是河南省面积最大的平原，是华北平原的重要组成部分之一。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e80538ad69afb30c669fe2cdc4ed235e-sz_1113615-1ecd9a.png" alt="img"></p>
+<p>河南省大部分地级市分布在平原或盆地，地势较低。基于对地形地貌特征的好奇，打算进行海平面上升模拟。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-afda8ab44d7593d2e2f7487b86e45676-sz_992040-52d0f8.png" alt="img"></p>
+<p>那么，接下来模拟开始。</p>
+<p><em>本次模拟海平面上升，时间跨度是以万年为计量单位的，因此切勿上升至现实。模拟的目的，是用于反映河南省地形地貌特征，特此声明。</em></p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a>二、海平面上升模拟</h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>其目的是反映 河南省 的地形地貌特征；</em></li>
+<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为20、50、100、200、300、500米（海拔）；</em></li>
+<li><em>海平面每年上升4mm左右，全球冰盖融化至多上升70米；因此效果仅供参考，无需恐慌。</em></li>
+</ol>
+<h2 id="1-海平面上升20米"><a href="#1-海平面上升20米" class="headerlink" title="1.海平面上升20米"></a>1.海平面上升20米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-001a0a3c2487f1dc3a25875c1899067a-sz_7609919-ea0080.png" alt="img"></p>
+<p>在上面这张图中，效果并不明显，但依旧可以看到河网密布。如果留意的话，可以看到右下角江西省部分区域被从长江倒灌的海水淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-29f2184e6b4bd8334d9a663f21dbfc55-sz_1545912-220246.png" alt="img"></p>
+<p>将视角右移，可以看到当海平面上升20米，海水漫延至河北省、山东省、江苏省和安徽省。</p>
+<h2 id="2-海平面上升50米"><a href="#2-海平面上升50米" class="headerlink" title="2.海平面上升50米"></a>2.海平面上升50米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-eff43677c2ac580afdff85f0663f5bb4-sz_7612905-13a2ed.png" alt="img"></p>
+<p>海平面上升50米，海水淹没江苏省全境、华北平原大部分区域、以及内陆省份江西省、湖北省的低洼地带。</p>
+<p>河南的濮阳市、商丘市、周口市海拔在50米左右，即将触碰到海水；漯河市城区海拔64米，略高于其它三个地级市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-f934689aae4a66f2afbcd0072917a908-sz_709620-4938cf.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-04984245c02d45275413e25912477c92-sz_653526-34e3b0.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6279f62158523581b639e7e00683e2f4-sz_612167-729412.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-802c3f4bede57b0a28077a60b801691d-sz_714163-823854.png" alt="img"></p>
+<h2 id="3-海平面上升100米"><a href="#3-海平面上升100米" class="headerlink" title="3.海平面上升100米"></a>3.海平面上升100米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-67cf93a0b526278983e9a9a6de003bfd-sz_7372217-b09a01.png" alt="img"></p>
+<p>由于河南省大部分地级市，处于平原地区，因此海水漫延程度比想象中大。当海平面上升100米，安阳市、鹤壁市、新乡市、焦作市、郑州市、开封市、许昌市、平顶山市、驻马店市、信阳市，被海水淹没；加上濮阳市、商丘市、周口市和漯河市，一共14个地级市“沉入海底”。</p>
+<p>仅剩下三门峡市、洛阳市和南阳市，其城区海拔分别是388米、142米、125米。其中，南阳盆地被汉江倒灌的海水漫灌，即将触及南阳市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1a1e0e92af013a4111092bd53374164f-sz_1502547-6a8773.png" alt="img"></p>
+<h2 id="4-海平面上升200米"><a href="#4-海平面上升200米" class="headerlink" title="4.海平面上升200米"></a>4.海平面上升200米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-79b2ef2f5e9339b934619c67a93d0112-sz_7207326-11254a.png" alt="img"></p>
+<p>西南区域，海水淹没南阳盆地；西北区域，海水倒灌进入洛阳盆地。另一股海水沿着黄河，朝着河南省海拔最高的地级市——三门峡市进发。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1cdc500fb540c8225e8826825de97401-sz_1269299-eebdc8.png" alt="img"></p>
+<h2 id="5-海平面上升300米"><a href="#5-海平面上升300米" class="headerlink" title="5.海平面上升300米"></a>5.海平面上升300米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-83b77e461acdb6e25c1567bdaa81f152-sz_7112620-c6f37d.png" alt="img"></p>
+<p>海平面上升300米，可以看到华北平原，已经是一片泽国；大别山“支离破碎”。但海水还在“艰难地”朝着三门峡市前进。而山西省靠着太行山脉，还能撑很久。</p>
+<h2 id="4-海平面上升500米"><a href="#4-海平面上升500米" class="headerlink" title="4.海平面上升500米"></a>4.海平面上升500米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-487b2e82d6413a565d2c6a54a0a73b06-sz_6953187-cc3e2d.png" alt="img"></p>
+<p>三门峡市城区海拔388米，当海平面上升500米，海水漫过三门峡市、冲破潼关。其中一股海流沿着渭河淹没关中盆地；另一股海流在淹没运城盆地后，沿着黄河北上，又分成两股海流；一股朝着黄河溯源，另一股沿着汾河，开始进入山西省内部。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0b7fdca3e6779725fe06971d35c08be3-sz_1386523-49f433.png" alt="img"></p>
+<p>至此，河南省所有地级市均被“淹没”，海平面上升模拟结束。</p>
+<p>本次模拟，意在反映河南省地形地貌特征，效果仅供参考。全球冰盖融化，海平面至多上升70米，且是以万年为时间单位，因此无需恐慌。</p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a>三、最后说说</h1><p>河南省，是中国古代文明发祥地之一，50万年前就有人类在这里生息和繁衍。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d8cc2798f7a8d80d1658271403c2401e-sz_159439-b008d9.jpeg" alt="img"></p>
+<p>据考古发掘和历史文献记载，建立夏朝的夏氏族，其主要活动区域就在河南省境内。在安阳殷墟发现的甲骨文，是世界上最早的文字，也是世界上最早的历史文献。其后的秦、汉、三国两晋南北朝，以及隋唐宋元明清，皆在河南留下了浓墨重彩的一笔。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3b35fce91b54d28d71c312da7a08b2b6-sz_1990612-4287c2.png" alt="img"></p>
+<p>河南省共有云台山、嵩山、王屋山—黛眉山、伏牛山等世界地质公园4个，河南嵩山少林景区、郑州黄河等国家地质公园15个，永城芒砀山等省级地质公园17个，南阳恐龙蛋化石群等国家级自然保护区13个，民权黄河故道等国家湿地公园35个……以及清明上河园、安阳殷墟景区、嵩阳书院、中岳庙、观星台、开封府、大相国寺、白马寺、中国翰园碑林…..等大量古迹。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0d77311c4149830ddbc5fb950a3f7d22-sz_2308856-7ae291.png" alt="img"></p>
+<p>欢迎大家来河南旅游~无论是自然景观、还是人文景观，一定会让大家不虚此行。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>河南</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>海平面上升 70 米淹没模拟：看看你的家乡是否幸存</title>
     <url>/archives/84287a70.html</url>
     <content><![CDATA[<h1 id="一、海平面上升模拟"><a href="#一、海平面上升模拟" class="headerlink" title="一、海平面上升模拟"></a><strong>一、海平面上升模拟</strong></h1><p><strong>说明：</strong></p>
@@ -1194,6 +1262,70 @@
       </tags>
   </entry>
   <entry>
+    <title>海平面上升，加州地形与城市淹没分析</title>
+    <url>/archives/dbd4ed2e.html</url>
+    <content><![CDATA[<h1 id="一、美国加州"><a href="#一、美国加州" class="headerlink" title="一、美国加州"></a><strong>一、美国加州</strong></h1><p>加利福尼亚州，简称加州。西临太平洋，北面与俄勒冈州接壤，东邻内华达州，东南与亚利桑那州相连，南端则与墨西哥交界。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-410ebc9327388b98f82285eda06b3914-sz_54623-6bec2b.jpeg" alt="img"></p>
+<p>加州拥有长达2030千米的海岸线，总面积约为42.4万平方千米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e58397cfd848940282eaef73d294c31e-sz_1102094-4b5548.png" alt="img"></p>
+<p>加州的水文系统受到地形和气候的影响，南部沙漠地区干旱少雨，而北部沿海地区冬季多雨雪，整体呈冬季湿润多雨、夏季干燥的温带气候特点。</p>
+<p>本次海平面上升模拟，意在探索加州的地形地貌特征，效果仅供参考。</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p>那么，模拟海平面上升需要哪些步骤呢？首先，需要截取加州的高程DEM地形数据。如下图所示，为美国西海岸南部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-a298f9b999bd2afd5e559f0704ed284f-sz_1423210-6113a4.png" alt="img"></p>
+<p><strong>说明：</strong></p>
+<ol>
+<li><em>其目的是反映 美国加州 地形地貌特征；</em></li>
+<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为10、20、50、80、100、150、200米（海拔）；</em></li>
+<li><em>全球冰盖融化海平面至多上升70米，因此效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-模拟海平面上升0米"><a href="#1-模拟海平面上升0米" class="headerlink" title="1.模拟海平面上升0米"></a><strong>1.模拟海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-58ceb1007edc72032a208b9749287ed4-sz_4302951-4a998f.png" alt="img"></p>
+<p>从图中可以看到，美国各个州之间的边界线，是那种很生硬的直线，几乎不按照地形来划分。另外，美国和墨西哥，除去政治划分，其地理也是不存在天然边界的。</p>
+<p>单纯观察其地形，会自然觉得中央谷地、墨西哥与加州交界处（上图红色圆圈）位置优越，应该能诞生大城市。</p>
+<h2 id="2-模拟海平面上升10米"><a href="#2-模拟海平面上升10米" class="headerlink" title="2.模拟海平面上升10米"></a><strong>2.模拟海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-25f3f1dfb42814a762bd2d3175bea4c0-sz_9714287-a767d4.png" alt="img"></p>
+<p>我们从两个区域观察海水侵入情况。首先观察旧金山区域。从下图可以看到，海水在漫过几个海湾之后，进入了中央谷地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-5a24c171867a40de19d9fb7afb610abd-sz_1005774-f4acd4.png" alt="img"></p>
+<p>其三维效果如下所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bac0f3d7fb63607a205579a0c49134b8-sz_2927011-759a9f.png" alt="img"></p>
+<p>接下来，观察另一个区域，即加州与墨西哥交界处。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ceb27285ca676e4b0df6c729431263ab-sz_848777-ad18c1.png" alt="img"></p>
+<p>海水淹没墨西哥的墨西卡利，漫过因皮里尔河谷，与索尔顿湖（SaltonSea）连通。</p>
+<h2 id="3-模拟海平面上升20米"><a href="#3-模拟海平面上升20米" class="headerlink" title="3.模拟海平面上升20米"></a><strong>3.模拟海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d85d1433b86cf1eda68b5f459fda5607-sz_9710463-9f40ec.png" alt="img"></p>
+<p>首先是中央谷地被淹没区域进一步扩大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-df0f5c9fefccb8d7cc05c29ae305561a-sz_2864983-69a961.png" alt="img"></p>
+<p>墨西哥与加州交汇处形势也是十分严峻。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3af11458bbef05539ec096996907ccb3-sz_2568746-1bb20b.png" alt="img"></p>
+<p>另外，洛杉矶部分区域开始被淹没，但是范围没有想象中大（下图所示）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1631de9dd95091623a057c8b5da92e2e-sz_2674066-1f0e99.png" alt="img"></p>
+<h2 id="4-模拟海平面上升50米"><a href="#4-模拟海平面上升50米" class="headerlink" title="4.模拟海平面上升50米"></a><strong>4.模拟海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-31c1633c692b8fea5cccfc86c519a8b2-sz_9693740-f2ecf0.png" alt="img"></p>
+<p>淹没范围进一步扩大，但是仍旧集中在旧金山、洛杉矶和加州南部。可见加州西海岸平原并不多，山脉是加州海岸的主要地形。</p>
+<h2 id="5-模拟海平面上升80米"><a href="#5-模拟海平面上升80米" class="headerlink" title="5.模拟海平面上升80米"></a><strong>5.模拟海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3930bd102751e2175216914d13474dc5-sz_9677977-daf125.png" alt="img"></p>
+<p>此时，中央谷地淹没范围越来越大，几乎全淹没了。但是洛杉矶地区淹没范围并无显著变化。</p>
+<h2 id="6-模拟海平面上升100米"><a href="#6-模拟海平面上升100米" class="headerlink" title="6.模拟海平面上升100米"></a><strong>6.模拟海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9ff3ec85e7bca77748c692dcfdcae52c-sz_9666434-67f8a6.png" alt="img"></p>
+<p>首先，哪怕全球冰盖融化，海平面至多上升70米，并不会上升到100米这个高度，因此仅供参考。从图中看到，海水被受限在几片山脉之间，淹没的仅是低洼地带。</p>
+<p>加州的地形可以说是非常优越且多样化的。西部是太平洋海岸，有世界著名的海滩和港口，比如洛杉矶港、旧金山湾区，是对外贸易的重要通道。中部是中央谷地（Central Valley），地势平坦、土壤肥沃，是世界上最重要的农业产区之一。东部是内华达山脉：为加州提供雪水资源，也是户外旅游胜地，如优胜美地国家公园。南部是沙漠地带：比如莫哈维沙漠，虽然干旱，但适合太阳能等新能源开发。</p>
+<h2 id="7-模拟海平面上升150米"><a href="#7-模拟海平面上升150米" class="headerlink" title="7.模拟海平面上升150米"></a><strong>7.模拟海平面上升150米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-f90417dc6e47e7e2e9cea0f43cb82d8d-sz_9636437-96be01.png" alt="img"></p>
+<p>中央谷地大约 720公里长，80公里宽，总面积约为 5万平方公里，接近整个意大利的一半。此时，近乎被海水灌满。</p>
+<p>该地近年来面临 水资源紧张、土地沉降（因过度抽取地下水）、气候变化影响（干旱加剧）等问题，可以说，它的繁荣高度依赖水资源调控与生态保护。</p>
+<h2 id="8-模拟海平面上升200米"><a href="#8-模拟海平面上升200米" class="headerlink" title="8.模拟海平面上升200米"></a><strong>8.模拟海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-837bced7f53d0930d3f1965c6e3f09b3-sz_9620588-52bf50.png" alt="img"></p>
+<p>哪怕海平面上升200米，海水还是没能冲破海岸山脉的天然屏障，仅能从一个豁口中进入中央谷地。</p>
+<p>至此，海平面上升模拟结束。</p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>本文利用海平面上升模拟，意在观察加州的地形地貌特征，效果仅供参考。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>美国</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>山西不靠海，海平面上升会被淹吗？入口在哪</title>
     <url>/archives/e15ae6e.html</url>
     <content><![CDATA[<h1 id="一、山西省"><a href="#一、山西省" class="headerlink" title="一、山西省"></a>一、山西省</h1><p>山西省，因居<strong>太行山之西</strong>而得名，简称“晋”，又称“三晋”，古称河东，省会太原市。地处黄河流域中部，东与河北省为邻；西、南部与陕西省、河南省相望；北与内蒙古自治区毗连。</p>
@@ -1261,138 +1393,6 @@
         <tag>海平面上升</tag>
         <tag>中国</tag>
         <tag>山西</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海平面上升淹没模拟：河南最后幸存的城市是谁</title>
-    <url>/archives/6cff404e.html</url>
-    <content><![CDATA[<h1 id="一、河南"><a href="#一、河南" class="headerlink" title="一、河南"></a>一、河南</h1><p>河南省，位于中国中东部、黄河中下游地区，总面积16.7万平方千米。截至2024年8月，河南省辖17个地级市，21个县级市，1个省辖县级行政单位。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ba1442532f6139d6e33ba219b05f68fc-sz_159899-502d9e.jpeg" alt="img"></p>
-<p>（图片来源于网络）</p>
-<p>河南省地势望北向南、承东启西，西高东低，由平原和盆地、山地、丘陵、通江达海的水面构成；地跨海河、黄河、淮河、长江四大流域。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-dfb479b41698d317c7ad67a8998931b0-sz_1598105-398f54.png" alt="img"></p>
-<p>北、西、南三面太行山、伏牛山、桐柏山、大别山沿省界呈半环形分布；中、东部为黄淮海冲积平原；西南部为南阳盆地。豫东平原，是河南省面积最大的平原，是华北平原的重要组成部分之一。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e80538ad69afb30c669fe2cdc4ed235e-sz_1113615-1ecd9a.png" alt="img"></p>
-<p>河南省大部分地级市分布在平原或盆地，地势较低。基于对地形地貌特征的好奇，打算进行海平面上升模拟。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-afda8ab44d7593d2e2f7487b86e45676-sz_992040-52d0f8.png" alt="img"></p>
-<p>那么，接下来模拟开始。</p>
-<p><em>本次模拟海平面上升，时间跨度是以万年为计量单位的，因此切勿上升至现实。模拟的目的，是用于反映河南省地形地貌特征，特此声明。</em></p>
-<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a>二、海平面上升模拟</h1><p><strong>说明：</strong></p>
-<ol>
-<li><em>其目的是反映 河南省 的地形地貌特征；</em></li>
-<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
-<li><em>上升高度为20、50、100、200、300、500米（海拔）；</em></li>
-<li><em>海平面每年上升4mm左右，全球冰盖融化至多上升70米；因此效果仅供参考，无需恐慌。</em></li>
-</ol>
-<h2 id="1-海平面上升20米"><a href="#1-海平面上升20米" class="headerlink" title="1.海平面上升20米"></a>1.海平面上升20米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-001a0a3c2487f1dc3a25875c1899067a-sz_7609919-ea0080.png" alt="img"></p>
-<p>在上面这张图中，效果并不明显，但依旧可以看到河网密布。如果留意的话，可以看到右下角江西省部分区域被从长江倒灌的海水淹没。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-29f2184e6b4bd8334d9a663f21dbfc55-sz_1545912-220246.png" alt="img"></p>
-<p>将视角右移，可以看到当海平面上升20米，海水漫延至河北省、山东省、江苏省和安徽省。</p>
-<h2 id="2-海平面上升50米"><a href="#2-海平面上升50米" class="headerlink" title="2.海平面上升50米"></a>2.海平面上升50米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-eff43677c2ac580afdff85f0663f5bb4-sz_7612905-13a2ed.png" alt="img"></p>
-<p>海平面上升50米，海水淹没江苏省全境、华北平原大部分区域、以及内陆省份江西省、湖北省的低洼地带。</p>
-<p>河南的濮阳市、商丘市、周口市海拔在50米左右，即将触碰到海水；漯河市城区海拔64米，略高于其它三个地级市。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-f934689aae4a66f2afbcd0072917a908-sz_709620-4938cf.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-04984245c02d45275413e25912477c92-sz_653526-34e3b0.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6279f62158523581b639e7e00683e2f4-sz_612167-729412.png" alt="img"></p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-802c3f4bede57b0a28077a60b801691d-sz_714163-823854.png" alt="img"></p>
-<h2 id="3-海平面上升100米"><a href="#3-海平面上升100米" class="headerlink" title="3.海平面上升100米"></a>3.海平面上升100米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-67cf93a0b526278983e9a9a6de003bfd-sz_7372217-b09a01.png" alt="img"></p>
-<p>由于河南省大部分地级市，处于平原地区，因此海水漫延程度比想象中大。当海平面上升100米，安阳市、鹤壁市、新乡市、焦作市、郑州市、开封市、许昌市、平顶山市、驻马店市、信阳市，被海水淹没；加上濮阳市、商丘市、周口市和漯河市，一共14个地级市“沉入海底”。</p>
-<p>仅剩下三门峡市、洛阳市和南阳市，其城区海拔分别是388米、142米、125米。其中，南阳盆地被汉江倒灌的海水漫灌，即将触及南阳市。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1a1e0e92af013a4111092bd53374164f-sz_1502547-6a8773.png" alt="img"></p>
-<h2 id="4-海平面上升200米"><a href="#4-海平面上升200米" class="headerlink" title="4.海平面上升200米"></a>4.海平面上升200米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-79b2ef2f5e9339b934619c67a93d0112-sz_7207326-11254a.png" alt="img"></p>
-<p>西南区域，海水淹没南阳盆地；西北区域，海水倒灌进入洛阳盆地。另一股海水沿着黄河，朝着河南省海拔最高的地级市——三门峡市进发。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1cdc500fb540c8225e8826825de97401-sz_1269299-eebdc8.png" alt="img"></p>
-<h2 id="5-海平面上升300米"><a href="#5-海平面上升300米" class="headerlink" title="5.海平面上升300米"></a>5.海平面上升300米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-83b77e461acdb6e25c1567bdaa81f152-sz_7112620-c6f37d.png" alt="img"></p>
-<p>海平面上升300米，可以看到华北平原，已经是一片泽国；大别山“支离破碎”。但海水还在“艰难地”朝着三门峡市前进。而山西省靠着太行山脉，还能撑很久。</p>
-<h2 id="4-海平面上升500米"><a href="#4-海平面上升500米" class="headerlink" title="4.海平面上升500米"></a>4.海平面上升500米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-487b2e82d6413a565d2c6a54a0a73b06-sz_6953187-cc3e2d.png" alt="img"></p>
-<p>三门峡市城区海拔388米，当海平面上升500米，海水漫过三门峡市、冲破潼关。其中一股海流沿着渭河淹没关中盆地；另一股海流在淹没运城盆地后，沿着黄河北上，又分成两股海流；一股朝着黄河溯源，另一股沿着汾河，开始进入山西省内部。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0b7fdca3e6779725fe06971d35c08be3-sz_1386523-49f433.png" alt="img"></p>
-<p>至此，河南省所有地级市均被“淹没”，海平面上升模拟结束。</p>
-<p>本次模拟，意在反映河南省地形地貌特征，效果仅供参考。全球冰盖融化，海平面至多上升70米，且是以万年为时间单位，因此无需恐慌。</p>
-<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a>三、最后说说</h1><p>河南省，是中国古代文明发祥地之一，50万年前就有人类在这里生息和繁衍。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d8cc2798f7a8d80d1658271403c2401e-sz_159439-b008d9.jpeg" alt="img"></p>
-<p>据考古发掘和历史文献记载，建立夏朝的夏氏族，其主要活动区域就在河南省境内。在安阳殷墟发现的甲骨文，是世界上最早的文字，也是世界上最早的历史文献。其后的秦、汉、三国两晋南北朝，以及隋唐宋元明清，皆在河南留下了浓墨重彩的一笔。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3b35fce91b54d28d71c312da7a08b2b6-sz_1990612-4287c2.png" alt="img"></p>
-<p>河南省共有云台山、嵩山、王屋山—黛眉山、伏牛山等世界地质公园4个，河南嵩山少林景区、郑州黄河等国家地质公园15个，永城芒砀山等省级地质公园17个，南阳恐龙蛋化石群等国家级自然保护区13个，民权黄河故道等国家湿地公园35个……以及清明上河园、安阳殷墟景区、嵩阳书院、中岳庙、观星台、开封府、大相国寺、白马寺、中国翰园碑林…..等大量古迹。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0d77311c4149830ddbc5fb950a3f7d22-sz_2308856-7ae291.png" alt="img"></p>
-<p>欢迎大家来河南旅游~无论是自然景观、还是人文景观，一定会让大家不虚此行。</p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>中国</tag>
-        <tag>河南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海平面上升，加州地形与城市淹没分析</title>
-    <url>/archives/dbd4ed2e.html</url>
-    <content><![CDATA[<h1 id="一、美国加州"><a href="#一、美国加州" class="headerlink" title="一、美国加州"></a><strong>一、美国加州</strong></h1><p>加利福尼亚州，简称加州。西临太平洋，北面与俄勒冈州接壤，东邻内华达州，东南与亚利桑那州相连，南端则与墨西哥交界。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-410ebc9327388b98f82285eda06b3914-sz_54623-6bec2b.jpeg" alt="img"></p>
-<p>加州拥有长达2030千米的海岸线，总面积约为42.4万平方千米。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-e58397cfd848940282eaef73d294c31e-sz_1102094-4b5548.png" alt="img"></p>
-<p>加州的水文系统受到地形和气候的影响，南部沙漠地区干旱少雨，而北部沿海地区冬季多雨雪，整体呈冬季湿润多雨、夏季干燥的温带气候特点。</p>
-<p>本次海平面上升模拟，意在探索加州的地形地貌特征，效果仅供参考。</p>
-<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p>那么，模拟海平面上升需要哪些步骤呢？首先，需要截取加州的高程DEM地形数据。如下图所示，为美国西海岸南部区域。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-a298f9b999bd2afd5e559f0704ed284f-sz_1423210-6113a4.png" alt="img"></p>
-<p><strong>说明：</strong></p>
-<ol>
-<li><em>其目的是反映 美国加州 地形地貌特征；</em></li>
-<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
-<li><em>上升高度为10、20、50、80、100、150、200米（海拔）；</em></li>
-<li><em>全球冰盖融化海平面至多上升70米，因此效果仅供参考，且无任何不良引导。</em></li>
-</ol>
-<h2 id="1-模拟海平面上升0米"><a href="#1-模拟海平面上升0米" class="headerlink" title="1.模拟海平面上升0米"></a><strong>1.模拟海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-58ceb1007edc72032a208b9749287ed4-sz_4302951-4a998f.png" alt="img"></p>
-<p>从图中可以看到，美国各个州之间的边界线，是那种很生硬的直线，几乎不按照地形来划分。另外，美国和墨西哥，除去政治划分，其地理也是不存在天然边界的。</p>
-<p>单纯观察其地形，会自然觉得中央谷地、墨西哥与加州交界处（上图红色圆圈）位置优越，应该能诞生大城市。</p>
-<h2 id="2-模拟海平面上升10米"><a href="#2-模拟海平面上升10米" class="headerlink" title="2.模拟海平面上升10米"></a><strong>2.模拟海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-25f3f1dfb42814a762bd2d3175bea4c0-sz_9714287-a767d4.png" alt="img"></p>
-<p>我们从两个区域观察海水侵入情况。首先观察旧金山区域。从下图可以看到，海水在漫过几个海湾之后，进入了中央谷地。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-5a24c171867a40de19d9fb7afb610abd-sz_1005774-f4acd4.png" alt="img"></p>
-<p>其三维效果如下所示。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bac0f3d7fb63607a205579a0c49134b8-sz_2927011-759a9f.png" alt="img"></p>
-<p>接下来，观察另一个区域，即加州与墨西哥交界处。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ceb27285ca676e4b0df6c729431263ab-sz_848777-ad18c1.png" alt="img"></p>
-<p>海水淹没墨西哥的墨西卡利，漫过因皮里尔河谷，与索尔顿湖（SaltonSea）连通。</p>
-<h2 id="3-模拟海平面上升20米"><a href="#3-模拟海平面上升20米" class="headerlink" title="3.模拟海平面上升20米"></a><strong>3.模拟海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d85d1433b86cf1eda68b5f459fda5607-sz_9710463-9f40ec.png" alt="img"></p>
-<p>首先是中央谷地被淹没区域进一步扩大。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-df0f5c9fefccb8d7cc05c29ae305561a-sz_2864983-69a961.png" alt="img"></p>
-<p>墨西哥与加州交汇处形势也是十分严峻。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3af11458bbef05539ec096996907ccb3-sz_2568746-1bb20b.png" alt="img"></p>
-<p>另外，洛杉矶部分区域开始被淹没，但是范围没有想象中大（下图所示）。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1631de9dd95091623a057c8b5da92e2e-sz_2674066-1f0e99.png" alt="img"></p>
-<h2 id="4-模拟海平面上升50米"><a href="#4-模拟海平面上升50米" class="headerlink" title="4.模拟海平面上升50米"></a><strong>4.模拟海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-31c1633c692b8fea5cccfc86c519a8b2-sz_9693740-f2ecf0.png" alt="img"></p>
-<p>淹没范围进一步扩大，但是仍旧集中在旧金山、洛杉矶和加州南部。可见加州西海岸平原并不多，山脉是加州海岸的主要地形。</p>
-<h2 id="5-模拟海平面上升80米"><a href="#5-模拟海平面上升80米" class="headerlink" title="5.模拟海平面上升80米"></a><strong>5.模拟海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3930bd102751e2175216914d13474dc5-sz_9677977-daf125.png" alt="img"></p>
-<p>此时，中央谷地淹没范围越来越大，几乎全淹没了。但是洛杉矶地区淹没范围并无显著变化。</p>
-<h2 id="6-模拟海平面上升100米"><a href="#6-模拟海平面上升100米" class="headerlink" title="6.模拟海平面上升100米"></a><strong>6.模拟海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9ff3ec85e7bca77748c692dcfdcae52c-sz_9666434-67f8a6.png" alt="img"></p>
-<p>首先，哪怕全球冰盖融化，海平面至多上升70米，并不会上升到100米这个高度，因此仅供参考。从图中看到，海水被受限在几片山脉之间，淹没的仅是低洼地带。</p>
-<p>加州的地形可以说是非常优越且多样化的。西部是太平洋海岸，有世界著名的海滩和港口，比如洛杉矶港、旧金山湾区，是对外贸易的重要通道。中部是中央谷地（Central Valley），地势平坦、土壤肥沃，是世界上最重要的农业产区之一。东部是内华达山脉：为加州提供雪水资源，也是户外旅游胜地，如优胜美地国家公园。南部是沙漠地带：比如莫哈维沙漠，虽然干旱，但适合太阳能等新能源开发。</p>
-<h2 id="7-模拟海平面上升150米"><a href="#7-模拟海平面上升150米" class="headerlink" title="7.模拟海平面上升150米"></a><strong>7.模拟海平面上升150米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-f90417dc6e47e7e2e9cea0f43cb82d8d-sz_9636437-96be01.png" alt="img"></p>
-<p>中央谷地大约 720公里长，80公里宽，总面积约为 5万平方公里，接近整个意大利的一半。此时，近乎被海水灌满。</p>
-<p>该地近年来面临 水资源紧张、土地沉降（因过度抽取地下水）、气候变化影响（干旱加剧）等问题，可以说，它的繁荣高度依赖水资源调控与生态保护。</p>
-<h2 id="8-模拟海平面上升200米"><a href="#8-模拟海平面上升200米" class="headerlink" title="8.模拟海平面上升200米"></a><strong>8.模拟海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-837bced7f53d0930d3f1965c6e3f09b3-sz_9620588-52bf50.png" alt="img"></p>
-<p>哪怕海平面上升200米，海水还是没能冲破海岸山脉的天然屏障，仅能从一个豁口中进入中央谷地。</p>
-<p>至此，海平面上升模拟结束。</p>
-<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>本文利用海平面上升模拟，意在观察加州的地形地貌特征，效果仅供参考。</p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>美国</tag>
       </tags>
   </entry>
   <entry>
@@ -1566,6 +1566,57 @@
       </tags>
   </entry>
   <entry>
+    <title>海平面下降，江苏海底地形与古地理格局解析</title>
+    <url>/archives/506169c4.html</url>
+    <content><![CDATA[<h1 id="一、江苏省海域"><a href="#一、江苏省海域" class="headerlink" title="一、江苏省海域"></a><strong>一、江苏省海域</strong></h1><p>江苏是海洋大省，海岸线长954公里，海域面积3.75万平方公里。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ff914598db39894349c293ebea9383cb-sz_409739-0056fc.jpeg" alt="img"></p>
+<p>江苏海岸线长954km，北起连云港市赣榆区的绣针河口，南至长江口北岸南通市启东市的连兴港。海岸类型有基岩海岸、砂质海岸和淤泥质海岸等，以粉砂淤泥质海岸为主。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-cdcebcb9e886a397dd415b65f4403971-sz_1375777-b13344.png" alt="img"></p>
+<p>江苏沿海属于冲积平原地貌，地势低平，长期受到长江、淮河等河流携带泥沙的堆积作用，使得海岸线不断向海推进，形成了大量的滩涂和湿地，水浅滩多，滩涂广而平，不利于海岛的形成。另外，岛屿多出现在地壳抬升或火山活动频繁的地区，而江苏沿海地区地壳稳定，缺乏这种条件。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9359abca1eb8786bfeeaf9497c658e63-sz_132903-dc6a0b.jpeg" alt="img"></p>
+<p>近年来，为了发展经济，江苏大量开发沿海滩涂，如兴建盐田、围海造田、港口开发等，也对小岛、沙洲等自然地貌造成了较大的改造和破坏，部分小型岛屿可能因此消失或与陆地连成一体。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8e7fb006acc1217faaae7e247343ebd3-sz_6198829-ef240a.gif" alt="img"></p>
+<p>例如，2024年，江苏省盘活利用存量围填海空间面积达5145.39亩，累计盘活利用围填海存量海域空间面积达90668亩，拉动投资额近934.46亿元。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0b50734bb70b38c53f3e8a50d2bdfea1-sz_209139-672560.jpeg" alt="img"></p>
+<p>总的来说，江苏省通过围填海工程和科学规划，不断拓展陆地面积，推动海洋经济发展，实现了陆海统筹、协调发展的目标。</p>
+<h1 id="二、模拟海水褪去"><a href="#二、模拟海水褪去" class="headerlink" title="二、模拟海水褪去"></a><strong>二、模拟海水褪去</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>其目的是反映 江苏省 海底地形地貌特征；</em></li>
+<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
+<li><em>下降高度为2、4、6、8、10、15、20、50米（海拔）；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<p>模拟江苏海域的海平面下降，有一定难度。首先是数据时效性，江苏每年滩涂面积还在扩大中，而模拟的地形数据更新并不及时；其次，地形过于平缓，导致模拟效果不明显；最后便是静态模拟不如动态模拟直观。但既然做出来了，还是将结果展示给大家。</p>
+<h2 id="1-海平面下降2米"><a href="#1-海平面下降2米" class="headerlink" title="1.海平面下降2米"></a><strong>1.海平面下降2米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1a824644418ff410d6a090cd9105edf6-sz_2251228-99661d.png" alt="img"></p>
+<p>海水潮涨潮落，潮差能达到4米左右。而本次模拟基于理论深度基准面，所以在这个模拟高度下，效果并不明显。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-b639d548c2714887b225926efe374610-sz_64891-96c585.png" alt="img"></p>
+<h2 id="2-海平面下降4米"><a href="#2-海平面下降4米" class="headerlink" title="2.海平面下降4米"></a><strong>2.海平面下降4米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-2a9dae9898905b0592b9b4316bc9ba1b-sz_2265476-8ce979.png" alt="img"></p>
+<p>江苏省盐城市大丰区外海，开始出现零星的“岛屿”，其实在地形数据中，也能明显看出该区域存在大量泥沙堆积。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-24e5cc74ba134a781a32df3e68e9278e-sz_579724-21b1d1.png" alt="img"></p>
+<h2 id="3-海平面下降6米"><a href="#3-海平面下降6米" class="headerlink" title="3.海平面下降6米"></a><strong>3.海平面下降6米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c700bb36c610c9b2a7f0bec54e0de667-sz_2274294-1f3c2f.png" alt="img"></p>
+<p>接下来的不进行分析了，大家可自己对比其变化。</p>
+<h2 id="4-海平面下降8米"><a href="#4-海平面下降8米" class="headerlink" title="4.海平面下降8米"></a><strong>4.海平面下降8米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0bed2f7c7e45582e592215309cb1f132-sz_2282311-835b6a.png" alt="img"></p>
+<h2 id="5-海平面下降10米"><a href="#5-海平面下降10米" class="headerlink" title="5.海平面下降10米"></a><strong>5.海平面下降10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6aa87340b3452dcc1ea93097783050c6-sz_2258705-d0b405.png" alt="img"></p>
+<h2 id="6-海平面下降15米"><a href="#6-海平面下降15米" class="headerlink" title="6.海平面下降15米"></a><strong>6.海平面下降15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3af8698e31680f10e05d04cc4e045220-sz_2283118-05c817.png" alt="img"></p>
+<h2 id="7-海平面下降20米"><a href="#7-海平面下降20米" class="headerlink" title="7.海平面下降20米"></a><strong>7.海平面下降20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3b280d1429aa6a9b536ab3bfc081e22f-sz_2274298-8c752c.png" alt="img"></p>
+<h2 id="8-海平面下降50米"><a href="#8-海平面下降50米" class="headerlink" title="8.海平面下降50米"></a><strong>8.海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bb38078df426d5a7fb5bb3d71b5427c5-sz_2340309-43365b.png" alt="img"></p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>江苏省海域位于中国东部黄海沿岸，拥有平直的泥质海岸和广阔的滩涂资源，是全国滩涂最多的省份之一。由于长江等河流带来大量泥沙沉积，形成了丰富的淤积地带，但不利于岛屿的形成。近年来，江苏通过围填海工程不断扩大陆域面积，发展海洋经济，包括海上风电、港口物流、海洋渔业等，同时注重生态保护与湿地修复。整体来看，江苏海域开发潜力大，正向生态与经济协调发展的方向迈进。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>Geojson</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>江苏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>海平面下降 10 米对中国的影响：新增陆地与海岸线变化</title>
     <url>/archives/72620b27.html</url>
     <content><![CDATA[<h1 id="一、海平面下降10米的效果图"><a href="#一、海平面下降10米的效果图" class="headerlink" title="一、海平面下降10米的效果图"></a>一、海平面下降10米的效果图</h1><p>这是一张模拟海平面下降 10 米后，中国东部沿海的地理变化。可以看到效果似乎并不明显。</p>
@@ -1628,57 +1679,6 @@
         <tag>Geojson</tag>
         <tag>中国</tag>
         <tag>海平面下降</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海平面下降，江苏海底地形与古地理格局解析</title>
-    <url>/archives/506169c4.html</url>
-    <content><![CDATA[<h1 id="一、江苏省海域"><a href="#一、江苏省海域" class="headerlink" title="一、江苏省海域"></a><strong>一、江苏省海域</strong></h1><p>江苏是海洋大省，海岸线长954公里，海域面积3.75万平方公里。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-ff914598db39894349c293ebea9383cb-sz_409739-0056fc.jpeg" alt="img"></p>
-<p>江苏海岸线长954km，北起连云港市赣榆区的绣针河口，南至长江口北岸南通市启东市的连兴港。海岸类型有基岩海岸、砂质海岸和淤泥质海岸等，以粉砂淤泥质海岸为主。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-cdcebcb9e886a397dd415b65f4403971-sz_1375777-b13344.png" alt="img"></p>
-<p>江苏沿海属于冲积平原地貌，地势低平，长期受到长江、淮河等河流携带泥沙的堆积作用，使得海岸线不断向海推进，形成了大量的滩涂和湿地，水浅滩多，滩涂广而平，不利于海岛的形成。另外，岛屿多出现在地壳抬升或火山活动频繁的地区，而江苏沿海地区地壳稳定，缺乏这种条件。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-9359abca1eb8786bfeeaf9497c658e63-sz_132903-dc6a0b.jpeg" alt="img"></p>
-<p>近年来，为了发展经济，江苏大量开发沿海滩涂，如兴建盐田、围海造田、港口开发等，也对小岛、沙洲等自然地貌造成了较大的改造和破坏，部分小型岛屿可能因此消失或与陆地连成一体。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-8e7fb006acc1217faaae7e247343ebd3-sz_6198829-ef240a.gif" alt="img"></p>
-<p>例如，2024年，江苏省盘活利用存量围填海空间面积达5145.39亩，累计盘活利用围填海存量海域空间面积达90668亩，拉动投资额近934.46亿元。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0b50734bb70b38c53f3e8a50d2bdfea1-sz_209139-672560.jpeg" alt="img"></p>
-<p>总的来说，江苏省通过围填海工程和科学规划，不断拓展陆地面积，推动海洋经济发展，实现了陆海统筹、协调发展的目标。</p>
-<h1 id="二、模拟海水褪去"><a href="#二、模拟海水褪去" class="headerlink" title="二、模拟海水褪去"></a><strong>二、模拟海水褪去</strong></h1><p><strong>说明：</strong></p>
-<ol>
-<li><em>其目的是反映 江苏省 海底地形地貌特征；</em></li>
-<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
-<li><em>下降高度为2、4、6、8、10、15、20、50米（海拔）；</em></li>
-<li><em>效果仅供参考，且无任何不良引导。</em></li>
-</ol>
-<p>模拟江苏海域的海平面下降，有一定难度。首先是数据时效性，江苏每年滩涂面积还在扩大中，而模拟的地形数据更新并不及时；其次，地形过于平缓，导致模拟效果不明显；最后便是静态模拟不如动态模拟直观。但既然做出来了，还是将结果展示给大家。</p>
-<h2 id="1-海平面下降2米"><a href="#1-海平面下降2米" class="headerlink" title="1.海平面下降2米"></a><strong>1.海平面下降2米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-1a824644418ff410d6a090cd9105edf6-sz_2251228-99661d.png" alt="img"></p>
-<p>海水潮涨潮落，潮差能达到4米左右。而本次模拟基于理论深度基准面，所以在这个模拟高度下，效果并不明显。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-b639d548c2714887b225926efe374610-sz_64891-96c585.png" alt="img"></p>
-<h2 id="2-海平面下降4米"><a href="#2-海平面下降4米" class="headerlink" title="2.海平面下降4米"></a><strong>2.海平面下降4米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-2a9dae9898905b0592b9b4316bc9ba1b-sz_2265476-8ce979.png" alt="img"></p>
-<p>江苏省盐城市大丰区外海，开始出现零星的“岛屿”，其实在地形数据中，也能明显看出该区域存在大量泥沙堆积。</p>
-<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-24e5cc74ba134a781a32df3e68e9278e-sz_579724-21b1d1.png" alt="img"></p>
-<h2 id="3-海平面下降6米"><a href="#3-海平面下降6米" class="headerlink" title="3.海平面下降6米"></a><strong>3.海平面下降6米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-c700bb36c610c9b2a7f0bec54e0de667-sz_2274294-1f3c2f.png" alt="img"></p>
-<p>接下来的不进行分析了，大家可自己对比其变化。</p>
-<h2 id="4-海平面下降8米"><a href="#4-海平面下降8米" class="headerlink" title="4.海平面下降8米"></a><strong>4.海平面下降8米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-0bed2f7c7e45582e592215309cb1f132-sz_2282311-835b6a.png" alt="img"></p>
-<h2 id="5-海平面下降10米"><a href="#5-海平面下降10米" class="headerlink" title="5.海平面下降10米"></a><strong>5.海平面下降10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-6aa87340b3452dcc1ea93097783050c6-sz_2258705-d0b405.png" alt="img"></p>
-<h2 id="6-海平面下降15米"><a href="#6-海平面下降15米" class="headerlink" title="6.海平面下降15米"></a><strong>6.海平面下降15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3af8698e31680f10e05d04cc4e045220-sz_2283118-05c817.png" alt="img"></p>
-<h2 id="7-海平面下降20米"><a href="#7-海平面下降20米" class="headerlink" title="7.海平面下降20米"></a><strong>7.海平面下降20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-3b280d1429aa6a9b536ab3bfc081e22f-sz_2274298-8c752c.png" alt="img"></p>
-<h2 id="8-海平面下降50米"><a href="#8-海平面下降50米" class="headerlink" title="8.海平面下降50米"></a><strong>8.海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-bb38078df426d5a7fb5bb3d71b5427c5-sz_2340309-43365b.png" alt="img"></p>
-<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>江苏省海域位于中国东部黄海沿岸，拥有平直的泥质海岸和广阔的滩涂资源，是全国滩涂最多的省份之一。由于长江等河流带来大量泥沙沉积，形成了丰富的淤积地带，但不利于岛屿的形成。近年来，江苏通过围填海工程不断扩大陆域面积，发展海洋经济，包括海上风电、港口物流、海洋渔业等，同时注重生态保护与湿地修复。整体来看，江苏海域开发潜力大，正向生态与经济协调发展的方向迈进。</p>
-]]></content>
-      <categories>
-        <category>海平面模拟</category>
-      </categories>
-      <tags>
-        <tag>地图可视化</tag>
-        <tag>博客</tag>
-        <tag>公众号同步</tag>
-        <tag>海平面模拟</tag>
-        <tag>Geojson</tag>
-        <tag>海平面上升</tag>
-        <tag>中国</tag>
-        <tag>江苏</tag>
       </tags>
   </entry>
   <entry>
