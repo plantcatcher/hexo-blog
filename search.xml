@@ -2002,4 +2002,202 @@
         <tag>GPlates教程</tag>
       </tags>
   </entry>
+  <entry>
+    <title>从地理科学看亚特兰蒂斯猜想：撒哈拉之眼真的是遗迹吗？</title>
+    <url>/archives/89d0add7.html</url>
+    <content><![CDATA[<p><strong>亚特兰蒂斯</strong>的传说流传千年，始终牵动着人们对失落文明的想象；而被很多人当作 “亚特兰蒂斯遗迹” 的撒哈拉之眼，更是在网络上长期刷屏。作为地理学人，我们既不盲目迷信传说，也不简单否定猜想，而是从地质构造、地貌成因、地层年代与空间分布出发，理性看待：撒哈拉之眼到底是什么？它和传说中的亚特兰蒂斯，究竟有没有关系？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-28629b493fefc6df6315e522304cbcbf-sz_515146.jpeg" alt="img"></p>
+<p><strong>亚特兰蒂斯（Atlantis）</strong>，又称大西洲、大西国，位于欧洲到直布罗陀海峡附近的大西洋之岛，传说中拥有高度文明发展的古老大陆、国家或城邦之名。有记载最早的描述出现于古希腊哲学家柏拉图的著作《对话录》里，<em>据称其在公元前一万年被史前大洪水毁灭。</em></p>
+<p>而现实中能与之相对的，科学家们找到了一个位置：<strong>“撒哈拉之眼”（Eye of the Sahara）</strong>，位于非洲撒哈拉沙漠西南部的<strong>毛里塔尼亚（Mauritania）</strong>境内，直径达48公里，在太空上清晰可见。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-b511a904d05251278c3704297f3c72d9-sz_7325981.jpeg" alt="img"></p>
+<p>本文打算深挖一下 “撒哈拉之眼” 的地理结构，模拟洪水如何漫灌。并与古地图相结合，展现各种有意思的“巧合”。（声明：个人观点，仅供参考）</p>
+<h1 id="一、撒哈拉之眼"><a href="#一、撒哈拉之眼" class="headerlink" title="一、撒哈拉之眼"></a><strong>一、撒哈拉之眼</strong></h1><h2 id="1-地理位置"><a href="#1-地理位置" class="headerlink" title="1.地理位置"></a><strong>1.地理位置</strong></h2><p>“撒哈拉之眼”位于非洲的毛里塔尼亚境内。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-02971dcf2d628224f1d1951105d6d07c-sz_810730.png" alt="img"></p>
+<p>由于该地区太大，在平地上无法辨别其特征。直到1965年，<strong>美国双子座4号航天器</strong>发射升空后，才从太空中看到了震撼的“撒哈拉之眼”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-0aa542d693aaddd2e30023f8ffd1f411-sz_312006.jpeg" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-82992b62f877cbf843770ada86f5f331-sz_10000672.png" alt="img"></p>
+<p>（图片来源于谷歌地球）</p>
+<h2 id="2-地势地貌"><a href="#2-地势地貌" class="headerlink" title="2.地势地貌"></a><strong>2.地势地貌</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-d6ae37d322748df91bbc5d32ec843ca2-sz_1535831.png" alt="img"></p>
+<p>接下来，让我们观察“撒哈拉之眼”的地理结构。这是一张该地的DEM高程地形图，显示海拔在268~650米之间。从图中还能看出，环形区域北侧是山脉。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-bf71fd151a5ed8d6926c69ba07e2a4a9-sz_1925811.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-cdfc3a9d699f97dc04eaa7e24bf6eac1-sz_1656556.png" alt="img"></p>
+<p>“撒哈拉之眼”三维地形图</p>
+<h2 id="2-环形圈内结构"><a href="#2-环形圈内结构" class="headerlink" title="2.环形圈内结构"></a>2.环形圈内结构</h2><blockquote>
+<p><em><strong>“撒哈拉之眼”的直径是50公里，内环的直径为23.5公里，与柏拉图描述的亚特兰蒂斯内环城的直径127个Stadion极为相近。</strong></em></p>
+</blockquote>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-800242f07374a27d87d5388cac8868d1-sz_424805.jpeg" alt="img"></p>
+<p>效果图，Stadion是古罗马和古希腊的度量单位。<strong>1</strong> <strong>Stadion</strong> &#x3D; 185 米</p>
+<p>而我测的数据如下：</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-8614ddfaca50564f8120eae2ec981288-sz_893237.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-eb645bdf7eb315614e1426841ddec268-sz_1858817.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-b0d7d7719c3e8996bc92f82d75df5fd0-sz_1855419.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-b81c81912d41d2f389514b510ca895a2-sz_1736939.png" alt="img"></p>
+<p>（备注：图中距离是从圆心向外测量，选择大致边界进行测量，数据较为粗糙）</p>
+<p>效果图中所展示的仅仅是内圈精华部分（大概5~6km)，如我测量的第一张图所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-c3ef7f20fb6cb756e4c0fcc35a3141c8-sz_774085.png" alt="img"></p>
+<h1 id="二、亚特兰蒂斯"><a href="#二、亚特兰蒂斯" class="headerlink" title="二、亚特兰蒂斯"></a><strong>二、亚特兰蒂斯</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-a8faea0a654da8e2013e466ea92c5818-sz_114721.jpeg" alt="img"></p>
+<p><strong>1.希罗多德</strong></p>
+<p>希罗多德是古希腊作家、历史学家。在他的著作中，提到了亚特兰蒂斯。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-522b2dd726ff1994361d1ff527356492-sz_1120237.png" alt="img"></p>
+<blockquote>
+<p><em>海格力斯之柱的外面，有一片涅索斯；在涅索斯之上，有着拥有伟大而奇妙力量的联盟，唤作：<strong>亚特兰蒂斯</strong>。</em></p>
+</blockquote>
+<h2 id="2-柏拉图"><a href="#2-柏拉图" class="headerlink" title="2.柏拉图"></a><strong>2.柏拉图</strong></h2><p>在柏拉图的描述中，亚特兰蒂斯中心城市的模样是五个圆环，从内到外分别是两层陆地和三层河水，这样的结构非常独特，与撒哈拉之眼非常的相似。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-52cbbeea9f0f198040c941d9a91597ca-sz_390664.jpeg" alt="img"></p>
+<blockquote>
+<p><em>亚特兰蒂斯是北边环山，南边是平原。</em></p>
+</blockquote>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-0c9ad844795364e2ea6deb4f1602b202-sz_1726056.jpeg" alt="img"></p>
+<p>另外，毛里塔尼亚的矿产资源竟然也和柏拉图描述的“亚特兰蒂斯”类似，都是一个盛产金、银和山铜的国家。</p>
+<h2 id="3-新仙女木时期"><a href="#3-新仙女木时期" class="headerlink" title="3.新仙女木时期"></a><strong>3.新仙女木时期</strong></h2><p><strong>1.29万年前</strong>，北美长毛猛犸象、剑齿虎、骆驼和树獭、美洲狮突然灭绝，与此同时，克劳维斯人也突然消失。此后，地球经历了一个长达1300年的气候强变冷的“春寒期”，即<em>新仙女木（Younger Dryas）时期</em>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-182bbd049a7a969a35256ce18466dd94-sz_65536.jpeg" alt="img"></p>
+<p>根据推算，亚特兰蒂斯成为“<strong>船不能到达之地”</strong>，时间可能在11600年前左右。（注意：我说是“船不能到达之地”，大家可能会以为沉入海底，但也可能是地势抬升）</p>
+<h2 id="4-再说亚特兰蒂斯"><a href="#4-再说亚特兰蒂斯" class="headerlink" title="4.再说亚特兰蒂斯"></a><strong>4.再说亚特兰蒂斯</strong></h2><p><em>1）亚特兰蒂斯在梭罗前9000年被毁灭，距今11600年前；</em></p>
+<p><em>2）亚特兰蒂斯掌握的力量，是超越时代的力量；</em></p>
+<p><em>3）亚特兰蒂斯的国王，名叫阿特拉斯Atlas，海神波塞冬之子。十几个国王统治着亚特兰蒂斯这片国王联盟；</em></p>
+<p><em>4）亚特兰蒂斯发动了战争，宙斯震怒，发动了地震和海啸，使亚特兰蒂斯成为<strong>“船无法到达之地”</strong>。</em></p>
+<h1 id="三、水平面模拟"><a href="#三、水平面模拟" class="headerlink" title="三、水平面模拟"></a><strong>三、水平面模拟</strong></h1><p>基于真实的高程DEM地形数据，对“撒哈拉之眼”进行水面上升、下降的模拟。效果图如下。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-0368ea51818bc301b8264d06361e34a2-sz_5638264.jpeg" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-18530bb77d7e130a0116857e8c2a2800-sz_5260576.jpeg" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-ef61c93198b6004180ed297696f20d4c-sz_5138715.jpeg" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-9a13301ba6cb201815990f48df6c9617-sz_4575010.jpeg" alt="img"></p>
+<h1 id="四、最后想说"><a href="#四、最后想说" class="headerlink" title="四、最后想说"></a><strong>四、最后想说</strong></h1><p>人们对未知充满了好奇与恐惧。无论是*<strong>亚特兰蒂斯史前文明、南极冰川下的史前文明、苏美尔神话中的阿努纳奇、《山海经》中光怪陆离的地理与动物，还是全世界各地神话中都存在“大洪水”的传说*</strong>……我相信许多人孩童时怀中都抱着“世界未解之谜”丛书。</p>
+<p>虽然如今很多“未解之谜”被证实是吸引眼球的虚构小说，但也种下了对世界产生好奇的种子。步入社会后，能利用自己所学到的知识，自己探索、验证“未解之谜”，找回对世界的好奇心，不得不是一种幸运。</p>
+<p>祝大家都能找回对世界的好奇心和创造力。</p>
+]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>地理科普</tag>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>亚特兰蒂斯</tag>
+        <tag>撒哈拉沙漠</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最窄仅19公里，琼州海峡为何成跨海工程的地理难题</title>
+    <url>/archives/298a9a19.html</url>
+    <content><![CDATA[<p>作为中国三大海峡中最窄的水道，琼州海峡最窄处仅 19.4 公里，却至今未能建成跨海大桥或隧道。在地理人眼中，这绝非单纯的技术或经济问题，而是<strong>地质构造、水深地形、海洋动力与气候灾害</strong>四重地理约束叠加的结果 —— 它身处雷琼火山地震带、海底断裂纵横、水深远超港珠澳大桥、台风与强流频发，每一项都是世界级工程挑战，也让这条 “咫尺海峡” 成了难以逾越的地理屏障。</p>
+<hr>
+<p>港珠澳大桥通车后，不少人把目光转移了广东省与海南省之间：<strong>琼州海峡</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-f89ae244d4910224ae02e14173f0fd63-sz_1369489.png" alt="img"></p>
+<p>抛开政策、经济原因，只从地理角度上考虑，琼州海峡建设跨海通道是否可行？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-70ee3d24a7d1525f824fffe1de5714bd-sz_147010.jpeg" alt="img"></p>
+<h1 id="一、琼州海峡"><a href="#一、琼州海峡" class="headerlink" title="一、琼州海峡"></a><strong>一、琼州海峡</strong></h1><h2 id="1-地理位置"><a href="#1-地理位置" class="headerlink" title="1.地理位置"></a><strong>1.地理位置</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-15f769e4cafd3d97669d59df637d1fb5-sz_761271.png" alt="img"></p>
+<p>琼州海峡，位于广东省雷州半岛和海南省海南岛之间，平均宽度约29.5公里，海域面积约为2370平方公里，<strong>平均水深44米，最大深度为114米。</strong></p>
+<h2 id="2-地质条件"><a href="#2-地质条件" class="headerlink" title="2.地质条件"></a><strong>2.地质条件</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-a6ec32821d7d2600d891ebe67ed6afd3-sz_725396.png" alt="img"></p>
+<p>海峡为西浅东深，中部是水深大于50 m、宽10 km、长70 km的深水盆地，深水槽最深可达100+m。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-def0256c1f73481a813baaf8a186971a-sz_265658.png" alt="img"></p>
+<h2 id="3-水文气候条件"><a href="#3-水文气候条件" class="headerlink" title="3.水文气候条件"></a><strong>3.水文气候条件</strong></h2><p>该地台风多、而且经常有10万t的轮船航行，并不适合建设跨海大桥。隧道或许是较优选择。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-c36726f971930b9b2c375adb67a56f53-sz_1558526.png" alt="img"></p>
+<h2 id="4-地震与火山"><a href="#4-地震与火山" class="headerlink" title="4.地震与火山"></a><strong>4.地震与火山</strong></h2><p>琼州海峡是华南板块与南海板块的分界，称<strong>雷琼裂谷</strong>。1605年的琼山7.5级地震；1994年12月和1995年1月北部湾6.1级、6.2级地震。目前处于相对活跃时期。估计未来100年内雷琼地区发生的最大地震为6级左右的中强地震。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-15f769e4cafd3d97669d59df637d1fb5-sz_761271.png" alt="img"></p>
+<p>有文字历史以来没有任何火山活动记录。</p>
+<h1 id="二、海平面下降模拟"><a href="#二、海平面下降模拟" class="headerlink" title="二、海平面下降模拟"></a><strong>二、海平面下降模拟</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-d33eaf2e773251d376d3b33be2c0f4e4-sz_1310909.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-e1abf09fd1617186c3d04a6a4f09d7c0-sz_1273527.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-83f11fdced75aa9ba104d3270f8a080e-sz_1435811.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-9243be7e67d07ba8239d51ea25af6307-sz_1411999.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-9b40871c9714ed09f7de895c256de1a1-sz_1398873.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-f538e9dec8feeb9c40a8e60624a94e47-sz_1399039.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-5cc2375c435ec26b2a2b0144af2cf61e-sz_1544125.png" alt="img"></p>
+<h1 id="三、跨海通道可行性"><a href="#三、跨海通道可行性" class="headerlink" title="三、跨海通道可行性"></a><strong>三、跨海通道可行性</strong></h1><blockquote>
+<p><strong>1974年</strong>：周恩来总理指示开始研究琼州海峡海底铁路隧道的可能性。</p>
+</blockquote>
+<blockquote>
+<p><strong>1994年至2002年</strong>：广东先后投入8000多万元，开展对琼州海峡跨海通道工程的研究。</p>
+</blockquote>
+<blockquote>
+<p><strong>2022年</strong>：海口市交通运输和港航管理局明确提出“远景预留琼州海峡跨海工程”。</p>
+</blockquote>
+<p><em>（备注：具体进程请大家搜索“琼州海峡跨海通道”的百科）</em></p>
+<h2 id="1-方案选择"><a href="#1-方案选择" class="headerlink" title="1.方案选择"></a><strong>1.方案选择</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-6ea968391a284855c03793dc671afecc-sz_353774.png" alt="img"></p>
+<p><em>1）南端在海口市，北端在徐闻的排尾角，平面布置为直线。</em></p>
+<p><em>2）位于铁路轮渡航线东侧附近，平面布置为直线，北端位于徐闻的四塘，南端位于海口的天尾角。</em></p>
+<p><em>3）南端在海南的马村附近，北端在徐闻的新地附近，线路平面布置基本为直线，两端近岸处为曲线。</em></p>
+<p><em>4）位于海峡西口、深水盆地外侧的海底平缓地带，线路平面线形除北部有一曲线段外，其余均为直线。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-891f47d815b74580966f94103368b1d0-sz_76566.png" alt="img"></p>
+<p>剖面图</p>
+<h2 id="2-隧道纵断面与等深线"><a href="#2-隧道纵断面与等深线" class="headerlink" title="2.隧道纵断面与等深线"></a><strong>2.隧道纵断面与等深线</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-16bd1d56a6634a6cbc8b1b3bd4d237aa-sz_123939.png" alt="img"></p>
+<p>不知大家能否看清，（上图）位于土层中<strong>红色</strong>、<strong>绿色</strong>的线则是海底隧道纵断面。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-ba83ae1f00c250ba944e3e4da6f7074e-sz_398097.png" alt="img"></p>
+<h2 id="3-世界各国与我国的跨海通道"><a href="#3-世界各国与我国的跨海通道" class="headerlink" title="3.世界各国与我国的跨海通道"></a><strong>3.世界各国与我国的跨海通道</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-55e5c85d7529b9c516ad7744daff9c7f-sz_84423.png" alt="img"></p>
+<p>世界许多国家都有建设跨海通道的经验可供中国参考。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-7f0931f9414eff9ad796464d478de046-sz_218804.jpeg" alt="img"></p>
+<p>而我国建设跨海通道的经验也是十分丰富，据不完全统计，迄今我国已建成和在建跨海桥梁约100座。</p>
+<h1 id="四、结论"><a href="#四、结论" class="headerlink" title="四、结论"></a><strong>四、结论</strong></h1><p>中国渤海海峡、台湾海峡和琼州海峡都曾考虑过跨海通道，而琼州海峡跨海通道工程规模、<strong>难度小于渤海海峡和台湾海峡</strong>，优先建设琼州海峡跨海通道工程更具合理性。</p>
+<p>但琼州海峡的建设条件仍旧相当复杂，研究琼州海峡的气象、水文、地质条件等的基础上对桥隧方案及隧道线位方案进行了初步比选分析，认为<strong>琼州海峡跨海工程宜隧不宜桥</strong>，同时由于公路隧道存在诸多技术难题，推荐采用铁路隧道方案，汽车可通过穿梭列车运行通过隧道。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>中国</tag>
+        <tag>海平面下降</tag>
+        <tag>海南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>墨西哥湾抽干脑洞：美国改名「美洲湾」的地理与政治逻辑</title>
+    <url>/archives/c2e0349f.html</url>
+    <content><![CDATA[<p>如果把<strong>墨西哥湾彻底抽干</strong>，这片曾经被海水覆盖的区域，会立刻暴露出惊人的大陆架、海底地形与地缘格局。而一个更有意思的问题也随之而来：为什么很多人会开玩笑说，美国会趁机把 “墨西哥湾” 改名为<strong>美洲湾</strong>？这看似脑洞大开的假设，背后藏着地理、历史、话语权与地缘政治的真实博弈。</p>
+<hr>
+<h1 id="一、墨西哥湾"><a href="#一、墨西哥湾" class="headerlink" title="一、墨西哥湾"></a><strong>一、墨西哥湾</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-628edaf706e3c7def7c5a3b9f62c9159-sz_1489675.png" alt="img"></p>
+<p>墨西哥湾位于北美洲东南部，是大西洋的一部分，被美国、墨西哥和古巴所包围。这片海域自16世纪起就被命名为<strong>“墨西哥湾”</strong>，并一直沿用至今。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-7d5a5610d56558c2f87dc06703382db5-sz_1086409.png" alt="img"></p>
+<p>墨西哥湾盆地类似于一个大坑，边缘宽阔而浅。海洋盆地大致呈椭圆形，宽约1500千米。</p>
+<p>有意思的来了。2017年7月，墨西哥湾浅海区域被发现大量<em><strong>原油</strong></em>，预估可开采储量达1.4亿至20亿桶。墨西哥湾属美国的油、气田主要分布在路易斯安那州岸外，其次是德克萨斯州岸外。</p>
+<h1 id="二、海平面下降模拟"><a href="#二、海平面下降模拟" class="headerlink" title="二、海平面下降模拟"></a><strong>二、海平面下降模拟</strong></h1><p>我先将成果图放出来，后面再对局部放大进行观察。</p>
+<h2 id="1-当海平面下降0米"><a href="#1-当海平面下降0米" class="headerlink" title="1.当海平面下降0米"></a><strong>1.当海平面下降0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-46fff385ac0e4535bf21d4fab3ab15cc-sz_8179693.png" alt="img"></p>
+<p>该图就是日常看到墨西哥湾的样子。</p>
+<h2 id="2-当海平面下降100米"><a href="#2-当海平面下降100米" class="headerlink" title="2.当海平面下降100米"></a><strong>2.当海平面下降100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-90f58b54b6b27ebee3c3fdb7d766dda3-sz_8351727.png" alt="img"></p>
+<p>当海平面下降100米，美国和墨西哥的海岸线都有不同程度的外移。古巴北侧变化不大，南侧海岸线向南移动。</p>
+<h2 id="3-当海平面下降500米"><a href="#3-当海平面下降500米" class="headerlink" title="3.当海平面下降500米"></a><strong>3.当海平面下降500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-a98e3beaea0efbb0619cc92f1632ae7f-sz_8472338.png" alt="img"></p>
+<p>当海平面下降500米，让我较为吃惊的就在这儿。乍一看这就是一张海平面下降100米的图。</p>
+<p>但请注意（下图）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-3553d76eb8cd142755599ebbefcd0faa-sz_555153.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-0547a24f065b43d15ee4f559b73dadea-sz_203730.png" alt="img"></p>
+<p>我选取了中间区域，海平面下降从100<del>500米，海岸线外移为35千米左右。与海平面从0</del>100米相比，这个变化并不算太大。</p>
+<h2 id="4-当海平面下降1000米"><a href="#4-当海平面下降1000米" class="headerlink" title="4.当海平面下降1000米"></a><strong>4.当海平面下降1000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-ce845cb7aa3c89d1438d99813f95b749-sz_8701655.png" alt="img"></p>
+<p>海岸线进一步移动，但明显变化没有最初的大，此时已经处于“深海 深层带”。（备注：深海Deep Sea，在海洋学上是指透光层以下的海，一般在200米以下；深层带Bathyal zone指1000-4000米深的水层此层完全没有阳光）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-5a934a3007bf7ca558cda26d7c2e4164-sz_1939556.png" alt="img"></p>
+<p>墨西哥水深图</p>
+<h2 id="5-当海平面下降2000米"><a href="#5-当海平面下降2000米" class="headerlink" title="5.当海平面下降2000米"></a><strong>5.当海平面下降2000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-34363de71430a74eab9e40437379f705-sz_9044804.png" alt="img"></p>
+<p>墨西哥湾即将成为封闭的“内海”。</p>
+<h2 id="6-当海平面下降3000米"><a href="#6-当海平面下降3000米" class="headerlink" title="6.当海平面下降3000米"></a><strong>6.当海平面下降3000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-cf42e1551a8e61305dd3a38dc29761ea-sz_9296160.png" alt="img"></p>
+<p>墨西哥湾与大洋联系被切断。模拟至此结束。</p>
+<h2 id="7-不同海拔岸线叠加图"><a href="#7-不同海拔岸线叠加图" class="headerlink" title="7.不同海拔岸线叠加图"></a><strong>7.不同海拔岸线叠加图</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-5830f05d941f7cfbd5c9ec4396e1744d-sz_5666239.png" alt="img"></p>
+<p>这张图显示了本次模拟的5次海平面下降。</p>
+<h1 id="三、局部观察"><a href="#三、局部观察" class="headerlink" title="三、局部观察"></a><strong>三、局部观察</strong></h1><p>美国佛罗里达州区域</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-6b8e59f91a8776e6c9a6557e7dcc89c8-sz_602879.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-ec62aa41b7559ccd353ccdb26cbc1cfb-sz_607451.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-2bda223eef8e9bdc0ac7ea00a1322cf0-sz_630052.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-77c6cf5b8e0ecc2d07c657017955b997-sz_637827.png" alt="img"></p>
+<p>海平面下降1000米时，选取了海岸线间隔较远的距离进行测量（如上图）。海岸线向大海方向移动了300千米。</p>
+<p>墨西哥区域</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-58def9b8f29095db1a229d66888b39e4-sz_971125.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-2c76013b8798f7870e1d74d629fbbf61-sz_979208.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-a9803f508110a737017188bc3a62f215-sz_988617.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-04-da5ce7ab86cdb183c4b0621a0df8bd4e-sz_950220.png" alt="img"></p>
+<p>可以看到，墨西哥湾西侧变化并不明显；而墨西哥湾中南部区域大片海底裸露地表。</p>
+<h1 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a><strong>四、总结</strong></h1><p>本文基于高程DEM数据，利用ArcGIS等软件对墨西哥湾进行海平面下降模拟。模拟海拔为 ：0米、-100米、-500米、-1000米、-2000米、-3000米。（可能存在数据精度不够的情况，因此效果仅供参考）。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>地图可视化</tag>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面模拟</tag>
+        <tag>海平面下降</tag>
+        <tag>美国</tag>
+      </tags>
+  </entry>
 </search>
