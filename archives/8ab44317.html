@@ -1,0 +1,298 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>海平面上升×地壳沉降：新西兰的双重沉没危机 | 星球小捕手</title><meta name="author" content="星球小捕手"><meta name="copyright" content="星球小捕手"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="如果海平面持续上升，新西兰这片孤悬于南太平洋的岛国，将会面临怎样的命运？我们不妨通过地形模拟，直观 “看见” 陆地被海水逐步吞噬的过程。  在气候变化的背景下，全球平均海平面上升速率逐渐加快，现有研究表明，海平面如上升0.5ｍ，全球将会有9200万人口受到（淹没和风暴潮）影响，如上升1.0ｍ，受影响的人口将会增加到1.18亿人。  虽然，那将是很多年后的事情，但好奇心仍旧驱使我新西兰最终会如何“消">
+<meta property="og:type" content="article">
+<meta property="og:title" content="海平面上升×地壳沉降：新西兰的双重沉没危机">
+<meta property="og:url" content="http://blog.planetgis.cn/archives/8ab44317.html">
+<meta property="og:site_name" content="星球小捕手">
+<meta property="og:description" content="如果海平面持续上升，新西兰这片孤悬于南太平洋的岛国，将会面临怎样的命运？我们不妨通过地形模拟，直观 “看见” 陆地被海水逐步吞噬的过程。  在气候变化的背景下，全球平均海平面上升速率逐渐加快，现有研究表明，海平面如上升0.5ｍ，全球将会有9200万人口受到（淹没和风暴潮）影响，如上升1.0ｍ，受影响的人口将会增加到1.18亿人。  虽然，那将是很多年后的事情，但好奇心仍旧驱使我新西兰最终会如何“消">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png">
+<meta property="article:published_time" content="2026-03-07T11:55:51.000Z">
+<meta property="article:modified_time" content="2026-03-07T12:05:12.861Z">
+<meta property="article:author" content="星球小捕手">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="海平面模拟">
+<meta property="article:tag" content="地图">
+<meta property="article:tag" content="公众号同步">
+<meta property="article:tag" content="海平面上升">
+<meta property="article:tag" content="新西兰">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "海平面上升×地壳沉降：新西兰的双重沉没危机",
+  "url": "http://blog.planetgis.cn/archives/8ab44317.html",
+  "image": "https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png",
+  "datePublished": "2026-03-07T11:55:51.000Z",
+  "dateModified": "2026-03-07T12:05:12.861Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "星球小捕手",
+      "url": "http://blog.planetgis.cn"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://blog.planetgis.cn/archives/8ab44317.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7003785465265177',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4EHEP88TN2"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4EHEP88TN2')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4EHEP88TN2', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '海平面上升×地壳沉降：新西兰的双重沉没危机',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">46</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 休闲</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">星球小捕手</span></a><a class="nav-page-title" href="/"><span class="site-name">海平面上升×地壳沉降：新西兰的双重沉没危机</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 休闲</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">海平面上升×地壳沉降：新西兰的双重沉没危机</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-03-07T11:55:51.000Z" title="发表于 2026-03-07 19:55:51">2026-03-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-03-07T12:05:12.861Z" title="更新于 2026-03-07 20:05:12">2026-03-07</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>如果海平面持续上升，新西兰这片孤悬于南太平洋的岛国，将会面临怎样的命运？我们不妨通过地形模拟，直观 “看见” 陆地被海水逐步吞噬的过程。</p>
+<hr>
+<p>在气候变化的背景下，全球平均海平面上升速率逐渐加快，现有研究表明，海平面如上升0.5ｍ，全球将会有9200万人口受到（淹没和风暴潮）影响，如上升1.0ｍ，受影响的人口将会增加到1.18亿人。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-7eba8f0d804932e59cba01f5761f3a53-sz_38623.png" alt="人民日报"></p>
+<p>虽然，那将是很多年后的事情，但好奇心仍旧驱使我新西兰最终会如何“消失”在茫茫大海中，因此进行了本次海平面上升模拟。</p>
+<h1 id="一、新西兰"><a href="#一、新西兰" class="headerlink" title="一、新西兰"></a><strong>一、新西兰</strong></h1><p>新西兰（英语：New Zealand），首都惠灵顿，位于太平洋西南部，西隔塔斯曼海与澳大利亚相望，全国由南岛、北岛两个大岛和斯图尔特岛及其附近一些小岛组成。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-17853c367f6259b7b389bc2ffdbb3dfc-sz_7518604.png" alt="新西兰"></p>
+<p>新西兰风景优美，气候宜人。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-3f75c07779ad78fafe5cb58afc7c5224-sz_397850.jpeg" alt="新西兰风景"></p>
+<p>地形地貌特征如下，从图中可以看到海拔 3000+ 米，最深处位于南岛西南侧 普伊斯哥海沟(Puysegur Trench)，海拔超过 - 6000 米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png" alt="新西兰地形图"></p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><h2 id="1-成果图展示"><a href="#1-成果图展示" class="headerlink" title="1.成果图展示"></a><strong>1.成果图展示</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-94cfced161423c5d8714bfd4eb4128ea-sz_5536961.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-3b07f9dccf3c9caa19337fed84db662b-sz_5554515.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-e0e6e45e8bca0941803ec672a462c271-sz_5558308.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-959116fc81275c29b9a5b436e4f14113-sz_5539099.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-33928b1d45f812bdd833801106b4f954-sz_5492534.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-8e0729b0191c1605f1b061c367533a9a-sz_5313804.png" alt="新西兰模拟图"></p>
+<h1 id="2-海平面上升分析"><a href="#2-海平面上升分析" class="headerlink" title="2.海平面上升分析"></a><strong>2.海平面上升分析</strong></h1><h2 id="（1）南岛南部"><a href="#（1）南岛南部" class="headerlink" title="（1）南岛南部"></a>（1）南岛南部</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-8f579c584c8c9aa8897633f4c5fc881b-sz_740044.png" alt="新西兰模拟图"></p>
+<p>从图中可以看到，新西兰南岛 南部区域，斯图尔特岛被“蚕食”得七零八落；因弗卡吉尔则先一步被海水吞没了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-9959fc7615b24a5d58edee1d3b68b7ee-sz_673879.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-897d7c6b60c13056a3e5220fd26928cb-sz_677625.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-9c76fe3785fc28d0c58e6281044a4072-sz_679030.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-f645d0c918946e564d33daaf05876eb3-sz_662340.png" alt="新西兰模拟图"></p>
+<p>皇后镇（未在图中体现），随机坐标点海拔309米，在本次模拟中安然无恙。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-9776cc9961225eafed2bf05a70a462ea-sz_476078.png" alt="新西兰模拟图"></p>
+<h2 id="（2）南岛中部"><a href="#（2）南岛中部" class="headerlink" title="（2）南岛中部"></a>（2）南岛中部</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-2f59824bd584551a81d2cbd1d775dbd5-sz_709212.png" alt="新西兰模拟图"></p>
+<p>可以看到南岛中部区域，基督城在海平面上升20米时被海水淹没。南岛东侧海岸地势较低、较平缓；西侧海岸地势高、较陡峭。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-678131b5803c99c535e4275d708a9690-sz_790797.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a02467bbd5fd28af434ec800e7c5a654-sz_791498.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-c74f23f4bb978e43a0f59a8cb3d07790-sz_794097.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-b35f1073c47ead9ef649aa2c2aa2d725-sz_792171.png" alt="新西兰模拟图"></p>
+<h2 id="（3）库克海峡"><a href="#（3）库克海峡" class="headerlink" title="（3）库克海峡"></a>（3）库克海峡</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-ee3074415c795a112bbc715be3582ec2-sz_631673.png" alt="新西兰模拟图"></p>
+<p>库克海峡区域包括了南岛北部、北岛南部。从图中可以看到，惠灵顿虽然属于沿海城市，但似乎相对安全。那是因为惠灵顿背靠山峰，其山峰海拔多在200米以上。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-76b2b9dfbdf77feeaf371a742dcaa846-sz_704181.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-62cb3223ab780f9f3c97b8d802596f7a-sz_703462.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-2132874740097b054fb8934565e996d0-sz_705042.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-f7748d6851b1ac819cc2eb0b2cc81d84-sz_697335.png" alt="新西兰模拟图"></p>
+<p>大家可以看看惠灵顿西侧山峰的海拔，都是能够应付较大海啸的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a11c73a772ef8a9c708e9a83ba3290ea-sz_595160.png" alt="新西兰模拟图"></p>
+<p>我国有个地区的地形和这里类似，那就是辽宁大连。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-74fc27ef18af6371719010ccaab9ac25-sz_4926847.png" alt="辽宁模拟图"></p>
+<p>相对于平缓的营口市、盘锦市，在海平面上升40米时被淹没；背靠山峰的 大连 仍能实现在山上“钓鱼”。</p>
+<h2 id="（4）北岛北部"><a href="#（4）北岛北部" class="headerlink" title="（4）北岛北部"></a>（4）北岛北部</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-f265005f79849baab3ae5fae990b6648-sz_467292.png" alt="新西兰模拟图"></p>
+<p>北岛北部区域，本身就是峡湾地形，随着海平面上升模拟，逐渐“支离破碎”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-d685c4c95916337c47e0676d1f9cb58d-sz_469168.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-0809c7100ac387fced327c31a6541662-sz_482266.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-86c89c5f6bae905779eb6b9fde066b0c-sz_480823.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-90bb963464e4060193dfe36dbc7deb5e-sz_472148.png" alt="新西兰模拟图"></p>
+<p>奥克兰和汉密尔顿毫无疑问没能躲过50米的海啸。</p>
+<h2 id="（5）其它区域"><a href="#（5）其它区域" class="headerlink" title="（5）其它区域"></a>（5）其它区域</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-3c1e1dab9e86b46d98c5843cb52fa160-sz_597827.png" alt="新西兰模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-1f057afd27b85be4ec166750370894a4-sz_654869.png" alt="新西兰模拟图"></p>
+<p>补充两个区域在海平面上升200米的模拟图（如上）。已知全球冰盖融化，海平面最多上升70米；且每年海平面上升3.1毫米，因此上图的情况短时间不会发生，本次模拟也仅属于地理科普。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-3497b07847ce6259acd0ee4d4d1b7416-sz_161462.png" alt="中国科学院"></p>
+<p>至此，海平面上升模拟结束。</p>
+<h1 id="三、新西兰应对方式"><a href="#三、新西兰应对方式" class="headerlink" title="三、新西兰应对方式"></a><strong>三、新西兰应对方式</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-1af356c2d313714e01038322eeada1cd-sz_430953.png" alt="海平面上升示意图"></p>
+<p>我查看了些许关于新西兰面对海平面上升所制定的应对措施与相关论文。<em>“相比**之下， 我国很多沿海城市并没有足够重视海平面上升的问题， 规划编制对气候因素考虑甚少， 应对海平面上升、 风暴潮等极端气候事件的内容较少； 规划中经济发展目标往往优先于适应灾害影响的目标。 ”</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-d9c060fe4604c2eed5e445954cae10d9-sz_697509.png" alt="论文"></p>
+<p>因此， 本文通过模拟新西兰海平面上升，除了了解新西兰目前的处境，也能对中国沿海地区如何预防海水入侵起到参考作用。</p>
+<h1 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a><strong>四、总结</strong></h1><p>新西兰与中国面对海平面上升，所面临的危机是一样的。虽然新西兰是岛国，给人一种随时会沉没的感觉。但从模拟中也能看出来，<em><strong>新西兰面积26.8万平方公里，哪怕海平面上升50米，也仅是淹没新西兰约15%（40,203平方公里）的领土。仍有85%的土地可供躲避灾害；而中国会淹没9%左右的领土，但淹没面积却达到了86.4万平方公里，相当于目前三个新西兰的国土面积！且中国沿海有许多发达城市，集中了大部分人口。</strong></em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-0ed48c80f87e2fd07b71bbcee3aab8ab-sz_6585268.png" alt="中国海平面模拟"></p>
+<p><strong>小知识：</strong></p>
+<p>世界上第一个举国搬迁的国家-图瓦卢（Tuvalu）。图瓦卢是南太平洋的一个小岛国，国土面积约26平方公里，是世界上面积仅次于瑙鲁的第二小岛国，是国土面积仅高于梵蒂冈、摩纳哥和瑙鲁的世界第四小国家。因为海平面上升，而举国搬迁。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn">星球小捕手</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn/archives/8ab44317.html">http://blog.planetgis.cn/archives/8ab44317.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://blog.planetgis.cn" target="_blank">星球小捕手</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a><a class="post-meta__tags" href="/tags/%E5%9C%B0%E5%9B%BE/">地图</a><a class="post-meta__tags" href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5/">公众号同步</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87/">海平面上升</a><a class="post-meta__tags" href="/tags/%E6%96%B0%E8%A5%BF%E5%85%B0/">新西兰</a></div><div class="post-share"><div class="social-share" data-image="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="ads-wrap">true</div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/archives/cb17a7e4.html" title="越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-97cbe10b794f8f4045675f99deddbe34-sz_691199.jpeg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响</div></div><div class="info-2"><div class="info-item-1">从古代郡县设置、汉字文化圈的传播，到行政区划命名习惯，中国对越南地名的塑造深远而广泛。  我们知道，上海有南京路，南京有中山路，青岛有香港路，广州有北京路…然而相较于普通地名，行政地名更加注重规范，能传达出当地历史文化之深处信息。  越南与中国也存在诸多行政地区重名的现象，那么是什么原因导致的呢？  例如，中越两国均有“太原”、“河南”、“重庆”，接下来让我们一探究竟。 越南的行政区划我国行政区划由省级(省、中央直辖市)、地级(地级市)、县级(县级市、县)和乡级(镇、乡)组成。  而越南行政区划由Cấp tỉnh(省级)、Cấp huyện(县级)、Cấp xã(乡级)组成。其中“市”类似我国的“县级市”行政区。  越南58个有32个省的省名与首府城市同名，如“太原省太原市”“西宁省西宁市”“莱州省莱州市”等。而类似情况中国仅“吉林省吉林市”一例。 同级地名重名 跨级地名重名跨级重名是指不同行政级别的行政区划地名重名,包括省与市、市与市(地级市与县级市)、直辖市与县、县与省、县与市重名。  中国文化对越南的影响越南历史上作为中国郡县有千年之久，深受中国文化影响，“因而地名学方面,...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/archives/d4164891.html" title="模拟海平面上升对福建的影响：详细推演与未来风险分析"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-05b54a95c7e1539ef11f023d4fbb9c6f-sz_6674811.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-06</div><div class="info-item-2">模拟海平面上升对福建的影响：详细推演与未来风险分析</div></div><div class="info-2"><div class="info-item-1">福建依山傍海，海岸线曲折漫长，福州、厦门、泉州、漳州等经济重镇几乎都分布在沿海平原与港湾地带。 很多人觉得 “海平面上升” 是遥远的环境议题，却很少从地图和地形上认真想过： 如果海平面持续抬升，福建的沿海城区、港口、滩涂、河道会受到怎样的冲击？哪些地方最先被影响？这又会如何改变福建的城市格局与未来发展？ 这篇文章，我们用数据、地形与现实逻辑，详细聊聊：当海平面上升，福建会怎么样？  说明：  利用ArcGIS软件，对DEM高程数据进行洪水模拟。 本次模拟 福建省区域 的海平面上升情况。 效果仅供参考，且无不良引导哦。  一、福建省简介福建省，处中国东南沿海，东北与浙江省毗邻，西北与江西省接界，西南与广东省相连，东南隔台湾海峡与台湾省相望。     全省地势*西北高，东南低，呈依山傍海态势，境内山地、丘陵面积约占全省总面积的90%*。黄岗山是福建最高峰，海拔2160.8米。  地形图有年头了，请见谅 二、海平面上升模拟首先，选取福建省的高程dem数据。  从图中可以看到，福建沿海存在些许平地，越往内陆山越多，且山峰高度普遍海拔100米以上。接下来进行模拟。（备注：2020年1月，南...</div></div></div></a><a class="pagination-related" href="/archives/4d3706a7.html" title="模拟海平面上升，广东会变成什么样？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-337c348f09477d6a65467cab46df91f1-sz_824264.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-06</div><div class="info-item-2">模拟海平面上升，广东会变成什么样？</div></div><div class="info-2"><div class="info-item-1">打开卫星图你会发现，广东最繁华的地方，大多分布在沿海低洼地带。珠江三角洲地势平坦、河网密布，既是天赋宝地，也藏着巨大隐患。当全球海平面持续上升，这些低海拔区域会最先受到冲击。今天，我们从地理、城市、经济三个维度，完整还原：海平面上升后的广东，会变成什么样子？  说明： 1.利用ArcGIS软件，对DEM高程数据进行填洼与洪水模拟。 2.科学研究表面海平面最高上升70米左右。 3.本次研究区是广东。 4.效果仅供参考，且无不良引导哦。 一、海平面上升效果图先来看看效果图，随后再进行分析。         二、海平面上升分析首先，也许有人会好奇：手机显示我的位置海拔100米，但是为什么海平面上升100时我所在的城市没有被淹没呢？  我做了几次模拟，得到如下结论：  相同海拔，平原比丘陵更容易被淹没（山峰会阻挡部分洪水进入时间）；  相同海拔，且都是平原，离海岸线较近的城市优先被淹没；  由于我选择洪水（或者是海啸）是从南海出发，因此越往北淹没效果越差。    声明：科学研究表明，南北极冰盖融化海平面最多升高70米，因此该模拟仅为了反映广东地势地貌。 1.当海平面上升5米广东省中南侧区...</div></div></div></a><a class="pagination-related" href="/archives/e3550d68.html" title="东京海啸预警：如果超级海啸来临，东京会怎样？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-62fdb621937d4b633fc74d3859539948-sz_872627.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-06</div><div class="info-item-2">东京海啸预警：如果超级海啸来临，东京会怎样？</div></div><div class="info-2"><div class="info-item-1">在环太平洋地震带的边缘，日本永远站在海啸威胁的最前沿。 而东京 —— 这座人口超千万、经济高度密集、全球最繁华的都市之一，一旦遭遇超大型海啸袭击，将不再是电影里的灾难场景，而是关乎数千万人生命、社会秩序与国家未来的极端考验。从海岸线被瞬间吞没，到地铁、高架、电力与供水全面瘫痪，再到疏散、救援与次生灾害的连锁反应，巨型海啸来临的那一刻，东京究竟会面临什么？  2011年3月11日14时46分（北京时间13时46分）发生在西太平洋国际海域的里氏9.0级地震，震源深度约10公里。根据后续研究表明海啸最高达到23米。  也是这场灾难，导致了福岛核电站泄漏，危及全世界的安危。  而本文，将会模拟海啸淹没另一个区域：东京都市圈。  海啸模拟海平面上升前，需要先了解东京这个地方。 一、日本东京东京都市圈的人口数达3,800万，是目前全球规模最大的都会区。东京的GDP为全球第二，在2016年达9,730亿美元，而同时东京都会区（一都三县）则高达1.8万亿美元，若将东京视为一个国家，其GDP总量高于加拿大、韩国、俄罗斯等，位列世界第八。  地理位置  东京大致位置图 二、海平面上升模拟数据基于高程...</div></div></div></a><a class="pagination-related" href="/archives/17c71a11.html" title="回顾1998特大洪水：长沙当时到底有多险？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-b5ec489df206b5d9c24b15c7e8c417e4-sz_847239.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-02</div><div class="info-item-2">回顾1998特大洪水：长沙当时到底有多险？</div></div><div class="info-2"><div class="info-item-1">大家还记得1998年特大洪水吗？那是一场包括长江、嫩江、松花江等江河流域地区的大洪水。 据初步统计，包括受灾最重的江西、湖南、湖北、黑龙江四省，全国共有29个省（区、市）遭受了不同程度的洪涝灾害，受灾面积3.18亿亩，成灾面积1.96亿亩，受灾人口2.23亿人，死亡4150人，倒塌房屋685万间，直接经济损失达1660亿元。 湘江长沙段洪水1998年6月27日，湘江长沙段水位达到了39.18米，形势十分严峻。  我们不会以此话题为乐，吃人血馒头。而是带着记忆往昔，并伴随着一定的科研精神，试着模拟洪水上涨时长沙所面临的境况。 声明：本文无任何不良引导！ 洪水模拟长沙，位于湖南省东部偏北，湘江下游和长浏盆地西缘，境内地势起伏较大，地形以山地、岗地、平原为主，湘江穿市区而过。  本次模拟基于高程DEM数据，利用ArcGIS等软件进行模拟。长沙地形海拔如下图所示，最低海拔19米（湘江平均水面），最高海拔1833米，平均海拔180米。  2.当洪水上涨0米首先，大家可以观察一下长沙的地形（下图所示）。湘江穿城区而过，支流包括捞刀河、白沙河和浏阳河。湘江东部，有谷山森林公园（海拔362米）、...</div></div></div></a><a class="pagination-related" href="/archives/e629bf1a.html" title="海平面上升 10 米：中国沿海未来景象推演"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-2d4d239df990584821f44d8e425070ad-sz_2079771-ab52a2.jpeg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-02-13</div><div class="info-item-2">海平面上升 10 米：中国沿海未来景象推演</div></div><div class="info-2"><div class="info-item-1">一、中国沿海中国地形呈现西高东低的地势特征，呈三级阶梯状分布，地形类型多样且山区面积约占全国总面积的2&#x2F;3。  有想过制作动画、视频来呈现、模拟海平面上升的效果，但是说实在的步骤太繁杂，所以还是计划先通过文字入手，慢慢过渡到视频类。（视频呈现的效果是文字和图片无法比拟的，所以模拟海平面上升的视频还是会制作的） 二、海平面上升模拟说明：  其目的是反映 中国沿海 的地形地貌特征； 数据基于高程DEM，利用GIS等软件进行模拟、制图； 上升高度为10米（海拔）； 海平面每年上升4mm左右，全球冰盖融化至多上升70米；因此效果仅供参考，且无任何不良引导。   上图就是模拟海平面上升10米时，我国沿海被海水淹没的效果图。可以看到珠江三角洲（大湾区）、长江三角洲、江苏大部分区域、华北平原、辽宁沿海已经有区域被海水淹没了。下面是局部图。  先看看两广和海南。这三个省份中，广东省被淹没的情况最严重。其实宋朝时期，广州还是“沿海”城市，效果当然没有图中这么严重，但也可以看出大湾区的海拔并不算高。  再看看福建沿海。福建省不愧是森林覆盖率第一的省份，密密麻麻的山峰、丘陵，将大部分海水阻挡...</div></div></div></a><a class="pagination-related" href="/archives/fcf5b7c7.html" title="海平面上升 200 米，中国会变成什么样？淹没范围全景模拟"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d41250d1b063b54adc4df7581735cce9-sz_6908915-267998.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-02-08</div><div class="info-item-2">海平面上升 200 米，中国会变成什么样？淹没范围全景模拟</div></div><div class="info-2"><div class="info-item-1">一、海平面上升200米的世界这张图是海平面上升 200 米后的中国地形与淹没示意图，我国三大平原、沿海低地几乎全部被淹，仅高原、山地、高海拔盆地保留，海岸线大幅西退。  海平面上升 200 米属于极端理论假设，现实中全球冰盖全部融化，海平面仅会上升约 66 米，远低于 200 米；该图为地形科普示意，用于直观体现中国西高东低的三级阶梯地形对海平面上升的脆弱性差异，东部平原海拔普遍低于 200 米，是淹没高风险区，西部高原山地则具备绝对的地形安全优势。 二、模拟海平面上升说明：  其目的是反映 中国 的地形地貌特征； 数据基于NASA，利用专业制图软件进行模拟； 上升高度为200米（海拔）。  （1）东北区域 辽河平原：作为东北平原南部，直接与渤海连成一片，向南直连华北淹没区，辽宁中部平原完全沉入水下。三江平原：黑龙江、乌苏里江、松花江下游平原被海水倒灌淹没，与日本海北部水域连通。 图中标注的东北三大核心城市全部处于淹没区。 东北仅海拔高于 200 米的山脉、山地保留为连续陆地，成为孤岛状陆地块：  大兴安岭：西侧完整保留，东侧直接成为新海岸线； 小兴安岭：横亘在淹没区北部，成为半...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">星球小捕手</div><div class="author-info-description">用数据讲述地球变化，用地图发现世界的温度</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">46</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/plantcatcher"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">目前博客正在建设中，一天上传3篇文章，欢迎阅读~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%96%B0%E8%A5%BF%E5%85%B0"><span class="toc-text">一、新西兰</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87%E6%A8%A1%E6%8B%9F"><span class="toc-text">二、海平面上升模拟</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%88%90%E6%9E%9C%E5%9B%BE%E5%B1%95%E7%A4%BA"><span class="toc-text">1.成果图展示</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87%E5%88%86%E6%9E%90"><span class="toc-text">2.海平面上升分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%8D%97%E5%B2%9B%E5%8D%97%E9%83%A8"><span class="toc-text">（1）南岛南部</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%8D%97%E5%B2%9B%E4%B8%AD%E9%83%A8"><span class="toc-text">（2）南岛中部</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E5%BA%93%E5%85%8B%E6%B5%B7%E5%B3%A1"><span class="toc-text">（3）库克海峡</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%884%EF%BC%89%E5%8C%97%E5%B2%9B%E5%8C%97%E9%83%A8"><span class="toc-text">（4）北岛北部</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%885%EF%BC%89%E5%85%B6%E5%AE%83%E5%8C%BA%E5%9F%9F"><span class="toc-text">（5）其它区域</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%96%B0%E8%A5%BF%E5%85%B0%E5%BA%94%E5%AF%B9%E6%96%B9%E5%BC%8F"><span class="toc-text">三、新西兰应对方式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%80%BB%E7%BB%93"><span class="toc-text">四、总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/archives/8ab44317.html" title="海平面上升×地壳沉降：新西兰的双重沉没危机"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-a7a52fc7b9e51b5a0d73e4ab5a641e4c-sz_849553.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升×地壳沉降：新西兰的双重沉没危机"/></a><div class="content"><a class="title" href="/archives/8ab44317.html" title="海平面上升×地壳沉降：新西兰的双重沉没危机">海平面上升×地壳沉降：新西兰的双重沉没危机</a><time datetime="2026-03-07T11:55:51.000Z" title="发表于 2026-03-07 19:55:51">2026-03-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/cb17a7e4.html" title="越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-97cbe10b794f8f4045675f99deddbe34-sz_691199.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响"/></a><div class="content"><a class="title" href="/archives/cb17a7e4.html" title="越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响">越南太原、河南、重庆从哪来？一文看懂中国对越南地名的影响</a><time datetime="2026-03-07T11:50:01.000Z" title="发表于 2026-03-07 19:50:01">2026-03-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/9e4f9b5a.html" title="假想海平面下降100米，解锁北部湾海底的真实模样"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-07-7d49a43f4f5174d56a2a7363d32e93f9-sz_402674.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="假想海平面下降100米，解锁北部湾海底的真实模样"/></a><div class="content"><a class="title" href="/archives/9e4f9b5a.html" title="假想海平面下降100米，解锁北部湾海底的真实模样">假想海平面下降100米，解锁北部湾海底的真实模样</a><time datetime="2026-03-07T11:39:19.000Z" title="发表于 2026-03-07 19:39:19">2026-03-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/d4164891.html" title="模拟海平面上升对福建的影响：详细推演与未来风险分析"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-05b54a95c7e1539ef11f023d4fbb9c6f-sz_6674811.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="模拟海平面上升对福建的影响：详细推演与未来风险分析"/></a><div class="content"><a class="title" href="/archives/d4164891.html" title="模拟海平面上升对福建的影响：详细推演与未来风险分析">模拟海平面上升对福建的影响：详细推演与未来风险分析</a><time datetime="2026-03-06T08:18:39.000Z" title="发表于 2026-03-06 16:18:39">2026-03-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/e3550d68.html" title="东京海啸预警：如果超级海啸来临，东京会怎样？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-62fdb621937d4b633fc74d3859539948-sz_872627.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="东京海啸预警：如果超级海啸来临，东京会怎样？"/></a><div class="content"><a class="title" href="/archives/e3550d68.html" title="东京海啸预警：如果超级海啸来临，东京会怎样？">东京海啸预警：如果超级海啸来临，东京会怎样？</a><time datetime="2026-03-06T08:11:52.000Z" title="发表于 2026-03-06 16:11:52">2026-03-06</time></div></div></div></div><div class="card-widget ads-wrap">true</div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 星球小捕手</span></div><div class="footer_custom_text">「星球小捕手」感谢大家对地理的热爱~😆</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
