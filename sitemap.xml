@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/aab0dd71.html</loc>
+    <loc>http://blog.planetgis.cn/archives/c9ee72e3.html</loc>
     
     <lastmod>2026-03-11</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/c9ee72e3.html</loc>
+    <loc>http://blog.planetgis.cn/archives/aab0dd71.html</loc>
     
     <lastmod>2026-03-11</lastmod>
     
@@ -210,15 +210,6 @@
   
   <url>
     <loc>http://blog.planetgis.cn/tags/index.html</loc>
-    
-    <lastmod>2026-03-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/movies/index.html</loc>
     
     <lastmod>2026-03-03</lastmod>
     
@@ -524,15 +515,6 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/Gallery/index.html</loc>
-    
-    <lastmod>2026-03-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.planetgis.cn/archives/7ac24357.html</loc>
     
     <lastmod>2026-02-26</lastmod>
@@ -621,20 +603,6 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/GDP/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/tags/%E4%B8%AD%E5%9B%BD/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.planetgis.cn/tags/%E5%9C%B0%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -643,6 +611,20 @@
   
   <url>
     <loc>http://blog.planetgis.cn/tags/%E6%B9%96%E5%8D%97/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/GDP/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E4%B8%AD%E5%9B%BD/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -677,7 +659,7 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/%E5%9B%9B%E5%B7%9D/</loc>
+    <loc>http://blog.planetgis.cn/tags/%E6%B1%9F%E8%8B%8F/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -685,6 +667,20 @@
   
   <url>
     <loc>http://blog.planetgis.cn/tags/%E7%BE%8E%E5%9B%BD/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E5%9B%9B%E5%B7%9D/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E5%B9%BF%E8%A5%BF/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -727,6 +723,13 @@
   
   <url>
     <loc>http://blog.planetgis.cn/tags/%E5%A1%94%E5%85%8B%E6%8B%89%E7%8E%9B%E5%B9%B2%E6%B2%99%E6%BC%A0/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -796,14 +799,21 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/%E6%B1%9F%E8%8B%8F/</loc>
+    <loc>http://blog.planetgis.cn/tags/%E5%8D%AB%E6%98%9F/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/%E5%8D%AB%E6%98%9F/</loc>
+    <loc>http://blog.planetgis.cn/tags/%E6%96%B0%E8%A5%BF%E5%85%B0/</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/%E5%8F%B0%E6%B9%BE/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -824,28 +834,7 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/%E5%8F%B0%E6%B9%BE/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.planetgis.cn/tags/%E6%B8%A4%E6%B5%B7/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/tags/%E4%BC%8A%E6%9C%97/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/tags/%E6%96%B0%E8%A5%BF%E5%85%B0/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -859,14 +848,7 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/tags/%E5%B9%BF%E8%A5%BF/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.planetgis.cn/tags/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A/</loc>
+    <loc>http://blog.planetgis.cn/tags/%E4%BC%8A%E6%9C%97/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -896,14 +878,14 @@
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/categories/GIS%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://blog.planetgis.cn/categories/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.planetgis.cn/categories/%E9%97%B2%E8%81%8A/</loc>
+    <loc>http://blog.planetgis.cn/categories/GIS%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
