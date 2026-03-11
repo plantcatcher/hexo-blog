@@ -3001,4 +3001,206 @@
         <tag>广西</tag>
       </tags>
   </entry>
+  <entry>
+    <title>海平面上升模拟：广西丘陵，成了天然“护城堤”！</title>
+    <url>/archives/e85ac511.html</url>
+    <content><![CDATA[<p>如果海平面持续上升，中国哪些地方最先被淹？很多人第一时间想到沿海平原，却很少有人注意到 ——<strong>广西的丘陵，正在悄悄成为一道天然防线</strong>。在一次次海平面上升模拟中，这片看似普通的地形，竟然立下了大功。</p>
+<hr>
+<h1 id="一、广西地形简介"><a href="#一、广西地形简介" class="headerlink" title="一、广西地形简介"></a><strong>一、广西地形简介</strong></h1><p>广西地处中国地势第二台阶中的云贵高原东南边缘，两广丘陵西部，南临北部湾海面。西北高、东南低，呈西北向东南倾斜状。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-12b4a60bf2ae7651ca4557224f3ad495-sz_867276.png" alt="广西地形图"></p>
+<p>桂北有凤凰山、九万大山、大苗山、大南山和天平山；桂东有猫儿山、越城岭、海洋山、都庞山和萌渚岭；桂东南有云开大山；桂南有大容山、六万大山、十万大山等；桂西为岩溶山地；桂西北为云贵高原边缘山地，有金钟山、岑王老山等。内部山脉有两列，分别是东北一西南走向的架桥岭、大瑶山和西北一东南走向的都阳山、大明山，两列大山在镇龙山交会。 <strong>广西地区的海拔最高点为桂林的猫儿山，海拔高达2141.5米，是华南第一高峰。</strong></p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li>数据基于高程DEM，利用ArcGIS软件进行制图；</li>
+<li>模拟海平面上升淹没，效果仅供参考；</li>
+<li>无任何不良引导。</li>
+</ol>
+<p>接下来，让我们看看海平面未上升的状态。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-5881e37a64f94f876b6e9a15ef1f02bc-sz_7781120.png" alt="广西模拟图"></p>
+<p>从图中可以看到广西沿海地区分布着三个地级市，分别是北海、钦州、防城港，而南部这片海就是北部湾。</p>
+<h2 id="1-当海平面上升10米"><a href="#1-当海平面上升10米" class="headerlink" title="1.当海平面上升10米"></a><strong>1.当海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-f223996e163d25a8104882883d4ff690-sz_8221495.png" alt="广西模拟图"></p>
+<p>当海平面上升10米，可以看到北海 海拔10m、钦州 海拔9m、防城港 海拔11m，部分区域被海水淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-2f5900e9ac6cb3a9494e2da1072d0fd4-sz_967003.png" alt="广西模拟图"></p>
+<p>与此同时，越南已经被海水吞没大量土地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-61f9cd52f86116c7fbd3e2c88aedaa8d-sz_729732.png" alt="img"></p>
+<h2 id="2-当海平面上升20米"><a href="#2-当海平面上升20米" class="headerlink" title="2.当海平面上升20米"></a><strong>2.当海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-2acc9d3cb09f102c34a42918d7bc2e89-sz_8240124.png" alt="广西模拟图"></p>
+<p>可以看到越南被海水漫延挺严重的，但本次模拟重点分析广西地区，因此把目光收回来。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-362d75fc58d20ab34cace8da1c5f6cd4-sz_864957.png" alt="广西模拟图"></p>
+<p>海平面上升从10米上升到20米，可以看到北海、钦州、防城港进一步被淹没；留意到那雾山森林公园（海拔416m），在钦州和北海之间。</p>
+<h2 id="3-当海平面上升40米"><a href="#3-当海平面上升40米" class="headerlink" title="3.当海平面上升40米"></a><strong>3.当海平面上升40米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-ea1d42be0c8dade89eba229dd34c8aea-sz_8201708.png" alt="广西模拟图"></p>
+<p>当海平面上升40米，海水兵分两路朝着广西内陆进发。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-d69b196c0236952690cea211a66c329f-sz_961107.png" alt="广西模拟图"></p>
+<p>首先，让我们观察一下“两路”的地形。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-33f2d32956b62164c9f6630a57e7e14b-sz_2326781.png" alt="img"></p>
+<p>可以看到，其中一路海水，将沿着钦江水路，一路前进到达钦江的源头：广西灵山县平山镇白牛岭。而另一路海水，会穿过丘陵地带，沿着各种细小支流前进。</p>
+<h2 id="4-当海平面上升80米"><a href="#4-当海平面上升80米" class="headerlink" title="4.当海平面上升80米"></a><strong>4.当海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-cae9f9ed49b1b39e4aa06b2c86b98d5a-sz_8628617.png" alt="广西模拟图"></p>
+<p>当海平面上升80米，我们从三个区域进行分析：钦州、玉林、梧州。</p>
+<h3 id="（1）钦州区域"><a href="#（1）钦州区域" class="headerlink" title="（1）钦州区域"></a><strong>（1）钦州区域</strong></h3><p>首先看钦州区域。海水从各个地方想要前往南宁（海拔78米左右），但为什么海水进不去呢？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-1211cd8f770437d75b5e41ed320faba1-sz_907589.png" alt="广西模拟图"></p>
+<p>解释1.丘陵阻挡了海水的前进。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-b7e7fca8ccbcff5604c4609ce4c84853-sz_2014556.png" alt="广西三维"></p>
+<p>或许有人会觉得牵强，不相信会有如此密不透风的丘陵，使得一点海水都进不去。那么，请看下面这张广西流域图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-2a21eb1504ab91e76a5da404ee3fbd51-sz_1082226.png" alt="img"></p>
+<p>桂南沿海河流流域 和 珠江流域 的分界线，正式前面图中所标注的山岭。水往低处流，因此可以想象横贯钦州和南宁之间的山岭海水很高的。</p>
+<p>解释2.数据精度不够</p>
+<p>在这里就牵扯到高程地形DEM数据的精度问题了。由于模拟的是整个广西省的淹没效果，因此哪怕存在细小河谷允许海水穿过，在本次模拟中也显现不出来。</p>
+<h3 id="（2）玉林区域"><a href="#（2）玉林区域" class="headerlink" title="（2）玉林区域"></a><strong>（2）玉林区域</strong></h3><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-4c9d618b06762c3ca806985231ac621a-sz_934738.png" alt="广西模拟图"></p>
+<p>从图中可以看到，海水40米时还没到浦北县，当上涨到80米时，海水沿着南流江一路北上，穿过博白县直达玉林城区。有部分海水从另一路试图进入陆川县（海拔100m）,但此时刚到乌石镇。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-3b674d1e3799efb3a5621ed99cac5bfe-sz_1039807.png" alt="img"></p>
+<h3 id="（3）梧州区域"><a href="#（3）梧州区域" class="headerlink" title="（3）梧州区域"></a><strong>（3）梧州区域</strong></h3><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-df07051002139f67a89a370470b07f99-sz_1271215.png" alt="广西模拟图"></p>
+<p>梧州怎么个事儿呢？海水从广东倒灌进入梧州市区。或许有人会疑惑，梧州海拔才28米，不应该是早就被淹了吗？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-20fd92d772f24b02ddb49442af48ceb3-sz_711002.png" alt="img"></p>
+<p>其实，在之前对广东进行海平面上升模拟时就发现，丘陵对海水有一定阻挡作用，延缓内陆城市被淹没的时间。（感兴趣可跳转查看广东海平面上升模拟）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-9c18c649a27c2884dbc141f5e7b572d0-sz_4690617.png" alt="广东模拟图"></p>
+<p>由于丘陵地形的阻隔，海水唯一前进方式，就是从河流处倒灌。从上图也可以看到，梧州、贵港中部凹地也被水淹了，那是因为倒灌的海水将其填满了。</p>
+<h2 id="5-当海平面上升100米"><a href="#5-当海平面上升100米" class="headerlink" title="5.当海平面上升100米"></a><strong>5.当海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-befb77ad41dd799fd08724b12754c10f-sz_8209399.png" alt="广西模拟图"></p>
+<p>理论来说，这个海平面高度下，贵港（海拔50米左右）、南宁（海拔70米左右）早就被淹没了。但海水没有从河流处倒灌，<em>只能当作是数据误差了，因此100米高度的效果仅供参考。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-7cbd4dca0200f74877e9d5dcb001eafe-sz_863011.png" alt="img"></p>
+<p>另外，贺州海拔108m并未被海水淹没，这部分区域模拟效果正常。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-a78160241190d7173a8c4b5d1dca699e-sz_752581.png" alt="img"></p>
+<h2 id="6-当海平面上升140米"><a href="#6-当海平面上升140米" class="headerlink" title="6.当海平面上升140米"></a><strong>6.当海平面上升140米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-89a212cd16845fcdf37ae4c44654fb38-sz_8316333.png" alt="广西模拟图"></p>
+<p>随着强度上升，当海平面上升140米。海水终于是突破钦州区域、梧州区域的防线，进入南宁；随后，向北淹没来宾、柳州；向西淹没百色、崇左。（至于是100-140米之间哪个高度被突破的，并不是很清楚。）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-eef1fc9235e229a0e7da3f92ad892686-sz_1268329.png" alt="广西模拟图"></p>
+<p>几个地级市的海拔高度如下：</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-029e57a4884e5db016cabc399df5b811-sz_634773.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-912f76a68216df12283ac7d91cb5994b-sz_668318.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-2026-03-11-2cfe209fc1b8c056c859bec7a5a4e9b2-sz_609957.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-897a4f9dc2a52085e674809ddb1bbb68-sz_757304.png" alt="img"></p>
+<h2 id="7-当海平面上升200米"><a href="#7-当海平面上升200米" class="headerlink" title="7.当海平面上升200米"></a><strong>7.当海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-93b8bb78959d30b0dbdf08fa036b284a-sz_8265656.png" alt="广西模拟图"></p>
+<p>在这个高度下，广西所有地级市终是都和海水相遇了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-c573ef284cffe0278721f5af1c40bf89-sz_561337.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-c824a6464541ff82e8fc93f852cc7e1c-sz_673543.png" alt="img"></p>
+<p>至此，海平面上升模拟、分析结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>模拟效果不是很让人满意，但用于反映广西地形地貌特征，却也是不错了。<strong>本次模拟的初衷，就是希望通过海平面上升模拟，反映广西地形地貌特征。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-1bc84291df43b5d6ef8a28a695c939e4-sz_1377698.png" alt="广西三维地形图"></p>
+<p>广西不少山上是存在海洋生物化石的，也就是说，曾几何时广西部分区域还是海洋。</p>
+<p>丘陵虽然“阻挡”了海水的入侵，但似乎也阻碍了广西的发展。同是丘陵众多的福建，沿海城市如福州、厦门却发展得很好，这不仅让我们思考北部湾要如何才能破局。“平陆运河”作为国家战略，能否给广西带来新的生机，让我们拭目以待。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>广西</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>把海水引入澳大利亚沙漠，真能造出超级内陆湖？</title>
+    <url>/archives/aab0dd71.html</url>
+    <content><![CDATA[<p>如果把海水引入澳大利亚的广袤沙漠，真能凭空造出一片巨大内陆湖，甚至改变整个大陆气候吗？这个听起来像科幻的设想，其实早已被多次提出。但理想很丰满，现实真的可行吗？</p>
+<hr>
+<h1 id="一、缘起"><a href="#一、缘起" class="headerlink" title="一、缘起"></a><strong>一、缘起</strong></h1><p>不知有多少人和我一样，当看到澳大利亚本土中间这片黄色沙漠时，产生过“为什么不引水灌溉沙漠”的念头。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-8ad4e1852c60abe6ee0d537ba03530e8-sz_694452.png" alt="澳洲卫星图"></p>
+<p>首先，我们需要了解澳大利亚的地形和气候。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-a6845f7e54f91deaef4fd489ba1898c0-sz_327261.jpeg" alt="澳洲地形图"></p>
+<p>澳大利亚大陆的地形可以分为东部、中部和西部三个不同的地形分布区。<strong>东部</strong>的地形单元是大分水岭，澳洲人口多集中在东侧沿海；<strong>中部</strong>是平原，海拔在200米以下，其中埃尔湖（Lake Eyre）是最低点（-12米），以此为中心的大平原为大自流盆地；<strong>西部</strong>是海拔200~500米的低高原，多分布沙漠和半沙漠。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-16116deb7a478a7bed9b5ea3084ab81b-sz_415111.png" alt="澳洲气候图"></p>
+<p>澳大利亚东部高大的山地南北长4500千米、高1000多米，东坡陡西坡缓，又紧逼东海岸，阻挡了东南信风从东面太平洋的暖湿气流，使东坡多雨（图中亚热带温润气候，紫色区域）、西坡干旱少雨。中部平原纵贯南北有利于南北气流之运行，使中部内陆盆地并不是滴雨不下的沙漠之地。</p>
+<h1 id="二、为澳洲创造“内陆湖”？"><a href="#二、为澳洲创造“内陆湖”？" class="headerlink" title="二、为澳洲创造“内陆湖”？"></a><strong>二、为澳洲创造“内陆湖”？</strong></h1><p>通过海平面上升模拟，当海平面上升50米，可以看到澳大利亚中部的 <strong>大自流盆地</strong> 被海水倒灌，形成了一个“内陆湖”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-e80d857c42ca6cad47dc7499aefa75ed-sz_2271804.png" alt="澳洲模拟图"></p>
+<p>那么，从 大自流盆地 向南挖条运河直通海洋，可不可行？朴素的理论是，哪怕海水不能进行灌溉，但大量的海水涌入盆地，或许能改变沙漠气候？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-3ccfe80b49802cbfd07adb655741cafe-sz_4636909.png" alt="img"></p>
+<p>从 艾尔湖 到 澳洲南部沿海，全程500公里；平陆运河 全程134.2千米；巴拿马运河 全长81.30千米；我国古代的京杭大运河长度1710千米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-1107ab8abd16a6111d3a435cb212670a-sz_39075.png" alt="img"></p>
+<p>然而，不得不面对的现实是，“海水倒灌工程”似乎没必要。其一，截至2024年3月，澳大利亚总人口为2712万人，地广人稀；其二，环境保护人士不允许，环评难通过；其三，工程量过于巨大；其四，<strong>几十年前已经有相似的工程了</strong>。</p>
+<p>什么，已经有相似工程了？没错，那就是澳大利亚的<strong>“雪山工程”</strong>。</p>
+<h1 id="三、雪山工程"><a href="#三、雪山工程" class="headerlink" title="三、雪山工程"></a><strong>三、雪山工程</strong></h1><p>雪山工程，澳大利亚雪山跨地区调水工程，该工程位于澳大利亚大陆东南部，主要目的是将东部的水调至西部干旱地区引水灌溉和发电。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-3defd72b6b21845fe64f7ee32eb84cdb-sz_2116451.png" alt="img"></p>
+<p>雪山调水工程于1949年开工建设，从1955年开始就有单项工程投入运行，历时25 年全部竣工（1974年），建造的 225 公里的隧道、管道和渡槽。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-bfd08b467bcec4990baacde3768598d7-sz_53287.jpeg" alt="img"></p>
+<p>雪山工程是澳大利亚最大的一项水利建设工程。早在20世纪初，曾提出多种建设方案，但工程浩大，未能实现。第二次世界大战以后，由于电力与粮食、畜产品需求的增加，急需开发水力资源与修建灌溉工程，联邦政府于1949年通过了”雪山水电法”，随后又成立了雪山水电局，才开始实施这项工程。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-eda576511c180634995111c47bee7a2b-sz_209002.png" alt="img"></p>
+<p>本工程协调运用的目标，是在法律与自然约束条件下优化利用雪山融水来发电和灌溉，且是在电力、粮食短缺的背景下进行的。如今，没有了当初的背景前提，要想实现海水倒灌填湖，这种耗时耗力、对环境严重破坏、且收效甚微的“设想”，无疑是天方夜谭。</p>
+<h1 id="四、南水北调工程"><a href="#四、南水北调工程" class="headerlink" title="四、南水北调工程"></a><strong>四、南水北调工程</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-75f108ca16dd4c61d489c545f7b11aa3-sz_134887.png" alt="img"></p>
+<p>在知网稍稍搜寻，会发现有许多关于“南水北调”的资料。其中文献20571篇、期刊13558篇、学位论文1069篇、会议1084篇、专利130篇……不一而足。</p>
+<p>其实，任何一个工程，都要经过可行性研究、环境影响评估、项目审批、设计与规划、招投标、施工准备与建设、竣工验收、运行维护、后期评价等。</p>
+<h1 id="五、最后想说"><a href="#五、最后想说" class="headerlink" title="五、最后想说"></a><strong>五、最后想说</strong></h1><p>最后想要说的就是，我们知道许多地理假设并不现实，但如果这些“假设”能启发创造力、保持对世界的好奇心，却不失为一个好的念头。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-f027fc81f3ec94e59e8cddbe97659031-sz_4196417.png" alt="img"></p>
+<p>澳大利亚 艾尔湖</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>澳大利亚</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面下降模拟：末次冰期的中日陆桥是否存在？</title>
+    <url>/archives/c9ee72e3.html</url>
+    <content><![CDATA[<p>如果海平面大幅下降，回到冰河时代，我们能不能直接走路去日本？很多人以为中日之间隔着茫茫大海，永远不可能相连。但地质与海平面模拟告诉我们：在数万年前的冰河期，答案或许超乎你想象。</p>
+<hr>
+<h1 id="一、冰河时期的启发"><a href="#一、冰河时期的启发" class="headerlink" title="一、冰河时期的启发"></a><strong>一、冰河时期的启发</strong></h1><p>首先，让我们看看这张全球地形图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-abe3ae73ec260285e72d4cbb10999e70-sz_262109.jpeg" alt="冰河时期地图"></p>
+<p>是不是感觉怪怪的？没错，这是大约在21000 年前的末次冰盛期的全球地图。</p>
+<p>冰河时代（冰河时期）是地球表面和大气温度长期下降，导致大陆和极地冰盖以及山地冰川的增长。在上一个冰河时代，地球表面约有三分之一被冰覆盖。<strong>当时海平面比现在低约 125 米。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-2d4be2247aa0762a90ebff472d539943-sz_159350.jpeg" alt="冰河时期亚洲"></p>
+<p>而当时的 <strong>东海</strong> 海岸线如图所示。可以看到 中国 与 韩国 已经相连；但 朝鲜半岛 和 日本 仍隔着对马海峡。所以结论是：并不一定相连（但不排除海面结冰导致的“相连”）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-b27e4701fd985f9871ccd138553eb00f-sz_523461.png" alt="对马海峡"></p>
+<p>在查阅了相关论文后，越发对 东海陆架 好奇，因此产生了模拟海平面下降的想法。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-be93b1ede8fc47214f0d646060877d4d-sz_79160.png" alt="img"></p>
+<p>那么，接下来让我们开始模拟海平面下降。</p>
+<h1 id="二、海平面下降模拟"><a href="#二、海平面下降模拟" class="headerlink" title="二、海平面下降模拟"></a><strong>二、海平面下降模拟</strong></h1><p>先了解一下，当前中国东部海域的大致情况。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-5c8ecebb65c22c48702afb44abc023b7-sz_493683.png" alt="东海地形"></p>
+<p>中国东部海域，向外延申40 - 400km左右，水深能下降50米（图中浅蓝色区域），因此我国沿海水域<strong>并没有</strong>特别的深。</p>
+<h2 id="1-当海平面下降10米"><a href="#1-当海平面下降10米" class="headerlink" title="1.当海平面下降10米"></a><strong>1.当海平面下降10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-8c15f340b56fb6d6253c7d0b056bba21-sz_7474791.png" alt="东海模拟图"></p>
+<p>当海平面下降10米，海岸线后移较明显的有 渤海、上海、杭州和江苏盐城区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-52d9809f5150a21ee579776855ca4813-sz_654140.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-b7618a2387e36d08ae6ee9221379c7fb-sz_512977.png" alt="img"></p>
+<h2 id="2-当海平面下降20米"><a href="#2-当海平面下降20米" class="headerlink" title="2.当海平面下降20米"></a><strong>2.当海平面下降20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-e7046a86fa0109c4af6cd7c9c8570f79-sz_7483650.png" alt="东海模拟图"></p>
+<p>海平面下降20米，海岸线移动最大的区域是江苏盐城。岸线后退了150km左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-19fb0551e830d51e31ef3e0dab7341c8-sz_414080.png" alt="img"></p>
+<h2 id="3-当海平面下降50米"><a href="#3-当海平面下降50米" class="headerlink" title="3.当海平面下降50米"></a><strong>3.当海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-0bc771d06095ca6e9a9b7e8461610186-sz_7514769.png" alt="东海模拟图"></p>
+<p>此时，渤海 海水几乎被“排干”（不考虑黄河等河流的影响）。而 上海 海岸线差不多后退了342km。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-b08694d571893d5fb3ddb7d57167188c-sz_380959.png" alt="img"></p>
+<p>下降效果图叠加如图所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-3f7ac98da1d243f45a5144157e9d9121-sz_483030.png" alt="img"></p>
+<h2 id="4-当海平面下降80米"><a href="#4-当海平面下降80米" class="headerlink" title="4.当海平面下降80米"></a><strong>4.当海平面下降80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-90f1ab247899ee56df9e32cef4667098-sz_7685805.png" alt="东海模拟图"></p>
+<p><strong>根据国家海洋法公约，200海里（约370km）以外的大陆架为“外大陆架”。</strong>当海平面下降80m，最宽处岸线后退373km左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-a513f63bfa46f233b3ecfa689d8baad9-sz_374271.png" alt="img"></p>
+<p>东海大陆架是中国领土向中国东海的自然延伸，最宽处位于上海东南方向约600多公里处。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-a578071e70798093fd30a23ae4b87e7c-sz_200246.png" alt="img"></p>
+<p>东海大陆架多数地方坡度平缓，延伸至冲绳海槽一带，大部分沉积物来自中国。<strong>根据国际法，中国在东海大陆架具有排他性主权。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-ad4f7be8c2d02084445cdfc1b337bda5-sz_553810.png" alt="img"></p>
+<h2 id="5-当海平面下降100米"><a href="#5-当海平面下降100米" class="headerlink" title="5.当海平面下降100米"></a><strong>5.当海平面下降100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-1bd138b21152ccc46c257db579aecda8-sz_7746775.png" alt="东海模拟图"></p>
+<p>当海平面下降100米，朝鲜半岛 和 山东半岛 畅通无阻；韩国 济州岛 与 陆地 相连；黄海消失，取而代之的是……黄海平原？</p>
+<h2 id="6-当海平面下降120米"><a href="#6-当海平面下降120米" class="headerlink" title="6.当海平面下降120米"></a><strong>6.当海平面下降120米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-f823e15c56d88caa05673304725a5f27-sz_7805211.png" alt="东海模拟图"></p>
+<p>此时，不得不给大家展示下面这张图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-c028b863fbd153b77fe55a0d5cf69aaa-sz_491386.png" alt="古东海"></p>
+<p>这张图详细的显示了冰河时期，我国东海海域的海岸线状况（包括古河流）。</p>
+<p>当海平面下降120m，效果就和冰河时期的中国东海区域效果类似。至此，海平面下降模拟结束。</p>
+<h2 id="7-当海平面下降叠加图"><a href="#7-当海平面下降叠加图" class="headerlink" title="7.当海平面下降叠加图"></a><strong>7.当海平面下降叠加图</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-6cfb5a79b4d28f6d88e1dc08430943f8-sz_6764287.png" alt="东海模拟图"></p>
+<p>其实，我是按每10米的间隔模拟海平面下降，得到上面这张叠加图。但考虑到部分深度不明显，因此挑选了变化较大的成果图进行分析。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>每次海平面模拟，总是基于对地理的好奇心，本次下降模拟亦是如此，希望大家看的开心。（另外，再补充中国南海、澳洲和欧洲 冰河时期的地形图）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-c9deda349a6b3eb3477c7c8b06cc79bd-sz_1400579.png" alt="东南亚"></p>
+<p>中国南海</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-4519bfcd3537480889aa667a9c3ca876-sz_1148000.png" alt="澳大利亚"></p>
+<p>澳洲</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-11-38e421b0dab032f75c06ccd0c3282cfe-sz_895529.png" alt="欧洲"></p>
+<p>欧洲</p>
+<p>希望大家也能对这颗蓝色星球保持好奇心，此致敬礼。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>日本</tag>
+        <tag>中国</tag>
+        <tag>海平面下降</tag>
+      </tags>
+  </entry>
 </search>
