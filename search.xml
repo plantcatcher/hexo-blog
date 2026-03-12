@@ -3203,4 +3203,225 @@
         <tag>伊朗</tag>
       </tags>
   </entry>
+  <entry>
+    <title>海平面上升模拟：日本全境会被淹没多少？</title>
+    <url>/archives/aba8fa7f.html</url>
+    <content><![CDATA[<p>当我们谈论全球变暖、海平面上升，很多人只觉得是遥远的未来议题。可如果把海平面上升的数值，叠在日本真实的地形与人口分布上，画面会瞬间变得无比直观。作为一个多山、多沿海平原、人口高度集中在湾区的岛国，日本对海平面变化格外敏感。</p>
+<p>海水每上涨一米，都在改写海岸线；上涨几十米，足以重塑整个国家的地理轮廓。这不是灾难片桥段，而是基于真实海拔数据的推演 ——<strong>海平面上升，日本究竟会面临什么？</strong></p>
+<hr>
+<h1 id="一、日本沉没？"><a href="#一、日本沉没？" class="headerlink" title="一、日本沉没？"></a><strong>一、日本沉没？</strong></h1><p>早在前些年，有一本科幻小说很火爆，叫<strong>《日本沉没》</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-b3379a199e64b2fedc4b1e12c2afc910-sz_91493.png" alt="日本沉没"></p>
+<p><strong>我国著名科幻小说家刘慈欣就曾坦言：</strong></p>
+<blockquote>
+<p> <em>“日本科幻对我的影响很大。具体到《三体》，其实受了《日本沉没》巨大的影响。我看《日本沉没》后很震惊，一部科幻作品竟然能把一个民族深处最敏感、脆弱的对未来的恐惧感体现出来，我就想写一部中国的《日本沉没》。”</em></p>
+</blockquote>
+<p>但科学研究表明，日本所处板块呈上升趋势，所以所谓“日本沉没”，不太可能是板块下沉。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-d519a9f90c0fa68e1ec590e0a50e2d20-sz_22856.jpeg" alt="亚洲板块"></p>
+<p>还可能是什么呢？地震引发海啸，淹没沿海城市；海平面上升，淹没日本大陆。</p>
+<p>在查阅资料过程中，收集到日本大地震（2011年3月11日 ）的震级数据，我将其制成了专题图（如下）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-69914ae6720f1a8407b7075940052ee9-sz_6142912.png" alt="2011年日本大地震局部"></p>
+<p>随后，找到<strong>“活火山”</strong>分布数据，也做成了专题图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-6e11b18003790c636ddace5dacc21c1f-sz_414549.png" alt="日本活火山"></p>
+<p>在国外GIS资料库中，我还找到了很多日本人制作的地理数据（如下），不得不说，“达摩克利斯之剑”一直困扰着日本。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-d44021eef64d3b4444a52c0896a84131-sz_28879.png" alt="img"></p>
+<p>为了满足好奇心，我对 日本区域 海平面上升模拟。下面就是我模拟的 成果图 与 内容分析。</p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><p>我会先展示一幅效果图，进行分析；针对部分区域进行放大处理，并海平面效果叠加分析。</p>
+<h2 id="1-当海平面上升0米"><a href="#1-当海平面上升0米" class="headerlink" title="1.当海平面上升0米"></a><strong>1.当海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-757852ce7f8cc468c2a3a00326c414d4-sz_7668806.png" alt="日本模拟图"></p>
+<p>这是日常地图看到的效果，我将海水的透明度调低，大家应该可以隐约看到海底的地形地貌特征。</p>
+<h2 id="2-当海平面上升10米"><a href="#2-当海平面上升10米" class="headerlink" title="2.当海平面上升10米"></a><strong>2.当海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-6f13e816cc9f64e04bc956d906b4b41d-sz_7691325.png" alt="日本模拟图"></p>
+<p>当海平面上升10米，似乎没什么变化？放大几个区域看看。首先，观察关东平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-7d6b99c2421f4e21bb82836375da2768-sz_80224.jpeg" alt="img"></p>
+<p>（该图来源于网络）</p>
+<p>关东平原，地势平坦，海水较容易漫延。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-2aa628e9e6f2af08b849d227a3b32055-sz_686133.png" alt="日本模拟图"></p>
+<p>上升10米，海水从东京湾、茨城县（东南沿海） 漫延至内陆，且两股海水即将汇合。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-1fdf3a82dd360b43ff9b55a36902e08a-sz_1009828.png" alt="日本模拟图"></p>
+<p>大阪区域，大阪城区被淹没，海水沿着 <strong>淀川</strong> 倒灌，即将进入京都盆地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-49481b7d8882a15cd762f49f20596301-sz_856674.png" alt="日本模拟图"></p>
+<p>北海道札幌区域，札幌中心城区差点被淹没，沿海的石狩市受灾严重。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-6e777653b3d5ebca70d2b0377953d5eb-sz_585933.png" alt="日本模拟图"></p>
+<p>九州区域，西侧受灾比东侧严重。熊本、长崎、佐贺均有不同程度受灾，其中佐贺市淹没较为严重。</p>
+<h2 id="3-当海平面上升20米"><a href="#3-当海平面上升20米" class="headerlink" title="3.当海平面上升20米"></a><strong>3.当海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-565adde68453295283c248799eceba31-sz_7706533.png" alt="日本模拟图"></p>
+<p>当海平面上升20米，被淹没区域的范围进一步扩大，下面看 京都 和 差点被遗忘的名古屋。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-9bdf2c1259bd851a1ea92da6e77ea8f6-sz_1055198.png" alt="日本模拟图"></p>
+<p>当上升10米时，名古屋淹没区域已经大于大阪；当上升20米时，受限于地形外扩幅度不大。而京都方面，海水穿过 丹波高地 和 生驹山地 之间的空隙，进入京都盆地，开始往京都中心漫延。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-b851d7317bf0aee0ec2d03d59b3dcaa1-sz_1828471.png" alt="img"></p>
+<p>（该图来源于网络）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-15d3170f370a7cfe3a895b587bb97c80-sz_829624.png" alt="日本模拟图"></p>
+<p>札幌区域，海水从南北两侧向中部延伸，即将把北海道分成两部分。</p>
+<h2 id="4-当海平面上升50米"><a href="#4-当海平面上升50米" class="headerlink" title="4.当海平面上升50米"></a><strong>4.当海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-c4e50ed23f576cb942c9b68f8c501abb-sz_7713744.png" alt="日本模拟图"></p>
+<p>我们接着先观察 东京平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-5d06d31d9af7d679cf6892f0207217b7-sz_995618.png" alt="日本模拟图"></p>
+<p>海水一路向北，在足尾山地分成两股，往西冲向高崎市，往东北冲向宇都宫市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-fb57a3b85e5d2ff6c0e617578ada8d0e-sz_900893.png" alt="日本模拟图"></p>
+<p>当海平面上升50米，海水从福冈和久米留市两个方向出发，在中部将 九州本土 分成两部分。</p>
+<h2 id="5-当海平面上升100米"><a href="#5-当海平面上升100米" class="headerlink" title="5.当海平面上升100米"></a><strong>5.当海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-e06b14afefd4fc8217aab336dcb2f494-sz_7715596.png" alt="日本模拟图"></p>
+<p>关东地区、关西地区、九州和北海道札幌的淹没范围扩大；此时，让我们把目光放到下地方：秋田和仙台。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-83cc52a78c068eed0c665f049d29aaf0-sz_989756.png" alt="日本模拟图"></p>
+<p>当海平面上升100米，海水分别从秋田和仙台开始，往内陆漫延，但此时并没有汇合。</p>
+<p>接下来….我国辽宁省地区？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-6f653bbe92e8cc58263925819422eb83-sz_815924.png" alt="辽宁模拟图"></p>
+<p>关于辽宁，有单独模拟，感兴趣可以跳转查看：</p>
+<h2 id="6-当海平面上升200米"><a href="#6-当海平面上升200米" class="headerlink" title="6.当海平面上升200米"></a><strong>6.当海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-8e358886e021509f758a9560385f61c4-sz_7705412.png" alt="日本模拟图"></p>
+<p>这个高度就不进行分析了，直接放 局部地图 自己查看即可。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-7641969759cf3e79dbc39572649439f3-sz_439272.png" alt="日本模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-aa975eeaf0effe0f641eb0a54aa56c07-sz_696525.png" alt="日本模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-d992dd466edff8b8fdc21e44126f9a1e-sz_628256.png" alt="日本模拟图"></p>
+<p>另外，再放一版朝鲜半岛（上涨200米）的局部图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-23ff9a159cdbb38e766a1fdcbd36387d-sz_546693.png" alt="朝鲜模拟图"></p>
+<h2 id="7-当海平面上升500米"><a href="#7-当海平面上升500米" class="headerlink" title="7.当海平面上升500米"></a><strong>7.当海平面上升500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-18eab34cf0d2a92dad47a212d41c51b6-sz_7566098.png" alt="日本模拟图"></p>
+<p>同样，看效果图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-f0bb2ce76cd79e12ad4b67675b22a22a-sz_438105.png" alt="日本模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-b019f204bbc9b94c556a9eb0aaa4578b-sz_467687.png" alt="日本模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-78cf79b6efa8d634fc7ce35ab9238137-sz_607084.png" alt="日本模拟图"></p>
+<p>接着，放朝鲜半岛。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-26b9403c1ce2d13d564aa4aba9b78201-sz_477621.png" alt="日本模拟图"></p>
+<p>最后，看看富士山（海拔3777米）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-25bfe1717d52e527446c3403f88e6b2b-sz_850206.png" alt="日本模拟图"></p>
+<h2 id="8-当海平面上升500米（中国）"><a href="#8-当海平面上升500米（中国）" class="headerlink" title="8.当海平面上升500米（中国）"></a><strong>8.当海平面上升500米（中国）</strong></h2><p>大家也许会好奇，中国区域此时会如何？没错，我也进行了模拟，效果如下所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-57ec830d7d7694fbba199d73c720b310-sz_7579224.png" alt="中国模拟图"></p>
+<p>比较有意思的是，海水从长江倒灌，进入四川盆地。（另外，图中东北角数据有误，请见谅）。</p>
+<p>想看海平面上升200米的效果，可跳转查看：<a href="http://blog.planetgis.cn/archives/fcf5b7c7.html">海平面上升 200 米，中国会变成什么样？淹没范围全景模拟</a></p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p><em>“日本的国土约有四分之三为山体所覆盖。本州中部地区被称为“日本屋脊”，许多山脉的海拔超过3000米。**位于山梨县和静冈县的交界处的富士山，海拔3776米，是日本海拔最高的山。山梨县境内的北岳，海拔3193米，是日本的第二大高峰。位于长野县和岐阜县境内的奥穗高岳海拔3190米，横跨山梨县及静冈县的间之岳海拔同为3190米，并列成为第三高峰。”</em></p>
+<p>所以，日本虽为岛国，但地理条件并不差，也并非我们所想的海拔很低、容易被海啸吞没。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>日本</tag>
+        <tag>中国</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>广东沉没模拟：50米海水淹掉多少大湾区？</title>
+    <url>/archives/ee2acd94.html</url>
+    <content><![CDATA[<p>如果海平面上升 50 米，广东会变成什么样？很多人只当是一个遥远的气候假设，可当我们把珠三角的海拔、地形、城市分布叠进淹没模型里，结果远比想象更震撼。广州、深圳、佛山、东莞…… 曾经繁华的大湾区，会被海水重新切割成一片全新的地理格局。这不是灾难片，而是一次基于真实地形的模拟推演 ——<strong>海平面上升 50 米后，珠三角到底还能剩下什么？</strong></p>
+<hr>
+<h1 id="一、广东地形图"><a href="#一、广东地形图" class="headerlink" title="一、广东地形图"></a><strong>一、广东地形图</strong></h1><p>这是一张广东省行政区划与地形地图，可以看到北部、东北部多山地丘陵（颜色偏棕黄，海拔较高），南部沿海为平原与台地（颜色偏绿，海拔较低），整体地势北高南低。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-ca619998cdcd56fdeb96dfbff21bc81b-sz_3106936.png" alt="广东地形图"></p>
+<p>上一篇文章，模拟了海平面上升50米广西区域的效果。本文开始对广东进行淹没分析。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-5d52f4fa466baf12af64ce148ab489a9-sz_3556014.png" alt="广东模拟图"></p>
+<h1 id="二、海平面模拟"><a href="#二、海平面模拟" class="headerlink" title="二、海平面模拟"></a><strong>二、海平面模拟</strong></h1><p>让我们先看看，广东省地形究竟是什么样子的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-7a0ae7604f0a5a3b962b39522fb1aebf-sz_3028173.png" alt="广东模拟图"></p>
+<p> 补充：当前主流气候模型预测，到 2100 年全球海平面上升幅度约为 0.5–1.2 米，远低于图中 50 米的极端情景，此图主要用于极端风险教育与地理格局演示。</p>
+<p>下面是一张海平面上升 50 米情景下的广东省卫星淹没模拟图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-0ffef433a4a1b06ab08a73c961f40283-sz_2945278.png" alt="广东模拟图"></p>
+<p>此时，海拔＜50 米的沿海平原与珠江三角洲几乎完全被海水覆盖，形成广阔的河口海湾，珠江下游河道被海水倒灌。珠江干流及支流下游成为宽阔的河口湾，海水可深入内陆数十公里，山地间形成独立的小型流域。</p>
+<h2 id="1-粤西区域"><a href="#1-粤西区域" class="headerlink" title="1 粤西区域"></a>1 粤西区域</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-de24a852659bb7eef0f27abdc0fbe6a0-sz_1965290.png" alt="广东模拟图"></p>
+<p>茂名、阳江、湛江的沿海平原几乎全被海水覆盖，仅云雾山脉、天露山、鹅凰嶂、云开大山等山地保留。北部湾、琼州海峡的面积显著扩大，海水深入内陆，形成新的河口与海湾形态。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-38056557a04faa06fc3702f8339b7f36-sz_3520160.png" alt="广东模拟图"></p>
+<p>原陆地被分割为大量岛屿与半岛，形成破碎的海岸形态，南海海水深入内陆。</p>
+<h2 id="2-珠江三角洲"><a href="#2-珠江三角洲" class="headerlink" title="2 珠江三角洲"></a>2 珠江三角洲</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-1f4651d4518a53f7842cf48657ec14dd-sz_3536121.png" alt="广东模拟图"></p>
+<p>这是一张聚焦珠江三角洲核心区域的极端海平面上升模拟图，蓝色区域为海拔＜50 米的淹没区，绿色为保留的山地高地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-7109e8532f2f56354e5197f8f7c5e2db-sz_2557770.png" alt="广东模拟图"></p>
+<p>江门、中山、珠海的主城区及沿海平原几乎完全被海水覆盖，仅周边山地保留。西江、潭江下游河道被海水倒灌，形成宽阔的河口湾，原河网平原变为破碎的岛链。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-3d81ba8b4d2e069852bbe652080f8d93-sz_3342100.png" alt="广东模拟图"></p>
+<p>广州市主城区及珠江三角洲平原几乎完全被海水覆盖，仅南部帽峰山森林公园等丘陵山地得以保留，成为孤立岛屿。佛山、东莞的平原区域被海水侵入，清远南部、惠州西部低洼地带也被淹没，仅北部山地留存。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-72898b6188f9c80aa5d167213c956186-sz_2894786.png" alt="广东模拟图"></p>
+<p>深圳西部平原、香港新界及九龙低地几乎完全被淹没，仅深圳东部山地（如梧桐山、七娘山）和香港中部山地（如大帽山）得以保留，成为孤立岛屿。</p>
+<p>深圳福田、南山、前海，香港中环、九龙等核心城区与港口彻底淹没，经济功能完全丧失。原深圳湾、大亚湾、珠江口东岸平原变为广阔海湾，城市被分割为大量岛屿，交通与经济联系彻底中断。</p>
+<h2 id="3-粤北区域"><a href="#3-粤北区域" class="headerlink" title="3 粤北区域"></a>3 粤北区域</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-6c501e8d91d87134999bb224ca05cf31-sz_4171899.png" alt="广东模拟图"></p>
+<p>惠州南部沿海平原被海水侵入，仅北部山地留存。韶关、清远、河源等城市因地处九连山、罗浮山等山脉，全域未被淹没，成为区域内仅存的完整陆地。</p>
+<h2 id="4-粤东区域"><a href="#4-粤东区域" class="headerlink" title="4 粤东区域"></a>4 粤东区域</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-e3f52bb484a639fca4fde5fc0cf92569-sz_3268535.png" alt="img"></p>
+<p>汕头、潮州、揭阳的潮汕平原几乎完全被海水覆盖，形成广阔海湾，汕头港、神泉港等港口彻底沉入水下。梅州、河源及惠州北部因地处莲花山山脉，全域未被淹没，成为粤东仅存的完整陆地。</p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>模拟海平面上升50米，山脉成为广东的 “救命骨架”，分隔淹没区与内陆，决定了新的城市与人口分布。沿海经济带（珠三角、潮汕、粤西）损毁殆尽，粤北山区成为新的经济与政治中心。</p>
+<p><strong>当广东的珠江三角洲、潮汕平原在 50 米海平面上升中沦为一片汪洋，与它隔山相望的<font color=red>福建</font>，又将迎来怎样的命运？下一篇文章解密，敬请期待。</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>广东</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面上升模拟：印度地图大变样，孟买、加尔各答或将被淹没</title>
+    <url>/archives/61f76d38.html</url>
+    <content><![CDATA[<p>全球变暖带来的海平面上升，早已不是遥远的警告。当我们把目光投向印度这片人口密集、地势低洼的土地，一场基于真实地形的模拟，结果令人心惊。作为印度最核心、最繁华的两大都市，孟买与加尔各答，都坐落在极易被淹没的沿海区域。</p>
+<hr>
+<h1 id="一、印度河文明"><a href="#一、印度河文明" class="headerlink" title="一、印度河文明"></a><strong>一、印度河文明</strong></h1><p>尼罗河流域、两河流域、印度河流域、<strong>黄河流域</strong>，是四个人类文明最早诞生的地区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-4c83402e597f6d4307e01bc779cdd037-sz_827614.png" alt="两河流域"></p>
+<p>印度河流域文明，亦称印度河文明或哈拉帕文明。分布在约1250000平方公里的区域内（上图2仅为诞生区域），包括了整个现代的巴基斯坦和印度以及阿富汗部分地区，直到1920年被发现才重见天日。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-59fcb4a39396be9585d2c89c57915db2-sz_797688.png" alt="印度河流域"></p>
+<p>据学者估计，哈拉帕文明遗址总数可能高达2000个，但大多数仍深埋地下，有待进一步发掘。较出名的有摩亨佐达罗。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-c577b406e8314175d17da960607e0137-sz_467201.png" alt="摩亨佐达罗"></p>
+<p>那么，印度河在哪儿呢？与恒河又是什么关系？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-0f562d3c644fadd2b578526680fa684f-sz_396136.png" alt="印度河"></p>
+<p>这张图通俗易懂，印度大平原分布着 印度河 和 恒河。印度南部是德干高原。</p>
+<p>对古文明的探索，先按下不表。看看海平面相关研究。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-5d4568fe1880db58fbc146a875382dbd-sz_94878.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-64ccf61034b4cc097aa3e7739c54598a-sz_33721.png" alt="img"></p>
+<p>本文是利用GIS技术，对印度进行海平面上升模拟，了解一下印度的灾害风险与地形地貌特征。</p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><p>首先，站在一个地理专业的角度上看，印度的地理条件是很好的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-749e6f6348f431ac87c13190c4d062f2-sz_9923165.png" alt="印度地形图"></p>
+<p>且不说北边的 印度河平原 和 恒河平原，就说那绵长的海岸线，<strong>按理说应该能孕育不少大都市。</strong><em>（备注：奈何这么健康的人口结构，如此大量的壮年劳动力，硬是没有足够的工作岗位承接。去年我曾与巴基斯坦、印度的朋友闲聊，他们表示羡慕中国，能有大量的工作岗位，而他们只能前往其它国家工作。）</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-4316ae73b1fd62c1e56109474ed68686-sz_2150555.png" alt="印度地形图"></p>
+<p>说回印度，比较尴尬的是，两大河流的入海口，硬是没有一条完整的属于印度。印度河入海口在巴基斯坦，恒河三角洲大部分位于孟加拉国。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-9f3a2af407da8b4e39667d602e713dde-sz_399661.png" alt="img"></p>
+<p>考虑到部分读者不清楚印度的行政区划，这里放一张区划图提供参考。</p>
+<p>那么，现在开始模拟海平面上升。</p>
+<h2 id="1-当海平面上升10米"><a href="#1-当海平面上升10米" class="headerlink" title="1.当海平面上升10米"></a><strong>1.当海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-1f6205ba944f626a3c7355a5b295f1d8-sz_9908728.png" alt="印度模拟图"></p>
+<p>【备注：这张地图中，印度版图其实是不全的。西部的古吉拉特邦仅有部分，这个缺陷会在<strong>局部分析</strong>时弥补。另外，由于印度与我国存在领土纠纷，在此声明：制图遵循我国制图规范，审图号GS(2024)050】</p>
+<p>当海平面上升10米，孟加拉国大部分领土、印度<strong>加尔各答</strong>被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-c9c70e9687f7f3017fd30b0c6fe09421-sz_759373.png" alt="印度模拟图"></p>
+<p><strong>孟加拉国</strong>全境85%的地区为平原，东南部和东北部为丘陵地带，国土大部分地区海拔低于12米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-c3cbe4c64d42fc129009a5744a43d255-sz_87477.png" alt="img"></p>
+<p>印度<strong>古吉拉****特邦</strong>同样被海水淹没，<strong>卡奇沼泽地</strong>被海水覆盖。巴基斯坦南部三角洲也是被海水漫延。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-46216b5a2a89e1e958ee7e3133175676-sz_468122.png" alt="印度模拟图"></p>
+<h2 id="2-当海平面上升20米"><a href="#2-当海平面上升20米" class="headerlink" title="2.当海平面上升20米"></a><strong>2.当海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-705a0bc4ec007bf4c02e5a8f0a895960-sz_9854867.png" alt="印度模拟图"></p>
+<p>海平面上升20米，孟加拉国灾害进一步加剧，几乎80%的领土沉入海底。由于<strong>西隆高原</strong>的阻挡，海水没能从图中上部进入印度；而<strong>东部滨海平原</strong>淹没范围扩大，<strong>加尔各答</strong>完全沉入海底。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-84896a3749ff206c15efbedddd43f9d3-sz_826391.png" alt="印度模拟图"></p>
+<p>而印度南部受灾范围没这么大。西部是西高止山脉，虽然东部有滨海平原，但是德干高原和东高止山脉海拔平均为500－600米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-787ae9ef0ca14c0382b97b0d479f5734-sz_480265.png" alt="印度模拟图"></p>
+<p>孟买在上升10米时就没躲过去，上升20米时几乎完全沉没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-246c13b43d811f51023afb29b209d242-sz_620498.png" alt="印度模拟图"></p>
+<p><strong>卡提阿瓦半岛</strong>沦为“岛屿”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-4928190c5b9b34bce71c3b08090cc1d0-sz_461294.png" alt="印度模拟图"></p>
+<h2 id="3-当海平面上升50米"><a href="#3-当海平面上升50米" class="headerlink" title="3.当海平面上升50米"></a><strong>3.当海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-2051e42ee191bd402f224cfa2113626c-sz_9819538.png" alt="印度模拟图"></p>
+<p>海平面上升50米，孟加拉国几乎被“灭国”。此时水流西侧沿着恒河向内部平原漫延；东侧进入<strong>阿萨姆邦</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-047c93a037b8bf85820158ad12a0acba-sz_965632.png" alt="印度模拟图"></p>
+<h2 id="4-当海平面上升100米"><a href="#4-当海平面上升100米" class="headerlink" title="4.当海平面上升100米"></a><strong>4.当海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-8a1732456905b1d7d4c939fcbd620ce7-sz_9749121.png" alt="印度模拟图"></p>
+<p>还是先观察孟加拉国区域。由于<strong>喜马拉雅山脉</strong>的阻隔，海水被迫兵分两路。按照边界划分，<strong>不丹</strong> 没有受到海水影响；<strong>尼泊尔</strong> 部分领土受灾。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-0595c4f2fdd73e16ee8dcf32accafe65-sz_1026453.png" alt="印度模拟图"></p>
+<p>再看看印度西部，可以看到巴基斯坦受灾比印度严重多了。此时淹没的区域，正是印度河三角洲和印度河平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-5a46c9ae2ea15105206e0226b2dc95fa-sz_578936.png" alt="印度模拟图"></p>
+<p>最后，补充一下缅甸。海水沿着<strong>伊洛瓦底江****（中国段叫独龙江）</strong>倒灌进入缅甸内部；<strong>首都内比都</strong>被另一股海流吞没；由于该国山地丘陵众多，因此大部分国土没有被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-4bedda8e14ab35fbc61d5af3181433f9-sz_925264.png" alt="印度模拟图"></p>
+<h2 id="5-当海平面上升200米"><a href="#5-当海平面上升200米" class="headerlink" title="5.当海平面上升200米"></a><strong>5.当海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-f07dbfd7b1fdf80d4dbe746215498785-sz_9523942.png" alt="印度模拟图"></p>
+<p>喜马拉雅山脉就是“天堑”，<strong>几乎</strong>阻挡了海水对我国的“侵入”，<strong>藏南地区</strong>受到小部分海水侵扰。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-4f613a0b1f1287d85b9a89f81c06ff0c-sz_1071317.png" alt="印度模拟图"></p>
+<p>两股海水即将再印度河、恒河平原处相汇。其中左侧海水直冲<strong>巴基斯坦首都 伊斯兰堡</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-47521f335b70c150c5eb5bf13f1e566b-sz_1003381.png" alt="印度模拟图"></p>
+<p>卡提阿瓦半岛几乎消失。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-0db749c3d81c5bed448438f4462f6558-sz_504479.png" alt="印度模拟图"></p>
+<h2 id="6-当海平面上升500米"><a href="#6-当海平面上升500米" class="headerlink" title="6.当海平面上升500米"></a><strong>6.当海平面上升500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-f3087adcc41266c0fa3c903ddf172871-sz_8970204.png" alt="印度模拟图"></p>
+<p>这张图就不进行分析了，光从图中都能很直观地了解情况。至此，海平面上升模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>虽然做的是印度专题，但我想很多人关注的是 是否对中国产生影响。因此加入了部分关于我国的描述。</p>
+<p>海平面上升值得我们每一个人警惕。但我们再节约用水、保护环境，都比不上西方富人搭乘一次专机的消耗。实在是有些悲哀。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>印度</tag>
+      </tags>
+  </entry>
 </search>
