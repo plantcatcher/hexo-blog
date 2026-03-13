@@ -3424,4 +3424,206 @@
         <tag>印度</tag>
       </tags>
   </entry>
+  <entry>
+    <title>如果强行抬高水面，洞庭湖能变回昔日“八百里洞庭”吗？</title>
+    <url>/archives/6bb8e028.html</url>
+    <content><![CDATA[<p>如果人为抬高水位、模拟水面上升，洞庭湖真的能重回 “八百里洞庭” 的全盛模样吗？本文用直观模拟与数据对比，带你看懂洞庭湖的历史变迁、现状困境，以及恢复昔日大湖背后的科学与现实问题。</p>
+<hr>
+<h1 id="一、洞庭湖"><a href="#一、洞庭湖" class="headerlink" title="一、洞庭湖"></a><strong>一、洞庭湖</strong></h1><p><strong>洞庭湖（Dongting Lake）</strong>，古称云梦、九江和重湖，位于长江中游荆江河段南岸，湖北省南部、湖南省北部。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-50b358e95b8e30284935dfcffaab8a13-sz_416301.png" alt="洞庭湖"></p>
+<p>洞庭湖明清时代为全盛时期,水面约6000平方公里,1949年水面4350平方公里,现有水面2625平方公里。根据自然形态划分为东洞庭湖、南洞庭湖、西洞庭湖(由目平湖和七里湖组成)，是全国水量最大、水面面积第二的淡水湖泊（原为中国最大的淡水湖），仅次于鄱阳湖。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-96a8351f378df0c9de6cb57c7364518a-sz_76720.gif" alt="洞庭湖"></p>
+<p>从历史资料与论文文献中，可以看到洞庭湖水域在逐年减小。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-f96386bc3678275b5455c74886fba4cb-sz_242681.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-630e4ada226a226bc91e9aa8375b7cc6-sz_308358.png" alt="img"></p>
+<p>我就由此产生一个想法：模拟水面上升，还原 古代 洞庭湖。</p>
+<h1 id="二、洞庭湖全盛时期"><a href="#二、洞庭湖全盛时期" class="headerlink" title="二、洞庭湖全盛时期"></a><strong>二、洞庭湖全盛时期</strong></h1><p>让我们先看看全盛时期洞庭湖长啥样。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0714f8bc8c99feb03cf36a0dc7b37e62-sz_647328.png" alt="古洞庭湖"></p>
+<p>再当前洞庭湖长啥样。从2021年遥感解译的图片中，可以看到东洞庭湖、南洞庭湖、目平湖、七里湖；周边还围绕着大大小小的湖泊、耕地和湿地保护区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-e38e2f894d245cf08011533cf07d46af-sz_711267.png" alt="洞庭湖"></p>
+<p>由于之后还要对湖南进行水面上升模拟，因此将模拟范围选取 湖南省 及其周边。</p>
+<p><em>声明：有大量研究 与 实际方案，用于预防洞庭湖的洪水泛滥。因此本文仅作假设，无任何不良引导。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-c27cc8083b86b1e399814b648d7cacf7-sz_171634.png" alt="img"></p>
+<h2 id="1-模拟水面上升0米"><a href="#1-模拟水面上升0米" class="headerlink" title="1.模拟水面上升0米"></a><strong>1.模拟水面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-aae78987af1bf4dc3f87dacc573193ba-sz_4722663.png" alt="湖南模拟图"></p>
+<p>这就是当前湖南区域的河流、山脉分布情况。随后会在这个基础上进行水面上升模拟。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-653f9fa56339e1b321fb968065871329-sz_523146.png" alt="湖南模拟图"></p>
+<p>从图中可以看到，东洞庭湖海拔20米左右，周围湿地海拔24米。<em>（备注：水位与海拔不一样，本文均采用海拔进行描述）</em></p>
+<h2 id="2-模拟水面上升8米"><a href="#2-模拟水面上升8米" class="headerlink" title="2.模拟水面上升8米"></a><strong>2.模拟水面上升8米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-18008f738d8d1e1fe047726efe9ef8c3-sz_3805607.png" alt="湖南模拟图"></p>
+<p>水面上升8米（海拔28米左右），大通湖被淹没，洪水直逼岳阳、益阳、沅江、南县，并开始倒灌湘江。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-72e786bcf96b99c1938f8a93a7162e0f-sz_403986.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-2f023e8006811ec1c1f94a95d6695bb9-sz_422064.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-92ba7971286a60a7d196ff9df19ef14b-sz_603130.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-6f7ac7915e2f07b5025b1d3ac7f483ed-sz_533946.png" alt="img"></p>
+<p>但从上图可知，四个地方海拔均在36米以上，当前模拟水面海拔28米，大通湖及其周边海拔较低（26米左右），因此先一步被淹没。</p>
+<h2 id="3-模拟水面上升10米"><a href="#3-模拟水面上升10米" class="headerlink" title="3.模拟水面上升10米"></a><strong>3.模拟水面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-ded72200f295aaa40ec35983e76a94e7-sz_3843530.png" alt="湖南模拟图"></p>
+<p>此时，河水向东漫延至 常德 与 益阳 之间区域。该区域海拔30米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-f9c87d943f786f7a58b5e61abca9ee56-sz_371304.png" alt="湖南模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-679d473d224dafe68d4d149e7867a2b7-sz_546559.png" alt="img"></p>
+<p>而这，差不多就是洞庭湖全盛时期的样子了。（由于是按照真实地形来模拟，<strong>湖北南部</strong>区域海拔低于模拟上升区域，所以同样被淹没了）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0714f8bc8c99feb03cf36a0dc7b37e62-sz_647328.png" alt="湖南"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-efd7c8875fb3db35309c80c80ca7597c-sz_222407.png" alt="湖南模拟图"></p>
+<h1 id="三、湖南洪水模拟"><a href="#三、湖南洪水模拟" class="headerlink" title="三、湖南洪水模拟"></a><strong>三、湖南洪水模拟</strong></h1><p>洞庭湖全盛时期的样子复原出来了，那么接下来的模拟就纯粹是洪水模拟分析了。目的有二：其一，通过淹没情况，了解湖南地形地貌特征；其二，复原更远古时期的“洞庭湖”，满足好奇心。</p>
+<h2 id="1-模拟水面上升15米"><a href="#1-模拟水面上升15米" class="headerlink" title="1.模拟水面上升15米"></a><strong>1.模拟水面上升15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-e06547662ccb5064b4346c9fbac945d1-sz_3797349.png" alt="湖南模拟图"></p>
+<p>当水面上升15米（海拔35米），常德（海拔34米）被洪水围困。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0019056be1a3b8138e854737e13715bc-sz_431237.png" alt="湖南模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-b2b0a40d7370eaeb0485670809b8a462-sz_595252.png" alt="img"></p>
+<p>其实，洞庭湖周边城市的处境都不太好。包括湘江边上的长沙。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-70d0680e203b485d7e238967f1326a69-sz_313282.png" alt="湖南模拟图"></p>
+<p>之前做过长沙的洪水专题，部分图片如下。如果对全文感兴趣，可跳转：</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-9212c53ef6666b6e9de1d2ea33704352-sz_1582783.jpeg" alt="长沙洪水"></p>
+<h2 id="2-模拟水面上升20米"><a href="#2-模拟水面上升20米" class="headerlink" title="2.模拟水面上升20米"></a><strong>2.模拟水面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-af7f0753be89080ad9265aa0a6524ee3-sz_3793435.png" alt="湖南模拟图"></p>
+<p>上升20米（海拔40米），洪水漫延至湘潭市江边。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1a64d79148c4098d91499e3bda905bbe-sz_635305.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-886f5450a55a880cd5c3919679899369-sz_635860.png" alt="img"></p>
+<p>涟水、沩水周边海拔35米左右，此时被洪水倒灌，直逼 湘乡市 和 宁乡市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-df50565bc24935f173a74a3188bae935-sz_573660.png" alt="湖南模拟图"></p>
+<h2 id="3-模拟水面上升动态图"><a href="#3-模拟水面上升动态图" class="headerlink" title="3.模拟水面上升动态图"></a><strong>3.模拟水面上升动态图</strong></h2><p>考虑到一路分析下来会有点长，因此做了个动态图，供大家自行查看。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-23fb4cdfb62536e7b51f8fd692c24085-sz_4067436.gif" alt="湖南模拟动态图"></p>
+<p>至此，洪水模拟结束。</p>
+<h1 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a><strong>四、总结</strong></h1><p>结合高程DEM数据，利用ArcGIS等软件，对洞庭湖、湖南全域进行了水面上升模拟。效果仅供参考，且无任何不良引导。</p>
+<p><font color=red>再次声明：利用GIS等地理技术，复原远古地貌、湖泊变迁演化、模拟海平面上升下降等等，均是为了地理研究、满足个人好奇心，绝无任何恶意。</font></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>湖南</tag>
+        <tag>中国</tag>
+        <tag>洞庭湖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如果海平面持续上升，英国版图将被如何改写？</title>
+    <url>/archives/aeada9c5.html</url>
+    <content><![CDATA[<p>当海平面持续上升，海水不断侵蚀陆地，不列颠群岛的版图会被彻底改写吗？本文通过可视化模拟，还原不同海平面上升高度下英国的版图变化，拆解沿海低地、岛屿的消失过程，带你看清海水如何一步步重塑英国的地理格局。</p>
+<hr>
+<h1 id="一、英国"><a href="#一、英国" class="headerlink" title="一、英国"></a><strong>一、英国</strong></h1><p>英国，位于欧洲西部。是由大不列颠岛上的英格兰、苏格兰、威尔士以及爱尔兰岛东北部的北爱尔兰共同组成的一个联合王国。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-8eaa9b59432563fa0458db5f2d836486-sz_340783.jpeg" alt="英国地图"></p>
+<p><strong>英格兰</strong>地势比较平坦，北部为<strong>奔宁山脉</strong>，南部为平原和丘陵；<strong>威尔士</strong>与英格兰的西面接壤，地势崎岖，<strong>坎布连山脉</strong>纵贯全境；<strong>北爱尔兰</strong>（旧名阿尔斯特），此区湖泊多，沿湖为平原；<strong>苏格兰</strong>，包括周围许多小岛，境内地势中部较低，其余为山地高原，有英国最高的<strong>尼维斯山</strong>，海拔1343米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-5358ebe84fc5a2853328fff9fd7d8059-sz_678947.png" alt="英国地形图"></p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a>二、海平面上升模拟</h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为10、20、50、80、100米（海拔）；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-当海平面上升10米"><a href="#1-当海平面上升10米" class="headerlink" title="1.当海平面上升10米"></a><strong>1.当海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-f0ba75e5b7f304aba7a6664d07067abb-sz_6871026.png" alt="英国模拟图"></p>
+<p>首先，观察英国南部。海水从泰晤士河倒灌进入伦敦城区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-daa3a9a12e511744a75c00a6a2c6e9f6-sz_1164676.png" alt="英国模拟图"></p>
+<p>英格兰中部，海水从瓦士湾（The wash）、亨伯河口湾（Humber）进入内部平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-49e5a920b8af032f9eef01d65f5d425d-sz_1091525.png" alt="img"></p>
+<h2 id="2-当海平面上升20米"><a href="#2-当海平面上升20米" class="headerlink" title="2.当海平面上升20米"></a><strong>2.当海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-dc1f43331cf33169a39571b67f09db1e-sz_6886700.png" alt="英国模拟图"></p>
+<p>前期被海水淹没区域，范围进一步扩大。法国沿海地区的敦刻尔克在上升10米时，已经完全淹没；上升20米，范围也是进一步扩大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1b16a96953139c3b64af6ca038ca35db-sz_848820.png" alt="英国模拟图"></p>
+<h2 id="3-当海平面上升50米"><a href="#3-当海平面上升50米" class="headerlink" title="3.当海平面上升50米"></a><strong>3.当海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-9639d8b530cf3bac62e0b83b975a95d6-sz_6905727.png" alt="英国模拟图"></p>
+<p>上升50米，北爱尔兰内湖 被海水吞没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-ff5a4e8d643faf4bcb5ab364d73381e1-sz_817460.png" alt="英国模拟图"></p>
+<p>城市部分，北爱尔兰 贝尔法斯特被淹没；苏格兰 道格拉斯被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-bcf8b4e585c378092ef6104d6576db0a-sz_1044276.png" alt="英国模拟图"></p>
+<h2 id="4-当海平面上升80米"><a href="#4-当海平面上升80米" class="headerlink" title="4.当海平面上升80米"></a><strong>4.当海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-ba28a67bdb2028b93a8a15ee3f46099f-sz_6875114.png" alt="英国模拟图"></p>
+<p>我们观察下方局部图。从北到南，依次是 西北高底、格兰扁山脉、苏格兰低地、南部高地 和 奔宁山脉。海水在这几块高地之间穿行，即将把英国变成<strong>“大英群岛”</strong>。</p>
+<p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/269173d831611d68331ff76c559a2bc6-sz_925027.png" alt="英国模拟图"></p>
+<p>南部区域，可以看到贝尔法斯特、都柏林、普雷斯顿、曼彻斯特、诺丁汉、伦敦、南安普敦、普利茅斯，已经沉入海底；伯明翰海拔100+m，此时还算安全。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-b17423e45d3b60951d5f5721a07a650a-sz_1197501.png" alt="英国模拟图"></p>
+<h2 id="5-当海平面上升100米"><a href="#5-当海平面上升100米" class="headerlink" title="5.当海平面上升100米"></a><strong>5.当海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-f9729ee9a99055ffd553067149c817cd-sz_6799575.png" alt="英国模拟图"></p>
+<p>同样，先观察北部区域。可以看到，西北高地、格兰扁山脉 和 南部高地 被海水分割成了三个部分。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1e9426db17c96cc75c4faca62aa2356d-sz_643353.png" alt="英国模拟图"></p>
+<p>那么，南部区域呢？毫无疑问的被海水弄得支离破碎，成了“大英群岛”。甚至隔壁的 爱尔兰 和 法国（一个角落），也被海水严重侵蚀。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-7ad3d61fb928d29f213e8ec691f5d97d-sz_623505.png" alt="英国模拟图"></p>
+<p>至此，海平面上升模拟结束。</p>
+<h1 id="三、海水上升100米的世界"><a href="#三、海水上升100米的世界" class="headerlink" title="三、海水上升100米的世界"></a><strong>三、海水上升100米的世界</strong></h1><p>也许大家会好奇，在这个高度下世界各地会怎么样？下面展示部分国家的效果图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-c2293136205bb9629f509fdd5d054f2f-sz_6622310.png" alt="中国模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-c1e4cdb78fdbb55fd0bc5eff581bfcb9-sz_4074171.png" alt="日本模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-353ae1b4c27d2230768d72bf49916bb5-sz_2182735.png" alt="澳大利亚模拟图"></p>
+<p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/f1727df912e16bd421336c85b4e71d27-sz_8170653.png?x-oss-process=style/xmwx" alt="美国模拟图"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-00fa4f1f6a1accfdb9bdbdd9d53dc05c-sz_5823245.png" alt="印度模拟图"></p>
+<h1 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a><strong>四、总结</strong></h1><p>本次模拟海平面上升，基于高程DEM数据，利用ArcGIS等软件进行制作。效果仅供参考，且无任何不良引导。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>英国</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>模拟海平面上升：河北省会被淹没多少？</title>
+    <url>/archives/39caa002.html</url>
+    <content><![CDATA[<p>如果海平面不断上升，河北会面临怎样的变化？本文通过可视化模拟，呈现不同海平面上升高度下河北的陆地淹没情况，带你看懂沿海城市与平原地区的真实风险与未来格局。</p>
+<hr>
+<h1 id="一、河北省"><a href="#一、河北省" class="headerlink" title="一、河北省"></a><strong>一、河北省</strong></h1><p>河北省，地处华北，漳河以北，东临渤海、内环京津。东南部、南部衔山东、河南两省，西倚太行山与山西省为邻，西北与内蒙古自治区交界，东北部与辽宁接壤。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-a62d5923af1230ee41bb5bc61a0250eb-sz_110849.jpeg" alt="河北地形图"></p>
+<p>河北地势由西北向东南倾斜，西为太行山地，北为燕山山地，燕山以北为张北高原，其余为河北平原，<em><strong>是中国唯一兼有高原、山地、丘陵、平原、湖泊和海滨的省份。</strong></em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-a2dd3c97181520d99d07a3824d7ab757-sz_5919373.png" alt="河北地形图"></p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><h2 id="1-当海平面上升5米"><a href="#1-当海平面上升5米" class="headerlink" title="1.当海平面上升5米"></a><strong>1.当海平面上升5米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-5b4c5dea876bc60e065e83243194a038-sz_6928713.png" alt="河北模拟图"></p>
+<p>当海平面上升5米，首先被淹的是<strong>秦皇岛。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-5c2c523a3b86d26ff2779f2918282204-sz_556877.png" alt="img"></p>
+<p>其次是 天津 和 山东东营。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-cf26b83a8d33212e428b015c7842b5d9-sz_690563.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0b7e9255451461d80d18c4b2d8291c10-sz_554393.png" alt="img"></p>
+<h2 id="2-当海平面上升10米"><a href="#2-当海平面上升10米" class="headerlink" title="2.当海平面上升10米"></a><strong>2.当海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-27ef0596645a198913eaf9d264a3bd56-sz_6892730.png" alt="河北模拟图"></p>
+<p>上升10米时，海水逼近河北的唐山、沧州、廊坊和保定；山东的滨州、潍坊。沧州紧随秦皇岛，即将成为第二个被淹没的河北城市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-498378a6bb53509564d05ace7593fadc-sz_661361.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-76c15e764f182a47297f11a991378273-sz_586934.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-b04ac25467a24ec6c122776a89dbc256-sz_568303.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1042c8bfefda29c060f16ac73514a599-sz_636833.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0431ba21f6704789067df4a94006195f-sz_576645.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-903ec3752b55914e11d26c222e0fa98e-sz_608790.png" alt="img"></p>
+<p>其中，唐山看似离海水近，但城区海拔有33米，此时并没有被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-071745d167dbfba036e88253dd88d7fd-sz_413829.png" alt="河北模拟图"></p>
+<h2 id="3-当海平面上升20米"><a href="#3-当海平面上升20米" class="headerlink" title="3.当海平面上升20米"></a><strong>3.当海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-cb23bbd88b41c7123b0b6d4e84fcca6a-sz_6847016.png" alt="河北模拟图"></p>
+<p>在海拔20米高度下，沧州、廊坊沉入海底。衡水（海拔21米左右）、保定（24米）、唐山（33米），此时岌岌可危。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-ce199e31d2b87bf52cda3fa58db126ae-sz_1010838.png" alt="河北模拟图"></p>
+<h2 id="4-当海平面上升30米"><a href="#4-当海平面上升30米" class="headerlink" title="4.当海平面上升30米"></a><strong>4.当海平面上升30米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-d883619f1d64b8b0020be60c32276fe1-sz_6841446.png" alt="河北模拟图"></p>
+<p>海拔低于30米的城市，河北省 秦皇岛市、廊坊市、沧州市、保定市、衡水市被海水吞没。唐山市被海水围困，大部分地区被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-e50eec3b40f5c6debb46e37418ae8345-sz_655568.png" alt="河北模拟图"></p>
+<p>此时海水开始逼近北京。从下图中，可以看到故宫区域海拔50米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-5e20d197015fbbec6ed3e79fadcdd0f0-sz_658528.png" alt="img"></p>
+<h2 id="5-当海平面上升50米"><a href="#5-当海平面上升50米" class="headerlink" title="5.当海平面上升50米"></a><strong>5.当海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-d7db776edd4c432c8d8308f11acca7b0-sz_6804194.png" alt="河北模拟图"></p>
+<p>从下图中，可以清晰的看到海水漫延的路线。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1ef5700cae475700e313d9844ac168ee-sz_637925.png" alt="河北模拟图"></p>
+<p>接下来，让我们看看河北中南部城市：石家庄、邢台和邯郸。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-09b2a65930e3986018efbccf62c64c0b-sz_629141.png" alt="河北模拟图"></p>
+<p>当海水上升50米，这三座城市并没有被淹没，而且背靠太行山脉，也算是有路可退。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-4dc669c77516bd4f0e38b7dbb0a8a56e-sz_667977.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-aaf67d232afdc52731bff38d1d75fcf5-sz_704495.png" alt="img"></p>
+<h2 id="6-当海平面上升80米"><a href="#6-当海平面上升80米" class="headerlink" title="6.当海平面上升80米"></a><strong>6.当海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-14776e7999c40af0e5922eed8113617c-sz_6773711.png" alt="河北模拟图"></p>
+<p>海面上升80米，华北平原城市无一幸免（泰山南部区域未进行模拟）。</p>
+<p>此时河北仅剩下 张家口市 和 承德市，真称得上是“高枕无忧”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-7ffaff9cb62c915cdbc1bcbcfac570db-sz_761176.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-0d5f558b9fa11a425a21ab51d351a932-sz_708065.png" alt="img"></p>
+<p>仔细观察会发现，张家口存在一条海拔较低的“通道”，基于好奇，我决定尝试一下将海平面上升到逆天的高度。</p>
+<h2 id="7-当海平面上升500米"><a href="#7-当海平面上升500米" class="headerlink" title="7.当海平面上升500米"></a><strong>7.当海平面上升500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-21e5f554dbb75f2c7c57eb8e70f24f7a-sz_6667208.png" alt="河北模拟图"></p>
+<p>由之前测量得知，承德海拔约为408米，此时承德被海水吞没。（而张家口依旧安然无恙）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-14beeb1ebb05f48133e976d58a48906d-sz_960810.png" alt="河北模拟图"></p>
+<h2 id="8-当海平面上升800米"><a href="#8-当海平面上升800米" class="headerlink" title="8.当海平面上升800米"></a><strong>8.当海平面上升800米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-9bd54b7fd975695c4295764ef19d7b39-sz_6581763.png" alt="河北模拟图"></p>
+<p>接着上强度，当海水上升到800米，海水开始倒灌，漫延过延庆区、怀来县、下花园区、宣化区，横冲直撞进入张家口。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-b41f770026964a1b3667c96bc29ebdac-sz_878288.png" alt="河北模拟图"></p>
+<p>如果仔细观察，还会发现另一股海水向着西南方向跑，漫过阳原县，往大同方向进发，最后并没能向上进入大同城区，而是接着南下。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1dff3a8b3a0795060d4ad26e6a187be6-sz_601109.png" alt="img"></p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本次模拟基于高程DEM数据，利用ArcGIS等软件，对河北省及其周边进行海平面上升模拟。其目的是反映地形地貌特征，无任何不良引导。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>河北</tag>
+      </tags>
+  </entry>
 </search>
