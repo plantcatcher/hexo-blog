@@ -1,0 +1,306 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>海平面上升模拟：外东北出海，需要淹没多少米？ | 星球小捕手</title><meta name="author" content="星球小捕手"><meta name="copyright" content="星球小捕手"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="以海平面上升为变量，本文模拟外东北打通出海口所需的最低海平面高度。通过关键地形点高程数据，得出外东北与日本海连通的临界值，直观展示地理格局的改变。  一、东北东北三省地形以平原、山地为主，分布格局是山环水绕，被称为“白山黑水”之地。  分布的长白山、兴安岭属于是天然屏障；三江平原(最东)、松嫩平原(居中)、辽河平原(最南)，土质极佳；有黑龙江、乌苏里江、松花江、辽河、鸭绿江等主要河流分布其间。 很">
+<meta property="og:type" content="article">
+<meta property="og:title" content="海平面上升模拟：外东北出海，需要淹没多少米？">
+<meta property="og:url" content="http://blog.planetgis.cn/archives/7c90ef63.html">
+<meta property="og:site_name" content="星球小捕手">
+<meta property="og:description" content="以海平面上升为变量，本文模拟外东北打通出海口所需的最低海平面高度。通过关键地形点高程数据，得出外东北与日本海连通的临界值，直观展示地理格局的改变。  一、东北东北三省地形以平原、山地为主，分布格局是山环水绕，被称为“白山黑水”之地。  分布的长白山、兴安岭属于是天然屏障；三江平原(最东)、松嫩平原(居中)、辽河平原(最南)，土质极佳；有黑龙江、乌苏里江、松花江、辽河、鸭绿江等主要河流分布其间。 很">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png">
+<meta property="article:published_time" content="2026-03-15T14:48:23.000Z">
+<meta property="article:modified_time" content="2026-03-15T15:10:35.677Z">
+<meta property="article:author" content="星球小捕手">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="海平面模拟">
+<meta property="article:tag" content="地图">
+<meta property="article:tag" content="公众号同步">
+<meta property="article:tag" content="海平面上升">
+<meta property="article:tag" content="中国">
+<meta property="article:tag" content="东北">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "海平面上升模拟：外东北出海，需要淹没多少米？",
+  "url": "http://blog.planetgis.cn/archives/7c90ef63.html",
+  "image": "https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png",
+  "datePublished": "2026-03-15T14:48:23.000Z",
+  "dateModified": "2026-03-15T15:10:35.677Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "星球小捕手",
+      "url": "http://blog.planetgis.cn"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://blog.planetgis.cn/archives/7c90ef63.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7003785465265177',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4EHEP88TN2"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4EHEP88TN2')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4EHEP88TN2', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '海平面上升模拟：外东北出海，需要淹没多少米？',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">53</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">星球小捕手</span></a><a class="nav-page-title" href="/"><span class="site-name">海平面上升模拟：外东北出海，需要淹没多少米？</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">海平面上升模拟：外东北出海，需要淹没多少米？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-03-15T14:48:23.000Z" title="发表于 2026-03-15 22:48:23">2026-03-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-03-15T15:10:35.677Z" title="更新于 2026-03-15 23:10:35">2026-03-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>以海平面上升为变量，本文模拟外东北打通出海口所需的最低海平面高度。通过关键地形点高程数据，得出外东北与日本海连通的临界值，直观展示地理格局的改变。</p>
+<hr>
+<h1 id="一、东北"><a href="#一、东北" class="headerlink" title="一、东北"></a><strong>一、东北</strong></h1><p>东北三省地形以平原、山地为主，分布格局是山环水绕，被称为“白山黑水”之地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-1c50e62e618d1ecb4f79d83e32744470-sz_112913.jpeg" alt="img"></p>
+<p>分布的长白山、兴安岭属于是天然屏障；三江平原(最东)、松嫩平原(居中)、辽河平原(最南)，土质极佳；有黑龙江、乌苏里江、松花江、辽河、鸭绿江等主要河流分布其间。</p>
+<p>很好奇，当海平面上升多少米，外东北会有出海口？为了探究这个假设，也为了更了解东北地形地貌特征，因此进行本次模拟。</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为10、30、50、80、100、150米（海拔）；</em></li>
+<li><em>其目的是反映 东北地区的地形地貌特征；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<p>首先观察较有可能成为“出海口”的地方。从地形图中可以看到，东北区域有三处地势较为平坦的沿海区域：1.辽河平原，濒临渤海，位于辽东丘陵与辽西丘陵之间；2.图们江入海口 和 绥芬河 及其以北 兴凯湖 区域；3.阿穆尔河入海口向内陆延伸至三江平原处。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png" alt="img"></p>
+<p>本次探究的是“外东北”区域 ，因此渤海之滨的辽河平原不在分析范围，仅作展示。接下来，模拟开始。</p>
+<h2 id="1-模拟海平面上升10米"><a href="#1-模拟海平面上升10米" class="headerlink" title="1.模拟海平面上升10米"></a><strong>1.模拟海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-c3984ad17485f428e4f5de2c579229a2-sz_2954307.jpeg" alt="img"></p>
+<p>首先，展示辽宁区域，该地区不进行分析。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-c7f6079c4b1d9d5b0c9fa21db9b3a05e-sz_1139357.png" alt="img"></p>
+<p>随后，让我们观察 彼得大帝湾区域。该区域有两个地方值得关注：1.图们江入海口；2.绥芬河入海口。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-9d9e0cdb8c6885475f61e9a37ab1564c-sz_1124640.png" alt="img"></p>
+<p>当海平面上升10米，可以看到哈桑斯基自然公园被海水淹没；海水从绥芬河入海口倒灌，越过海参崴，直冲乌苏里斯克（双城子）。</p>
+<h2 id="2-模拟海平面上升30米"><a href="#2-模拟海平面上升30米" class="headerlink" title="2.模拟海平面上升30米"></a><strong>2.模拟海平面上升30米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a8f5a8db2c61133c28a23e4d96b8e484-sz_2783675.jpeg" alt="img"></p>
+<p>同样的，辽宁区域仅作展示。（补充说明：海水上升30米时，平壤被淹没）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-44898d736239b92b559aa20d0736032e-sz_1033435.png" alt="img"></p>
+<p>接下来，观察绥芬河、图们江入海口。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-4ad4667f9bbdfc180a9ea9484c97828c-sz_1129832.png" alt="img"></p>
+<p>海水上升30米，为吉林带来了新的“出海口”，大致在 敬信镇 区域。绥芬河段，海水到达 乌苏里斯克（双城子）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-bcbd00b05285fdbf9ad59155c20827a1-sz_559739.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-afa5b40c73fd1e3a1ee10d1aa4a6efe9-sz_502973.png" alt="img"></p>
+<p>查阅了珲春和双城子的海拔（随机坐标），均在30米左右。但为什么双城子先一步被淹没？因为图们江下游丘陵众多，而绥芬河下游地势平坦，不同的地势造成海水倒灌进度的不同。</p>
+<h2 id="3-模拟海平面上升50米"><a href="#3-模拟海平面上升50米" class="headerlink" title="3.模拟海平面上升50米"></a><strong>3.模拟海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-e093882977a14599b16cdf091cf43fdc-sz_2738638.jpeg" alt="img"></p>
+<p>辽宁区域，效果图如下。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-cd711a521c3b8a357f84a8d7443202ea-sz_999043.png" alt="img"></p>
+<p>海平面上升50米，珲春市被倒灌的海水淹没；而另一股海水在吞没了双城子后，沿着绥芬河左拐，向着东宁市进发。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-e66f59b77c92983a862671ae8df92200-sz_1114002.png" alt="img"></p>
+<p>随后，我们观察另一边：阿穆尔河。当海平面上升50米，海水从阿穆尔河倒灌，一路漫延至阿穆尔斯克（俄罗斯城市）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-b7da492ed732afd95dfd7f395f7138e4-sz_1064599.png" alt="img"></p>
+<h2 id="4-模拟海平面上升80米"><a href="#4-模拟海平面上升80米" class="headerlink" title="4.模拟海平面上升80米"></a><strong>4.模拟海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-40c3b062510a639c9ed644cd563c6214-sz_2722311.jpeg" alt="img"></p>
+<p>辽宁区域，效果如下。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-6d83e8c9b3503f934253e91e1b04c549-sz_901667.png" alt="img"></p>
+<p>海水接着沿 图们江 倒灌，朝着 图们市 前进；绥芬河段倒灌不明显，还未进入我国领域；注意到北侧区域被淹没了，是怎么一回事呢？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-0a390370e431ab63f80f5fd122e8ada1-sz_939262.png" alt="img"></p>
+<p>原来，阿穆尔河 倒灌的海水进入了我国三江平原，并且淹没佳木斯，而鹤岗、双鸭山岌岌可危。其中一股海流，沿着 乌苏里江 ，进入兴凯湖，导致兴凯湖周边大片区域被淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-1439f5b30827aba68051b3d56af19a5d-sz_663376.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-96ce8fe171f420654b70af43e13ba069-sz_615287.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-afd88cdc1b84f1ce6c89f721363c308f-sz_547226.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-e7c27fd6f2e5f43303717d31e85cb48c-sz_484848.png" alt="img"></p>
+<h2 id="5-模拟海平面上升100米"><a href="#5-模拟海平面上升100米" class="headerlink" title="5.模拟海平面上升100米"></a><strong>5.模拟海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-972ef92752366c8e82c9284359500023-sz_2713209.jpeg" alt="img"></p>
+<p>图中红色圆圈是重要城市，该区域仅作展示，不作分析。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-3170e95c4946cb985706b09cbbe70f95-sz_940098.png" alt="img"></p>
+<p>我将上升50米和100米的效果图进行叠加，可以看到海水的整体漫延趋势，绥芬河区域海水受阻，而三江平原处被海水大肆漫灌。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-9ab1655419d5acf7618f7e7ec28a2551-sz_1015711.png" alt="img"></p>
+<p>绥芬河区域。当海水上升100米，海水从绥芬河倒灌，到达东宁市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-bfb84223eb29887bf3acd090b2d6cf29-sz_1214350.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-f3d7f7c6100b6846138bfc3c6d6fc13f-sz_542442.png" alt="img"></p>
+<h2 id="6-模拟海平面上升150米"><a href="#6-模拟海平面上升150米" class="headerlink" title="6.模拟海平面上升150米"></a><strong>6.模拟海平面上升150米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-788526aad97a15bc02f79371d1e115b9-sz_2696887.jpeg" alt="img"></p>
+<p>先观察北部区域。两股海流，一股沿着松花江南下，淹没哈尔滨；另一股沿着乌苏里江南下，淹没兴凯湖，随后与绥芬河交汇。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-0c82dc0ff533522821f24391707a851f-sz_981314.png" alt="img"></p>
+<p>再观察南部区域。松花江的海水接着南下，淹没东北平原（松嫩平原）；渤海的海水，从辽河平原一路北上，即将与松花江的海水相遇，差点将长白山脉及其周边区域变成“大型岛屿”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-61ae04401f5d71dce89128062c0ec359-sz_1084943.png" alt="img"></p>
+<p>查询三个城市的海拔如下所示（附一张地形图，可放大查看）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-0999843855396e9d8cc59ff925002af8-sz_634807.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-1dd77c5fe95c4e469bb0157871f46579-sz_768441.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-4bbc316fa41d704b52d9f1d8d64fa0ad-sz_646472.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-8055e120597c851857aee4b0a6bcd510-sz_1029308.png" alt="img"></p>
+<p>至此，海平面上升模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>模拟基于高程DEM数据，利用ArcGIS等软件对东北区域进行海平面上升模拟。<strong>当海平面上升30米</strong>，图们江区域（珲春）出现新的“出海口”；<strong>当海平面上80米</strong>，三江平原处成为“出海口”；<strong>当海平面上升150米</strong>，绥芬河区域（东宁）成为“出海口”。效果仅供参考，且无任何不良引导。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p><em>首先，现实中海平面上升及其缓慢，一年不足4mm；其次，全球冰盖融化至多使得海平面上升70米。</em>所以，大家应该能大致了解本次模拟，并不是为了“预测海水上涨”；而仅是反映、探究东北地形地貌特征，在架空的世界中，找到东北新的出海口的可能性，满足个人好奇心。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn">星球小捕手</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn/archives/7c90ef63.html">http://blog.planetgis.cn/archives/7c90ef63.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://blog.planetgis.cn" target="_blank">星球小捕手</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a><a class="post-meta__tags" href="/tags/%E5%9C%B0%E5%9B%BE/">地图</a><a class="post-meta__tags" href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5/">公众号同步</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87/">海平面上升</a><a class="post-meta__tags" href="/tags/%E4%B8%AD%E5%9B%BD/">中国</a><a class="post-meta__tags" href="/tags/%E4%B8%9C%E5%8C%97/">东北</a></div><div class="post-share"><div class="social-share" data-image="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="ads-wrap">true</div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/archives/1a6ea73f.html" title="假如海平面持续下降，南海会成为内海吗？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-c9deda349a6b3eb3477c7c8b06cc79bd-sz_1400579.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">假如海平面持续下降，南海会成为内海吗？</div></div><div class="info-2"><div class="info-item-1">如果海平面不断下降，南海会不会变成真正的内海？本文用真实海底地形做模拟，算出需要下降多少米，才能让南海彻底 “封闭”，变成陆地上的内海。  一、冰河时期的启发这是一张冰河时期的全球地形图。  大约在21000 年前的末次冰盛期，地球表面约有三分之一被冰覆盖，当时海平面比现在低约 125 米。地形如下图所示。  那么，当年海水是怎么上升到现在模样的？为了探究其动态过程，我决定进行海平面下降模拟。接下来，开始进行模拟与分析。 二、海平面下降模拟1.南洋概况首先，观察 南洋区域 的地形地貌特征。  南洋是明、清时期以来对东南亚一带的新加坡、泰国、马来西亚等国的称呼，是以中国为中心的一个概念。 包括马来群岛、菲律宾群岛、印度尼西亚，也包括中南半岛沿海、马来半岛等地。  2.海平面下降10米 海平面下降10米，似乎没有太大变化。但将 新加坡 区域放大看看。  新加坡 和 马来西亚 相连。新加坡南边的群岛也是三三两两 连成一块儿了。 3.海平面下降50米 放大进行局部分析。马六甲海峡，海水被排干。马来半岛和苏门答腊岛陆地相连。马六甲海峡海水褪去，使得新加坡丧失其海洋航运中转站的功能，影响力将...</div></div></div></a><a class="pagination-related" href="/archives/93762054.html" title="假如海平面持续上升，海水会从东南亚流进中国吗？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-349cae1e54419ce5afdbd1492f898873-sz_10078514.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">假如海平面持续上升，海水会从东南亚流进中国吗？</div></div><div class="info-2"><div class="info-item-1">模拟海平面上升发现：受山地与高原地形阻挡，东南亚海水无法流入中国内陆。中国主要风险集中在沿海平原与三角洲，而非跨境海水入侵。本文用地图与数据还原真实淹没格局。  一、东南亚2025年3月28日下午，缅甸发生7.9级大地震。地震对缅甸大范围地区造成了影响，泰国、越南甚至中国云南地区都有震感。下图为地震中心示意图。  而我本次研究区域选定的是东南亚的中南半岛。  东南亚（Southeast Asia，缩写SEA）位于亚洲东南部，包括中南半岛和马来群岛两大部分。中南半岛因位于中国以南而得名，南部的细长部分叫马来半岛。  本次研究内容是 中南半岛 的5个国家：缅甸、泰国、柬埔寨、老挝、越南。 二、模拟海平面上升说明：  数据基于高程DEM，利用ArcGIS等软件进行模拟、制图； 上升高度为0、10、20、30、50、80、100、150米（海拔）； 其目的是反映 中南半岛 的地形地貌特征； 效果仅供参考，且无任何不良引导。  1.中南半岛地形图 此时是正常地形图，可以看到 中南半岛 有缅甸、老挝、泰国、柬埔寨和越南。 缅甸左侧是 巴坎山脉 和 若开山脉，将其与印度、孟加拉国分开；缅甸和泰...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/archives/61f76d38.html" title="海平面上升模拟：印度地图大变样，孟买、加尔各答或将被淹没"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-13-f3087adcc41266c0fa3c903ddf172871-sz_8970204.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-12</div><div class="info-item-2">海平面上升模拟：印度地图大变样，孟买、加尔各答或将被淹没</div></div><div class="info-2"><div class="info-item-1">全球变暖带来的海平面上升，早已不是遥远的警告。当我们把目光投向印度这片人口密集、地势低洼的土地，一场基于真实地形的模拟，结果令人心惊。作为印度最核心、最繁华的两大都市，孟买与加尔各答，都坐落在极易被淹没的沿海区域。  一、印度河文明尼罗河流域、两河流域、印度河流域、黄河流域，是四个人类文明最早诞生的地区。  印度河流域文明，亦称印度河文明或哈拉帕文明。分布在约1250000平方公里的区域内（上图2仅为诞生区域），包括了整个现代的巴基斯坦和印度以及阿富汗部分地区，直到1920年被发现才重见天日。  据学者估计，哈拉帕文明遗址总数可能高达2000个，但大多数仍深埋地下，有待进一步发掘。较出名的有摩亨佐达罗。  那么，印度河在哪儿呢？与恒河又是什么关系？  这张图通俗易懂，印度大平原分布着 印度河 和 恒河。印度南部是德干高原。 对古文明的探索，先按下不表。看看海平面相关研究。   本文是利用GIS技术，对印度进行海平面上升模拟，了解一下印度的灾害风险与地形地貌特征。 二、海平面上升模拟首先，站在一个地理专业的角度上看，印度的地理条件是很好的。  且不说北边的 印度河平原 和 恒河平原...</div></div></div></a><a class="pagination-related" href="/archives/be5c0fc6.html" title="如果海水涨50米，广西会被淹吗？一张图看清真相"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-10-44f18b71fba0ce61940ad4ad597bb6c5-sz_4370419.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-10</div><div class="info-item-2">如果海水涨50米，广西会被淹吗？一张图看清真相</div></div><div class="info-2"><div class="info-item-1">一、广西地形广西地处中国地势第二级阶梯，是云贵高原向东南沿海的过渡地带，地形复杂多样，整体呈现西北高、东南低的倾斜格局。整体以山地、丘陵为主（占总面积约 70% 以上），属于两广丘陵的主体部分，平均海拔较高。  广西是中国喀斯特地貌分布最广、发育最典型的区域之一，约占全区面积的 35%。 假如海平面上升50米，广西的哪些区域会被淹没？接下来就详细分析一下。 二、模拟海平面上升这张图片展示了海平面上升 50 米对中国及周边地区地形的影响模拟，当前分析的是广西区域。（备注：其它沿海省份淹没分析的文章将会陆续发布）  从图中可以看到，长三角平原、珠三角平原以及黄河三角洲会被大面积淹没，东部沿海省份的陆地面积大幅缩减。海南岛与大陆之间的琼州海峡会变宽，海南岛周边部分低地岛屿可能被淹没。 而广西内陆的喀斯特地貌和丘陵腹地基本不会受到直接淹没影响，地形整体轮廓保持相对完整。 1 广西城市淹没图首先，从城市分布图开始进行分析。  沿海城市，如北海、钦州、防城港：三座沿海地级市的滨海平原、河口三角洲和滩涂将被海水完全覆盖，形成新的海岸线。广西内陆城市（南宁、柳州、桂林、百色等）因海拔普遍高于 5...</div></div></div></a><a class="pagination-related" href="/archives/4d3706a7.html" title="模拟海平面上升，广东会变成什么样？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-337c348f09477d6a65467cab46df91f1-sz_824264.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-06</div><div class="info-item-2">模拟海平面上升，广东会变成什么样？</div></div><div class="info-2"><div class="info-item-1">打开卫星图你会发现，广东最繁华的地方，大多分布在沿海低洼地带。珠江三角洲地势平坦、河网密布，既是天赋宝地，也藏着巨大隐患。当全球海平面持续上升，这些低海拔区域会最先受到冲击。今天，我们从地理、城市、经济三个维度，完整还原：海平面上升后的广东，会变成什么样子？  说明： 1.利用ArcGIS软件，对DEM高程数据进行填洼与洪水模拟。 2.科学研究表面海平面最高上升70米左右。 3.本次研究区是广东。 4.效果仅供参考，且无不良引导哦。 一、海平面上升效果图先来看看效果图，随后再进行分析。         二、海平面上升分析首先，也许有人会好奇：手机显示我的位置海拔100米，但是为什么海平面上升100时我所在的城市没有被淹没呢？  我做了几次模拟，得到如下结论：  相同海拔，平原比丘陵更容易被淹没（山峰会阻挡部分洪水进入时间）；  相同海拔，且都是平原，离海岸线较近的城市优先被淹没；  由于我选择洪水（或者是海啸）是从南海出发，因此越往北淹没效果越差。    声明：科学研究表明，南北极冰盖融化海平面最多升高70米，因此该模拟仅为了反映广东地势地貌。 1.当海平面上升5米广东省中南侧区...</div></div></div></a><a class="pagination-related" href="/archives/3a9800b3.html" title="南京真的安全吗？模拟洪水后我沉默了"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-10-1a16cbae39cf5eae921a9fd7a6567157-sz_2600627.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-10</div><div class="info-item-2">南京真的安全吗？模拟洪水后我沉默了</div></div><div class="info-2"><div class="info-item-1">当洪水真正来临，一座城市的命运，往往早已写在它的地形里。我们聊过江苏一马平川的脆弱，也看过广西群山守护的安稳，而作为江苏的省会、长江边的千年古都，南京究竟会面临怎样的局面？它真的像大家以为的那样安全吗？这一次，我们用模拟视角，还原洪水来临时，南京最真实的处境。  历史上，南京市域范围内曾在历史上先后出现过70多个名号，名称之多，不仅在中国，而且在世界也属罕见。（官方称呼，就是以王朝或政权的名义明文确定的正式名称，如金陵、秣陵、建业、石头城、扬州、丹阳、丹杨、江宁、建邺、建康、金城、蒋州、昇州、归化、白下、上元、西都、留都、陪都、集庆、应天、南京、京师、南都、天京、天都、天城、首都特别市、京市等，有近30个。）  建都朝代：东吴、东晋、刘宋、南齐、南梁、南陈、南吴（西都）、南唐、南宋（行都）、明、南明、太平天国、中华民国。  南京市长江以北是老山山脉、滁河河谷平原、大片岗地和零星丘陵。长江以南大致可分为3个区域。北部，从沿江到主城区周围，钟山、牛首山、云台山等依次排列，海拔大致在200-400多米。  秦淮河由南向北贯穿盆地，两侧形成海拔5-10米低平的河谷平原；在山地和平原之间，...</div></div></div></a><a class="pagination-related" href="/archives/494cb0b4.html" title="全是平原！江苏在海平面上升面前，到底有多脆弱？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-10-d2d6ae36cfa3e417777e4ca9c1598b85-sz_835433.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-10</div><div class="info-item-2">全是平原！江苏在海平面上升面前，到底有多脆弱？</div></div><div class="info-2"><div class="info-item-1">看完广西的地形，很多人都会感叹：盆地果然是天然的 “防洪铠甲”。可当我把模拟地图切换到江苏，眼前的画面瞬间让人沉默。没有高山屏障，没有丘陵缓冲，放眼望去几乎全是一望无际的平原。在海平面上升面前，江苏这种一马平川的地形，到底有多脆弱？这组淹没模拟，会告诉你最真实的答案。  江苏省平均海拔15米，地形主要是以平原为主，平原面积占全省86.89%，平原面积占比居全国各省首位，最高峰是位于连云港云台山的玉女峰，海拔625米。 江苏地形与黄河故道我们先来看看江苏的地形。从下图中，可以看到江苏可谓“一马平川”，从北到南依次是黄淮平原、江淮平原和长江三角洲平原（太湖平原），东侧是东部滨海平原。  那么，江苏为什么这么“平”呢？  明清黄河故道、以及淮河、长江的泥沙经过沉降堆积、沉降形成冲击平原；且江苏位于相对稳定的扬子板块（华南板块），地壳运动较弱，缺乏强烈的地质活动，因此没有形成高山。  我选取了盐城市和大丰区沿海区域的卫星影像，间隔5年左右进行对比。可以看到近几十年沿海区域，海岸线仍在不断前移。  此处放1984年、2020年的卫星影像（位置不变、比例尺不变），方便对比。   由此可见，江...</div></div></div></a><a class="pagination-related" href="/archives/6bb8e028.html" title="如果强行抬高水面，洞庭湖能变回昔日“八百里洞庭”吗？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-e38e2f894d245cf08011533cf07d46af-sz_711267.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-14</div><div class="info-item-2">如果强行抬高水面，洞庭湖能变回昔日“八百里洞庭”吗？</div></div><div class="info-2"><div class="info-item-1">如果人为抬高水位、模拟水面上升，洞庭湖真的能重回 “八百里洞庭” 的全盛模样吗？本文用直观模拟与数据对比，带你看懂洞庭湖的历史变迁、现状困境，以及恢复昔日大湖背后的科学与现实问题。  一、洞庭湖洞庭湖（Dongting Lake），古称云梦、九江和重湖，位于长江中游荆江河段南岸，湖北省南部、湖南省北部。  洞庭湖明清时代为全盛时期,水面约6000平方公里,1949年水面4350平方公里,现有水面2625平方公里。根据自然形态划分为东洞庭湖、南洞庭湖、西洞庭湖(由目平湖和七里湖组成)，是全国水量最大、水面面积第二的淡水湖泊（原为中国最大的淡水湖），仅次于鄱阳湖。  从历史资料与论文文献中，可以看到洞庭湖水域在逐年减小。   我就由此产生一个想法：模拟水面上升，还原 古代 洞庭湖。 二、洞庭湖全盛时期让我们先看看全盛时期洞庭湖长啥样。  再当前洞庭湖长啥样。从2021年遥感解译的图片中，可以看到东洞庭湖、南洞庭湖、目平湖、七里湖；周边还围绕着大大小小的湖泊、耕地和湿地保护区。  由于之后还要对湖南进行水面上升模拟，因此将模拟范围选取 湖南省 及其周边。 声明：有大量研究 与 实际方案...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">星球小捕手</div><div class="author-info-description">用数据讲述地球变化，用地图发现世界的温度</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">53</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/plantcatcher"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">目前博客正在建设中，一天上传3篇文章，欢迎阅读~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E4%B8%9C%E5%8C%97"><span class="toc-text">一、东北</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87"><span class="toc-text">二、模拟海平面上升</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8710%E7%B1%B3"><span class="toc-text">1.模拟海平面上升10米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8730%E7%B1%B3"><span class="toc-text">2.模拟海平面上升30米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8750%E7%B1%B3"><span class="toc-text">3.模拟海平面上升50米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8780%E7%B1%B3"><span class="toc-text">4.模拟海平面上升80米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87100%E7%B1%B3"><span class="toc-text">5.模拟海平面上升100米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87150%E7%B1%B3"><span class="toc-text">6.模拟海平面上升150米</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%80%BB%E7%BB%93"><span class="toc-text">三、总结</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%9C%80%E5%90%8E%E8%AF%B4%E8%AF%B4"><span class="toc-text">四、最后说说</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/archives/1a6ea73f.html" title="假如海平面持续下降，南海会成为内海吗？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-c9deda349a6b3eb3477c7c8b06cc79bd-sz_1400579.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="假如海平面持续下降，南海会成为内海吗？"/></a><div class="content"><a class="title" href="/archives/1a6ea73f.html" title="假如海平面持续下降，南海会成为内海吗？">假如海平面持续下降，南海会成为内海吗？</a><time datetime="2026-03-15T14:58:37.000Z" title="发表于 2026-03-15 22:58:37">2026-03-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/7c90ef63.html" title="海平面上升模拟：外东北出海，需要淹没多少米？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升模拟：外东北出海，需要淹没多少米？"/></a><div class="content"><a class="title" href="/archives/7c90ef63.html" title="海平面上升模拟：外东北出海，需要淹没多少米？">海平面上升模拟：外东北出海，需要淹没多少米？</a><time datetime="2026-03-15T14:48:23.000Z" title="发表于 2026-03-15 22:48:23">2026-03-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/93762054.html" title="假如海平面持续上升，海水会从东南亚流进中国吗？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-349cae1e54419ce5afdbd1492f898873-sz_10078514.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="假如海平面持续上升，海水会从东南亚流进中国吗？"/></a><div class="content"><a class="title" href="/archives/93762054.html" title="假如海平面持续上升，海水会从东南亚流进中国吗？">假如海平面持续上升，海水会从东南亚流进中国吗？</a><time datetime="2026-03-15T14:45:38.000Z" title="发表于 2026-03-15 22:45:38">2026-03-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/fb4016d4.html" title="海平面上升模拟，海南岛终极安全区到底在哪？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-1cd46fc65c258096f069ef69c8edc61e-sz_1581459.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升模拟，海南岛终极安全区到底在哪？"/></a><div class="content"><a class="title" href="/archives/fb4016d4.html" title="海平面上升模拟，海南岛终极安全区到底在哪？">海平面上升模拟，海南岛终极安全区到底在哪？</a><time datetime="2026-03-14T15:04:21.000Z" title="发表于 2026-03-14 23:04:21">2026-03-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/aeada9c5.html" title="如果海平面持续上升，英国版图将被如何改写？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-14-b17423e45d3b60951d5f5721a07a650a-sz_1197501.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如果海平面持续上升，英国版图将被如何改写？"/></a><div class="content"><a class="title" href="/archives/aeada9c5.html" title="如果海平面持续上升，英国版图将被如何改写？">如果海平面持续上升，英国版图将被如何改写？</a><time datetime="2026-03-13T18:00:03.000Z" title="发表于 2026-03-14 02:00:03">2026-03-14</time></div></div></div></div><div class="card-widget ads-wrap">true</div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 星球小捕手</span></div><div class="footer_custom_text">「星球小捕手」感谢大家对地理的热爱~😆</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
