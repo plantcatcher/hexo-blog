@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>海平面上升模拟：台湾岛的真实地形极限在哪？ | 星球小捕手</title><meta name="author" content="星球小捕手"><meta name="copyright" content="星球小捕手"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本文通过模拟不同幅度海平面上升，直观拆解台湾岛 “东高西低、中部纵贯山脉” 的逆天地形特征。从山脉抬升、平原淹没到岛体形态重构，用数据与场景模拟，带你看清台湾地形如何影响海平面变化下的地貌走向，轻松读懂地理硬核知识。  一、台湾本文缘起于下面这张图。图中模拟的是海平面上升1000米后的中国沿海区域，可以看到大陆大部分被海水吞没时，台湾岛还有将近1&#x2F;3的土地裸露在海平面之上。  台湾岛的地">
+<meta property="og:type" content="article">
+<meta property="og:title" content="海平面上升模拟：台湾岛的真实地形极限在哪？">
+<meta property="og:url" content="http://blog.planetgis.cn/archives/f5dfde09.html">
+<meta property="og:site_name" content="星球小捕手">
+<meta property="og:description" content="本文通过模拟不同幅度海平面上升，直观拆解台湾岛 “东高西低、中部纵贯山脉” 的逆天地形特征。从山脉抬升、平原淹没到岛体形态重构，用数据与场景模拟，带你看清台湾地形如何影响海平面变化下的地貌走向，轻松读懂地理硬核知识。  一、台湾本文缘起于下面这张图。图中模拟的是海平面上升1000米后的中国沿海区域，可以看到大陆大部分被海水吞没时，台湾岛还有将近1&#x2F;3的土地裸露在海平面之上。  台湾岛的地">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png">
+<meta property="article:published_time" content="2026-03-16T06:21:13.000Z">
+<meta property="article:modified_time" content="2026-03-16T06:32:58.226Z">
+<meta property="article:author" content="星球小捕手">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="海平面模拟">
+<meta property="article:tag" content="地图">
+<meta property="article:tag" content="公众号同步">
+<meta property="article:tag" content="海平面上升">
+<meta property="article:tag" content="中国">
+<meta property="article:tag" content="台湾">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "海平面上升模拟：台湾岛的真实地形极限在哪？",
+  "url": "http://blog.planetgis.cn/archives/f5dfde09.html",
+  "image": "https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png",
+  "datePublished": "2026-03-16T06:21:13.000Z",
+  "dateModified": "2026-03-16T06:32:58.226Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "星球小捕手",
+      "url": "http://blog.planetgis.cn"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://blog.planetgis.cn/archives/f5dfde09.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7003785465265177',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4EHEP88TN2"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4EHEP88TN2')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4EHEP88TN2', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '海平面上升模拟：台湾岛的真实地形极限在哪？',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">54</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">星球小捕手</span></a><a class="nav-page-title" href="/"><span class="site-name">海平面上升模拟：台湾岛的真实地形极限在哪？</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">海平面上升模拟：台湾岛的真实地形极限在哪？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-03-16T06:21:13.000Z" title="发表于 2026-03-16 14:21:13">2026-03-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-03-16T06:32:58.226Z" title="更新于 2026-03-16 14:32:58">2026-03-16</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>本文通过模拟不同幅度海平面上升，直观拆解台湾岛 “东高西低、中部纵贯山脉” 的逆天地形特征。从山脉抬升、平原淹没到岛体形态重构，用数据与场景模拟，带你看清台湾地形如何影响海平面变化下的地貌走向，轻松读懂地理硬核知识。</p>
+<hr>
+<h1 id="一、台湾"><a href="#一、台湾" class="headerlink" title="一、台湾"></a><strong>一、台湾</strong></h1><p>本文缘起于下面这张图。图中模拟的是海平面上升1000米后的中国沿海区域，可以看到大陆大部分被海水吞没时，台湾岛还有将近1&#x2F;3的土地裸露在海平面之上。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-852e0ef9537f8a64f68f140e34d35359-sz_7085903.png" alt="海平面模拟"></p>
+<p>台湾岛的地形究竟有多逆天？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8d24d04df1446feb9073ea82000bd8af-sz_111311.jpeg" alt="img"></p>
+<p>（台湾东部沿海，图片来源于网络）</p>
+<p>台湾位于中国东南沿海的大陆架上，东临太平洋，西隔台湾海峡与福建省相望；北濒东海，南界巴士海峡与菲律宾群岛相对。台湾省由中国第一大岛台湾岛与兰屿、绿岛、钓鱼岛等附属岛屿和澎湖列岛组成。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-fc80f42ecab31da3a4197b98239a3597-sz_79071.jpeg" alt="img"></p>
+<p>台湾岛地处 欧亚板块 和 太平洋板块的菲律宾海板块 俯冲和隆起运动显著的碰撞带上。岛的中部和东半部大部分是海拔一千米以上的高山，面积约占全岛的三分之一。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4c56d2c558eb46a24902e8979519d6e5-sz_1259213.png" alt="img"></p>
+<p>(台湾第一高峰 玉山 海拔3952米)</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为10、20、30、50、80、100、200、500、1000米（海拔）；</em></li>
+<li><em>其目的是反映 台湾岛 的地形地貌特征；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-海平面上升0米"><a href="#1-海平面上升0米" class="headerlink" title="1.海平面上升0米"></a><strong>1.海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c4475bc0354a39759dd36afe4356d8e1-sz_1647148.png" alt="海平面模拟"></p>
+<p>从图中可以看到，中央山系包括台东山脉（海岸山脉）、中央山脉、玉山山脉和阿里山脉四个平行山脉，贯穿南北，将全岛分为不对称的两半。接下来开始模拟海平面上升。</p>
+<h2 id="2-海平面上升10米"><a href="#2-海平面上升10米" class="headerlink" title="2.海平面上升10米"></a><strong>2.海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-3c3f91a7e7805c16c7974689a4dbf98f-sz_1636578.png" alt="海平面模拟"></p>
+<p>首当其冲，被淹没的是低海拔的沿海城市。有高雄（海拔11米）、台南（海拔9米）、台北、新北（海拔13米）、基隆（海拔8米）、宜兰（海拔8米）、花莲（海拔10米）、台东（海拔13米）。这些沿海城市的城区部分，均或多或少被海水淹没。<em>【备注：本文中，海拔均为随机坐标点】</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-37687d9fcbe2dddaf257aaa57df6d744-sz_562445.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-93619930c914cfd3dad42cea451f6c6c-sz_685496.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-bf6541783b2cb255f8aded7fe0d19524-sz_765803.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-ba514820da7529877c811f6520bb5f06-sz_684678.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-e27d4d039842d018d135c04ff2c34953-sz_467153.png" alt="img"></p>
+<p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/977594bd62b14fce41e8541bfa8a698b-sz_432467.png" alt="img"></p>
+<h2 id="3-海平面上升20米"><a href="#3-海平面上升20米" class="headerlink" title="3.海平面上升20米"></a><strong>3.海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-6d544f8ad85e0df224ac984c3f233f45-sz_1629840.png" alt="海平面模拟"></p>
+<p>新竹城区海拔25米左右，但是沿海部分已经被海水淹没。接下来，从局部进行观察，首先从北部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-10afd925fa2fb675d7419e5f755c099d-sz_578529.png" alt="海平面模拟"></p>
+<p>红色圆圈表示被海水淹没，白色圆圈表示城区部分仍安全。台北盆地、宜兰平原几乎被海水灌满。接下来观察南部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-eb5d3146aa9d76e6029b0c8afa8927d1-sz_605418.png" alt="海平面模拟"></p>
+<p>嘉南平原大部分被海水淹没，台南、高雄、台东均沉入海底。留意到台南、高雄地区有零星山峰海拔高于20米的，此时仍裸露在海水之上。</p>
+<h2 id="4-海平面上升30米"><a href="#4-海平面上升30米" class="headerlink" title="4.海平面上升30米"></a><strong>4.海平面上升30米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b94cdf1ba15b0663a48ead52377d628f-sz_1626294.png" alt="海平面模拟"></p>
+<p>当海平面上升30米，让我们把目光放到中部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-df3d721aba3730302f098ddc196e0205-sz_423682.png" alt="海平面模拟"></p>
+<p>可以看到台湾岛东部岸线变化并不明显，而西部 嘉南平原 被海水大面积淹没了。与此同时，台中城区即将被海水波及。</p>
+<h2 id="5-海平面上升50米"><a href="#5-海平面上升50米" class="headerlink" title="5.海平面上升50米"></a><strong>5.海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-23da7ff4b425c6b18336e2e6e4d873fb-sz_1624850.png" alt="海平面模拟"></p>
+<p>花莲区域，海水在中央山脉与海岸山脉之间的低洼地带（花东纵谷） 开始向南倒灌。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-80b6d7a548d544826176885114f130bf-sz_505290.png" alt="海平面模拟"></p>
+<h2 id="6-海平面上升80米"><a href="#6-海平面上升80米" class="headerlink" title="6.海平面上升80米"></a><strong>6.海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-f8c8f924c8c7e4d2ef9a363267a16a24-sz_1638405.png" alt="海平面模拟"></p>
+<p>澎湖列岛，海拔一般在海拔20－30米。最高点为大猫屿，海拔78.9米。在目前海平面高度下，已然“沉入海底”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-696f8ccacbe52dfcd06e9a56ad34809c-sz_1256603.png" alt="海平面模拟"></p>
+<h2 id="7-海平面上升100米"><a href="#7-海平面上升100米" class="headerlink" title="7.海平面上升100米"></a><strong>7.海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-a22d0a4b21833cb00ac957829bfcc96c-sz_1644998.png" alt="海平面模拟"></p>
+<p>桃园市海拔105米左右（城区部分），当海平面上升100米，海水开始淹没城区。台北市 北部 的 阳明山 成为 “岛屿” 。台中盆地几乎被海水灌满。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-6744168a32394a56c2aa814813e32a5b-sz_437302.png" alt="img"></p>
+<h2 id="8-海平面上升200米"><a href="#8-海平面上升200米" class="headerlink" title="8.海平面上升200米"></a><strong>8.海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c5e3b463c43ab72a54a2a3a6369ff44b-sz_1664900.png" alt="海平面模拟"></p>
+<p>当海平面上升200米，台湾岛 北部人口集中的区域均被海水吞没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8fbe9062e2d64157af09b7301514213b-sz_309471.png" alt="海平面模拟"></p>
+<p>中部区域。海水从低洼处（花东纵谷）倒灌，在海岸山脉 和 中央山脉 之间南下，即将与台东的海水汇合。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-9b9482df2b16cac17832a600b61a99a4-sz_392577.png" alt="海平面模拟"></p>
+<h2 id="9-海平面上升500米"><a href="#9-海平面上升500米" class="headerlink" title="9.海平面上升500米"></a><strong>9.海平面上升500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4c2b42f69d389f2da14a9db468c1764b-sz_1670697.png" alt="海平面模拟"></p>
+<p>北部区域。阳明山（海拔200至1000米），成为“孤岛”；在台湾百岳名峰中，雪山山脉中属于台湾百岳名峰的总计有20座，3000米以上的高峰则有54座，成为天然屏障。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-a1e34525ca669cab3c663162fcb10a32-sz_384234.png" alt="海平面模拟"></p>
+<p>中部区域。仅剩阿里山脉、玉山山脉、中央山脉依旧坚挺，而平原地区均沉入海底了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4cf45805f72c9a584abb098d8ebf9e1f-sz_460720.png" alt="海平面模拟"></p>
+<p>南部区域。海水贯通了 花东纵谷 ，海岸山脉被剥离出主岛。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-46c481b3d89ff88d8c614a866bf23f0d-sz_605708.png" alt="海平面模拟"></p>
+<h2 id="10-海平面上升1000米"><a href="#10-海平面上升1000米" class="headerlink" title="10.海平面上升1000米"></a><strong>10.海平面上升1000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png" alt="海平面模拟"></p>
+<p>海平面上升1000米，全球许多地区都沉入海底了。但哪怕在这个高度下，台湾岛仍有1&#x2F;3的土地露出海面。</p>
+<h2 id="11-海平面上升动态图"><a href="#11-海平面上升动态图" class="headerlink" title="11.海平面上升动态图"></a><strong>11.海平面上升动态图</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8be75b2b4b9c8459c51109772ea1e04b-sz_2472047.gif" alt="海平面模拟"></p>
+<p>补充海平面上升的动态图。至此，海平面上升模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本文基于高程DEM数据，利用ArcGIS等软件，对台湾岛进行海平面上升模拟。其目的是反映地形地貌特征，效果仅供参考，且无任何不良引导。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p>当前，每年海平面上升约4mm，而哪怕全球冰盖融化海平面至多上升70米。因此本文表现的是百万年前、百万年后的海平面变化，特此声明。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn">星球小捕手</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn/archives/f5dfde09.html">http://blog.planetgis.cn/archives/f5dfde09.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://blog.planetgis.cn" target="_blank">星球小捕手</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a><a class="post-meta__tags" href="/tags/%E5%9C%B0%E5%9B%BE/">地图</a><a class="post-meta__tags" href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5/">公众号同步</a><a class="post-meta__tags" href="/tags/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87/">海平面上升</a><a class="post-meta__tags" href="/tags/%E4%B8%AD%E5%9B%BD/">中国</a><a class="post-meta__tags" href="/tags/%E5%8F%B0%E6%B9%BE/">台湾</a></div><div class="post-share"><div class="social-share" data-image="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="ads-wrap">true</div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/archives/85e10e26.html" title="别等震了才知道！你家是否在地震带上，一查便知"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-555b48fd2038cc708b69b3f2b59bce2f-sz_1999485.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">别等震了才知道！你家是否在地震带上，一查便知</div></div><div class="info-2"><div class="info-item-1">近年来全球地震活动频繁，了解所处地震带至关重要。本文梳理中国主要地震带分布，帮你快速判断所在区域是否位于地震带上，提升防灾意识。  一、地震频发近年来，地震频发。2025年3月28日14时20分，缅甸实皆省西北部发生7.9级地震，震源深度30千米。缅甸首都内比都、最大城市仰光震感强烈。  仅我国，数不胜数的小地震，几乎是天天上演。  （数据来源：中国地震台） 大地震也是防不胜防，令人忧心。  中国如此，全球皆如此。可以看到，地震分布大多位于板块交界处。  基于好奇，也是为了让内心多些踏实。特此整理了我国地震带分布图、曾经发生过地震的震级分布图。 二、地震带与震级分布图1.全国区域  2.南海区域  3.南方区域  4.西南区域  5.西藏区域  6.新疆区域  7.中东部区域  8.中西部区域  9.北部区域  10.台湾区域  11.其它国家  三、我国地震监测的发展地震固然可怕，但国家也是在观测地震、震中救援、灾后重建，投入了大量的研究。 1.古代地震监测的开端（132年） 候风地动仪：东汉张衡发明世界首台地震检测仪器，虽具体原理尚有争议，但体现了中国早期对地震监测的探索。 ...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/archives/3a9800b3.html" title="南京真的安全吗？模拟洪水后我沉默了"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-10-1a16cbae39cf5eae921a9fd7a6567157-sz_2600627.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-10</div><div class="info-item-2">南京真的安全吗？模拟洪水后我沉默了</div></div><div class="info-2"><div class="info-item-1">当洪水真正来临，一座城市的命运，往往早已写在它的地形里。我们聊过江苏一马平川的脆弱，也看过广西群山守护的安稳，而作为江苏的省会、长江边的千年古都，南京究竟会面临怎样的局面？它真的像大家以为的那样安全吗？这一次，我们用模拟视角，还原洪水来临时，南京最真实的处境。  历史上，南京市域范围内曾在历史上先后出现过70多个名号，名称之多，不仅在中国，而且在世界也属罕见。（官方称呼，就是以王朝或政权的名义明文确定的正式名称，如金陵、秣陵、建业、石头城、扬州、丹阳、丹杨、江宁、建邺、建康、金城、蒋州、昇州、归化、白下、上元、西都、留都、陪都、集庆、应天、南京、京师、南都、天京、天都、天城、首都特别市、京市等，有近30个。）  建都朝代：东吴、东晋、刘宋、南齐、南梁、南陈、南吴（西都）、南唐、南宋（行都）、明、南明、太平天国、中华民国。  南京市长江以北是老山山脉、滁河河谷平原、大片岗地和零星丘陵。长江以南大致可分为3个区域。北部，从沿江到主城区周围，钟山、牛首山、云台山等依次排列，海拔大致在200-400多米。  秦淮河由南向北贯穿盆地，两侧形成海拔5-10米低平的河谷平原；在山地和平原之间，...</div></div></div></a><a class="pagination-related" href="/archives/aba8fa7f.html" title="海平面上升模拟：日本全境会被淹没多少？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-78cf79b6efa8d634fc7ce35ab9238137-sz_607084.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-12</div><div class="info-item-2">海平面上升模拟：日本全境会被淹没多少？</div></div><div class="info-2"><div class="info-item-1">当我们谈论全球变暖、海平面上升，很多人只觉得是遥远的未来议题。可如果把海平面上升的数值，叠在日本真实的地形与人口分布上，画面会瞬间变得无比直观。作为一个多山、多沿海平原、人口高度集中在湾区的岛国，日本对海平面变化格外敏感。 海水每上涨一米，都在改写海岸线；上涨几十米，足以重塑整个国家的地理轮廓。这不是灾难片桥段，而是基于真实海拔数据的推演 ——海平面上升，日本究竟会面临什么？  一、日本沉没？早在前些年，有一本科幻小说很火爆，叫《日本沉没》。  我国著名科幻小说家刘慈欣就曾坦言：   “日本科幻对我的影响很大。具体到《三体》，其实受了《日本沉没》巨大的影响。我看《日本沉没》后很震惊，一部科幻作品竟然能把一个民族深处最敏感、脆弱的对未来的恐惧感体现出来，我就想写一部中国的《日本沉没》。”  但科学研究表明，日本所处板块呈上升趋势，所以所谓“日本沉没”，不太可能是板块下沉。  还可能是什么呢？地震引发海啸，淹没沿海城市；海平面上升，淹没日本大陆。 在查阅资料过程中，收集到日本大地震（2011年3月11日 ）的震级数据，我将其制成了专题图（如下）。  随后，找到“活火山”分布数据，也做...</div></div></div></a><a class="pagination-related" href="/archives/7c90ef63.html" title="海平面上升模拟：外东北出海，需要淹没多少米？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-15</div><div class="info-item-2">海平面上升模拟：外东北出海，需要淹没多少米？</div></div><div class="info-2"><div class="info-item-1">以海平面上升为变量，本文模拟外东北打通出海口所需的最低海平面高度。通过关键地形点高程数据，得出外东北与日本海连通的临界值，直观展示地理格局的改变。  一、东北东北三省地形以平原、山地为主，分布格局是山环水绕，被称为“白山黑水”之地。  分布的长白山、兴安岭属于是天然屏障；三江平原(最东)、松嫩平原(居中)、辽河平原(最南)，土质极佳；有黑龙江、乌苏里江、松花江、辽河、鸭绿江等主要河流分布其间。 很好奇，当海平面上升多少米，外东北会有出海口？为了探究这个假设，也为了更了解东北地形地貌特征，因此进行本次模拟。 二、模拟海平面上升说明：  数据基于高程DEM，利用ArcGIS等软件进行模拟、制图； 上升高度为10、30、50、80、100、150米（海拔）； 其目的是反映 东北地区的地形地貌特征； 效果仅供参考，且无任何不良引导。  首先观察较有可能成为“出海口”的地方。从地形图中可以看到，东北区域有三处地势较为平坦的沿海区域：1.辽河平原，濒临渤海，位于辽东丘陵与辽西丘陵之间；2.图们江入海口 和 绥芬河 及其以北 兴凯湖 区域；3.阿穆尔河入海口向内陆延伸至三江平原处。  本次探究...</div></div></div></a><a class="pagination-related" href="/archives/9e16dd6.html" title="海平面下降40-60米，台湾海峡会变成陆地吗？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-02-20260302202221430.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-02</div><div class="info-item-2">海平面下降40-60米，台湾海峡会变成陆地吗？</div></div><div class="info-2"><div class="info-item-1">你有没有想过：如果海平面不断下降，台湾海峡会变成什么样子？ 从福建徒步走到台湾，真的只是科幻想象吗？ 答案藏在海底地形里。 只要海水退去几十米，曾经的海峡就会露出陆地，一条连通两岸的 “史前陆桥” 将重新出现。 到底退多少米可行？海底最深处在哪？历史上真的存在过这样的通道吗？  一、台湾海峡介绍台湾海峡纵长约400公里，面积约9万平方公里。南宽北窄，南口宽约400公里，北口宽约200公里，北部最窄处为130公里。处于中国东海大陆架上，地形起伏不平，平均水深约60米。  下图中，可以看到海峡中间标注有两处浅滩：台中浅滩和台湾浅滩。由于我之后模拟数据来源于高程DEM，大家也可以看到当海水褪去时，这两处浅滩的位置。  二、海平面下降模拟1.选取模拟范围本次模拟范围为台湾海峡，因此也会包含海峡两岸的台湾省与福建省部分领土（如下所示）。  裁剪完成后，大家可以稍稍观察台湾海峡的海底地形。由于精度和分辨率原因，感觉海峡相对平缓，但实际上海底起伏不平、丘谷相间，地势十分复杂（模拟海水褪去时能有更直观的感受）。 ![640 (1)](https://blogphoto.planetgis.cn/...</div></div></div></a><a class="pagination-related" href="/archives/ee2acd94.html" title="广东沉没模拟：50米海水淹掉多少大湾区？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-12-5d52f4fa466baf12af64ce148ab489a9-sz_3556014.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-12</div><div class="info-item-2">广东沉没模拟：50米海水淹掉多少大湾区？</div></div><div class="info-2"><div class="info-item-1">如果海平面上升 50 米，广东会变成什么样？很多人只当是一个遥远的气候假设，可当我们把珠三角的海拔、地形、城市分布叠进淹没模型里，结果远比想象更震撼。广州、深圳、佛山、东莞…… 曾经繁华的大湾区，会被海水重新切割成一片全新的地理格局。这不是灾难片，而是一次基于真实地形的模拟推演 ——海平面上升 50 米后，珠三角到底还能剩下什么？  一、广东地形图这是一张广东省行政区划与地形地图，可以看到北部、东北部多山地丘陵（颜色偏棕黄，海拔较高），南部沿海为平原与台地（颜色偏绿，海拔较低），整体地势北高南低。  上一篇文章，模拟了海平面上升50米广西区域的效果。本文开始对广东进行淹没分析。  二、海平面模拟让我们先看看，广东省地形究竟是什么样子的。   补充：当前主流气候模型预测，到 2100 年全球海平面上升幅度约为 0.5–1.2 米，远低于图中 50 米的极端情景，此图主要用于极端风险教育与地理格局演示。 下面是一张海平面上升 50 米情景下的广东省卫星淹没模拟图。  此时，海拔＜50 米的沿海平原与珠江三角洲几乎完全被海水覆盖，形成广阔的河口海湾，珠江下游河道被海水倒灌。珠江干流及支...</div></div></div></a><a class="pagination-related" href="/archives/d4164891.html" title="模拟海平面上升对福建的影响：详细推演与未来风险分析"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-06-05b54a95c7e1539ef11f023d4fbb9c6f-sz_6674811.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-06</div><div class="info-item-2">模拟海平面上升对福建的影响：详细推演与未来风险分析</div></div><div class="info-2"><div class="info-item-1">福建依山傍海，海岸线曲折漫长，福州、厦门、泉州、漳州等经济重镇几乎都分布在沿海平原与港湾地带。 很多人觉得 “海平面上升” 是遥远的环境议题，却很少从地图和地形上认真想过： 如果海平面持续抬升，福建的沿海城区、港口、滩涂、河道会受到怎样的冲击？哪些地方最先被影响？这又会如何改变福建的城市格局与未来发展？ 这篇文章，我们用数据、地形与现实逻辑，详细聊聊：当海平面上升，福建会怎么样？  说明：  利用ArcGIS软件，对DEM高程数据进行洪水模拟。 本次模拟 福建省区域 的海平面上升情况。 效果仅供参考，且无不良引导哦。  一、福建省简介福建省，处中国东南沿海，东北与浙江省毗邻，西北与江西省接界，西南与广东省相连，东南隔台湾海峡与台湾省相望。     全省地势*西北高，东南低，呈依山傍海态势，境内山地、丘陵面积约占全省总面积的90%*。黄岗山是福建最高峰，海拔2160.8米。  地形图有年头了，请见谅 二、海平面上升模拟首先，选取福建省的高程dem数据。  从图中可以看到，福建沿海存在些许平地，越往内陆山越多，且山峰高度普遍海拔100米以上。接下来进行模拟。（备注：2020年1月，南...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">星球小捕手</div><div class="author-info-description">用数据讲述地球变化，用地图发现世界的温度</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">54</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/plantcatcher"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">目前博客正在建设中，一天上传3篇文章，欢迎阅读~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%8F%B0%E6%B9%BE"><span class="toc-text">一、台湾</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%A8%A1%E6%8B%9F%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87"><span class="toc-text">二、模拟海平面上升</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%870%E7%B1%B3"><span class="toc-text">1.海平面上升0米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8710%E7%B1%B3"><span class="toc-text">2.海平面上升10米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8720%E7%B1%B3"><span class="toc-text">3.海平面上升20米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8730%E7%B1%B3"><span class="toc-text">4.海平面上升30米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8750%E7%B1%B3"><span class="toc-text">5.海平面上升50米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%8780%E7%B1%B3"><span class="toc-text">6.海平面上升80米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87100%E7%B1%B3"><span class="toc-text">7.海平面上升100米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87200%E7%B1%B3"><span class="toc-text">8.海平面上升200米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87500%E7%B1%B3"><span class="toc-text">9.海平面上升500米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%871000%E7%B1%B3"><span class="toc-text">10.海平面上升1000米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-%E6%B5%B7%E5%B9%B3%E9%9D%A2%E4%B8%8A%E5%8D%87%E5%8A%A8%E6%80%81%E5%9B%BE"><span class="toc-text">11.海平面上升动态图</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%80%BB%E7%BB%93"><span class="toc-text">三、总结</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%9C%80%E5%90%8E%E8%AF%B4%E8%AF%B4"><span class="toc-text">四、最后说说</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/archives/f5dfde09.html" title="海平面上升模拟：台湾岛的真实地形极限在哪？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升模拟：台湾岛的真实地形极限在哪？"/></a><div class="content"><a class="title" href="/archives/f5dfde09.html" title="海平面上升模拟：台湾岛的真实地形极限在哪？">海平面上升模拟：台湾岛的真实地形极限在哪？</a><time datetime="2026-03-16T06:21:13.000Z" title="发表于 2026-03-16 14:21:13">2026-03-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/85e10e26.html" title="别等震了才知道！你家是否在地震带上，一查便知"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-555b48fd2038cc708b69b3f2b59bce2f-sz_1999485.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="别等震了才知道！你家是否在地震带上，一查便知"/></a><div class="content"><a class="title" href="/archives/85e10e26.html" title="别等震了才知道！你家是否在地震带上，一查便知">别等震了才知道！你家是否在地震带上，一查便知</a><time datetime="2026-03-16T06:18:36.000Z" title="发表于 2026-03-16 14:18:36">2026-03-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/a245be36.html" title="模拟冰河时期的欧洲：揭秘你从未见过的古地理面貌"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-38e421b0dab032f75c06ccd0c3282cfe-sz_895529.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="模拟冰河时期的欧洲：揭秘你从未见过的古地理面貌"/></a><div class="content"><a class="title" href="/archives/a245be36.html" title="模拟冰河时期的欧洲：揭秘你从未见过的古地理面貌">模拟冰河时期的欧洲：揭秘你从未见过的古地理面貌</a><time datetime="2026-03-16T06:12:28.000Z" title="发表于 2026-03-16 14:12:28">2026-03-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/1a6ea73f.html" title="假如海平面持续下降，南海会成为内海吗？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-c9deda349a6b3eb3477c7c8b06cc79bd-sz_1400579.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="假如海平面持续下降，南海会成为内海吗？"/></a><div class="content"><a class="title" href="/archives/1a6ea73f.html" title="假如海平面持续下降，南海会成为内海吗？">假如海平面持续下降，南海会成为内海吗？</a><time datetime="2026-03-15T14:58:37.000Z" title="发表于 2026-03-15 22:58:37">2026-03-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/7c90ef63.html" title="海平面上升模拟：外东北出海，需要淹没多少米？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-15-a71d3d6df524ed8cc3ccd18c639779d5-sz_1808649.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升模拟：外东北出海，需要淹没多少米？"/></a><div class="content"><a class="title" href="/archives/7c90ef63.html" title="海平面上升模拟：外东北出海，需要淹没多少米？">海平面上升模拟：外东北出海，需要淹没多少米？</a><time datetime="2026-03-15T14:48:23.000Z" title="发表于 2026-03-15 22:48:23">2026-03-15</time></div></div></div></div><div class="card-widget ads-wrap">true</div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 星球小捕手</span></div><div class="footer_custom_text">「星球小捕手」感谢大家对地理的热爱~😆</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>

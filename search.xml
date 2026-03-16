@@ -3957,4 +3957,209 @@
         <tag>东北</tag>
       </tags>
   </entry>
+  <entry>
+    <title>模拟冰河时期的欧洲：揭秘你从未见过的古地理面貌</title>
+    <url>/archives/a245be36.html</url>
+    <content><![CDATA[<p>如果海平面大幅下降，欧洲会变成什么样子？本文用古地理模拟，带你穿越到冰河时代，看消失的陆地、连通的大陆与完全不同的欧洲地形。</p>
+<hr>
+<h1 id="一、冰河时期的欧洲"><a href="#一、冰河时期的欧洲" class="headerlink" title="一、冰河时期的欧洲"></a><strong>一、冰河时期的欧洲</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-abe3ae73ec260285e72d4cbb10999e70-sz_262109.jpeg" alt="冰河时期地形图"></p>
+<p>缘起于这张冰河时期的全球地形图。大约在21000 年前的末次冰盛期，地球表面约有三分之一被冰覆盖，<strong>当时海平面比现在低约 125 米。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-38e421b0dab032f75c06ccd0c3282cfe-sz_895529.png" alt="冰河时期地形图"></p>
+<p>欧洲部分如图所示。为了重现当时的地形地貌，我决定进行海平面下降模拟，观察并分析海水是如何“褪去”的。</p>
+<h1 id="二、海平面下降模拟"><a href="#二、海平面下降模拟" class="headerlink" title="二、海平面下降模拟"></a><strong>二、海平面下降模拟</strong></h1><h2 id="1-欧洲简介"><a href="#1-欧洲简介" class="headerlink" title="1.欧洲简介"></a><strong>1.欧洲简介</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-21a40cc7ed08acb86318fea137d4afa5-sz_427053.jpeg" alt="欧洲地图"></p>
+<p>欧洲东以乌拉尔山脉、乌拉尔河，东南以里海、大高加索山脉和黑海与亚洲为界；西隔大西洋、格陵兰海、丹麦海峡与北美洲相望；北接北冰洋；南隔地中海与非洲相望，以直布罗陀海峡为界。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-66c5c2900ab80c23faa444a79932017b-sz_1466986.jpeg" alt="欧洲地形图"></p>
+<p>众多的半岛和岛屿把欧洲大陆边缘的海洋分割成许多边缘海、内海和海湾。巴伦支海、挪威海、北海和比斯开湾是欧洲较大的边缘海，白海、波罗的海、地中海和黑海等则深入大陆内部，成为内海或陆间海。</p>
+<h2 id="2-模拟海平面下降0米"><a href="#2-模拟海平面下降0米" class="headerlink" title="2.模拟海平面下降0米"></a><strong>2.模拟海平面下降0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4202c7c49bc9b304002232dee092a304-sz_1886296.jpeg" alt="海平面模拟"></p>
+<p>这是如今海平面的高度。接下来，我会模拟看海平面下降，观察海水是如何从边缘海、内海、海湾中褪去的；哪些群岛会与大陆相连；哪里的地势平坦、哪里的地势陡峭。</p>
+<h2 id="3-模拟海平面下降50米"><a href="#3-模拟海平面下降50米" class="headerlink" title="3.模拟海平面下降50米"></a><strong>3.模拟海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-69278e40a1d02cd597c4c5dd5721f63a-sz_10378424.png" alt="海平面模拟"></p>
+<p>从图中能够略微看到，海水褪去后显露<strong>淡绿色</strong>的海底。让我们放大，从局部进行观察。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-5bc0eac3aa0113574572b6cf0efd47d3-sz_1301082.png" alt="海平面模拟"></p>
+<p>首先，是北欧区域。波罗的海 和 外部大洋分离，成为内海；德国失去出海口（或外移）；挪威西部与北部山脉陡峭，海水褪去并不明显。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-d741d1a9f62371c402210a2a0ed40784-sz_1015876.png" alt="海平面模拟"></p>
+<p>接下来，观察大不列颠岛。海水从英吉利海峡褪去，使得英国和法国、比利时、荷兰之间“畅通无阻”。与此同时，大不列颠岛西部区域海水褪去不明显。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-2afd6a2236126abd827cca32eac775b0-sz_1500515.png" alt="海平面模拟"></p>
+<p>随后，观察直布罗陀海峡。从图中可以看到无论地中海一侧，还是大西洋一侧，变化均不明显，由此可知其海岸相对陡峭。直布罗陀海峡此时仍旧可以通航。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-5c37e2af26b95a127b82950dc415d38c-sz_1588871.png" alt="海平面模拟"></p>
+<p>最后，黑海区域。当海平面下降50米，亚速海消失，黑海也即将成为封闭的“内海”。留意到左下角的爱琴海，变化似乎不明显。</p>
+<h2 id="4-模拟海平面下降100米"><a href="#4-模拟海平面下降100米" class="headerlink" title="4.模拟海平面下降100米"></a><strong>4.模拟海平面下降100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-d68b3fdaafa3bb70c3c03f08f1a005cd-sz_10467158.png" alt="海平面模拟"></p>
+<p>英国区域。英吉利海峡 消失，英国本岛 和 爱尔兰 之间的 爱尔兰海 消失；挪威西北部区域依旧坚挺，海岸线变化不明显。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-0bb5a7fa454f058504ca8e28b52cdf68-sz_1242563.png" alt="海平面模拟"></p>
+<p>地中海中部区域。亚得里亚海几近消失；非洲突尼斯东岸海岸线东移约100km。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-f50b13a63df6d36937895df2a52f56c5-sz_1772867.png" alt="海平面模拟"></p>
+<p>地中海东侧。黑海面积进一步缩小；苏伊士运河断流，切断了地中海和红海之间的联系。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-784a1908abb9e4d03b8bb23cff1b85ce-sz_1874239.png" alt="海平面模拟"></p>
+<h2 id="5-模拟海平面下降120米"><a href="#5-模拟海平面下降120米" class="headerlink" title="5.模拟海平面下降120米"></a><strong>5.模拟海平面下降120米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c44b408a223635721873f6e09ed88602-sz_1880938.jpeg" alt="海平面模拟"></p>
+<p>依旧，先观察英国区域。海平面下降120米，爱尔兰、英国，与欧洲本土紧密相连；冰岛、挪威岸线变化依旧较小。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-57e7b73e8054d9785e692051dd034650-sz_1018142.png" alt="海平面模拟"></p>
+<p>随后，直布罗陀海峡。可以看到该海峡依旧可以通航。直布罗陀海峡 水下地形属于东深西浅，最浅处水深301米，最深处水深1181米，平均深度约375米。海平面下降120米不影响通航。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b194f150dd87591c9800e1cc6774e934-sz_1669934.png" alt="海平面模拟"></p>
+<p>再观察地中海中部区域。从下降100米，到下降120米，该区域变化也没这么剧烈了。欧洲其它区域变化也不明显，因此不再作展示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c862a97d634fd54cebe2119fceba5871-sz_1630784.png" alt="海平面模拟"></p>
+<p>海平面下降120米，差不多就是冰河时期欧洲的地形地貌。至此，海平面下降模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本文基于高程DEM数据，利用ArcGIS等软件，对欧洲地区进行海平面下降模拟。其目的是重现两万年前，冰河时期的欧洲地形地貌特征。效果仅供参考，且无任何不良引导。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-ca1b60ce8daaecf3edc9f2ea2d245c30-sz_142733.jpeg" alt="欧洲地图"></p>
+<p>欧洲是世界上海拔最低的大洲，欧洲地势低平，平均海拔仅为300米，地形以平原地形为主，平原面积约占欧洲总面积的三分之一，比例之高居世界各大洲之首。</p>
+<p>所以，与其模拟海平面下降，倒不如模拟海平面上升。今后，可能也会对该地进行海平面上升模拟，观察其 陆地 的地形地貌特征。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-7bdc58941147c23285153ef329979baf-sz_132890.jpeg" alt="欧洲三维地形图"></p>
+<p>（网络 &#x2F; 地形图进行了夸张处理）</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面下降</tag>
+        <tag>欧洲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>别等震了才知道！你家是否在地震带上，一查便知</title>
+    <url>/archives/85e10e26.html</url>
+    <content><![CDATA[<p>近年来全球地震活动频繁，了解所处地震带至关重要。本文梳理中国主要地震带分布，帮你快速判断所在区域是否位于地震带上，提升防灾意识。</p>
+<hr>
+<h1 id="一、地震频发"><a href="#一、地震频发" class="headerlink" title="一、地震频发"></a><strong>一、地震频发</strong></h1><p>近年来，地震频发。2025年3月28日14时20分，缅甸实皆省西北部发生7.9级地震，震源深度30千米。缅甸首都内比都、最大城市仰光震感强烈。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-1e89474b73f23c975c4b2c01be07ed14-sz_115006.jpeg" alt="img"></p>
+<p>仅我国，数不胜数的小地震，几乎是天天上演。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b17af08ec16e9cce93ba41d417ee604e-sz_105375.png" alt="img"></p>
+<p>（数据来源：中国地震台）</p>
+<p>大地震也是防不胜防，令人忧心。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-1dab87e512c7920d738c0e4b982568bb-sz_7666410.png" alt="地震"></p>
+<p>中国如此，全球皆如此。可以看到，地震分布大多位于板块交界处。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-e15ed2a60d7ad2ff424176f00d4e7baa-sz_841331.png" alt="地震"></p>
+<p>基于好奇，也是为了让内心多些踏实。特此整理了我国地震带分布图、曾经发生过地震的震级分布图。</p>
+<h1 id="二、地震带与震级分布图"><a href="#二、地震带与震级分布图" class="headerlink" title="二、地震带与震级分布图"></a><strong>二、地震带与震级分布图</strong></h1><h2 id="1-全国区域"><a href="#1-全国区域" class="headerlink" title="1.全国区域"></a><strong>1.全国区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-555b48fd2038cc708b69b3f2b59bce2f-sz_1999485.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4c8cd63ac286b82f109403175384a214-sz_1980947.png" alt="震级"></p>
+<h2 id="2-南海区域"><a href="#2-南海区域" class="headerlink" title="2.南海区域"></a><strong>2.南海区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b76ee6670760462a60e31e9fc5469aeb-sz_1869221.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-f4dc0df4e4ceee21c8989a301a8a2e35-sz_1695302.png" alt="震级"></p>
+<h2 id="3-南方区域"><a href="#3-南方区域" class="headerlink" title="3.南方区域"></a><strong>3.南方区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-61e111d0ca8d68fcf0d6b35735239944-sz_2463755.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-504b17ed6119e2c2f33a8b6bfd3180fb-sz_2304164.png" alt="震级"></p>
+<h2 id="4-西南区域"><a href="#4-西南区域" class="headerlink" title="4.西南区域"></a><strong>4.西南区域</strong></h2><p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/a1ef32d3880b4865d2645b84f1b6f27f-sz_2667000.png?x-oss-process=style/xmwx" alt="地震带"></p>
+<p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/21b19a11fcf4b3e6c6b379e808990c7a-sz_2598233.png?x-oss-process=style/xmwx" alt="震级"></p>
+<h2 id="5-西藏区域"><a href="#5-西藏区域" class="headerlink" title="5.西藏区域"></a><strong>5.西藏区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-69a180fb9de7067099f1024a3950c9fb-sz_2280997.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4931801db81ab937e2b4e0b992d9d7fc-sz_2199414.png" alt="震级"></p>
+<h2 id="6-新疆区域"><a href="#6-新疆区域" class="headerlink" title="6.新疆区域"></a><strong>6.新疆区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-847762986c3a72c6d1b783e6f0b1ad68-sz_1791196.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-829e6c24d1f6bb501b65568b3cd7764b-sz_1715487.png" alt="震级"></p>
+<h2 id="7-中东部区域"><a href="#7-中东部区域" class="headerlink" title="7.中东部区域"></a><strong>7.中东部区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-533e21ba5bc13681170a6b2a50e1e50c-sz_2100992.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-197fbd056deea939d1a5146c187ceb37-sz_2031711.png" alt="震级"></p>
+<h2 id="8-中西部区域"><a href="#8-中西部区域" class="headerlink" title="8.中西部区域"></a><strong>8.中西部区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b61f9dcc86a49da25396ff14eccebe0c-sz_2375796.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-d6954da6716affd810d79d9ac80b2a85-sz_2302052.png" alt="震级"></p>
+<h2 id="9-北部区域"><a href="#9-北部区域" class="headerlink" title="9.北部区域"></a><strong>9.北部区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8249d95840355463354ea9b98ba15382-sz_1872045.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-cfe21a25db3ca49b7b8ca37f308ee9ce-sz_1771073.png" alt="震级"></p>
+<h2 id="10-台湾区域"><a href="#10-台湾区域" class="headerlink" title="10.台湾区域"></a><strong>10.台湾区域</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-d537a0368b3dcc2d91c8363f1a48eefe-sz_1787774.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-1283493e80ecf6657a5848120548a8e1-sz_1812414.png" alt="震级"></p>
+<h2 id="11-其它国家"><a href="#11-其它国家" class="headerlink" title="11.其它国家"></a><strong>11.其它国家</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-0aca3d027e8e06c93d798648deef0026-sz_1650098.png" alt="地震带"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-6289ab53f81936a38581d0be94e3a03b-sz_1439433.png" alt="地震带"></p>
+<h1 id="三、我国地震监测的发展"><a href="#三、我国地震监测的发展" class="headerlink" title="三、我国地震监测的发展"></a><strong>三、我国地震监测的发展</strong></h1><p>地震固然可怕，但国家也是在观测地震、震中救援、灾后重建，投入了大量的研究。</p>
+<p><strong>1.古代地震监测的开端（132年）</strong></p>
+<p>候风地动仪：东汉张衡发明世界首台地震检测仪器，虽具体原理尚有争议，但体现了中国早期对地震监测的探索。</p>
+<p><strong>2.近代地震观测的起步（1930年）</strong></p>
+<p>鹫峰地震台：李善邦建立中国首个自主地震台，标志着近代地震科学的萌芽，后因战争中断。</p>
+<p><strong>3.新中国成立后的体系化建设</strong></p>
+<p>1950-1960年代：建成首批国家级地震台站，技术达国际同期水平。台站数量增至近600个，形成覆盖全国的模拟观测网络。</p>
+<p>1980年代：数字化开端。中美合作CDSN（1986年运行）：中国首个数字地震台网（9→10个台站），推动数据采集进入数字化时代。</p>
+<p><strong>4.数字化时代的加速发展</strong></p>
+<p>1990年代：建成48个国家数字台站+28区域台站，2001年组成国家级数字地震台网。省级遥测台网逐步铺开，实现区域监测能力提升。</p>
+<p>首都圈台网（2002年）：107个台站密集覆盖京津冀，强化政治中心区监测。</p>
+<p><strong>5.二十一世纪的全面覆盖与升级</strong></p>
+<p>“十五”网络工程（2008年）：建成1005个台站的全国性网络，包含国家台网（骨干）和31个区域台网（省市级）。实现实时数据传输、高精度定位和快速响应，监测能力达国际先进水平。</p>
+<p><strong>祝愿一切平安</strong></p>
+<p>END</p>
+]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>公众号同步</tag>
+        <tag>地理科普</tag>
+        <tag>地震</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面上升模拟：台湾岛的真实地形极限在哪？</title>
+    <url>/archives/f5dfde09.html</url>
+    <content><![CDATA[<p>本文通过模拟不同幅度海平面上升，直观拆解台湾岛 “东高西低、中部纵贯山脉” 的逆天地形特征。从山脉抬升、平原淹没到岛体形态重构，用数据与场景模拟，带你看清台湾地形如何影响海平面变化下的地貌走向，轻松读懂地理硬核知识。</p>
+<hr>
+<h1 id="一、台湾"><a href="#一、台湾" class="headerlink" title="一、台湾"></a><strong>一、台湾</strong></h1><p>本文缘起于下面这张图。图中模拟的是海平面上升1000米后的中国沿海区域，可以看到大陆大部分被海水吞没时，台湾岛还有将近1&#x2F;3的土地裸露在海平面之上。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-852e0ef9537f8a64f68f140e34d35359-sz_7085903.png" alt="海平面模拟"></p>
+<p>台湾岛的地形究竟有多逆天？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8d24d04df1446feb9073ea82000bd8af-sz_111311.jpeg" alt="img"></p>
+<p>（台湾东部沿海，图片来源于网络）</p>
+<p>台湾位于中国东南沿海的大陆架上，东临太平洋，西隔台湾海峡与福建省相望；北濒东海，南界巴士海峡与菲律宾群岛相对。台湾省由中国第一大岛台湾岛与兰屿、绿岛、钓鱼岛等附属岛屿和澎湖列岛组成。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-fc80f42ecab31da3a4197b98239a3597-sz_79071.jpeg" alt="img"></p>
+<p>台湾岛地处 欧亚板块 和 太平洋板块的菲律宾海板块 俯冲和隆起运动显著的碰撞带上。岛的中部和东半部大部分是海拔一千米以上的高山，面积约占全岛的三分之一。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4c56d2c558eb46a24902e8979519d6e5-sz_1259213.png" alt="img"></p>
+<p>(台湾第一高峰 玉山 海拔3952米)</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为10、20、30、50、80、100、200、500、1000米（海拔）；</em></li>
+<li><em>其目的是反映 台湾岛 的地形地貌特征；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-海平面上升0米"><a href="#1-海平面上升0米" class="headerlink" title="1.海平面上升0米"></a><strong>1.海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c4475bc0354a39759dd36afe4356d8e1-sz_1647148.png" alt="海平面模拟"></p>
+<p>从图中可以看到，中央山系包括台东山脉（海岸山脉）、中央山脉、玉山山脉和阿里山脉四个平行山脉，贯穿南北，将全岛分为不对称的两半。接下来开始模拟海平面上升。</p>
+<h2 id="2-海平面上升10米"><a href="#2-海平面上升10米" class="headerlink" title="2.海平面上升10米"></a><strong>2.海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-3c3f91a7e7805c16c7974689a4dbf98f-sz_1636578.png" alt="海平面模拟"></p>
+<p>首当其冲，被淹没的是低海拔的沿海城市。有高雄（海拔11米）、台南（海拔9米）、台北、新北（海拔13米）、基隆（海拔8米）、宜兰（海拔8米）、花莲（海拔10米）、台东（海拔13米）。这些沿海城市的城区部分，均或多或少被海水淹没。<em>【备注：本文中，海拔均为随机坐标点】</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-37687d9fcbe2dddaf257aaa57df6d744-sz_562445.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-93619930c914cfd3dad42cea451f6c6c-sz_685496.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-bf6541783b2cb255f8aded7fe0d19524-sz_765803.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-ba514820da7529877c811f6520bb5f06-sz_684678.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-e27d4d039842d018d135c04ff2c34953-sz_467153.png" alt="img"></p>
+<p><img src="https://img.xiumi.us/xmi/ua/4OqXz/i/977594bd62b14fce41e8541bfa8a698b-sz_432467.png" alt="img"></p>
+<h2 id="3-海平面上升20米"><a href="#3-海平面上升20米" class="headerlink" title="3.海平面上升20米"></a><strong>3.海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-6d544f8ad85e0df224ac984c3f233f45-sz_1629840.png" alt="海平面模拟"></p>
+<p>新竹城区海拔25米左右，但是沿海部分已经被海水淹没。接下来，从局部进行观察，首先从北部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-10afd925fa2fb675d7419e5f755c099d-sz_578529.png" alt="海平面模拟"></p>
+<p>红色圆圈表示被海水淹没，白色圆圈表示城区部分仍安全。台北盆地、宜兰平原几乎被海水灌满。接下来观察南部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-eb5d3146aa9d76e6029b0c8afa8927d1-sz_605418.png" alt="海平面模拟"></p>
+<p>嘉南平原大部分被海水淹没，台南、高雄、台东均沉入海底。留意到台南、高雄地区有零星山峰海拔高于20米的，此时仍裸露在海水之上。</p>
+<h2 id="4-海平面上升30米"><a href="#4-海平面上升30米" class="headerlink" title="4.海平面上升30米"></a><strong>4.海平面上升30米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-b94cdf1ba15b0663a48ead52377d628f-sz_1626294.png" alt="海平面模拟"></p>
+<p>当海平面上升30米，让我们把目光放到中部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-df3d721aba3730302f098ddc196e0205-sz_423682.png" alt="海平面模拟"></p>
+<p>可以看到台湾岛东部岸线变化并不明显，而西部 嘉南平原 被海水大面积淹没了。与此同时，台中城区即将被海水波及。</p>
+<h2 id="5-海平面上升50米"><a href="#5-海平面上升50米" class="headerlink" title="5.海平面上升50米"></a><strong>5.海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-23da7ff4b425c6b18336e2e6e4d873fb-sz_1624850.png" alt="海平面模拟"></p>
+<p>花莲区域，海水在中央山脉与海岸山脉之间的低洼地带（花东纵谷） 开始向南倒灌。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-80b6d7a548d544826176885114f130bf-sz_505290.png" alt="海平面模拟"></p>
+<h2 id="6-海平面上升80米"><a href="#6-海平面上升80米" class="headerlink" title="6.海平面上升80米"></a><strong>6.海平面上升80米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-f8c8f924c8c7e4d2ef9a363267a16a24-sz_1638405.png" alt="海平面模拟"></p>
+<p>澎湖列岛，海拔一般在海拔20－30米。最高点为大猫屿，海拔78.9米。在目前海平面高度下，已然“沉入海底”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-696f8ccacbe52dfcd06e9a56ad34809c-sz_1256603.png" alt="海平面模拟"></p>
+<h2 id="7-海平面上升100米"><a href="#7-海平面上升100米" class="headerlink" title="7.海平面上升100米"></a><strong>7.海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-a22d0a4b21833cb00ac957829bfcc96c-sz_1644998.png" alt="海平面模拟"></p>
+<p>桃园市海拔105米左右（城区部分），当海平面上升100米，海水开始淹没城区。台北市 北部 的 阳明山 成为 “岛屿” 。台中盆地几乎被海水灌满。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-6744168a32394a56c2aa814813e32a5b-sz_437302.png" alt="img"></p>
+<h2 id="8-海平面上升200米"><a href="#8-海平面上升200米" class="headerlink" title="8.海平面上升200米"></a><strong>8.海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-c5e3b463c43ab72a54a2a3a6369ff44b-sz_1664900.png" alt="海平面模拟"></p>
+<p>当海平面上升200米，台湾岛 北部人口集中的区域均被海水吞没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8fbe9062e2d64157af09b7301514213b-sz_309471.png" alt="海平面模拟"></p>
+<p>中部区域。海水从低洼处（花东纵谷）倒灌，在海岸山脉 和 中央山脉 之间南下，即将与台东的海水汇合。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-9b9482df2b16cac17832a600b61a99a4-sz_392577.png" alt="海平面模拟"></p>
+<h2 id="9-海平面上升500米"><a href="#9-海平面上升500米" class="headerlink" title="9.海平面上升500米"></a><strong>9.海平面上升500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4c2b42f69d389f2da14a9db468c1764b-sz_1670697.png" alt="海平面模拟"></p>
+<p>北部区域。阳明山（海拔200至1000米），成为“孤岛”；在台湾百岳名峰中，雪山山脉中属于台湾百岳名峰的总计有20座，3000米以上的高峰则有54座，成为天然屏障。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-a1e34525ca669cab3c663162fcb10a32-sz_384234.png" alt="海平面模拟"></p>
+<p>中部区域。仅剩阿里山脉、玉山山脉、中央山脉依旧坚挺，而平原地区均沉入海底了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-4cf45805f72c9a584abb098d8ebf9e1f-sz_460720.png" alt="海平面模拟"></p>
+<p>南部区域。海水贯通了 花东纵谷 ，海岸山脉被剥离出主岛。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-46c481b3d89ff88d8c614a866bf23f0d-sz_605708.png" alt="海平面模拟"></p>
+<h2 id="10-海平面上升1000米"><a href="#10-海平面上升1000米" class="headerlink" title="10.海平面上升1000米"></a><strong>10.海平面上升1000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-209c7e1398b90d42ca2ee3987502c554-sz_1623575.png" alt="海平面模拟"></p>
+<p>海平面上升1000米，全球许多地区都沉入海底了。但哪怕在这个高度下，台湾岛仍有1&#x2F;3的土地露出海面。</p>
+<h2 id="11-海平面上升动态图"><a href="#11-海平面上升动态图" class="headerlink" title="11.海平面上升动态图"></a><strong>11.海平面上升动态图</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-16-8be75b2b4b9c8459c51109772ea1e04b-sz_2472047.gif" alt="海平面模拟"></p>
+<p>补充海平面上升的动态图。至此，海平面上升模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本文基于高程DEM数据，利用ArcGIS等软件，对台湾岛进行海平面上升模拟。其目的是反映地形地貌特征，效果仅供参考，且无任何不良引导。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p>当前，每年海平面上升约4mm，而哪怕全球冰盖融化海平面至多上升70米。因此本文表现的是百万年前、百万年后的海平面变化，特此声明。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>台湾</tag>
+      </tags>
+  </entry>
 </search>
