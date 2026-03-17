@@ -4162,4 +4162,252 @@
         <tag>台湾</tag>
       </tags>
   </entry>
+  <entry>
+    <title>水面上升模拟：假如湖北重现古代云梦泽</title>
+    <url>/archives/88f1dbff.html</url>
+    <content><![CDATA[<p>本文基于 DEM 高程数据与江汉平原地形，<strong>模拟湖北水面逐步抬升</strong>，动态复原古代云梦泽的水域范围与形态。通过分阶段水位推演，直观呈现从零星湖群到连片大泽的演变过程，对照历史文献与考古研究，还原 “气蒸云梦泽” 的地理原貌，同时探讨这一设想的工程边界、生态意义与现实启示，带你用科技视角看见荆楚大地的沧海桑田。</p>
+<hr>
+<h1 id="一、云梦泽"><a href="#一、云梦泽" class="headerlink" title="一、云梦泽"></a><strong>一、云梦泽</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-25e97beb7b50ce4312250bad173aad2d-sz_910991.png" alt="云梦泽"></p>
+<p>据《左传》记载，先秦时期楚国有一块名为“云梦”的楚王狩猎区。而 <strong>云梦泽（Yun-meng Lakes）</strong>，则是中国湖北省江汉平原上的古代湖泊群的总称。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-411075dd4cc0510b3f81ef38b1df879a-sz_228847.jpeg" alt="云梦泽"></p>
+<p>先秦时这一湖群的范围周长约450公里。后因长江和汉水带来的泥沙不断沉积，云梦泽范围逐渐减小。魏晋南北朝时期已缩小一半，唐宋时解体为星罗棋布的小湖群。</p>
+<p><strong>《望洞庭湖赠张丞相》</strong></p>
+<p>唐·孟浩然</p>
+<p><em>八月湖水平，涵虚混太清。</em></p>
+<p><em>气蒸云梦泽，波撼岳阳城。</em></p>
+<p><em>欲济无舟楫，端居耻圣明。</em></p>
+<p><em>坐观垂钓者，徒有羡鱼情。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a7dc0050230bf0edade8fa68b8a65206-sz_1263845.png" alt="云梦泽地形图"></p>
+<p>可惜，云梦泽古代湖泊群，已消褪为一些相互分离的湖泊。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-c1c50fc0e33d16d7a87243d076002465-sz_2164826.png" alt="云梦泽地形图"></p>
+<p>如今，江汉平原分布着大大小小的城市。南部的洞庭湖附近，也是多了许多城镇。</p>
+<h1 id="二、水面上升模拟"><a href="#二、水面上升模拟" class="headerlink" title="二、水面上升模拟"></a><strong>二、水面上升模拟</strong></h1><p>翻阅文献，可以看到云梦泽的演化过程，泥沙堆积渐渐地将湖泊填满，“沧海”变为桑田。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a2a9fcaac35fc337bb60ab23a241dfa0-sz_858334.png" alt="img"></p>
+<p>本次模拟存在不少困难。因为云梦泽之所以消失，是因为泥沙堆积，将低洼地带填平，当前该地地形正是填平后的效果。而模拟水面上升，恰是基于当下的高程地形DEM数据。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-d9383da488694f2df8be88d64b97e58d-sz_1325804.png" alt="云梦泽地形图"></p>
+<p>因此，我仅能模拟将长江截断，以蓄水的过程将 江汉平原 的水位抬升。<em>（备注：此处的“蓄水”是在海拔20米的基础上向上增加水位。例如：蓄水5米&#x3D;海拔25米）。</em></p>
+<h2 id="1-蓄水5米"><a href="#1-蓄水5米" class="headerlink" title="1.蓄水5米"></a><strong>1.蓄水5米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-2227acace315f6fed6b8c00767bdfc9f-sz_7294732.png" alt="洪水模拟"></p>
+<p>蓄水5米（海拔25米），此时，河水从长江漫延至周边低洼地带。长江沿岸的五湖、沉湖、鲁湖、斧头湖，乃至梁子湖均被河水淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-ee4a6bfc1d449bdec4ed3573dccc2628-sz_542116.gif" alt="洪水模拟"></p>
+<p>经查询，梁子湖附近海拔在20米左右。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-5d27c352a26d297785845afc30db0068-sz_704836.png" alt="img"></p>
+<p>【声明：仅作地理模拟研究，无任何不良引导】</p>
+<p><strong>2.蓄水8米</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-2a3b3cac8506e800d90da033893be652-sz_7353738.png" alt="洪水模拟"></p>
+<p>蓄水8米（海拔28米），淹没范围进一步扩大。汉江与长江中部平原，被河水大面积淹没，河水直逼荆州市城区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-762585554bd24aeff1c435fcec453177-sz_478284.gif" alt="洪水模拟"></p>
+<h2 id="3-蓄水10米"><a href="#3-蓄水10米" class="headerlink" title="3.蓄水10米"></a><strong>3.蓄水10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-c0d22ea3899e7dd2d3d53c9ff9329d33-sz_7340101.png" alt="洪水模拟"></p>
+<p>蓄水10米（海拔30米左右），荆州市、益阳市部分区域，开始被河水淹没。两地的海拔高度如下所示（均为城区随机坐标）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-bc6533f9cebc6d9ad134ee23be8d55dc-sz_492505.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-55403c5844b83d165c97dfdd67727f99-sz_642611.png" alt="img"></p>
+<h2 id="4-蓄水12米"><a href="#4-蓄水12米" class="headerlink" title="4.蓄水12米"></a><strong>4.蓄水12米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-91a973ad4070c262053d9e340d4bbe06-sz_7344681.png" alt="洪水模拟"></p>
+<p>蓄水12米（海拔32米），平原东部区域仅剩部分山峰裸露地表。如下图红色圆圈，大家都知道是什么地方吗？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-d64ef5a64f27bf03d2b2c144873e5d9a-sz_732915.png" alt="洪水模拟"></p>
+<h2 id="5-蓄水15米"><a href="#5-蓄水15米" class="headerlink" title="5.蓄水15米"></a><strong>5.蓄水15米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-7465a9ceb087ba8d676060718c24bb1e-sz_7310975.png" alt="洪水模拟"></p>
+<p>首先，观察江汉平原西部区域。河水淹没荆州，开始朝着长江、汉江上游漫延。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-00fb70b16b52984ce0e019b6034c0c71-sz_409409.png" alt="洪水模拟"></p>
+<p>而南部，洞庭湖区域。河水漫过洞庭湖，开始朝着四面八方的河流，如澧水、沅江、资水、湘江等进行倒灌。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-3140fd2f7d03e961de8ef84f70b64ce9-sz_514245.png" alt="洪水模拟"></p>
+<p>蓄水到这个高度，已经有些夸张了，其淹没范围已经超出了古代云梦泽的范围，也大大超过了洞庭湖巅峰时期的水域范围。</p>
+<h2 id="6-蓄水动态过程"><a href="#6-蓄水动态过程" class="headerlink" title="6.蓄水动态过程"></a><strong>6.蓄水动态过程</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b0b95cee06840c1720e196f1e662ab46-sz_1897144.gif" alt="洪水模拟"></p>
+<p>这就是本次模拟的动态效果图。至此，水面上升模拟结束。效果仅供参考，且无任何不良引导。<strong>大家觉得蓄水多少米，比较像古云梦泽？</strong></p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本文基于高程DEM数据，利用ArcGIS等软件，对江汉平原及其附近区域，进行水面上升模拟。其目的是尝试利用电脑模拟，“复原”古代云梦泽。再次声明：效果仅供参考，且无任何不良引导。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>湖北</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>当海平面缓缓上升，浙江的平原、丘陵与海岸将发生怎样的变化？</title>
+    <url>/archives/568b9e11.html</url>
+    <content><![CDATA[<p>本文以浙江地形地貌为核心研究对象，借助数字模拟技术，逐阶推演海平面上升过程中，浙江沿海平原、丘陵、河口、岛屿等典型地貌的动态变化。</p>
+<hr>
+<h1 id="一、浙江省"><a href="#一、浙江省" class="headerlink" title="一、浙江省"></a><strong>一、浙江省</strong></h1><p>浙江地势自西南向东北呈阶梯状倾斜，东北部是低平的冲积平原，东部以丘陵和沿海平原为主，中部以丘陵和盆地为主，西南以山地和丘陵为主。地形大致可分为浙北平原、浙西中山丘陵、浙东丘陵、中部金衢盆地、浙南山地、东南沿海平原及滨海岛屿等六个地形区。正所谓，“七山一水两分田”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-1fbf9a8c966ba2f39d52b84f584645d4-sz_159677.jpeg" alt="浙江省"></p>
+<p>另外，浙江省是中国岛屿最多的省份，海岸线总长居全国首位。</p>
+<p>本次海平面上升模拟，选取浙江省及其周边区域，仅为了反映地形地貌特征，无任何不良引导。</p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><p><em>其目的是反映 浙江省 的地形地貌特征；</em></p>
+</li>
+<li><p><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></p>
+</li>
+<li><p><em>上升高度为1、5、10、20、50、100、200米（海拔）；</em></p>
+</li>
+<li><p><em>海平面每年上升4mm左右，全球冰盖融化至多上升70米；因此效果仅供参考，且无任何不良引导。</em></p>
+</li>
+</ol>
+<h2 id="1-海平面上升1米"><a href="#1-海平面上升1米" class="headerlink" title="1.海平面上升1米"></a>1.海平面上升1米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-fc82339b0790d39f239790f37ae89450-sz_3393003.png" alt="海平面模拟"></p>
+<p>模拟海平面上升1米，让我们观察浙江北部区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-33570dbc38edd05cb84939b766871c26-sz_577567.png" alt="海平面模拟"></p>
+<p>杭州湾沿岸区域，部分地区被海水淹没；上海的长兴岛、横沙岛，以及九段沙湿地公园，被海水大面积淹没。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-c5d05bbf8bc88e33641d0ddc38b6b170-sz_333643.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-73cb466e3261453fb13918e937d96524-sz_475639.png" alt="img"></p>
+<p>首先说明，这两个区域海拔是极低的，部分滩涂几乎就是涨落潮能覆盖的程度。其次，两个区域的土地，均是泥沙堆积形成的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a7a55aecf443e033c5d7e6496bf1d918-sz_2913617.gif" alt="上海卫星图"></p>
+<p>从上面的动态图，可以看到上海岛屿的面积在不断扩大，这几个小岛屿未来将会连成一片。届时，上方的崇明岛也会与陆地相连。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a8dd62c584f9705c02c0c3ed89d93924-sz_2714370.gif" alt="杭州卫星图"></p>
+<p>如图所示的杭州湾沿岸，也是以肉眼可见的速度“扩张”。由于该地“凸”出来的特征，正好撞上了钱塘江携带大量泥沙的水流，可预见未来该地面积会进一步扩大。</p>
+<h2 id="2-海平面上升5米"><a href="#2-海平面上升5米" class="headerlink" title="2.海平面上升5米"></a>2.海平面上升5米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b7589d243207627db19643208c52d9b2-sz_3493402.png" alt="海平面模拟"></p>
+<p>同样先观察北部区域。可以看到湖州（海拔3米左右）、宁波（海拔5米左右），被海水所淹没。【备注：文中所指海拔，均为城区随机点的海拔】</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-4bd946b85ac67b8eee24af430dd89835-sz_681389.png" alt="海平面模拟"></p>
+<p>绍兴和嘉兴的城区海拔略高于湖州、宁波两地，目前未被海水侵入。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-6774439351e9d747ff5db85cfa53609b-sz_755270.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-3dc89e473075bce3187a906852df68e1-sz_729498.png" alt="img"></p>
+<p>目光顺着海岸线南下，看到台州市区域。海平面上升5米，首先淹没的是台州湾和隘顽湾之间的区域（图中红色圆圈）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-4c81101195097e6a5481c16eff89ffec-sz_405199.png" alt="海平面模拟"></p>
+<p>同样的，台州湾同样有泥沙堆积，使得海岸线外移（但程度不及杭州湾）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-8007739390f3b8d1a252d3158adb2cb8-sz_3259157.gif" alt="台州卫星图"></p>
+<p>那么，目光接着往下，到达温州。可以看到红色圆圈表示被淹没区域，证明这几个地方海拔低于5米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-8a82123f5ffc89784981fcff99586cf0-sz_509905.png" alt="海平面模拟"></p>
+<p>温州地区同样是存在泥沙堆积、岸线外移的情况。几百上千年后，这几个区域将会出现大片优质“平原”。岛屿也会与内陆相连。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a1bdc13314509fd70503714a9240a1ea-sz_3336052.gif" alt="温州卫星图"></p>
+<h2 id="3-海平面上升10米"><a href="#3-海平面上升10米" class="headerlink" title="3.海平面上升10米"></a>3.海平面上升10米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-10d27a2cf74bcfe75c3160f6544f1df2-sz_3530709.png" alt="海平面模拟"></p>
+<p>从上图中，可以看到温州市、台州市、宁波市、舟山市、绍兴市、嘉兴市、湖州市和杭州市被淹没。接下来，从北部开始局部分析。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-8370a447e109e80e15103c1ad6d3cfcb-sz_916516.png" alt="海平面模拟"></p>
+<p>10米的海水以摧枯拉朽之势，淹没 杭嘉湖平原、宁绍平原。接下来，往南看看“浙东丘陵”地带。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-ae9659a9ee8048268d5957676cf910e0-sz_879010.png" alt="海平面模拟"></p>
+<p>海水淹没浙江东部沿海平原，但前进的海水被浙东丘陵所阻挡。</p>
+<h2 id="4-海平面上升20米"><a href="#4-海平面上升20米" class="headerlink" title="4.海平面上升20米"></a>4.海平面上升20米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-4b07de4b855339f6e3fb69f910832d5a-sz_3563253.png" alt="海平面模拟"></p>
+<p>上升20米，海水先一步从长江倒灌，进入安徽省境内，并漫延至大部分城市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-290415e7086731e42c31b12691a61c77-sz_1139971.png" alt="海平面模拟"></p>
+<p>下面，放一张海平面上升20米，我国<strong>东部沿海</strong>的淹没效果图。（声明：效果仅供参考，无任何不良引导）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-0da5aa54a391e5ab5ee6a2ea37d8e39f-sz_206658.png" alt="海平面模拟"></p>
+<p>此时，<strong>山东半岛</strong>被海水分离成两部分；<strong>华北平原</strong>大面积消失；<strong>江苏</strong>大部分被淹没；<strong>鄱阳湖</strong>被倒灌的海水填满并外溢；<strong>浙江</strong>则是北部平原地区“沉入海底”。</p>
+<h2 id="5-海平面上升50米"><a href="#5-海平面上升50米" class="headerlink" title="5.海平面上升50米"></a>5.海平面上升50米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-2687ec2dc97d0637ae2536a7aab4f174-sz_3571966.png" alt="海平面模拟"></p>
+<p>模拟海平面上升50米，此时海水在浙江省境内艰难行进，但是我国长江流域已经大面积“受灾”。海水不仅填满了鄱阳湖、洞庭湖、江汉平原，甚至已经再造“云梦泽”了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-45df82dcb7d950a8aacd189a3ed8fc75-sz_938272.png" alt="海平面模拟"></p>
+<h2 id="6-海平面上升100米"><a href="#6-海平面上升100米" class="headerlink" title="6.海平面上升100米"></a>6.海平面上升100米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-64ee7fe5830f37bcac1c826368ca368a-sz_3652699.png" alt="海平面模拟"></p>
+<p>上升100米，海水冲破层层阻隔，到达<strong>金衢盆地</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b3f4f2229de21419afe505532b54f6a6-sz_1257979.png" alt="海平面模拟"></p>
+<p>虽然金衢盆地海拔低，但由于位于内陆，海水想要淹没该地区着实是不容易的（淹没效果仅供参考）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-588aa740cd60a89de42852222f0ad816-sz_767319.png" alt="img"></p>
+<h2 id="7-海平面上升200米"><a href="#7-海平面上升200米" class="headerlink" title="7.海平面上升200米"></a>7.海平面上升200米</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-85521bb9d7a9dadba828a0d3c2f172e1-sz_3813749.png" alt="海平面模拟"></p>
+<p>首先，海平面上升是到不了这个高度的。全球冰盖融化，海平面至多上升70米。再次声明：本次模拟仅为了探究地形地貌特征。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-f0cd0bedd6a9111f2a5de17437b5c13d-sz_1119493.png" alt="海平面模拟"></p>
+<p>海平面上升200米，大部分城市均“沉入海底”。两股海水在衢州与上饶之间交汇，大别山、黄山、武夷山脉等山峰、山脉、丘陵沦为“岛屿”。</p>
+<p>让我们再将地图放大，看看我国中部区域此时如何。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-6b7666eee042be8a223de53dd1e1623f-sz_837969.png" alt="海平面模拟"></p>
+<p>这或许就是，百万年前的地形地貌。（大家若常爬山，有机会看到山上存在海洋生物的化石，则证明该山峰曾经位于海底）</p>
+<h2 id="8-海平面上升动态图"><a href="#8-海平面上升动态图" class="headerlink" title="8.海平面上升动态图"></a>8.海平面上升动态图</h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-c478de1571cff6eb0e9a6a98309cc112-sz_2449595.gif" alt="海平面模拟"></p>
+<p>这是浙江省区域海平面上升的动态图。至此，海平面上升模拟结束。</p>
+<h1 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a><strong>三、总结</strong></h1><p>本文基于高程DEM数据，利用GIS软件，对浙江省区域进行海平面上升模拟，效果仅供参考。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p>浙江丘陵众多，在我国沿海省份中是仅次于福建的存在；浙江还有众多历史文化名城，如杭州、绍兴、会稽等。海平面上升虽然值得警惕，但也不用过于担心。<strong>原因：1.每年海平面上升不过4mm；2.全球冰盖融化海水至多上升70米；3.本文仅为了反映地形地貌特征。</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>中国</tag>
+        <tag>浙江</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面上升模拟：朝鲜半岛的地形格局，如何左右南北两国发展？</title>
+    <url>/archives/17ddc4b.html</url>
+    <content><![CDATA[<p>本文以朝鲜半岛为研究核心，借助数字模拟技术逐阶推演海平面上升过程，结合半岛“山地占75%、平原集中于沿海”的地形基底，深入探讨地形变化对南北两国的多重影响。</p>
+<hr>
+<h1 id="一、朝鲜半岛"><a href="#一、朝鲜半岛" class="headerlink" title="一、朝鲜半岛"></a><strong>一、朝鲜半岛</strong></h1><p>朝鲜半岛是由朝鲜半岛本土和周围包括独岛在内的3300个大小岛屿组成。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-de46a982ed699c6f337daf3e4bd6d1bb-sz_110731.jpeg" alt="朝鲜地形图"></p>
+<p>（图片来源于网络：朝鲜地形图）</p>
+<p>半岛西侧为平原，东侧是太白山脉。北部盖马高原，介于狼林山脉、赴战岭山脉和白头山脉之间。整体表现为丘陵众多，耕地较少。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-23b90565c98545f8d00cec5293b7e56c-sz_1848916.png" alt="朝鲜地形图"></p>
+<p>朝鲜半岛地形较为复杂，本次海平面上升模拟，其首要目的依旧是探索地形地貌特征。</p>
+<h1 id="二、模拟海平面上升"><a href="#二、模拟海平面上升" class="headerlink" title="二、模拟海平面上升"></a><strong>二、模拟海平面上升</strong></h1><p><strong>说明：</strong></p>
+<ol>
+<li><em>意在反映 朝鲜半岛 的地形地貌特征；</em></li>
+<li><em>数据基于高程DEM，利用ArcGIS等软件进行模拟、制图；</em></li>
+<li><em>上升高度为1、10、20、50、100、200、800米（海拔）；</em></li>
+<li><em>海平面每年上升4mm左右，全球冰盖融化至多上升70米；因此效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-海平面上升1米"><a href="#1-海平面上升1米" class="headerlink" title="1.海平面上升1米"></a><strong>1.海平面上升1米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-850ed41b1dd6192008e89853637f873a-sz_7103619.png" alt="海平面模拟"></p>
+<p>此时，朝鲜半岛变化不大。稍稍了解一下朝鲜平壤（海拔14m）、韩国首尔（海拔13米），虽然都位于西部平原，但是平原中有众多丘陵地带，因此选取的随机坐标点选取较低海拔、沿河区域。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b04444975f79d90957dec6b9acc87e84-sz_623331.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-6626ee4dc0237cdc33c62684c83c128f-sz_789334.png" alt="img"></p>
+<p>个人很好奇这两个“首都”的发展情况，因此也是做了卫星对比动态图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a514959296aa50fba16770f83e32eea0-sz_1954657.gif" alt="首尔卫星图"></p>
+<p>首先是韩国首尔。可以看到城市本身体量就很大，从1990年-2020年，城市范围进一步扩大；西侧的仁川国际机场也是展现了“从无到有”的过程。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-7e4dedc69a05ab9d027858e87b2b8fde-sz_2028539.gif" alt="平壤卫星图"></p>
+<p>相比之下，朝鲜平壤发展是相对缓慢的。</p>
+<h2 id="2-海平面上升10米"><a href="#2-海平面上升10米" class="headerlink" title="2.海平面上升10米"></a><strong>2.海平面上升10米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-6ec45a860c0adde52161e82cb16ae2c2-sz_7135202.png" alt="海平面模拟"></p>
+<p>海水分别从大同江（朝鲜平壤）、汉江（韩国首尔）进行倒灌，进入城市中心。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-5c2f064b0addf905c5b6a33bf7cfb69e-sz_875867.png" alt="海平面模拟"></p>
+<p>两地面临海平面上升的情况差不多，区别就是韩国经济损失会更多些。因为城市化面积较大，且仁川国际机场被淹。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-e5fd7f53230efa97dbf6588699b6e84f-sz_943968.png" alt="海平面模拟"></p>
+<h2 id="3-海平面上升20米"><a href="#3-海平面上升20米" class="headerlink" title="3.海平面上升20米"></a><strong>3.海平面上升20米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-1ac0800b545001c8fb2619a3968cefaa-sz_7128548.png" alt="海平面模拟"></p>
+<p>朝鲜部分，海水从东西两侧夹击，兵分多路侵入内陆。另外，我国丹东对岸的新义州，在这个海平面高度下被淹没了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-1dfc32cd442e153fd16aeb00481c9589-sz_1187281.png" alt="海平面模拟"></p>
+<p>韩国部分呢，京畿湾区域会面临较多挑战。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-02f8716bf49d2520cd573656f716e6ea-sz_1024806.png" alt="海平面模拟"></p>
+<h2 id="4-海平面上升50米"><a href="#4-海平面上升50米" class="headerlink" title="4.海平面上升50米"></a><strong>4.海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-a4307fa428adbf9254a895f97b01a30c-sz_7073875.png" alt="海平面模拟"></p>
+<p>考虑到大伙对朝鲜这个神秘的国度了解不多，兴趣也不大。因此仅作局部放大展示，就不过多分析了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-364289d8d7c21896874310418a0c0404-sz_909518.png" alt="海平面模拟"></p>
+<p>韩国部分，几个大城市相继被淹，而且都是被从河流倒灌的海水淹没。果然丘陵城市一般都会选取在有河流的地方，不至于被地形所困。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-98bc3e71b0675de1b70c9c50068e9823-sz_691998.png" alt="海平面模拟"></p>
+<p>下面是一张星球研究所制作的朝鲜半岛河流分布图，能够很直观、清晰的看到河流的分布（可惜大部分河流有所简化）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-d05fbc2f01e724f70023d629afea495b-sz_112683.jpeg" alt="img"></p>
+<p>（图片来源于网络：朝鲜半岛河流分布图）</p>
+<h2 id="5-海平面上升100米"><a href="#5-海平面上升100米" class="headerlink" title="5.海平面上升100米"></a><strong>5.海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-21359eae3d4f5f78e6a59f606c45f27b-sz_6986762.png" alt="海平面模拟"></p>
+<p>海平面上升100米，各城市淹没范围进一步扩大；朝鲜半岛南部的济州岛，仅四周一圈受灾。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-9ca290e19b6edda5a71e89059166a0b9-sz_401474.png" alt="海平面模拟"></p>
+<p>济州岛是120万年前火山活动而形成的岛屿。中部的汉拿山海拔1950米。</p>
+<h2 id="6-海平面上升200米"><a href="#6-海平面上升200米" class="headerlink" title="6.海平面上升200米"></a><strong>6.海平面上升200米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-f9f8572b4f39e7a87f2a43349d62aead-sz_6803341.png" alt="海平面模拟"></p>
+<p>海平面上升200米，仅剩下些“支离破碎”的山脉了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b07ea77099ff430d3e3e2db963962d1b-sz_929235.png" alt="海平面模拟"></p>
+<p>韩国被淹没区域比朝鲜多一些。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-37f27b6bb0cc7e50dee1666c10656461-sz_671601.png" alt="海平面模拟"></p>
+<h2 id="7-海平面上升800米（娱乐部分）"><a href="#7-海平面上升800米（娱乐部分）" class="headerlink" title="7.海平面上升800米（娱乐部分）"></a><strong>7.海平面上升800米（娱乐部分）</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-05301e77950eabc35e3a1436a907bdac-sz_5940023.png" alt="海平面模拟"></p>
+<p>听闻朝鲜半岛有“小太阳”，能将海水晒干，因此增加海平面上升800米的效果图。随后将会添加“小太阳”的影响，观察是如何将海水“排干”的。</p>
+<h1 id="三、小太阳（娱乐部分）"><a href="#三、小太阳（娱乐部分）" class="headerlink" title="三、小太阳（娱乐部分）"></a><strong>三、小太阳（娱乐部分）</strong></h1><p>我在朝鲜平壤，制作了半径100KM的缓冲区，使得将军的光辉能照耀平壤方圆100公里范围内的区域。大致范围如下。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-30a578df8dc1ec1fe38a125db3c38e8a-sz_474822.png" alt="img"></p>
+<p>朝鲜国土受到将军润物细无声的恩情，我又在这个基础上，制作以朝鲜国界为范围，向外50KM的缓冲区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-ad873705a5fe41a67a3f5fcd6e8e4c2d-sz_516283.png" alt="img"></p>
+<p>可以看到，这个范围竟然包括了我国丹东市，以及韩国的首尔。在海平面上升800米的情况下，将海水“排干”，保护了周边的邻国，伟大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-c68628639b5214edb6897c884b9fa305-sz_300351.gif" alt="img"></p>
+<p>至此，海平面上升模拟结束。声明：无任何不良引导。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p><strong>朝鲜半岛的地理条件并不优越，要想发展需借助“外力”。</strong>其半岛位置，更是产生了所谓“半岛宿命论”，并被广泛接受，成为韩国人关于本国地缘政治命运的主流认知。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-d05d7a8fcda0a990ded871da8f7950b2-sz_592841.png" alt="img"></p>
+<p><strong>“半岛宿命论”作为一种主流且带有悲观色彩的“半岛想象”，常被用于阐释朝鲜半岛的历史命运及未来走向。</strong>“宿命论”，意指朝鲜半岛无法摆脱生存与发展受制于海陆势力的兴衰更迭、稍有不慎即会面临沦为“海陆冲突”角斗场的地理宿命。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-b9d473cef699b6c7e73602bddbfa7bee-sz_562093.png" alt="img"></p>
+<p>海平面上升和下降，除了物理上的对土地产生影响，更是会对国家外交、地缘政治，百姓心理、自我认同产生深远影响。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-f8a5b8b654135e73af43bd19a1547e8c-sz_1142946.png" alt="img"></p>
+<p>上面是一张海平面下降200米的地形图。这张图中，我国东海大陆架、朝鲜半岛、日本在陆地上是相连的。如果当前是这种地形结构，几个国家之间的关系、百姓心理等绝对会不一样。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-2d4be2247aa0762a90ebff472d539943-sz_159350.jpeg" alt="img"></p>
+<p>这是一张两万年前，冰河时期的东亚地形图。当时海平面比现在低约125米。而人类从茹毛饮血发展出文明，从部落、城邦发展成国家，不过近几千年的事。可以想象，在某个架空的世界里，存在另一批文明，他们所处的地理环境会如上图所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-83d29108fa378b7b97d99cf0b2c99d85-sz_90514.png" alt="img"></p>
+<p>曾经作为一名地理学专业的学生，老师给我们推荐了《枪炮、病菌与钢铁》，虽然里面有些理论已经过时，部分理论有待商榷。但地理作为很重要的因素，无论是对国家还是当地百姓，都产生着极为深远的影响。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-17-eca60c13933c68f6ff43564a1a580702-sz_522032.png" alt="img"></p>
+<blockquote>
+<p><em><strong>“《春秋》所以大一统者，六合同风，九州共贯也。”</strong></em></p>
+<p>​													<em>——《汉书·王吉传》</em></p>
+</blockquote>
+<p>为什么我们对大一统如此渴望，从地理因素可窥知五六。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>公众号同步</tag>
+        <tag>海平面上升</tag>
+        <tag>朝鲜</tag>
+        <tag>韩国</tag>
+      </tags>
+  </entry>
 </search>
