@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.planetgis.cn/archives/cf3f571d.html</loc>
+    
+    <lastmod>2026-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.planetgis.cn/archives/d3906859.html</loc>
     
     <lastmod>2026-03-18</lastmod>
@@ -1132,6 +1141,13 @@
   
   <url>
     <loc>http://blog.planetgis.cn/tags/GeoAI/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/tags/Aerialod/</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
