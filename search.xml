@@ -4797,4 +4797,180 @@
         <tag>陕西</tag>
       </tags>
   </entry>
+  <entry>
+    <title>冰河时期海平面模拟：冰岛的面积究竟能膨胀到多大？</title>
+    <url>/archives/c639e7c2.html</url>
+    <content><![CDATA[<p>以海平面下降为切入点，模拟冰河时期的地球环境，揭示冰岛在冰期与间冰期之间的形态变迁，感受地质时间尺度下的地理巨变。</p>
+<hr>
+<h1 id="一、冰河时期的冰岛"><a href="#一、冰河时期的冰岛" class="headerlink" title="一、冰河时期的冰岛"></a><strong>一、冰河时期的冰岛</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-abe3ae73ec260285e72d4cbb10999e70-sz_262109.jpeg" alt="img"></p>
+<p>这是一张两万年前，冰河时期的全球地形图。当时海平面比现在低约125米。欧洲部分的地形图如下所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-38e421b0dab032f75c06ccd0c3282cfe-sz_895529.png" alt="img"></p>
+<p>那个时候，英国和欧洲大陆连起来了，而图中左上角则是冰岛。图中由于投影原因，冰岛显得扁平，但真实的冰岛其实长下面这样。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-dcc9351ca3f046330bdb877d3e0824e9-sz_375172.jpeg" alt="冰岛"></p>
+<h1 id="二、冰岛面积知多少？"><a href="#二、冰岛面积知多少？" class="headerlink" title="二、冰岛面积知多少？"></a><strong>二、冰岛面积知多少？</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-ee1629efc8d0668a87291419de7dfbc7-sz_176446.jpeg" alt="冰岛"></p>
+<p>大家觉得冰岛有多大呢？在中文互联网中，冰岛是个旅游的好地方，但是对冰岛的面积却没有概念。冰岛给人的感觉就是个小岛。但是但是，我通过将冰岛和国内省份进行对比，让大家看看冰岛的真实大小。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-2724fe2ce38f2d413dc265faf7b26ba5-sz_202928.png" alt="img"></p>
+<p>下面是冰岛和我国 江苏省、浙江省、台湾省、海南省的数据对比。（备注：附上人口和GDP，仅作展示，不进行比较）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-60aeaac841452564328f38feb37a8738-sz_382370.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-7cd0f7dd698891d8aea1dc48ee2ba77b-sz_402035.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-725c6a72f38cf9e080c439328f361fc5-sz_356323.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-ec1fe7c9e6f90bdbeac44d7211edf05d-sz_338470.png" alt="img"></p>
+<p>可以看到冰岛和浙江省、江苏省相当，约10w平方千米左右；面积差不多是 台湾省、海南省的3倍！</p>
+<h1 id="三、冰岛地形知多少？"><a href="#三、冰岛地形知多少？" class="headerlink" title="三、冰岛地形知多少？"></a><strong>三、冰岛地形知多少？</strong></h1><p>知道冰岛的大小后，再了解一下冰岛的地理结构。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-27d4c8b3b237b1dbd2802809fd6e3df9-sz_872274.png" alt="冰岛"></p>
+<p>冰岛，首都雷克雅未克，位于北大西洋中部，靠近北极圈，是欧洲第二大岛。全境11.6%面积被冰川覆盖，四分之三的国土海拔400~800米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-625a18cc83efe0f69dec8910f21f0854-sz_3289884.png" alt="冰岛"></p>
+<p>整个冰岛是个碗状高地，四周为海岸山脉，中间为一高原。大部分是台地，低地面积很小，西部和西南部分布有海成平原和冰水冲积平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-403e7cd0bb3d5a14274bf9c5635eb1c8-sz_1363982.png" alt="冰岛"></p>
+<p>岛上多火山，以“极圈火岛”之名著称，共有火山200-300座，有40-50座活火山。冰岛是世界温泉最多的国家，温泉的数量是全世界之冠，所以又被称为“冰火之国”。</p>
+<h1 id="四、模拟海平面下降"><a href="#四、模拟海平面下降" class="headerlink" title="四、模拟海平面下降"></a><strong>四、模拟海平面下降</strong></h1><p>现在开始进行海平面下降模拟。冰河时期海平面比现在低125米左右，但模拟后发现面积扩大并不多，因此提升了模拟力度。</p>
+<p><strong>说明：</strong></p>
+<ol>
+<li><em>其目的是反映 冰岛周边 的地形地貌特征；</em></li>
+<li><em>数据基于高程DEM，利用GIS等软件进行模拟、制图；</em></li>
+<li><em>海平面下降高度为50、100、300、500、800、1000米（海拔）；</em></li>
+<li><em>效果仅供参考，且无任何不良引导。</em></li>
+</ol>
+<h2 id="1-海平面下降0米"><a href="#1-海平面下降0米" class="headerlink" title="1.海平面下降0米"></a><strong>1.海平面下降0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-38de92586079f186355a4b433819aba6-sz_7704296.png" alt="冰岛"></p>
+<p>从图中可以看到，冰岛西北方向是格陵兰岛（北美洲），东南方向是英国和爱尔兰（欧洲）。北部是格陵兰海，而身处大西洋中部。</p>
+<h2 id="2-海平面下降50米"><a href="#2-海平面下降50米" class="headerlink" title="2.海平面下降50米"></a><strong>2.海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-9f3a63da512cde34c468db973762381d-sz_7759243.png" alt="冰岛"></p>
+<p>此时冰岛面积的变化，还没有右下角的英国变化大。大不列颠岛 与 爱尔兰 之间的 爱尔兰海，已经逐渐干涸了。</p>
+<h2 id="3-海平面下降100米"><a href="#3-海平面下降100米" class="headerlink" title="3.海平面下降100米"></a><strong>3.海平面下降100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-071b0b82c37cabb0d9b72472de2e2a83-sz_7865935.png" alt="冰岛"></p>
+<p>冰岛海岸线开始向外移。与此同时，格陵兰岛岸线陡峭，变化不明显；英国和爱尔兰岸线，地势平坦，因此早早地连成一片。</p>
+<h2 id="4-海平面下降300米"><a href="#4-海平面下降300米" class="headerlink" title="4.海平面下降300米"></a><strong>4.海平面下降300米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-3f03c027e23bdda5c494beaff3d07087-sz_8121722.png" alt="冰岛"></p>
+<p>目前，没有证据表明冰河时期，海平面能下降到这个深度，因此接下来的模拟仅仅只是“模拟”，为了反映冰岛周边的地形地貌特征。</p>
+<p>从图中可以看到，格陵兰岛海岸线终于有所变化；冰岛海水褪去，露出椭圆状的海底；法罗群岛及其周边海底高地，此时已经裸露出来；英国和爱尔兰，以及欧洲大陆，早已是一个整体。</p>
+<h2 id="5-海平面下降500米"><a href="#5-海平面下降500米" class="headerlink" title="5.海平面下降500米"></a><strong>5.海平面下降500米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-fe0e64f3ce2366926d7546c6c5296e27-sz_8234340.png" alt="冰岛"></p>
+<p>冰岛即将与左侧的格陵兰岛相连，右侧与法罗群岛仅隔一步之遥。</p>
+<h2 id="6-海平面下降800米"><a href="#6-海平面下降800米" class="headerlink" title="6.海平面下降800米"></a><strong>6.海平面下降800米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-bdc3277776a80b65964e865dc36248fd-sz_8407461.png" alt="冰岛"></p>
+<p>冰岛先一步和格陵兰岛相连，与欧洲仍旧隔着“海沟”，其海沟位于法罗群岛南侧。</p>
+<h2 id="7-海平面下降1000米"><a href="#7-海平面下降1000米" class="headerlink" title="7.海平面下降1000米"></a><strong>7.海平面下降1000米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-cddb560519deaae143f0e71ee83ac908-sz_8573412.png" alt="冰岛"></p>
+<p>海平面下降1000米，冰岛分别和美洲大陆、欧亚大陆相连，将大西洋的海水分隔开来。</p>
+<p>至此，海平面下降模拟结束。</p>
+<p>另外说一句，我很好奇冰岛左下角有一条延伸出去的地形，不知道是什么原因造成的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-9bcf0772bc4022513363cf471899a855-sz_1258336.png" alt="冰岛"></p>
+<h1 id="五、最后说说"><a href="#五、最后说说" class="headerlink" title="五、最后说说"></a><strong>五、最后说说</strong></h1><p>通过对比，了解到冰岛面积与我国浙江省、江苏省相当，是海南岛、台湾岛的三倍左右。本次海平面下降模拟，则是对冰岛周边地形有了更深的理解。</p>
+<p>如果大家想了解哪个区域的海底地形地貌状况，可以评论区说出来。希望大家能保持对地理的热爱，保持对地球的好奇心。</p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>冰岛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>模拟海平面上升与下降：巴拿马运河的地理宿命与未来</title>
+    <url>/archives/cc7ee5e3.html</url>
+    <content><![CDATA[<p>海平面每一次升降，都在悄悄改写全球航运的命脉。本文用海平面变化模拟，带你看懂巴拿马运河如何在气候变迁中承压、适应，并迎来属于它的新机遇与挑战。</p>
+<hr>
+<h1 id="一、巴拿马"><a href="#一、巴拿马" class="headerlink" title="一、巴拿马"></a><strong>一、巴拿马</strong></h1><p>  巴拿马是巴拿马共和国的简称，是中美洲最南部的国家，位于中美洲的巴拿马地峡上，东连哥伦比亚，南濒太平洋，巴拿马地图巴拿马地图西接哥斯达黎加，北临加勒比海。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-418f24d41a12dbcfc25b4a6ca08ff4bb-sz_1734001.png" alt="巴拿马"></p>
+<p>（图片来源于网络）</p>
+<p>巴拿马中央连接大西洋与太平洋的巴拿马运河，拥有重要的战略地位，是南、北美洲的分界线。所以巴拿马是一个地跨两大洲的国家。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-0cf868ce51f02c5e4336683ceb667177-sz_661988.jpeg" alt="巴拿马"></p>
+<p>（图片来源于网络）</p>
+<p>巴拿马运河作为连接两大洋的通道，已经可以载入史册。前段时间，美国总统 唐纳德·特朗普（Donald Trump）惊世言论频出：墨西哥湾改为“Gulf of America”；加拿大成为美国的一个州；将格陵兰岛纳入美国版图；以及，“收回” 巴拿马运河。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-9b52b8bf0ceee8df76609772d3e9c00a-sz_778196.png" alt="巴拿马"></p>
+<p>巴拿马运河的地理位置如何？其实，是当前的海平面高度催生了巴拿马运河。如果海平面上升、下降10米，或者毁灭恐龙的小行星稍稍偏离一点，抑或是人类文明早一点发展，这个世界都不会出现这条人工运河。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-05236eb995565aa666369b1f92eab51f-sz_1150670.png" alt="巴拿马"></p>
+<p>▲冰河时期（2万年前）中美洲地形图，海平面比现在低约125米。</p>
+<p>恰是近代的时间点，当前的海平面高度之下，修建巴拿马运河的工程难度、意愿等因素叠加，促成了巴拿马运河的诞生。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-901c7128e25fc8bdad387334bf777e2a-sz_533125.jpeg" alt="巴拿马"></p>
+<p>（图片来源于网络）</p>
+<p>那么接下来，我将进行海平面上升 和 下降 模拟，扒一扒中美洲，观察巴拿马运河。</p>
+<h1 id="二、海平面上升模拟"><a href="#二、海平面上升模拟" class="headerlink" title="二、海平面上升模拟"></a><strong>二、海平面上升模拟</strong></h1><p>这是一张中美洲的无海洋地形图，可以清晰的看到其地形脉络。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-56632e6a6c693c09fac2965d20e59cbd-sz_1391526.png" alt="巴拿马"></p>
+<p>现在，加入海水元素，并且将海水透明度调低。模拟效果如下。</p>
+<h2 id="1-海平面上升0米"><a href="#1-海平面上升0米" class="headerlink" title="1.海平面上升0米"></a><strong>1.海平面上升0米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-dfdea0e365026c38ce8202d9a291677e-sz_9218828.png" alt="巴拿马"></p>
+<p>可以看到，现实中该地形并没有 地形图 所呈现的“丰满”，连接南美洲、北美洲的中间区域，并没有认为的那么宽，而只是细长的一条。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-f835078e450b74d7fdb74a3914855db6-sz_1201507.png" alt="巴拿马"></p>
+<p>放大看看，巴拿马运河横贯 <strong>巴拿马地峡</strong> 最狭窄的地方，但跨度也是达到了82千米。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-70d20a9e4217929754bab20253885256-sz_571958.png" alt="巴拿马"></p>
+<h2 id="2-海平面上升50米"><a href="#2-海平面上升50米" class="headerlink" title="2.海平面上升50米"></a><strong>2.海平面上升50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-9ecdf210cff4b74e3e564e5509dc50a3-sz_9152590.png" alt="巴拿马"></p>
+<p>观看 纯粹的地形图 和 叠加水域、路面后的效果图，是完全不一样的。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-a8ef9a85f3af27fda3f1e4653d76c870-sz_775218.png" alt="巴拿马"></p>
+<p>这是一张叠加了各种地图元素的地图，可以看到两侧的海水淹没沿海地区，侵入内陆。接下来，看仅保留了地形的地图。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-397a2e3f212f4f6cfc8007c6a0e87196-sz_895183.png" alt="巴拿马"></p>
+<p>失去了其它元素的干扰，可以看到地形图中呈现出一排“小圆点”，十分显眼，那就是连排的火山口。这里是<strong>尼加拉瓜</strong>，北中部为高地；东部为海岸平原，多丛林沼泽，地势低平；西部为沿岸低地，多火山、湖泊。</p>
+<p>与此同时，其它区域也有不同程度的淹没。巴拿马运河部分，海水先一步淹没了 加通湖。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-758affac34cff801dda07c96445f86d2-sz_1089755.png" alt="巴拿马"></p>
+<p>而哥伦比亚地区，海水分别从南北两侧，漫延至山脉之间低洼地带。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-0502a167bd8a6c9ccbf9d433ee81c166-sz_1341923.png" alt="巴拿马"></p>
+<h2 id="3-海平面上升100米"><a href="#3-海平面上升100米" class="headerlink" title="3.海平面上升100米"></a><strong>3.海平面上升100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-2c4ac1bc1bf480ea374a34b690f137ff-sz_9048042.png" alt="巴拿马"></p>
+<p>从北向南观察，首先是尼加拉瓜区域。海水淹没哥斯达黎加北部、尼加拉瓜大部分区域，使得太平洋、大西洋的海水全线贯通了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-1fbb548a7aecaff0c8d66edb77cd04e3-sz_1030466.png" alt="巴拿马"></p>
+<p>那么，巴拿马运河呢？同样的遭遇，但留意到运河两侧存在海拔高于100米的山脉，使得贯通通道较为狭窄。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-3618ff5fbcad2cd129ca469a87ef24a4-sz_868125.png" alt="巴拿马"></p>
+<p>接着南下，到达哥伦比亚地区。海水从各个方向淹没哥伦比亚，但是受限于地形，较为曲折。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-4c96ccc7bf86b34c3d2229feecb2d984-sz_1404029.png" alt="巴拿马"></p>
+<p><strong>4.海平面上升150米</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-8efd0bf0543f63cd06dbfce7dfdbaa17-sz_8934954.png" alt="巴拿马"></p>
+<p>这个海拔高度，淹没范围进一步扩大。其中四个地方成为“新晋”海峡（如下图所示）。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-51009ba92b0ba6eefc1b8a53ebe9f60d-sz_1077193.png" alt="巴拿马"></p>
+<p>至此，海平面上升模拟结束。随后，进行海平面下降模拟。</p>
+<h1 id="三、海平面下降模拟"><a href="#三、海平面下降模拟" class="headerlink" title="三、海平面下降模拟"></a><strong>三、海平面下降模拟</strong></h1><h2 id="1-海平面下降50米"><a href="#1-海平面下降50米" class="headerlink" title="1.海平面下降50米"></a><strong>1.海平面下降50米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-96fd87ce1fafdc08de3af92da00a2ded-sz_8073592.png" alt="巴拿马"></p>
+<p>可以观察到，尼加拉瓜东侧海岸线外移，出现大片陆地；巴拿马南侧也是出现裸露的海底。</p>
+<h2 id="2-海平面下降100米"><a href="#2-海平面下降100米" class="headerlink" title="2.海平面下降100米"></a><strong>2.海平面下降100米</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-b1b5742980af60516d708f67e9168083-sz_8107126.png" alt="巴拿马"></p>
+<p>海平面下降100米，中美洲多出了几块“平原”地区，但相对于中国，这个区域的大陆架确实算不算优秀。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-93b6083e65c1ae93eb198af5dc235240-sz_1092595.png" alt="巴拿马"></p>
+<p>下图是海平面下降100米时，中国东部大陆架的状态。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-1bd138b21152ccc46c257db579aecda8-sz_7746775.png" alt="巴拿马"></p>
+<p>至此，所有模拟结束。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p>目前全球海平面每年上升4mm左右，且哪怕全球冰盖融化，海平面至多上升70米；但海平面下降，两万年前冰河时期海平面确实比现在低约125米左右。</p>
+<p>但我进行海平面模拟的目的，是为了探究地形地貌特征。且作为电脑模拟，更应该思绪飞扬，探索地理的极限，因此请勿将模拟上升至现实。</p>
+<p><strong>声明：模拟效果仅供参考，且无任何不良引导。</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>海平面模拟</tag>
+        <tag>地图</tag>
+        <tag>巴拿马</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【商业地理】疯狂开店之下，瑞幸还有哪些区域是战略空白？</title>
+    <url>/archives/df48fda6.html</url>
+    <content><![CDATA[<p>在瑞幸咖啡 “快速烧钱、高密度开店” 的扩张策略下，其门店已遍布全国多数城市。本文梳理当前瑞幸尚未覆盖的区域空白，分析其下沉市场与战略盲区，探讨未来增长空间。</p>
+<hr>
+<h1 id="一、瑞幸咖啡"><a href="#一、瑞幸咖啡" class="headerlink" title="一、瑞幸咖啡"></a><strong>一、瑞幸咖啡</strong></h1><p>luckin coffee（瑞幸咖啡），是中国门店数最大的连锁咖啡品牌之一。开店策略一直被认为是其快速扩张和市场占有率提升的重要因素。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-134e6d00abbf33475d45be526fcc56e2-sz_502673.png" alt="瑞幸咖啡"></p>
+<p>2024年7月18日，瑞幸咖啡的门店数突破20000家，远超拥有7306家门店的星巴克与6827家门店的库迪咖啡。截至2025年4月，瑞幸咖啡的全国门店分布如下图所示。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-43e69abc86f9e6d8d5c1db3469731fb7-sz_960873.png" alt="瑞幸咖啡"></p>
+<h1 id="二、分布情况"><a href="#二、分布情况" class="headerlink" title="二、分布情况"></a><strong>二、分布情况</strong></h1><p>瑞幸在成立初期，采取极其激进的开店策略，用“快速烧钱”方式迅速占领市场。其<strong>目标用户群</strong>是 白领、大学生等高频消费群体。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-10deab3cff79cd3f079fdda2e27326a1-sz_337885.png" alt="瑞幸咖啡"></p>
+<p><strong>开店区域</strong>一般选择城市核心商圈、写字楼、学校周边等人流量大的地方。其<strong>门店密度</strong>方面， 同一商圈中可能开设多个门店，增加便利性和品牌曝光。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-f9c196801a0a7b99bec34d323829f1a9-sz_80831.jpeg" alt="瑞幸咖啡"></p>
+<p><em>经历财务造假危机后，瑞幸从2021年开始推行“加盟+直营”并行策略</em>。1.<strong>吸引中小投资人</strong>， 提供开店选址支持、统一供应链、品牌影响力背书；2.<strong>快速渗透下沉市场</strong>， 进入二三线城市和县级城市，拓展市场边界。</p>
+<p><strong>瑞幸咖啡是少数能将门店开至东北大兴安岭地区的饮品店。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-792c5a90f29c9832f35b04f532fd6fd6-sz_227485.png" alt="瑞幸咖啡"></p>
+<p><strong>甚至，竟然连 湖北 神农架林区 也进行了布局。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-d31e068382c91fc2f5ce260b24034c03-sz_164892.png" alt="瑞幸咖啡"></p>
+<p><strong>那么，还有哪些地方，是存在空白的呢？</strong></p>
+<h2 id="1-青海"><a href="#1-青海" class="headerlink" title="1.青海"></a><strong>1.青海</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-cf2fdf9b9a5a10c63351d7c06de036f9-sz_189545.png" alt="瑞幸咖啡"></p>
+<p>目前，青海省的海西、海北、海东和西宁市，有瑞幸咖啡的门店。<strong>西宁市</strong>，作为青海省的唯一一线城市和经济中心，西宁是瑞幸咖啡在青海的主要布局地。门店主要分布在核心商圈、购物中心和交通枢纽。</p>
+<p>总的来看，瑞幸咖啡在青海的布局正逐步完善，未来可能继续向更多地市扩展，以实现更广泛的市场覆盖。</p>
+<p>但与此同时，青海本地咖啡、特色咖啡等，仍占据一定市场份额，瑞幸的竞争策略可能更偏向年轻群体和商务需求，存在一定的挑战性。</p>
+<h2 id="2-西藏"><a href="#2-西藏" class="headerlink" title="2.西藏"></a><strong>2.西藏</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-66682e66c77948392750cb5744f2c6c0-sz_147674.png" alt="瑞幸咖啡"></p>
+<p>瑞幸咖啡已于<strong>2024年5月20日</strong>正式进入拉萨市场，首批开设4家自营门店，标志着其首次在西藏自治区设立门店。</p>
+<h2 id="3-新疆"><a href="#3-新疆" class="headerlink" title="3.新疆"></a><strong>3.新疆</strong></h2><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-586d9da82e407bca33a6669d55d6737a-sz_131114.png" alt="img"></p>
+<p>瑞幸咖啡于<strong>2024年5月20日</strong>正式进驻乌鲁木齐（与拉萨同时间），首批同步开设11家自营门店，标志着其首次进入新疆市场 。<strong>这一举措也使瑞幸实现了中国内陆省份的全覆盖。</strong></p>
+<p>作为西部内陆省份，新疆和西藏的咖啡市场发展相对缓慢，但随着地方经济和旅游产业的发展，咖啡需求增长旺盛。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-03-21-27b1f53e483ab0cdf87d4b068b483f64-sz_391617.png" alt="img"></p>
+<p>其实，瑞幸咖啡在青海的扩张也体现了其在西部地区的整体布局策略。在西部十一省市自治区中，瑞幸咖啡已有2443家在营门店，尽管今年的开店速度较去年有所放缓，但仍显示出对西部市场的重视。</p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>瑞幸咖啡，采用快速覆盖一线至下沉市场的策略，实现高效低成本开店，全国快速布局。但新疆仅有乌鲁木齐，西藏仅有拉萨市存在门店；青海仍有部分市州处于空白状态；澳门和台湾也暂无门店分布。</p>
+<p>但相信在不久的将来，全国所有地级市将会一片“瑞幸蓝”。</p>
+<p><strong>声明：本文没有与 瑞幸咖啡 达成任何合作关系。文章仅作为数据可视化与商业分析专用。</strong></p>
+]]></content>
+      <categories>
+        <category>商业地理</category>
+      </categories>
+      <tags>
+        <tag>商业地理</tag>
+      </tags>
+  </entry>
 </search>
