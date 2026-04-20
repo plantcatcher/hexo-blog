@@ -10586,4 +10586,178 @@
         <tag>国土空间规划</tag>
       </tags>
   </entry>
+  <entry>
+    <title>AI要抢地图学家的饭碗了？院士团队给出了答案</title>
+    <url>/archives/c2b35cef.html</url>
+    <content><![CDATA[<p>AI 飞速发展，会抢走地图学家的饭碗吗？面对 AI 制图的强势崛起，院士团队给出权威解答。AI 重塑地图制作模式、大幅提升效率，但不会取代专业人员，人机协同，才是地图学未来的发展方向。</p>
+<hr>
+<p><strong>地图，这东西你我天天用，但你有没有想过——画地图这件事，AI能干得比人好吗？</strong></p>
+<p>这让我不禁思考AI能为地理带来什么。在测绘学报上看到几篇比较有意思的论文，因此做一些笔记。<strong>（大家不用看枯燥乏味的论文，我用大白话给你捋一捋。）</strong></p>
+<blockquote>
+<p><strong>题目：人工智能赋能地图科学数智化</strong></p>
+<p>关键词：地图科学;生成式人工智能;脑科学;神经科学;类脑智能;深度学习;数智化</p>
+</blockquote>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-365483d6e1e8272db259307999e898c1-sz_215334.png" alt="AI"></p>
+<h1 id="一、让AI学会像人脑一样看地图"><a href="#一、让AI学会像人脑一样看地图" class="headerlink" title="一、让AI学会像人脑一样看地图"></a><strong>一、让AI学会像人脑一样看地图</strong></h1><p>科学家发现，人脑在看地图的时候，有一套非常精密的神经运作机制。如果能搞清楚这套机制，再让AI去模仿，地图科学就能实现一个质的飞跃——从”人工画地图”变成”智能生成地图”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-f882b1e685854cfcb9042d31254cdf1a-sz_607035.jpeg" alt="AI"></p>
+<p>目前中科院自动化所已经搞出了一个叫 SpikingBrain1.0 的类脑大模型，而且是全国产化的。简单说就是：<strong>AI正在学着用大脑的方式理解空间和地图</strong>。</p>
+<h1 id="二、让AI学会GIS专业制图"><a href="#二、让AI学会GIS专业制图" class="headerlink" title="二、让AI学会GIS专业制图"></a><strong>二、让AI学会GIS专业制图</strong></h1><p>画地图可不是把卫星照片贴上去就完事了。一条河该画多粗？一座山在什么比例尺下该省略？道路和建筑之间的关系怎么处理？这些都是制图学家靠几十年经验积累出来的功夫。（笔者地理信息科学专业GIS，正是制图专业户）</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-459731afe1bda231c51bf76fff649203-sz_678983.jpeg" alt="AI"></p>
+<p>论文指出的核心难题是：怎么让AI学会这种”专家思维”，像老地图学家一样知道什么该留、什么该减、什么该合并。这就像教一个实习生变成三十年工龄的老师傅——只不过这个”实习生”是计算机。</p>
+<h1 id="三、生成式AI让地图设计”开挂”"><a href="#三、生成式AI让地图设计”开挂”" class="headerlink" title="三、生成式AI让地图设计”开挂”"></a><strong>三、生成式AI让地图设计”开挂”</strong></h1><p>这部分最直观。你用ChatGPT能写文章、画图，那能不能让AI设计地图集、规划图组结构、自动完成地图缩编？其实随着OpenClaw也就是小龙虾的爆火，许多本来无法做到的事情，都能通过AI Agent实现。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-f91ec58486abfc95d3f15b6eb4341845-sz_1228326.jpeg" alt="AI"></p>
+<h1 id="四、风险在哪儿？"><a href="#四、风险在哪儿？" class="headerlink" title="四、风险在哪儿？"></a><strong>四、风险在哪儿？</strong></h1><p>AI有一个老毛病——幻觉问题。放在地图领域就是：AI可能会把一条根本不存在的河画出来，或者把一座城市标错位置。所以必须建立一套可靠的数据标签体系来约束AI。国内AI甚至是拒绝生成这类的图像。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-dd57278ebbdcdf5f49c613c4396af3e9-sz_21751.png" alt="img"></p>
+<p><strong>为什么AI在设计领域、文字领域能大杀四方，而地图领域鲜有见闻？主要原因是地图需要的精度以及敏感性，并不是这么容易克服的。</strong></p>
+<h1 id="五，最后说说"><a href="#五，最后说说" class="headerlink" title="五，最后说说"></a><strong>五，最后说说</strong></h1><p><strong>可以明确当前AI的一大趋势是：AI正在从大模型训练逐步转变为应用开发的落地。</strong>由于笔者本人在深圳，参加了不少AI、OpenClaw相关的活动，也可以感受到当下各领域的大佬正在研究如何将AI结合自身领域，实现AI商业化。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-7b59e1cb10cccc8dd948077c445a2d99-sz_843238.jpeg" alt="AI"></p>
+<p>不知大家对于AI在地理领域有什么独特的见解？欢迎评论区发表您的看法~</p>
+]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>地理科普</tag>
+        <tag>博客</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025地铁里程：谁掉队？谁超车？</title>
+    <url>/archives/d7f2def6.html</url>
+    <content><![CDATA[<p>2025 年中国地铁里程排行榜迎来十年最大变局。谁能持续加码扩容？谁会因规划调整陷入停滞？从一线城市到新二线城市，地铁里程的增减不仅是数字变化，更映射着城市人口吸附力、财政实力与未来发展潜力。深度拆解十强更迭背后的隐藏逻辑，读懂中国城市基建趋势。</p>
+<hr>
+<p><strong>2025年，中国地铁版图再次洗牌。广州地铁22号线全线贯通，运营里程突破887公里，稳居全国第三。而曾经的老大哥们，有的被反超，有的在奋起直追。</strong></p>
+<h1 id="一-、轨道交通排行榜"><a href="#一-、轨道交通排行榜" class="headerlink" title="一 、轨道交通排行榜"></a><strong>一 、轨道交通排行榜</strong></h1><p>2025 年，中国城市轨道交通建设迎来新一轮 “竞速赛”。截至年底，全国 54 城开通轨交，总里程突破1.17 万公里。从 “京沪争霸” 到 “蓉穗领跑”，这份年度榜单清晰勾勒出城市实力的新梯队。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-metro-operating-mileage-ranking-2025-1.webp" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-metro-operating-mileage-ranking-2025-2.webp" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-metro-operating-mileage-ranking-2025-3.webp" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-metro-operating-mileage-ranking-2025-4.webp" alt="img"></p>
+<p><strong>根据榜单及官方数据，2025 年轨交运营里程前十的城市为：</strong></p>
+<ol>
+<li><p>上海：901 公里（都市圈口径，含周边线路）</p>
+</li>
+<li><p>北京：888 公里</p>
+</li>
+<li><p>广州：887 公里（增量全国领先）</p>
+</li>
+<li><p>成都：715 公里（西部第一）</p>
+</li>
+<li><p>杭州：624 公里（长三角增速代表）</p>
+</li>
+<li><p>深圳：622 公里</p>
+</li>
+<li><p>重庆：570 公里</p>
+</li>
+<li><p>南京：526 公里（逆袭黑马）</p>
+</li>
+<li><p>武汉：518 公里</p>
+</li>
+<li><p>郑州：449 公里</p>
+</li>
+</ol>
+<p><strong>统计说明：</strong></p>
+<ol>
+<li>里程数据均进行四舍五入以整数显示。</li>
+<li>统计范围不包含：无独立路权的有轨电车、轻铁、云巴、云轨、在既有国铁线路上运营的市郊铁路以及纯旅游性质的轨道交通。</li>
+<li>以下未开通段不计入本次里程统计：成都 19 号线合江段；青岛蓝谷快线（原 11 号线）鳌山湾段；合肥 3 号线馆驿段、4 号线紫云湖段；宁波 6 号线宁波西站段。</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-rail-transit-2025-full-ranking-list.webp" alt="img"></p>
+<h1 id="二-、谁在-“进阶”？逆袭的城市们"><a href="#二-、谁在-“进阶”？逆袭的城市们" class="headerlink" title="二 、谁在 “进阶”？逆袭的城市们"></a><strong>二 、谁在 “进阶”？逆袭的城市们</strong></h1><ol>
+<li>南京：长三角第二城强势崛起</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-cced5cd629aca701f28ab8c78a08102e-sz_476239.png" alt="img"></p>
+<ul>
+<li>从 2024 年的第 9 位跃升至第 8 位，以 526 公里的运营里程反超武汉，成为长三角轨交第三城。</li>
+<li>关键增量：宁句线延伸、3 号线三期、10 号线二期开通，都市圈线路（如宁滁线）进一步强化辐射力。</li>
+<li>意义：打破了 “沪杭独霸长三角” 的传统格局，南京都市圈轨交一体化进入快车道。</li>
+</ul>
+<ol start="2">
+<li>广州：稳坐第三，增量之王</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-f86f9e94057cae570ec12ed822a68af5-sz_511552.png" alt="img"></p>
+<ul>
+<li>2025 年新增里程超 60 公里，10 号线、12 号线、13 号线二期等线路开通，总里程突破 880 公里，直逼北上。</li>
+<li>都市圈协同：广佛线、广清线等线路持续加密，形成 “广州 - 佛山” 超 1000 公里的轨交网络，成为国内都市圈轨交一体化的标杆。</li>
+</ul>
+<ol start="3">
+<li>杭州：持续发力，位次稳居第五</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-b6d46468304d05de72c2b9a8b890c9ad-sz_587290.png" alt="img"></p>
+<ul>
+<li>以 624 公里的里程保持全国第五，杭德城际、杭绍线等都市圈线路开通，进一步强化杭州在长三角的枢纽地位。</li>
+<li>特征：线网密度高、换乘便捷度领先，客流强度稳居全国前列，轨交建设与城市发展深度绑定。</li>
+</ul>
+<ol start="4">
+<li>合肥、徐州：二线城市加速突围</li>
+</ol>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-e1b8d3d07f5a7db11d0f8922b1689826-sz_313665.png" alt="img"></p>
+<ul>
+<li>合肥（第 16 位）、徐州（第 33 位）凭借都市圈线路开通，位次明显提升，成为长三角与中部地区的轨交新势力。</li>
+</ul>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-c53cf696659adf89807161878060c6fa-sz_281517.png" alt="img"></p>
+<ul>
+<li>典型代表：合肥 - 滁州线、徐州 - 萧县线等，轨交建设成为拉动区域协同发展的重要抓手。</li>
+</ul>
+<h1 id="三、-里程变化图"><a href="#三、-里程变化图" class="headerlink" title="三、 里程变化图"></a><strong>三、 里程变化图</strong></h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-china-metro-mileage-rank-changes-2025-1.webp" alt="img"></p>
+<p>从图中，可以大致看出各个区域的发展状况。这张 11 年曲线，本质上是都市圈一体化与单城建设的对决。<strong>谁能打通跨城线路，谁的曲线就能持续上扬</strong>；反之，只能在单城的天花板里缓慢爬坡。</p>
+<h1 id="四、最后说说"><a href="#四、最后说说" class="headerlink" title="四、最后说说"></a><strong>四、最后说说</strong></h1><p>地铁里程不仅是数字游戏，更是城市竞争力的晴雨表。2025年的排行榜告诉我们：在这场没有终点的马拉松中，暂时的领先不代表永远，暂时的落后也还有机会。下一个十年，谁将成为中国地铁的新霸主？让我们拭目以待。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-9b5abeb42faf29afd08672232ad4ba1e-sz_772016.png" alt="img"></p>
+]]></content>
+      <categories>
+        <category>地铁</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>中国</tag>
+        <tag>地铁</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海平面下降20米会怎样？山东直接连上东北？</title>
+    <url>/archives/b22aa644.html</url>
+    <content><![CDATA[<p>仅仅 20 米的海平面落差，就能重塑华北版图。内海渤海逐步干涸消亡，胶辽之间出现天然陆桥，南北陆路距离大幅缩短。看似微小的海拔变化，暗藏海陆变迁的巨大能量，直观看懂古海岸线的演变逻辑。</p>
+<hr>
+<h1 id="一、山东省地形图"><a href="#一、山东省地形图" class="headerlink" title="一、山东省地形图"></a><strong>一、山东省地形图</strong></h1><p>山东地形整体呈现<strong>中间高、四周低</strong>的态势：鲁中南地区为全省地势最高处，集中了泰山、蒙山、沂山等山脉，<strong>泰山主峰海拔 1532.7 米</strong>，是全省最高点。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-6fc7db9ebf3a0b4b1487423d5d9d8bd6-sz_463173.jpeg" alt="山东"></p>
+<p>鲁西北、鲁西南为低洼平坦的华北平原延伸区，黄河三角洲海拔仅 2-10 米，是全省陆地最低处；东部山东半岛为缓丘起伏的胶东丘陵区，海拔多在 500 米以下。</p>
+<p><strong>本次，我将模拟海平面下降，观察山东省周边的海底特征，以及探索究竟能多出多少陆地？</strong></p>
+<h1 id="二、模拟海平面下降"><a href="#二、模拟海平面下降" class="headerlink" title="二、模拟海平面下降"></a><strong>二、模拟海平面下降</strong></h1><p>这张图模拟了全球海平面下降 20 米后，中国华北、华东及黄渤海区域的海陆格局变化。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-cccfd33bcd3920dc0fac48223176b922-sz_720654.jpeg" alt="山东"></p>
+<p>整个渤海湾（天津、秦皇岛、大连沿岸）全部变为陆地，<strong>渤海海峡即将消失</strong>，辽东半岛与山东半岛距离更进一步，渤海大桥指日可待。黄河入海口向黄海推进数百公里，形成超大规模的冲积平原。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-25666ba831da47c63fc48cbf8c8782bb-sz_911730.jpeg" alt="山东"></p>
+<p>海平面下降的本质是全球冰川期的模拟场景：<strong>末次冰盛期</strong>（约 2 万年前）全球海平面曾下降约 120 米，当时渤海、黄海全部为陆地，山东半岛与朝鲜半岛直接相连。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-3a09ee61839a7ba7ab55af12d3df70cb-sz_594112.jpeg" alt="山东"></p>
+<p>但短期内，海平面并不会发生如此剧烈的变化。因此模拟海平面上升下降20米，同样<strong>只是电脑模拟效果图，切不可当作真实情况</strong>。</p>
+<p><strong>接下来，进行局部分析。</strong></p>
+<p>这张图是海平面下降 20 米后渤海核心区的海陆格局。渤海平均水深仅 18 米，最大水深也不足 80 米，下降 20 米后，<strong>渤海湾、莱州湾、辽东湾</strong>三大海湾彻底干涸，原本深邃的海底直接裸露。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-a102e2f6127ea22c25c237b825c12ff4-sz_672993.jpeg" alt="山东"></p>
+<p>渤海是华北平原的自然延伸，属于<strong>浅海大陆架</strong>，其地质基础是陆地，并非深海盆地，因此海平面小幅下降就能让其完全出露。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-f97fa3dc8e75c330c9f93fb8f600862d-sz_742365.jpeg" alt="山东"></p>
+<p>烟台、威海的原海岸线向黄海 &#x2F; 渤海中心推进数十公里，原本的近海养殖区、港口区变为内陆。<strong>北胶莱河入海口</strong>向海延伸，莱州湾沿岸形成全新的冲积平原，潍坊、东营的滨海区域彻底内陆化。</p>
+<p>图中标注的长岛、大黑山岛等岛屿与山东半岛的陆地相连；砣矶岛、大钦岛、南北隍城岛等面积扩大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-da556c46474d87c33a3aa0f18a634155-sz_283971.jpeg" alt="山东"></p>
+<p><strong>庙岛群岛本质是华北陆架上的残留山地</strong>，其地质基底与山东半岛、辽东半岛完全连通，渤海海峡只是被海水淹没的陆架浅海，因此海平面小幅下降就能让其完全出露。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-33cf8ed39d4655ebd3dd2ad4a2813031-sz_614888.jpeg" alt="山东"></p>
+<p>东部黄海沿岸向海推进超 20 公里，<strong>刘公岛</strong>等近海岛屿与陆地连通，威海湾彻底变为内陆区域。原近海渔场、湿地消失，浅海区域转变为陆地生态系统，候鸟迁徙路线、海洋生物栖息地彻底重构。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-49bd6fec67598c8803be08a1f80138fa-sz_696274.jpeg" alt="山东"></p>
+<p>黄褐色区域即为裸露的黄海海底：青岛、烟台、日照的近岸浅海全部出露，海岸线向海延伸数十至百公里。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-62657bd54f382d3e5557103120f2f4b4-sz_738156.jpeg" alt="山东"></p>
+<p><strong>胶州湾</strong>平均水深仅 7 米，下降 20 米后，整个海湾完全裸露。图中棕色区域即为裸露的胶州湾海底。青岛东部沿海的石老人、小麦岛等离岸地貌全部与陆地相连，海岸线大幅向海凸出。</p>
+<p><em>胶州湾本质是华北克拉通破坏带内的断裂盆地，基底为坚硬岩石，其地形基础属于陆地范畴。海水入侵仅是由于近期海平面上升，并非地壳下沉形成的深海。因此，20 米的降幅足以使其完全干涸。</em></p>
+<h1 id="三、最后说说"><a href="#三、最后说说" class="headerlink" title="三、最后说说"></a><strong>三、最后说说</strong></h1><p>如今的滨海城市，在远古皆是内陆腹地；如今的海岛，在那时是陆地山丘。这一模拟直观揭示了山东 <strong>“海陆同源”</strong> 的地质本质，也见证了地球气候变迁如何深刻重塑区域版图。</p>
+<p><strong>评论区说说你的看法，关注我，解锁更多地理冷知识！</strong></p>
+]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
+      <tags>
+        <tag>中国</tag>
+        <tag>地图</tag>
+        <tag>海平面模拟</tag>
+        <tag>海平面下降</tag>
+        <tag>山东</tag>
+        <tag>东北</tag>
+      </tags>
+  </entry>
 </search>
