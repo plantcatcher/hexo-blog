@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>地理数据资源汇总｜个人GIS导航站点搭建记录 | 星球小捕手</title><meta name="author" content="星球小捕手"><meta name="copyright" content="星球小捕手"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="哈喽，我是星球小捕手，形象是一只小松鼠。本来是做地理科普内容的，随着AI的爆发，我的形象开始有了进化形态——科技松鼠。  最近在刷GitHub，刷到一个很有意思的项目：Awesome GIS。这是是一个地理空间资源合集，包含地图服务器、前端框架、空间数据库、遥感工具等20+分类。  刚好我的地理科普网站（星球小捕手）中，规划有wiki知识库的板块。本来就是计划将各种地理数据进行入库，这个开源项目十">
+<meta property="og:type" content="article">
+<meta property="og:title" content="地理数据资源汇总｜个人GIS导航站点搭建记录">
+<meta property="og:url" content="http://blog.planetgis.cn/archives/3feed0d8.html">
+<meta property="og:site_name" content="星球小捕手">
+<meta property="og:description" content="哈喽，我是星球小捕手，形象是一只小松鼠。本来是做地理科普内容的，随着AI的爆发，我的形象开始有了进化形态——科技松鼠。  最近在刷GitHub，刷到一个很有意思的项目：Awesome GIS。这是是一个地理空间资源合集，包含地图服务器、前端框架、空间数据库、遥感工具等20+分类。  刚好我的地理科普网站（星球小捕手）中，规划有wiki知识库的板块。本来就是计划将各种地理数据进行入库，这个开源项目十">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png">
+<meta property="article:published_time" content="2026-06-10T16:28:23.000Z">
+<meta property="article:modified_time" content="2026-06-10T16:33:44.763Z">
+<meta property="article:author" content="星球小捕手">
+<meta property="article:tag" content="地理">
+<meta property="article:tag" content="GIS">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="网站开发">
+<meta property="article:tag" content="教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "地理数据资源汇总｜个人GIS导航站点搭建记录",
+  "url": "http://blog.planetgis.cn/archives/3feed0d8.html",
+  "image": "https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png",
+  "datePublished": "2026-06-10T16:28:23.000Z",
+  "dateModified": "2026-06-10T16:33:44.763Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "星球小捕手",
+      "url": "http://blog.planetgis.cn"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://blog.planetgis.cn/archives/3feed0d8.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7003785465265177',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4EHEP88TN2"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4EHEP88TN2')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4EHEP88TN2', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '地理数据资源汇总｜个人GIS导航站点搭建记录',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">197</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">79</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">星球小捕手</span></a><a class="nav-page-title" href="/"><span class="site-name">地理数据资源汇总｜个人GIS导航站点搭建记录</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">地理数据资源汇总｜个人GIS导航站点搭建记录</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-06-10T16:28:23.000Z" title="发表于 2026-06-11 00:28:23">2026-06-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-06-10T16:33:44.763Z" title="更新于 2026-06-11 00:33:44">2026-06-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/">网站开发</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>哈喽，我是<strong>星球小捕手</strong>，形象是一只小松鼠。本来是做地理科普内容的，随着AI的爆发，我的形象开始有了进化形态——科技松鼠。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-d1c29901aca88dbd21542c577975e61a-sz_276639.jpeg" alt="img"></p>
+<p>最近在刷GitHub，刷到一个很有意思的项目：<strong>Awesome GIS</strong>。这是是一个地理空间资源合集，包含地图服务器、前端框架、空间数据库、遥感工具等20+分类。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-dea2f9f495050c096d74a6cc717c094b-sz_89835.png" alt="img"></p>
+<p>刚好我的地理科普网站（星球小捕手）中，规划有wiki知识库的板块。本来就是计划将各种地理数据进行入库，这个开源项目十分符合我的想法。此外，大家都知道GitHub比较难打开，我将其整理成中文版也方便大家导航。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-d3b66dd823dcf2485f9c6648c9dc6d96-sz_713257.png" alt="img"></p>
+<p>因此我将GitHub的源码下载（MIT license），将其作为数据库，导入TRAE中，开始开发网站前端。</p>
+<p><strong>MIT License</strong> 是宽松型开源协议，由麻省理工学院推出，全球使用最广泛，极简、自由度极高。核心特点：几乎无限制使用，仅保留版权声明，无强传染性。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-fc0e851cde151b5f832f65d28731ebea-sz_369975.png" alt="img"></p>
+<p><em>网站前端和数据库链接…</em></p>
+<p><em>…</em></p>
+<p><em>调整排版…</em></p>
+<p><em>…</em></p>
+<p><em>优化动效…</em></p>
+<p><em>…</em></p>
+<p><em>修复BUG…</em></p>
+<p><em>…</em></p>
+<p><em>经过亿点点调整，网站基本成型。</em></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-d19c6580a5eadeb412f9dc1730639de7-sz_14727.gif" alt="img"></p>
+<p>我并没有用无代码的AI工具，而是选择IDE工具，一个重要原因是要将网站源码掌握在自己手中，方便之后版本更新。源码文件如下所示：</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-9bdb14dffe091bc0e0db4a60ae81fc94-sz_47439.png" alt="img"></p>
+<p>最终，我将源代码上传到GitHub备份，并在cloud flare上进行部署和发布。网站成果截图如下：</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png" alt="img"></p>
+<p><strong>整个GIS资源有20个分类，分别是：</strong></p>
+<p>开源书籍、地理信息系统软件、遥感软件、3D应用、Web地图服务器、前端框架、空间数据库、移动开发工具、桌面开发工具、深度学习、地图渲染引擎、地理空间库、开放标准、云服务、会议与社区、数据资源、新闻网站、精彩地图网站推荐。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-f9dc61ecff04f9734fb9f07248d05918-sz_278373.png" alt="img"></p>
+<p>随机点开一个3D应用的分类，可以看到常用的三维地理可视化应用，如City Engine、ArcGIS Earth。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-90da54852c79191a89ce51dc06f4f3be-sz_129584.png" alt="img"></p>
+<p>新闻网站的分类，能看到GIS相关的新闻。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-fb53925e499cfe94f55ab6a8cf4811da-sz_1116144.png" alt="img"></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-014-hint-bottom-26.gif" alt="img"></p>
+<p>欢迎大家前往该网站浏览。最后，如果有什么好的GIS网站推荐，欢迎评论区提出，我会在网站中进行补充~</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-87809c0098daefdee9335858d716af63-sz_393936.jpeg" alt="img"></p>
+<blockquote>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://wiki.planetgis.cn/">https://wiki.planetgis.cn</a></p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn">星球小捕手</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://blog.planetgis.cn/archives/3feed0d8.html">http://blog.planetgis.cn/archives/3feed0d8.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://blog.planetgis.cn" target="_blank">星球小捕手</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%9C%B0%E7%90%86/">地理</a><a class="post-meta__tags" href="/tags/GIS/">GIS</a><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/">网站开发</a><a class="post-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a></div><div class="post-share"><div class="social-share" data-image="https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="ads-wrap">true</div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/archives/9333ae1d.html" title="末日冰川加速消融，整片南极冰盖多久会消失？"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-06-05-0789a348b73edb6832992e0bdf595705-sz_146814.jpeg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">末日冰川加速消融，整片南极冰盖多久会消失？</div></div><div class="info-2"><div class="info-item-1">依托数十年卫星观测数据，南极整体冰盖存量庞大、大部区域状态稳定，但西南极与南极半岛冰川受海洋暖流侵蚀加速消融，不同碳排放情景下冰川存续周期差异悬殊。文章结合科研模型，分区剖析冰川消融速率，厘清冰架崩解、海平面抬升的关联影响，对比控温减排与高排放两种未来走向。  当我们在城市里感受着逐年攀升的夏日热浪时，地球的最南端，一片广袤的白色大陆正发出无声的悲鸣。南极冰川，这个地球最大的 “淡水宝库” 和 “气候稳定器”，正在以前所未有的速度消融。  它还能撑多久？今天，我们用 2026 年最新的科研数据，直面这个关乎人类未来的终极问题。 一、警报拉响：南极冰川正在 “加速自杀”过去 30 年（1996-2026），南极已损失了 12,820 平方公里的陆地冰，相当于 10 个洛杉矶的面积。而这一速度，仍在急剧加快：  融化速度暴增 5 倍：如今南极每年流失2780 亿吨冰，是上世纪 80 年代（440 亿吨）的5 倍多。  最大冰山 “寿终正寝”：2026 年 4 月，曾是全球最大、面积相当于 4 个香港的A23a 冰山彻底崩解消失。它从冰架脱离、挣扎 34 年后，最终在温暖的海水中化为乌...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/archives/d0662a9f.html" title="AI+GIS：地理行业的真正变革已到来"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-03-18-a881b78912f88d75202e3aa95ba23fc0-sz_5119824.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-18</div><div class="info-item-2">AI+GIS：地理行业的真正变革已到来</div></div><div class="info-2"><div class="info-item-1">AI 与 GIS 的结合早已不是概念炒作，而是正在落地的真实变革。作为长期深耕地理行业的从业者，我亲身见证了 AI 如何重构数据处理、空间分析、场景应用的全流程。本文从实际应用出发，聊聊 AI+GIS 到底有多 “香”，以及它给地理行业带来的真正改变。  做地理信息行业这么久，每次跟圈外朋友聊起GIS，多半会收到一脸迷茫：“是不是就是画地图的？” 说实话，前几年我也懒得解释，毕竟传统GIS确实偏硬核，要么是测绘院、规划局的专业工具，要么是处理海量空间数据、做图层分析的“苦力活”，听起来就和普通人的生活隔着距离。  ▲ArcGIS Pro的操作界面 直到AI彻底扎进GIS领域，我才发现，这项老手艺彻底活了，不再是冷冰冰的专业软件，而是变成了能看懂空间、会预判问题、还能帮人做决策的实用帮手，也就是现在常说的GeoAI，真不是资本炒的概念。  ▲ESRI关于GeoAI的描述 先说说传统GIS的痛，懂的人都懂没接触过这个行业的朋友可能不知道，我们以前做GIS项目，真的耗时间又耗精力。  ▲图片来源于网络，侵删 比如处理一张遥感影像，要人工一点点勾绘地物，分辨耕地、林地、建筑，小范围的项目...</div></div></div></a><a class="pagination-related" href="/archives/c2b35cef.html" title="AI要抢地图学家的饭碗了？院士团队给出了答案"><img class="cover" src="https://blogphoto.planetgis.cn/PicGo/2026-04-20-459731afe1bda231c51bf76fff649203-sz_678983.jpeg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-04-20</div><div class="info-item-2">AI要抢地图学家的饭碗了？院士团队给出了答案</div></div><div class="info-2"><div class="info-item-1">AI 飞速发展，会抢走地图学家的饭碗吗？面对 AI 制图的强势崛起，院士团队给出权威解答。AI 重塑地图制作模式、大幅提升效率，但不会取代专业人员，人机协同，才是地图学未来的发展方向。  地图，这东西你我天天用，但你有没有想过——画地图这件事，AI能干得比人好吗？ 这让我不禁思考AI能为地理带来什么。在测绘学报上看到几篇比较有意思的论文，因此做一些笔记。（大家不用看枯燥乏味的论文，我用大白话给你捋一捋。）  题目：人工智能赋能地图科学数智化 关键词：地图科学;生成式人工智能;脑科学;神经科学;类脑智能;深度学习;数智化   一、让AI学会像人脑一样看地图科学家发现，人脑在看地图的时候，有一套非常精密的神经运作机制。如果能搞清楚这套机制，再让AI去模仿，地图科学就能实现一个质的飞跃——从”人工画地图”变成”智能生成地图”。  目前中科院自动化所已经搞出了一个叫 SpikingBrain1.0 的类脑大模型，而且是全国产化的。简单说就是：AI正在学着用大脑的方式理解空间和地图。 二、让AI学会GIS专业制图画地图可不是把卫星照片贴上去就完事了。一条河该画多粗？一座山在什么比例尺下该省...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">星球小捕手</div><div class="author-info-description">用数据讲述地球变化，用地图发现世界的温度</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">197</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">79</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/plantcatcher"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎关注公众号：那山那海那座城~</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/archives/3feed0d8.html" title="地理数据资源汇总｜个人GIS导航站点搭建记录"><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-11-8d71d0487efde4b57d4e05d888895df8-sz_644843.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="地理数据资源汇总｜个人GIS导航站点搭建记录"/></a><div class="content"><a class="title" href="/archives/3feed0d8.html" title="地理数据资源汇总｜个人GIS导航站点搭建记录">地理数据资源汇总｜个人GIS导航站点搭建记录</a><time datetime="2026-06-10T16:28:23.000Z" title="发表于 2026-06-11 00:28:23">2026-06-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/9333ae1d.html" title="末日冰川加速消融，整片南极冰盖多久会消失？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-05-0789a348b73edb6832992e0bdf595705-sz_146814.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="末日冰川加速消融，整片南极冰盖多久会消失？"/></a><div class="content"><a class="title" href="/archives/9333ae1d.html" title="末日冰川加速消融，整片南极冰盖多久会消失？">末日冰川加速消融，整片南极冰盖多久会消失？</a><time datetime="2026-06-05T06:53:18.000Z" title="发表于 2026-06-05 14:53:18">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/cee74f68.html" title="洪水考验两大古文明：华夏疏导治水，玛雅另辟生存路径"><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-05-2cdf4be714a78a68601a38fa2ac95523-sz_503885.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="洪水考验两大古文明：华夏疏导治水，玛雅另辟生存路径"/></a><div class="content"><a class="title" href="/archives/cee74f68.html" title="洪水考验两大古文明：华夏疏导治水，玛雅另辟生存路径">洪水考验两大古文明：华夏疏导治水，玛雅另辟生存路径</a><time datetime="2026-06-05T06:51:45.000Z" title="发表于 2026-06-05 14:51:45">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/b47ebddf.html" title="海平面缓步抬升背景下，环渤海与长三角沿海建设如何设防？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-06-05-2c6e5491e39fbeb578ca7937026d03ae-sz_472933.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面缓步抬升背景下，环渤海与长三角沿海建设如何设防？"/></a><div class="content"><a class="title" href="/archives/b47ebddf.html" title="海平面缓步抬升背景下，环渤海与长三角沿海建设如何设防？">海平面缓步抬升背景下，环渤海与长三角沿海建设如何设防？</a><time datetime="2026-06-05T06:48:05.000Z" title="发表于 2026-06-05 14:48:05">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/6803fd0f.html" title="同样是汽油，各国叫法为何天差地别？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-05-13-c7810d7159cff7ce68c781a7f383916d-sz_73998.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="同样是汽油，各国叫法为何天差地别？"/></a><div class="content"><a class="title" href="/archives/6803fd0f.html" title="同样是汽油，各国叫法为何天差地别？">同样是汽油，各国叫法为何天差地别？</a><time datetime="2026-05-13T04:10:41.000Z" title="发表于 2026-05-13 12:10:41">2026-05-13</time></div></div></div></div><div class="card-widget ads-wrap">true</div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 星球小捕手</span></div><div class="footer_custom_text">「星球小捕手」感谢大家对地理的热爱~😆</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://twikoo.planetgis.cn/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
