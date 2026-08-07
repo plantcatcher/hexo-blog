@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.planetgis.cn/archives/a1083c21.html</loc>
+    <loc>http://blog.planetgis.cn/archives/eee7e730.html</loc>
     
     <lastmod>2026-08-07</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>http://blog.planetgis.cn/archives/898fe496.html</loc>
+    
+    <lastmod>2026-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.planetgis.cn/archives/a1083c21.html</loc>
     
     <lastmod>2026-08-07</lastmod>
     
