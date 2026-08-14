@@ -863,6 +863,35 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
+  const wechatQrcodeModal = () => {
+    const btn = document.getElementById('card-info-btn')
+    const modal = document.getElementById('wechat-qrcode-modal')
+    if (!btn || !modal) return
+
+    const closeBtn = modal.querySelector('.wechat-qrcode-close')
+
+    const open = () => {
+      modal.classList.add('show')
+      document.body.style.overflow = 'hidden'
+    }
+
+    const close = () => {
+      modal.classList.remove('show')
+      document.body.style.overflow = ''
+    }
+
+    btf.addEventListenerPjax(btn, 'click', open)
+    closeBtn && btf.addEventListenerPjax(closeBtn, 'click', close)
+
+    btf.addEventListenerPjax(modal, 'click', e => {
+      if (e.target === modal) close()
+    })
+
+    btf.addEventListenerPjax(document, 'keydown', e => {
+      if (e.key === 'Escape' && modal.classList.contains('show')) close()
+    })
+  }
+
   const toggleCardCategory = () => {
     const cardCategory = document.querySelector('#aside-cat-list.expandBtn')
     if (!cardCategory) return
@@ -973,6 +1002,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     GLOBAL_CONFIG_SITE.pageType === 'home' && scrollDownInIndex()
     scrollFn()
+    wechatQrcodeModal()
 
     forPostFn()
     GLOBAL_CONFIG_SITE.pageType !== 'shuoshuo' && btf.switchComments(document)
