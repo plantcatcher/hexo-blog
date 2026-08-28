@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.planetgis.cn/archives/cfdfee6a.html</loc>
+    <loc>https://blog.planetgis.cn/archives/74fce832.html</loc>
     
     <lastmod>2026-08-28</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>https://blog.planetgis.cn/archives/73a1e825.html</loc>
+    
+    <lastmod>2026-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.planetgis.cn/archives/cfdfee6a.html</loc>
     
     <lastmod>2026-08-28</lastmod>
     
@@ -3318,6 +3327,13 @@
   
   <url>
     <loc>https://blog.planetgis.cn/tags/%E5%90%B4%E5%93%A5%E7%AA%9F/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.planetgis.cn/tags/%E7%99%BD%E8%8F%9C/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
