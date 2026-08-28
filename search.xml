@@ -15354,4 +15354,190 @@
         <tag>西藏</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【资料下载】地理书籍PDF整理集合包</title>
+    <url>/archives/cfdfee6a.html</url>
+    <content><![CDATA[<p>由于我经常更新地理科普内容，因此经常会有人问：</p>
+<p><strong>“小编，有没有靠谱的地理教材推荐？”</strong></p>
+<p>每次我都得在评论区手敲一长串书名，再补一句”自己去网上找 PDF 吧”。说实话，这体验又敷衍又不负责。</p>
+<p>所以我干脆在主站  <a href="https://planetgis.cn/"><em>星球小捕手</em></a>  开了个<strong>地理资料下载库</strong>  <a href="https://planetgis.cn/downloads"><em>资料下载</em> - 星球小捕手</a>：把资料一本本核对作者、出版社、版次，整理好挂上去，大家免费取用。</p>
+<p>但有一点先说在前面：<strong>这库现在不是”精选合集”，还在持续更新中…</strong> 目前已经上架 13 本，但初中地理、高中地理教材我已经在准备往里塞了，后面还会持续补。今天你看到的，只是它成长的第一个快照。</p>
+<p>为什么我要把它做成”活库”而不是一次性盘点？后面说。</p>
+<hr>
+<h2 id="一、目前库里有什么（13-本，只是开始）"><a href="#一、目前库里有什么（13-本，只是开始）" class="headerlink" title="一、目前库里有什么（13 本，只是开始）"></a>一、目前库里有什么（13 本，只是开始）</h2><p>当前 13 本，总大小约 <strong>333 MB</strong>。我先把已有的按用途分了 5 组，方便你找：</p>
+<h3 id="🛰️-第一组：GIS-核心技术栈（4-本）"><a href="#🛰️-第一组：GIS-核心技术栈（4-本）" class="headerlink" title="🛰️ 第一组：GIS 核心技术栈（4 本）"></a>🛰️ 第一组：GIS 核心技术栈（4 本）</h3><table>
+<thead>
+<tr>
+<th>书名</th>
+<th>作者</th>
+<th>版次&#x2F;出版社</th>
+<th>大小</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://planetgis.cn/downloads/di-li-xin-xi-xi-tong-dao-lun-9">地理信息系统导论</a></td>
+<td>张康聪（美）</td>
+<td>原著第 9 版 &#x2F; 科学出版社 2019</td>
+<td>29.2 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/di-li-xin-xi-xi-tong-gai-lun-3">地理信息系统概论</a></td>
+<td>黄杏元、马劲松</td>
+<td>第 3 版 &#x2F; 高教社 2008</td>
+<td>39.5 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/di-li-xin-xi-xi-tong-jiao-cheng-2">地理信息系统教程</a></td>
+<td>汤国安 主编</td>
+<td>第 2 版 &#x2F; 高教社 2019</td>
+<td>18.5 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/yaogan-yingyong-fenxi">遥感应用分析原理与方法</a></td>
+<td>赵英时</td>
+<td>科学出版社 2003</td>
+<td>19.7 MB</td>
+</tr>
+</tbody></table>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-26-gis1.jpg" alt="地理信息系统导论"></p>
+<h3 id="🌍-第二组：地理学四大基础（4-本）"><a href="#🌍-第二组：地理学四大基础（4-本）" class="headerlink" title="🌍 第二组：地理学四大基础（4 本）"></a>🌍 第二组：地理学四大基础（4 本）</h3><table>
+<thead>
+<tr>
+<th>书名</th>
+<th>作者</th>
+<th>版次&#x2F;出版社</th>
+<th>大小</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://planetgis.cn/downloads/ziran-dili-xue-4">自然地理学</a></td>
+<td>伍光和、王乃昂</td>
+<td>第 4 版 &#x2F; 高教社 2008</td>
+<td>46.9 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/qi-xiang-xue-yu-qi-hou-xue-3">气象学与气候学</a></td>
+<td>周淑贞</td>
+<td>第 3 版 &#x2F; 高教社 1997</td>
+<td>30.6 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/renwen-dili-xue-2">人文地理学</a></td>
+<td>赵荣、王恩涌</td>
+<td>第 2 版 &#x2F; 高教社 2006</td>
+<td>35.7 MB</td>
+</tr>
+<tr>
+<td><a href="https://planetgis.cn/downloads/zheng-zhi-di-li-xue">政治地理学</a></td>
+<td>王恩涌 等</td>
+<td>高教社 1998</td>
+<td>1.0 MB</td>
+</tr>
+</tbody></table>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-26-1.jpg" alt="自然地理学"></p>
+<h3 id="🏙️-第三组：城市双璧（2-本）"><a href="#🏙️-第三组：城市双璧（2-本）" class="headerlink" title="🏙️ 第三组：城市双璧（2 本）"></a>🏙️ 第三组：城市双璧（2 本）</h3><p>许学强、周一星、宁越敏的《城市地理学》，第二版（2009）和第三版（2022）都收了。第三版新增”城市产业空间””城市增长管理”两章，把新型城镇化、消费城市、老龄化这些近十年议题全塞了进去。两版对照读，能看到中国城市化十五年的一份切片。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-2026-08-28-city1.jpeg" alt="城市地理学"></p>
+<h3 id="🧭-第四组：视野与思想（2-本）"><a href="#🧭-第四组：视野与思想（2-本）" class="headerlink" title="🧭 第四组：视野与思想（2 本）"></a>🧭 第四组：视野与思想（2 本）</h3><ul>
+<li><strong>《大陆的神话：元地理学批判》</strong>（刘易士、魏根 &#x2F; 上海人民出版社 2011）：直指”七大洲””东西方”这些划分本身就是政治建构。做 GIS 的人尤其该读——你天天用的底图、行政边界、坐标系，从来不是”客观中立”。</li>
+</ul>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-27-dl1.jpg" alt="大陆的神话"></p>
+<ul>
+<li><strong>《中国区域历史地理》</strong>（李孝聪 &#x2F; 北京大学出版社 2004）：按八大自然区讲中国历史地缘政治、交通与城市分布。</li>
+</ul>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-27-ls1.jpg" alt="中国区域历史地理"></p>
+<h3 id="💻-第五组：跨界彩蛋（1-本）"><a href="#💻-第五组：跨界彩蛋（1-本）" class="headerlink" title="💻 第五组：跨界彩蛋（1 本）"></a>💻 第五组：跨界彩蛋（1 本）</h3><ul>
+<li><strong>《C 程序设计（第四版）学习辅导》</strong>（谭浩强 &#x2F; 清华大学出版社 2010）：学 GIS 迟早要碰代码，这本是啃下 C 语言的高性价比搭档。</li>
+</ul>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-26-c1.jpg" alt="C语言"></p>
+<blockquote>
+<p>另外，初中地理、高中地理教材已经在路上，之后还会按大家的需求往里加。所以别把它当成”星球小捕手精挑细选的必读书单”——它就是个不断长大的公用资料架，你现在看到的是第一版。</p>
+</blockquote>
+<hr>
+<h2 id="二、需要什么书，欢迎大家评论区留言"><a href="#二、需要什么书，欢迎大家评论区留言" class="headerlink" title="二、需要什么书，欢迎大家评论区留言"></a>二、需要什么书，欢迎大家评论区留言</h2><p>这是我想说的最重要的一点：</p>
+<p><strong>资料库不是我一个人闷头填的，它该由你们的需求驱动。</strong> 你正在学什么、教什么、卡在哪本买不到的旧教材上，都可以在评论区告诉我。</p>
+<p>比如：</p>
+<ul>
+<li>是不是想要某本绝版&#x2F;难买的教材 PDF？</li>
+<li>是不是缺初中、高中的地理教材和教辅？</li>
+<li>是不是想要某个细分方向（区划、地质、海洋、旅游地理……）的资料？</li>
+</ul>
+<p><strong>把你想看的资料，直接打在评论区。</strong> 呼声高的，我优先整理上架；你点名的稀缺资源，我专门去补。这个库的最终形态，取决于你们想往里塞什么。</p>
+<hr>
+<p><strong>👇 当前 13 本兑换码（建议截图 &#x2F; 转发收藏，后面会上新）</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">NSH-GIS-001  地理信息系统导论（第9版）</span><br><span class="line">NSH-GIS-002  地理信息系统概论（第3版）</span><br><span class="line">NSH-TGA-001  地理信息系统教程（第2版）</span><br><span class="line">NSH-RS-001   遥感应用分析原理与方法</span><br><span class="line">NSH-ZR-001   自然地理学（第4版）</span><br><span class="line">NSH-QX-001   气象学与气候学（第3版）</span><br><span class="line">NSH-RW-001   人文地理学（第2版）</span><br><span class="line">NSH-ZZ-001   政治地理学</span><br><span class="line">NSH-CS-001   城市地理学（第2版）</span><br><span class="line">NSH-CS-003   城市地理学（第3版）</span><br><span class="line">NSH-DLS-001  大陆的神话：元地理学批判</span><br><span class="line">NSH-LXC-001  中国区域历史地理</span><br><span class="line">NSH-C-001    C程序设计（第4版）学习辅导</span><br></pre></td></tr></table></figure>
+
+<p><strong>获取方式</strong>：关注公众号 <strong>「那山那海那座城」</strong>，后台回复上方书籍名称，自动解锁对应 PDF 下载链接。全部免费，且库会持续上新——关注后随时能收到新资料通知。</p>
+<hr>
+<blockquote>
+<p>如果这篇对你有用，<strong>转发给同样在找地理资料的同学、同事或老乡</strong>——他们大概率也在到处找这些书，你这一转，省的是他们一下午的搜索时间。</p>
+<p><strong>你还想要什么资料？直接在评论区点名。</strong> 呼声越高，上架越快。</p>
+</blockquote>
+<hr>
+<p><strong>关注「那山那海那座城」</strong>，这里有个不断成长的地理资料下载库，关注后回复兑换码随时取用，也能第一时间收到上新通知。</p>
+]]></content>
+      <categories>
+        <category>资料下载</category>
+      </categories>
+      <tags>
+        <tag>地理</tag>
+        <tag>GIS</tag>
+        <tag>资料下载</tag>
+        <tag>PDF</tag>
+        <tag>书籍</tag>
+        <tag>压缩包</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吴哥窟为什么陨落？一座超级城市被丛林吞没的真相</title>
+    <url>/archives/73a1e825.html</url>
+    <content><![CDATA[<p>2012年，科学家用机载激光雷达扫描了吴哥窟周围的丛林。结果让所有人倒吸一口凉气——</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-b109f8fcd8ab99b3c109692824916b37-sz_621772.jpeg" alt="img"></p>
+<p>在那些密不透风的热带雨林下面，藏着一座面积超过1000平方公里的超大城市网格。街道、运河、水库、民居，密密麻麻铺满了整个洞里萨湖以北的冲积平原。</p>
+<p><strong>这不是一座庙。这是一个曾容纳75万人的巨型都市。</strong></p>
+<p>而它，在15世纪初被<strong>彻底抛弃</strong>了。</p>
+<h1 id="一、水利帝国"><a href="#一、水利帝国" class="headerlink" title="一、水利帝国"></a>一、水利帝国</h1><p>要理解吴哥为什么陨落，得先理解它为什么崛起。</p>
+<p>吴哥城所在的<strong>暹粒平原</strong>，每年有半年暴雨倾盆，半年滴水不下。高棉人解决这个问题的办法，是修<strong>一个变态级别的水利系统</strong>。他们在丘陵之间筑起巨大的土坝，拦住季风雨水，造出西池、东池、北池三座巨型水库，光西池的蓄水量就接近5000万立方米。然后挖出蛛网般的运河和渠道，把水引到稻田里。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-b06142d9e0b9bbfca1480b28a7b6ad42-sz_608273.jpeg" alt="img"></p>
+<p>这套系统让高棉帝国一年能种三季稻，养活了远超同时期欧洲任何城市的人口。12世纪的吴哥，人口可能达到<strong>75万</strong>——同时期的巴黎不过5万人。</p>
+<p><strong>水利，就是吴哥的命脉。水利系统一旦失灵，这座城市就活不下去。</strong></p>
+<h1 id="二、季风走了"><a href="#二、季风走了" class="headerlink" title="二、季风走了"></a>二、季风走了</h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-baef22104044ef091d7cf965bb891a6e-sz_3114349.jpeg" alt="img"></p>
+<p><strong>坏消息从14世纪开始。</strong></p>
+<p>古气候学家从东南亚湖泊沉积物和树木年轮中还原出了一组残酷的数据：14世纪中叶开始，东南亚季风出现了持续数十年的剧烈减弱。这不是普通的”今年雨少一点”，而是结构性的气候转变——降雨带南移，旱季拉长，暴雨期缩短且更不可预测。</p>
+<p><strong>先是大旱。水库见底，运河干涸，稻田大面积减产。</strong></p>
+<p>然后是极端暴雨。当雨水终于来了，来的不是绵绵细雨，而是集中在短时间内的毁灭性降水。几百年来精心维护的土坝和渠道根本扛不住这种冲击，冲毁、淤塞、溃决，循环往复。</p>
+<p>一个依赖精密水利调度才能运转的超级城市，它的底层操作系统——<strong>气候</strong>——崩了。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-aa12047e4ad91c68400357ea97fd4e44-sz_1314831.jpeg" alt="img"></p>
+<h1 id="三、丛林开始反攻"><a href="#三、丛林开始反攻" class="headerlink" title="三、丛林开始反攻"></a>三、丛林开始反攻</h1><p><strong>水利系统一旦出问题，后果是连锁的。</strong></p>
+<p>稻田减产意味着养不活那么多人。人口从高峰期滑落，维护庞大基础设施的劳动力就不够。劳动力不够，水利系统进一步荒废，稻田进一步减产。这是一个自我加速的死亡螺旋。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-9012cafa9dc3ee2f7956acbbd0a84c92-sz_657045.png" alt="img"></p>
+<p>与此同时，热带丛林从来没停止过它的工作。在东南亚的气候下，只要几年没人管，藤蔓和树根就会爬满石墙；几十年没人管，榕树的根系就能把整座建筑撑裂。</p>
+<p>吴哥那些宏伟的神庙和宫殿，在人口流失后迅速被丛林吞噬。不是被摧毁，是被吞没。树木从屋顶长出来，根系钻进砖缝，把石块一寸寸掰开。丛林在重新收回属于它的领地。</p>
+<h1 id="四、最后一击"><a href="#四、最后一击" class="headerlink" title="四、最后一击"></a>四、最后一击</h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-2b5664ad2153e4998aec430fa5a8dfdb-sz_663825.png" alt="img"></p>
+<p>气候和生态的衰退掏空了吴哥的根基，而外部压力给了它致命一击。</p>
+<p>14世纪后期，西边的<strong>暹罗人（今泰国）</strong>迅速崛起，建立了<strong>阿瑜陀耶王朝</strong>。他们不断东进，蚕食高棉帝国的西部领土。一个正在衰落、内部已经捉襟见肘的帝国，根本无力抵挡一个正在上升期的强权。</p>
+<p><strong>1431年，阿瑜陀耶大军攻陷吴哥城。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-67bbfcb15f0ddd8ce739b335f01af191-sz_198746.png" alt="img"></p>
+<p>关于这场攻陷，有人说城市被洗劫一空，也有人说高棉王室在此前已经将政治中心南迁至金边一带，吴哥实际上已是一座空壳。无论细节如何，结果是确定的：<strong>吴哥作为首都的历史，结束了。</strong></p>
+<p>此后高棉人没有再回来。不是不想，是不能——水利系统已彻底毁坏，丛林已接管一切，重建的成本远大于另起炉灶。</p>
+<h1 id="五、被遗忘的四个世纪"><a href="#五、被遗忘的四个世纪" class="headerlink" title="五、被遗忘的四个世纪"></a>五、被遗忘的四个世纪</h1><p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-c98b468595e297b6b44e9d37130f7094-sz_178969.jpeg" alt="img"></p>
+<p><strong>最让人感慨的不是吴哥的陨落，而是它被遗忘得那么彻底。</strong></p>
+<p>从15世纪到19世纪，整整四百年，这座曾经的世界级大都市就躺在丛林深处，除了当地僧侣偶尔来祭拜，几乎无人问津。欧洲没人知道它，中国古籍里对**”真腊”**的记载也渐渐变成了模糊的传说。</p>
+<p><strong>直到1858年，法国博物学家亨利·穆奥在丛林中”重新发现”了吴哥窟。</strong></p>
+<p>引号是必须加的——当地高棉人从来知道那些石头庙在那里，只是没人觉得那是什么值得大惊小怪的事。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-c90ef7b00f45452d2686763e48a2b79e-sz_307382.jpeg" alt="img"></p>
+<h1 id="六、一个文明的死亡方式"><a href="#六、一个文明的死亡方式" class="headerlink" title="六、一个文明的死亡方式"></a>六、一个文明的死亡方式</h1><p>吴哥的陨落不是某个单一原因能解释的。它不是被某个敌人打败的，也不是毁于某场瘟疫或地震。</p>
+<p><strong>它是被气候变化、生态崩溃、基础设施失灵和外部战争共同压垮的。</strong></p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-08-28-6de3b9062344760f1646fdb62100ea34-sz_310919.jpeg" alt="img"></p>
+<p>一个超级城市，建立在对自然环境的极端依赖之上。当那个环境发生系统性转变时，它的脆弱性就暴露无遗——<strong>越是精密的系统，崩塌起来越是彻底</strong>。</p>
+<p>这或许是吴哥留给我们最不舒服的遗产：文明可以建得很大，但不代表它建得稳。</p>
+]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>地理科普</tag>
+        <tag>柬埔寨</tag>
+        <tag>吴哥窟</tag>
+      </tags>
+  </entry>
 </search>
