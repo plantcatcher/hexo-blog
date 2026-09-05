@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>星球小捕手</title><meta name="author" content="星球小捕手"><meta name="copyright" content="星球小捕手"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="用数据讲述地球变化，用地图发现世界的温度">
+<meta property="og:type" content="website">
+<meta property="og:title" content="星球小捕手">
+<meta property="og:url" content="https://blog.planetgis.cn/page/27/index.html">
+<meta property="og:site_name" content="星球小捕手">
+<meta property="og:description" content="用数据讲述地球变化，用地图发现世界的温度">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.planetgis.cn/img/butterfly-icon.png">
+<meta property="article:author" content="星球小捕手">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.planetgis.cn/img/butterfly-icon.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.planetgis.cn/page/27/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7003785465265177',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c47b61452b0a74e4c26ba25606618af9";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4EHEP88TN2"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4EHEP88TN2')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4EHEP88TN2', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'medium_zoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '星球小捕手',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="referrer" content="no-referrer" /><style>
+  /* 修复Butterfly gallery 滚动图片消失 */
+  .gallery {
+    column-count: 5;    /* 和你页面5列匹配，按需修改 */
+    column-gap: 16px;
+    /* 防止容器高度计算异常 */
+    contain: layout inline-size;
+  }
+  .gallery .gallery-item {
+    break-inside: avoid !important;
+    visibility: visible !important;
+    /* 开启独立GPU图层，阻止浏览器回收上方图片渲染 */
+    will-change: transform;
+    transform: translateZ(0);
+    margin-bottom: 16px;
+  }
+  .gallery .gallery-item img {
+    width: 100%;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .gallery {
+      column-count: 2;
+    }
+  }
+</style>
+<meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">262</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">137</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://blogphoto.planetgis.cn/the_blog_top.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">星球小捕手</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 往期</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">星球小捕手</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover left"><a href="/archives/fcf5b7c7.html" title="海平面上升 200 米，中国会变成什么样？淹没范围全景模拟"><img class="post-bg" src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-d41250d1b063b54adc4df7581735cce9-sz_6908915-267998.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="海平面上升 200 米，中国会变成什么样？淹没范围全景模拟"></a></div><div class="recent-post-info"><a class="article-title" href="/archives/fcf5b7c7.html" title="海平面上升 200 米，中国会变成什么样？淹没范围全景模拟">海平面上升 200 米，中国会变成什么样？淹没范围全景模拟</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-02-07T22:42:10.000Z" title="发表于 2026-02-08 06:42:10">2026-02-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B5%B7%E5%B9%B3%E9%9D%A2%E6%A8%A1%E6%8B%9F/">海平面模拟</a></span></div><div class="content">一、海平面上升200米的世界这张图是海平面上升 200 米后的中国地形与淹没示意图，我国三大平原、沿海低地几乎全部被淹，仅高原、山地、高海拔盆地保留，海岸线大幅西退。  海平面上升 200 米属于极端理论假设，现实中全球冰盖全部融化，海平面仅会上升约 66 米，远低于 200 米；该图为地形科普示意，用于直观体现中国西高东低的三级阶梯地形对海平面上升的脆弱性差异，东部平原海拔普遍低于 200 米，是淹没高风险区，西部高原山地则具备绝对的地形安全优势。 二、模拟海平面上升说明：  其目的是反映 中国 的地形地貌特征； 数据基于NASA，利用专业制图软件进行模拟； 上升高度为200米（海拔）。  （1）东北区域 辽河平原：作为东北平原南部，直接与渤海连成一片，向南直连华北淹没区，辽宁中部平原完全沉入水下。三江平原：黑龙江、乌苏里江、松花江下游平原被海水倒灌淹没，与日本海北部水域连通。 图中标注的东北三大核心城市全部处于淹没区。 东北仅海拔高于 200 米的山脉、山地保留为连续陆地，成为孤岛状陆地块：  大兴安岭：西侧完整保留，东侧直接成为新海岸线； 小兴安岭：横亘在淹没区北部，成为半...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/archives/7ac24357.html" title="我为什么建立一个博客网站？"><img class="post-bg" src="https://blogphoto.planetgis.cn/PicGo/2026-02-27-compass-42ab27.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我为什么建立一个博客网站？"></a></div><div class="recent-post-info"><a class="article-title" href="/archives/7ac24357.html" title="我为什么建立一个博客网站？">我为什么建立一个博客网站？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2026-02-07T17:49:40.000Z" title="发表于 2026-02-08 01:49:40">2026-02-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%97%B2%E8%81%8A/">闲聊</a></span></div><div class="content">我有一个公众号，叫“那山那海那座城”。我利用GIS专业的知识，一直在写关于地理相关的文章，内容包括地理冷知识、地铁知识，以及海平面模拟。 不少人对于如何模拟海平面上升和下降很感兴趣，但不知道如何操作。为了满足广大网友的求知欲，我制作了这个博客网站，用来更新GIS的各种教程（不限于海平面升降的模拟）。 </div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/26/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/26/#content-inner">26</a><span class="page-number current">27</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">星球小捕手</div><div class="author-info-description">用数据讲述地球变化，用地图发现世界的温度</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">262</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">137</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><button id="card-info-btn" type="button" data-qrcode="/img/wechat-qrcode.jpg" aria-label="打开公众号二维码"><i class="fab fa-weixin"></i><span>关注公众号</span></button></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎关注星球小捕手，可全网搜索同名账号哦~</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/archives/c1c8cc40.html" title="智利：一条4300公里的地理疯子，是怎么活下来的？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-09-05-bbb30a2cfdf9a060acbd07f04f14160a-sz_1463497.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="智利：一条4300公里的地理疯子，是怎么活下来的？"/></a><div class="content"><a class="title" href="/archives/c1c8cc40.html" title="智利：一条4300公里的地理疯子，是怎么活下来的？">智利：一条4300公里的地理疯子，是怎么活下来的？</a><time datetime="2026-09-05T08:50:10.000Z" title="发表于 2026-09-05 16:50:10">2026-09-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/59dc0d7b.html" title="广西人的姓氏，都是从哪里来的？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-09-05-539a770747fe3e0b3415d4e7c306d405-sz_324171.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="广西人的姓氏，都是从哪里来的？"/></a><div class="content"><a class="title" href="/archives/59dc0d7b.html" title="广西人的姓氏，都是从哪里来的？">广西人的姓氏，都是从哪里来的？</a><time datetime="2026-09-05T08:49:57.000Z" title="发表于 2026-09-05 16:49:57">2026-09-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/f6f90c05.html" title="冰盖之下：南极洲隐藏的另一个世界"><img src="https://blogphoto.planetgis.cn/PicGo/2026-09-05-bb136fcd4f42dd50277ab91d93d5da41-sz_227971.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="冰盖之下：南极洲隐藏的另一个世界"/></a><div class="content"><a class="title" href="/archives/f6f90c05.html" title="冰盖之下：南极洲隐藏的另一个世界">冰盖之下：南极洲隐藏的另一个世界</a><time datetime="2026-09-05T08:49:35.000Z" title="发表于 2026-09-05 16:49:35">2026-09-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/329bfac3.html" title="他花170万买了一个国家，2800万飞出地球，却买不回一张回惠州的机票"><img src="https://blogphoto.planetgis.cn/PicGo/2026-09-01-5e01fd6a601b57ab27f6eb4341df391e-sz_467206.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="他花170万买了一个国家，2800万飞出地球，却买不回一张回惠州的机票"/></a><div class="content"><a class="title" href="/archives/329bfac3.html" title="他花170万买了一个国家，2800万飞出地球，却买不回一张回惠州的机票">他花170万买了一个国家，2800万飞出地球，却买不回一张回惠州的机票</a><time datetime="2026-08-31T16:44:11.000Z" title="发表于 2026-09-01 00:44:11">2026-09-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/archives/868c046c.html" title="广西人为什么越来越不愿意种甘蔗？"><img src="https://blogphoto.planetgis.cn/PicGo/2026-09-01-ff7e60cb009e54ede50bd29102c8cc99-sz_274271.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="广西人为什么越来越不愿意种甘蔗？"/></a><div class="content"><a class="title" href="/archives/868c046c.html" title="广西人为什么越来越不愿意种甘蔗？">广西人为什么越来越不愿意种甘蔗？</a><time datetime="2026-08-31T16:39:36.000Z" title="发表于 2026-09-01 00:39:36">2026-09-01</time></div></div></div></div><div class="card-widget ads-wrap">true</div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+      <i class="fas fa-angle-right"></i></a>
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/AI%E5%9C%B0%E7%90%86/"><span class="card-category-list-name">AI地理</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/GIS%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">GIS教程</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/GPlates%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">GPlates教程</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/"><span class="card-category-list-name">人物志</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8E%86%E5%8F%B2%E5%9C%B0%E7%90%86/"><span class="card-category-list-name">历史地理</span><span class="card-category-list-count">21</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%95%86%E4%B8%9A%E5%9C%B0%E7%90%86/"><span class="card-category-list-name">商业地理</span><span class="card-category-list-count">8</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9B%BD%E5%9C%9F%E7%A9%BA%E9%97%B4%E8%A7%84%E5%88%92/"><span class="card-category-list-name">国土空间规划</span><span class="card-category-list-count">27</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/"><span class="card-category-list-name">地理科普</span><span class="card-category-list-count">79</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%92%99%E5%8F%A4/" style="font-size: 1.1em; color: #999">蒙古</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E5%8C%96/" style="font-size: 1.1em; color: #999">城市化</a> <a href="/tags/GPlates%E6%95%99%E7%A8%8B/" style="font-size: 1.1em; color: #999">GPlates教程</a> <a href="/tags/%E5%8E%86%E5%8F%B2/" style="font-size: 1.3em; color: #99a1ac">历史</a> <a href="/tags/ArcGIS/" style="font-size: 1.14em; color: #999b9d">ArcGIS</a> <a href="/tags/%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF/" style="font-size: 1.1em; color: #999">亚特兰蒂斯</a> <a href="/tags/%E5%B7%B4%E6%8B%BF%E9%A9%AC/" style="font-size: 1.1em; color: #999">巴拿马</a> <a href="/tags/%E6%9E%B6%E7%A9%BA%E5%8E%86%E5%8F%B2/" style="font-size: 1.1em; color: #999">架空历史</a> <a href="/tags/%E5%8D%97%E5%8C%97%E6%88%98%E4%BA%89/" style="font-size: 1.1em; color: #999">南北战争</a> <a href="/tags/%E5%9B%BD%E5%9C%9F%E7%A9%BA%E9%97%B4%E8%A7%84%E5%88%92/" style="font-size: 1.38em; color: #99a4b4">国土空间规划</a> <a href="/tags/%E5%9F%BA%E5%9C%B0/" style="font-size: 1.1em; color: #999">基地</a> <a href="/tags/%E5%BA%93%E9%A1%B5%E5%B2%9B/" style="font-size: 1.1em; color: #999">库页岛</a> <a href="/tags/%E5%9C%B0%E5%BD%A2/" style="font-size: 1.1em; color: #999">地形</a> <a href="/tags/%E6%9F%AC%E5%9F%94%E5%AF%A8/" style="font-size: 1.1em; color: #999">柬埔寨</a> <a href="/tags/%E9%BB%84%E6%B2%B3/" style="font-size: 1.1em; color: #999">黄河</a> <a href="/tags/%E6%B8%AF%E5%8F%A3/" style="font-size: 1.1em; color: #999">港口</a> <a href="/tags/%E6%96%B0%E8%A5%BF%E5%85%B0/" style="font-size: 1.14em; color: #999b9d">新西兰</a> <a href="/tags/Aerialod/" style="font-size: 1.1em; color: #999">Aerialod</a> <a href="/tags/%E7%9B%B4%E8%BE%96%E5%B8%82/" style="font-size: 1.22em; color: #999ea4">直辖市</a> <a href="/tags/%E8%B4%A2%E7%BB%8F/" style="font-size: 1.1em; color: #999">财经</a> <a href="/tags/%E5%8D%AB%E6%98%9F/" style="font-size: 1.1em; color: #999">卫星</a> <a href="/tags/%E8%88%9F%E5%B1%B1/" style="font-size: 1.1em; color: #999">舟山</a> <a href="/tags/%E5%B9%BF%E8%A5%BF/" style="font-size: 1.26em; color: #999fa8">广西</a> <a href="/tags/%E7%A1%85%E8%B0%B7/" style="font-size: 1.1em; color: #999">硅谷</a> <a href="/tags/%E5%9C%B0%E5%9B%BE/" style="font-size: 1.42em; color: #99a6b7">地图</a> <a href="/tags/%E5%9C%B0%E7%90%86/" style="font-size: 1.22em; color: #999ea4">地理</a> <a href="/tags/%E9%A6%99%E6%B8%AF/" style="font-size: 1.18em; color: #999ca1">香港</a> <a href="/tags/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/" style="font-size: 1.1em; color: #999">网站开发</a> <a href="/tags/GIS/" style="font-size: 1.18em; color: #999ca1">GIS</a> <a href="/tags/%E5%9C%B0%E9%93%81/" style="font-size: 1.46em; color: #99a7bb">地铁</a> <a href="/tags/%E5%90%B4%E5%93%A5%E7%AA%9F/" style="font-size: 1.1em; color: #999">吴哥窟</a> <a href="/tags/%E6%97%A5%E6%9C%AC/" style="font-size: 1.34em; color: #99a3b0">日本</a> <a href="/tags/%E4%B8%AD%E5%9B%BD/" style="font-size: 1.5em; color: #99a9bf">中国</a> <a href="/tags/%E9%99%95%E8%A5%BF/" style="font-size: 1.1em; color: #999">陕西</a> <a href="/tags/%E7%A7%91%E6%8A%80/" style="font-size: 1.1em; color: #999">科技</a> <a href="/tags/%E5%A4%A7%E6%B9%BE%E5%8C%BA/" style="font-size: 1.1em; color: #999">大湾区</a> <a href="/tags/%E7%94%98%E8%94%97/" style="font-size: 1.1em; color: #999">甘蔗</a> <a href="/tags/%E5%A4%A7%E8%B1%86/" style="font-size: 1.1em; color: #999">大豆</a> <a href="/tags/%E8%8F%B2%E5%BE%8B%E5%AE%BE/" style="font-size: 1.1em; color: #999">菲律宾</a> <a href="/tags/%E5%8D%B0%E5%BA%A6/" style="font-size: 1.1em; color: #999">印度</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/09/">
+            <span class="card-archive-list-date">
+              九月 2026
+            </span>
+            <span class="card-archive-list-count">6</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/08/">
+            <span class="card-archive-list-date">
+              八月 2026
+            </span>
+            <span class="card-archive-list-count">28</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/07/">
+            <span class="card-archive-list-date">
+              七月 2026
+            </span>
+            <span class="card-archive-list-count">31</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/06/">
+            <span class="card-archive-list-date">
+              六月 2026
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/05/">
+            <span class="card-archive-list-date">
+              五月 2026
+            </span>
+            <span class="card-archive-list-count">27</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/04/">
+            <span class="card-archive-list-date">
+              四月 2026
+            </span>
+            <span class="card-archive-list-count">60</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/03/">
+            <span class="card-archive-list-date">
+              三月 2026
+            </span>
+            <span class="card-archive-list-count">83</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/02/">
+            <span class="card-archive-list-date">
+              二月 2026
+            </span>
+            <span class="card-archive-list-count">23</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">262</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-09-05T08:58:41.243Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 星球小捕手</span></div><div class="footer_custom_text">「星球小捕手」感谢大家对地理的热爱~😆</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部"><i class="fas fa-arrow-down"></i></button></div></div><div class="wechat-qrcode-modal" id="wechat-qrcode-modal" role="dialog" aria-modal="true" aria-labelledby="wechat-qrcode-title"><div class="wechat-qrcode-content"><button class="wechat-qrcode-close" type="button" aria-label="关闭">×</button><h3 id="wechat-qrcode-title">扫码关注微信公众号</h3><p>打开微信「扫一扫」，关注「那山那海那座城」获取最新地理科普文章</p><div class="wechat-qrcode-img"><img src="/img/wechat-qrcode.jpg" alt="公众号二维码"></div></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, "https://github.com/mattboldt/typed.js/#customization"))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js@3.0.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  },
+  processSubtitle: (content, extraContents = []) => {
+    if (true) {
+      const sub = ["打开地图","看见更大的世界 与 更真实的地球"].slice()
+
+      if (extraContents.length > 0) {
+        sub.unshift(...extraContents)
+      }
+
+      if (typeof content === 'string') {
+        sub.unshift(content)
+      } else if (Array.isArray(content)) {
+        sub.unshift(...content)
+      }
+
+      sub.length > 0 && typedJSFn.init(sub)
+    } else {
+      document.getElementById('subtitle').textContent = typeof content === 'string' ? content :
+        (Array.isArray(content) && content.length > 0 ? content[0] : '')
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  typedJSFn.processSubtitle(["打开地图","看见更大的世界 与 更真实的地球"])
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
