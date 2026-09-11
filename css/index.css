@@ -3965,11 +3965,14 @@ figure.highlight pre .javascript .function {
   margin: 0 0 8px;
   color: var(--font-color);
   font-size: 1.2em;
+  text-align: center;
 }
 .wechat-qrcode-content p {
   margin: 0 0 16px;
   color: var(--card-meta);
   font-size: 0.9em;
+  line-height: 1.6;
+  text-align: center;
 }
 .wechat-qrcode-close {
   position: absolute;
