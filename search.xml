@@ -21784,7 +21784,7 @@
     <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
     <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
     <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
-    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>285</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
   </div>
   <div class="wx-follow-card__qr">
     <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
@@ -21913,7 +21913,7 @@
     <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
     <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
     <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
-    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>285</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
   </div>
   <div class="wx-follow-card__qr">
     <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
@@ -21992,7 +21992,7 @@
     <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
     <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
     <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
-    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>285</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
   </div>
   <div class="wx-follow-card__qr">
     <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
@@ -22012,5 +22012,235 @@
         <tag>地理科普</tag>
         <tag>瑞士</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>中国的金矿，为什么全挤在这几个县？</title>
+    <url>/archives/b2584147.html</url>
+    <content><![CDATA[<p>2024年，中国矿产金377.24吨，连续18年<strong>全球第一</strong>；黄金消费985.31吨，连续12年<strong>全球第一</strong>。产的没有用的多，缺口靠进口和回收补。</p>
+<p>我把《中国黄金年鉴2025》里产金县（市）的数据拉出来排了一遍。有这么一个发现：中国产金最多的地方，基本都不是”市”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-994c88903480dbe7198289d2565b7f2c-sz_902279.jpeg" alt="金矿"></p>
+<h1 id="黄金不在大城市"><a href="#黄金不在大城市" class="headerlink" title="黄金不在大城市"></a>黄金不在大城市</h1><p>十大产金县（市）的第一名，是山东莱州，18.57吨；第二名是山东招远，14.86吨。</p>
+<p>这两个地方你大概率没去过，它们都是县级市，而且同属烟台。加起来33.43吨。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-afadfd7bf80ef29b5ac470a17aa17be7-sz_523378.jpeg" alt="金矿"></p>
+<p>全国产金第二的地级市是三门峡，13.46吨。也就是说，莱州一个县，比一整个地级市挖得还多；莱州加招远，接近两个半三门峡。</p>
+<blockquote>
+<p>烟台全市2024年矿产金37.4吨，全国地级市第一——其中九成，来自这两个县。</p>
+</blockquote>
+<p>所以”十大金矿城市”这个说法，其实有点抬举城市了。中国的黄金，是从县里挖出来的。</p>
+<h1 id="如何分布？"><a href="#如何分布？" class="headerlink" title="如何分布？"></a>如何分布？</h1><p>把十大产金县一个一个标到地图上，可以看到：它们不是均匀分布的，而是几乎全部落在几条窄长的带上。</p>
+<p>胶东、小秦岭—熊耳山、西秦岭、滇黔桂、华北陆块北缘。</p>
+<p>这几条带有许多相似的地方：一套古老的变质岩基底，一条切穿地壳的深大断裂，再加一亿多年前那场大规模岩浆活动。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-0f12584ffe7bda9a1901b14f0f868583-sz_168095.jpeg" alt="金矿"></p>
+<p>老基底像一块吸饱了金的海绵，中生代的岩浆像一只烧开的水壶。含金热液顺着断裂往上冲，温度一降、压力一松，金就从水里析出来，沉淀在破碎岩石的缝隙里。</p>
+<p>所以金矿不长在山顶，它长在断裂带里。</p>
+<blockquote>
+<p>全国6座累计产金超过100吨的金矿，有3座在莱州一个县级市里。</p>
+</blockquote>
+<h1 id="十座城"><a href="#十座城" class="headerlink" title="十座城"></a>十座城</h1><p>按2024年矿产金产量排，是这样的。</p>
+<h2 id="1｜山东莱州-·-18-57吨"><a href="#1｜山东莱州-·-18-57吨" class="headerlink" title="1｜山东莱州 · 18.57吨"></a>1｜山东莱州 · 18.57吨</h2><p>三山岛、焦家、新城三座百吨级金矿排成一条线。焦家金矿确立的”焦家式”破碎带蚀变岩型金矿，是中国地质学家自己命名、写进教科书的类型。三山岛的一部分矿体，就躺在莱州湾的海床之下。2023年公布的西岭金矿，累计探获592.186吨，是国内最大的单体金矿床，埋深在负1000米到负2500米之间。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-a1808828f1a4ef22fee7832f2ca9cfcd-sz_1105202.jpeg" alt="金矿"></p>
+<h2 id="2｜山东招远-·-14-86吨"><a href="#2｜山东招远-·-14-86吨" class="headerlink" title="2｜山东招远 · 14.86吨"></a>2｜山东招远 · 14.86吨</h2><p>“中国金都”，曾连续46年位居全国县级市产金第一。玲珑金矿是”玲珑式”石英脉型金矿的命名地。抗战时期，这里的金子曾被秘密送往延安，前后约13万两——一座县城的矿脉，接上过一个国家的命脉。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-dafdee3ae4aa240e73b8547c6d93def7-sz_290307.jpeg" alt="金矿"></p>
+<h2 id="3｜河南灵宝-·-13-46吨"><a href="#3｜河南灵宝-·-13-46吨" class="headerlink" title="3｜河南灵宝 · 13.46吨"></a>3｜河南灵宝 · 13.46吨</h2><p>三门峡全市的矿产金，几乎就是灵宝一地的产量。小秦岭北麓，曾连续39年稳居全国县级第二，2021年一度登顶。这里还是”苹果之乡”：山上采金，山下结果，一条秦岭养活两种产业。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-561048d8f1b6494495f2f19a4d46b93c-sz_78377.jpeg" alt="金矿"></p>
+<h2 id="4｜云南鹤庆-·-7-15吨"><a href="#4｜云南鹤庆-·-7-15吨" class="headerlink" title="4｜云南鹤庆 · 7.15吨"></a>4｜云南鹤庆 · 7.15吨</h2><p>大理鹤庆的北衙，是喜马拉雅期富碱斑岩”喂”出来的斑岩—矽卡岩型铁金矿。云南挖金历史很长，但真正进第一梯队，靠的是近二十年的深部勘探。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-9180406a314046e4811673dc51e7e4d1-sz_113013.jpeg" alt="金矿"></p>
+<h2 id="5｜甘肃礼县-·-7-05吨"><a href="#5｜甘肃礼县-·-7-05吨" class="headerlink" title="5｜甘肃礼县 · 7.05吨"></a>5｜甘肃礼县 · 7.05吨</h2><p>西秦岭是中国卡林型金矿的主战场。礼县李坝一带，加上相邻文县的阳山，构成了甘肃的家底。甘肃因此稳居全国产金第三省。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-4e07256036131e733f2f81a8039f0f4e-sz_568179.jpeg" alt="金矿"></p>
+<h2 id="6｜河南嵩县-·-6-19吨"><a href="#6｜河南嵩县-·-6-19吨" class="headerlink" title="6｜河南嵩县 · 6.19吨"></a>6｜河南嵩县 · 6.19吨</h2><p>祁雨沟金矿是”爆破角砾岩型”的典型：地下岩浆爆炸式上涌，把围岩炸成一堆碎块，含金热液再把碎块胶结成矿。嵩县、洛宁、栾川连成一片，洛阳由此成为全国产金第三的地级市。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-c18403c917526f58f5527e7835249bcf-sz_213910.jpeg" alt="金矿"></p>
+<h2 id="7｜贵州贞丰-·-5-75吨"><a href="#7｜贵州贞丰-·-5-75吨" class="headerlink" title="7｜贵州贞丰 · 5.75吨"></a>7｜贵州贞丰 · 5.75吨</h2><p>烂泥沟、水银洞，滇黔桂”金三角”的核心。三叠系的碳酸盐岩像一块巨大的滤网，含金热液渗进去，金留在细密孔隙里。品位不高，吨位巨大。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-e48ab16ddcf2f93cceaedc3b389993f1-sz_911770.jpeg" alt="金矿"></p>
+<h2 id="8｜江西德兴-·-5-37吨"><a href="#8｜江西德兴-·-5-37吨" class="headerlink" title="8｜江西德兴 · 5.37吨"></a>8｜江西德兴 · 5.37吨</h2><p>德兴最出名的是铜，亚洲最大的露天铜矿在这儿。但德兴的金山金矿同样硬核：韧性剪切带型，金赋存在被剪切作用碾细的岩石里。铜和金在同一套构造里共生。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-e954a1871215e48348896b86ddb4d718-sz_164917.jpeg" alt="金矿"></p>
+<h2 id="9｜山西繁峙-·-3-35吨"><a href="#9｜山西繁峙-·-3-35吨" class="headerlink" title="9｜山西繁峙 · 3.35吨"></a>9｜山西繁峙 · 3.35吨</h2><p>义兴寨金矿，山西黄金的顶梁柱。华北克拉通18亿年前那次大碰撞留下的变质基底，提供了最初的”金源”。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-b2b19ddb256cc514f5352f8cdd8bdc46-sz_178190.jpeg" alt="金矿"></p>
+<h2 id="10｜内蒙古乌拉特中旗-·-3-35吨"><a href="#10｜内蒙古乌拉特中旗-·-3-35吨" class="headerlink" title="10｜内蒙古乌拉特中旗 · 3.35吨"></a>10｜内蒙古乌拉特中旗 · 3.35吨</h2><p>阴山以北，矿体埋藏浅，适合大规模露天开采。内蒙古能进全国产金省前十，靠的就是这类”低品位、大吨位”的矿山。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-f3b0350aba5c2b2ee143b4f6499d93b3-sz_202399.jpeg" alt="金矿"></p>
+<h1 id="反常识"><a href="#反常识" class="headerlink" title="反常识"></a>反常识</h1><p><strong>第一，品位低到离谱，也可能是超级大矿。</strong></p>
+<p>2025年11月，自然资源部公布辽宁盖州大东沟金矿探明金金属量1444.49吨，是新中国成立以来最大的单体金矿床。它的平均品位只有0.56克&#x2F;吨——一吨石头里不到0.6克金。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-910349d320a3f2e84ad37434650f9a1a-sz_103316.jpeg" alt="金矿"></p>
+<p>靠什么赚钱？靠规模。25.86亿吨矿石摊下来，它成了我国第一个千吨级低品位露天金矿。</p>
+<p>所以”富矿”和”大矿”是两件事。教科书里那些几十克一吨的富矿，往往只能挖几年。</p>
+<p><strong>第二，最值钱的金，肉眼看不见。</strong></p>
+<p>贵州贞丰、甘肃礼县那种卡林型金矿，金以微细粒浸染在碳酸盐岩里，磨片子放到显微镜下才能找到。现场没有明金，全靠化验。这类矿一度被认为中国没有，直到上世纪八十年代在黔西南被确认。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-1596a3b3379c6d00503c2cf55f254606-sz_131654.jpeg" alt="金矿"></p>
+<p><strong>第三，在金矿这行，技术比品位值钱。</strong></p>
+<p>福建上杭的紫金山，品位低到当年一度被认为不值得大规模开采。紫金矿业用堆浸技术把它做成了中国最大的黄金企业之一。同一座山，换个做法，结论就反过来了。</p>
+<h1 id="最后说说"><a href="#最后说说" class="headerlink" title="最后说说"></a>最后说说</h1><p>黄金不会消失，但矿山会老。</p>
+<p>浅部的挖完了，就得往深处走。西岭的矿体在负2500米，为了找它，勘探队打了一个4006米的钻孔——相当于把30多座30层楼摞起来，往地心插一根针。而金矿勘探的成功率，大约千分之零点七。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-d189021f29a0ed07696e42ac45c764f4-sz_121418.jpeg" alt="金矿"></p>
+<p>所以这些县真正的底气，从来不只是”家里有矿”。莱州在做深部勘探和海底采矿，招远把链条拉到首饰和文旅，贞丰在把”看不见的金”变成能计算的储量。</p>
+<p>一座城市的含金量，最后不取决于地下有多少克，而取决于它能不能把这几克，变成一套留得下来的本事。</p>
+<hr>
+<p>数据来源：《中国黄金年鉴2025》、中国黄金协会、自然资源部公开信息。本文不构成任何投资建议。</p>
+
+<div class="wx-follow-card" style="--wx-accent:#07C160">
+  <div class="wx-follow-card__text">
+    <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
+    <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
+    <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+  </div>
+  <div class="wx-follow-card__qr">
+    <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
+      <img src="/img/wechat-qrcode.jpg" alt="公众号二维码">
+    </div>
+    <div class="wx-follow-card__cap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 12h10"/></svg>
+      微信扫一扫
+    </div>
+  </div>
+</div>]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>地理科普</tag>
+        <tag>金矿</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>深圳城中村：有人把它当跳板，有人被困在里面，有人靠它财务自由</title>
+    <url>/archives/54b88028.html</url>
+    <content><![CDATA[<blockquote>
+<p><strong>同一座深圳，折叠在不同的窗户里。</strong></p>
+</blockquote>
+<h1 id="你下火车的第一站，往往是一间握手楼"><a href="#你下火车的第一站，往往是一间握手楼" class="headerlink" title="你下火车的第一站，往往是一间握手楼"></a>你下火车的第一站，往往是一间握手楼</h1><p>很多深圳人的故事，开头都长一个样。</p>
+<p>拖着一个行李箱，从某个火车站或者汽车站出来，被朋友领进一条窄得错不开身的巷子。抬头看，**两边楼近得能握手，所以叫”握手楼”**。空调水滴在你脖子上，肠粉店的蒸汽糊住眼镜，楼道里堆着没人认领的快递。然后朋友推开一扇铁门：”先住我这，缓两天。”</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-52e73ca17146679f5b5dba554d439505-sz_281971.jpeg" alt="城中村"></p>
+<p>那间房可能只有七八平米，月租一千出头，厕所和厨房共用，窗对着对面楼的窗，白天也要开灯。但它是你在这个城市的第一块落脚点。你不会觉得丢人，因为周围所有人，第一年都这样过来的。</p>
+<p>深圳的厉害，从来不是有多少栋摩天楼，而是它愿意让一个刚下火车、兜里没几个钱的人，先有个地方把箱子放下。<strong>城中村——不是规划出来的，是无数外来者硬挤出来的</strong>。深圳实际管理两千多万人，坊间常说，里面差不多一半，住过或者正住在城中村。</p>
+<p>所以它最矛盾：一边是”脏乱差”的代名词，一边又托住了这座城市的下限。没有城中村，深圳的房价神话根本讲不通——总得有人，住得起。</p>
+<h1 id="有人把它当跳板，有人把它当终点"><a href="#有人把它当跳板，有人把它当终点" class="headerlink" title="有人把它当跳板，有人把它当终点"></a>有人把它当跳板，有人把它当终点</h1><blockquote>
+<p><strong>对刚来的年轻人，城中村是跳板。</strong></p>
+</blockquote>
+<p>你住白石洲、上下沙、岗厦、大冲，挤在十平米的房间里改简历、投岗位、准备面试。白天去福田的写字楼上班，晚上回村吃碗十五块的粉。你心里清楚，这只是过渡，等攒够钱、稳定下来，就搬去像样的小区。很多人确实走出来了，<strong>城中村是他们”来了就是深圳人”的第一课</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-10a180c9f574f1035c65b8df7c12305a-sz_2271897.png" alt="城中村"></p>
+<blockquote>
+<p><strong>但也有另一群人，跳板变成了终点。</strong></p>
+</blockquote>
+<p>送外卖的、做保洁的、在菜市场杀鱼的、在工厂两班倒的，还有那些年轻时来打工、现在老了还留在村里的。他们不是不想走，是算过账之后发现，走不动了。搬去商品房，房租翻两倍三倍，工资不会翻。孩子要上学，老人要看病，每一笔都是硬支出。城中村那点便宜，是他们家能不能在这座城市继续生存的关键。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-3e9c745972ff9d47d5f978ccd29a3d09-sz_42556.jpeg" alt="城中村"></p>
+<p>更安静的一种困，是那些被时间留在村里的人。你能在任何一条城中村的巷口看到他们：坐在小板凳上择菜的老人，守着杂货铺一看一整天的阿婆。他们不是没努力过，只是深圳跑得太快，把一部分人甩在了原地。城中村收留了他们，也困住了他们。它既是庇护所，也是天花板。</p>
+<p><strong>所以别轻易说”住城中村只是暂时的”。对一部分人，它真的可能是一辈子。</strong></p>
+<h1 id="村子里最隐秘的富豪"><a href="#村子里最隐秘的富豪" class="headerlink" title="村子里最隐秘的富豪"></a>村子里最隐秘的富豪</h1><p>聊城中村，绕不开一个角色：包租公、包租婆。</p>
+<p>他们可能是你天天见面、却从来看不懂的人。一件睡衣，一双拖鞋，手里串着佛珠或者捧着保温杯，在村口榕树下跟人下棋。你背着电脑挤地铁去打工，他在收租。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-4e93c2e7399ff2d82000ace2260884cc-sz_27733.jpeg" alt="城中村"></p>
+<p>深圳的城中村，底层是集体土地，房子是本地原村民一栋栋盖起来的。一栋七八层的农民房，每层几间，隔成十几二十个单间往外租。按一间一千算，一栋楼一个月的流水就相当可观，而且几乎是纯利——不用装修成样板间，不用请物业，坏了找人修一下就能继续收。（更何况，随着地铁的开通，越来越多城中村房租跟着涨价）</p>
+<p>这也是深圳最魔幻的地方：在那些握手楼里，藏着这座城市最不声张的富裕。他们不出现在任何财富排行榜上，但一套房、一栋楼，就是普通人几辈子挣不到的现金流。很多原村民一辈子没上过一天班，靠家里的几栋楼，就把日子过得比写字楼里加班到凌晨的人还稳。</p>
+<p>所以城中村对两拨人是两件事：对租客，它是成本；对房东，它是资产。同一片屋檐下，人和人的坐标系完全不一样。</p>
+<h1 id="夹在中间的，是那群让人又恨又离不开的中介"><a href="#夹在中间的，是那群让人又恨又离不开的中介" class="headerlink" title="夹在中间的，是那群让人又恨又离不开的中介"></a>夹在中间的，是那群让人又恨又离不开的中介</h1><p>把租客和房东连起来的，是中介。准确说，是城中村那条永远贴满招租红纸的街。</p>
+<p>你可以骂他们一辈子。二房东把本来能住人的大间隔成三个暗间，按间收钱；看房时说”押一付一、水电民用”，签完合同才发现是商用电、管理费另算；住满三个月想退，押金永远退不干净，”卫生没打扫””墙面有印子”随便扣。<strong>年轻人漂在深圳，第一顿毒打往往不是来自老板，是来自中介</strong>。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-f1dea34d1fba8adeeed3f60abfc51e32-sz_111056.jpeg" alt="城中村"></p>
+<p>但你也离不开他们。村太大，楼太多，你在网上永远找不到那间”刚好空出来、刚好便宜、刚好离地铁近”的房。最后还是得拐进那条街，听一个操着各地口音的人跟你说：”哥，我这有个性价比高的，跟我去看看。”</p>
+<p>中介是城中村的信息差本身。他们不生产房子，只倒卖你找房的时间和焦虑。这套机制很香港——房东、二房东、中介、租客，层层叠下来，最末尾的人，扛下了所有成本。</p>
+<h1 id="当推土机来了，每个人都被重新洗牌"><a href="#当推土机来了，每个人都被重新洗牌" class="headerlink" title="当推土机来了，每个人都被重新洗牌"></a>当推土机来了，每个人都被重新洗牌</h1><p>上面这些角色，本来在村里维持着一种脆弱的平衡。直到城市更新来了。</p>
+<p>深圳 2024 年定了调子，城中村改造不再一刀切，分成三类：<strong>拆掉重建的、整治提升的、拆整结合的</strong>。听起来理性，但对具体的人来说，就是一次重新洗牌。</p>
+<p>拆掉的，最典型是<strong>白石洲</strong>。0.6 平方公里挤过十几万人，被称为”旧改航母”。推土机开过去，几代深漂的青春被推平，原地长出来的是紧挨世界之窗的豪宅和商业体。房东拿了补偿，搬去更舒服的地方；租客拎着箱子，重新去城市的缝隙里找一个”下一个白石洲”。流动的是人，不动的是楼换了一批主人。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-b9d0810e2159e7433dd07279d0bcd9f4-sz_318666.jpeg" alt="城中村"></p>
+<p>也有不拆的。<strong>南头古城</strong>，深港澳之根，一千七百年的老地方，原来也是城中村。深圳没把它推平，而是”修旧如旧”，把老街巷留着，往里塞咖啡、展览、小店。它上了国新办的发布会，被点名说”没有大拆大建，也能变城市亮点”。福田的玉田村改造完，楼刷得花花绿绿，反而成了年轻人爱住的宜居小区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-a24f151c2c54e690b3c3abb611fea96d-sz_812485.jpeg" alt="城中村"></p>
+<p>而文件里写：改造完继续出租的，要优先满足原来的租户。翻译就是——别把便宜的房子改没了，改成更贵却空着的精装公寓。2024 年深圳建筹了十来万套保障房，大量的城中村楼栋被收储、纳管，变成保障性租赁住房。</p>
+<p>但道理归道理，落到个人头上，差别很大。<strong>有人等来了更好的房子，有人只是被迫搬去更远、更偏的村</strong>。城市更新不是童话，它只是把原来挤在一起的不同命运，重新分了一遍座位。</p>
+<h1 id="深圳之所以是深圳，因为它还愿意留一扇门"><a href="#深圳之所以是深圳，因为它还愿意留一扇门" class="headerlink" title="深圳之所以是深圳，因为它还愿意留一扇门"></a>深圳之所以是深圳，因为它还愿意留一扇门</h1><p>回头看，城中村其实是深圳被折叠的那一面。</p>
+<p>同一座城市，有人在天台泳池里开会，有人在三楼隔断间里吃泡面；有人靠一栋楼财务自由，有人送一辈子外卖还是攒不够首付；有人把它当跳板飞走了，有人一辈子没飞出去。它们不是两个深圳，是同一个深圳，被装进了不同的窗户里。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-d946ed6552694e6ab1b41597a85d7415-sz_510634.jpeg" alt="城中村"></p>
+<p>但恰恰是这扇”折叠”的门，让深圳跟别的城市不一样。<strong>它不是先把人筛选一遍再放进来的，而是先让你住下来，再看你能长出什么。</strong>城中村就是那个最初的、也是最不挑人的入口。</p>
+<p>所以聊城中村的未来，别只盯着”拆”还是”留”。真正该盯的，是深圳会不会一直给普通人留一口活气——一间租得起的房，一条走得通的巷，一个不用先被筛选就能落地的机会。</p>
+<p>先有城中村，才有深圳梦。这句话不是情怀，是这座城市的底层代码。</p>
+<hr>
+<blockquote>
+<p><strong>你住过哪个城中村？后来搬走了，还是还留在里面？评论区聊聊，你和这座城市的第一站。</strong></p>
+</blockquote>
+
+<div class="wx-follow-card" style="--wx-accent:#07C160">
+  <div class="wx-follow-card__text">
+    <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
+    <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
+    <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+  </div>
+  <div class="wx-follow-card__qr">
+    <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
+      <img src="/img/wechat-qrcode.jpg" alt="公众号二维码">
+    </div>
+    <div class="wx-follow-card__cap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 12h10"/></svg>
+      微信扫一扫
+    </div>
+  </div>
+</div>]]></content>
+      <categories>
+        <category>地理科普</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>地理科普</tag>
+        <tag>广东</tag>
+        <tag>深圳</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>荷兰这个沿海国家，会被海水吞没而消失吗？</title>
+    <url>/archives/9a0dd22.html</url>
+    <content><![CDATA[<p>仔细观察会发现，<strong>全球各国很多大城市都集中在沿海地区</strong>，但这是为什么呢？无非是这么几个原因：交通便利、气候适宜，以及这些前提条件带来的经济正向增长。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-8ab8b91298b62badc0e398fdd0d7f72f-sz_80897.jpeg" alt="海平面模拟"></p>
+<p>但作为沿海城市，就不得不面对这么一个问题：当海平面持续上升，这座城市有什么好的应对措施吗？</p>
+<p>提到海平面上升，不得不提着么几个地方：荷兰、日本、威尼斯。就荷兰而言，大家可以看看下面这张图：<strong>蓝色部分</strong>是低于海平面的地区，<strong>紫色部分</strong>是易受洪水灾害的地区。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-3e804c160fec0dd3e1410cc652f0ae04-sz_146658.png" alt="海平面模拟"></p>
+<blockquote>
+<p><strong>可荷兰的国土面积就这么大点，1&#x2F;3的面积在海平面以下，难道这个国家就不担心吗？</strong></p>
+</blockquote>
+<p>荷兰人从 1953 年大洪水（近 2000 人遇难）之后就明白：这片土地本身就是跟大海 “谈判” 来的，俗语 “上帝造世界，荷兰人造荷兰”，治水是国家身份，不是新鲜的末日话题。 多数普通人对当下安全很有信心：相信三角洲工程、风暴潮闸门、水务委员会这套成熟体系，平时不会天天担心明天被淹；涨潮、风暴潮来了，很多人甚至会专门去堤坝看高水位，当成一种熟悉的景观，而不是灾难预警。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-ea2ab1167440ec5296d47b87168163f5-sz_209777.jpeg" alt="海平面模拟"></p>
+<p>在大多数荷兰人的讨论里，<strong>撤离，是最后选项，不是默认结局</strong>。 马尔代夫的核心议题是 “举国搬迁”；而荷兰的主线讨论永远是：我们要花多少钱、用什么方案、愿意让出多少土地，继续守住这片低地。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-b5fb8e2b003cdf3bb7ffe89867cb3271-sz_153164.jpeg" alt="海平面模拟"></p>
+<p>当然，他们也承认边界：海平面上涨一旦突破极限，再强的工程也扛不住。 所以他们一边修坝、造漂浮建筑，一边持续推动全球减碳 —— 这是远方的、属于全人类的防线。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-6648362a00b43046864db2de54b8fda0-sz_3758278.png" alt="海平面模拟"></p>
+<p>这是一款海平面上升淹没模拟工具，声明：数据仅供教育演示，非精确预测。在这里需要作出说明：</p>
+<p>✅ 现实里 IPCC 的预测：本世纪内，最极端情景也就1 米左右。 </p>
+<p>✅ 77 米属于超级极端假想情景：需要地球上几乎全部冰川、冰盖完全融化，是几万年尺度的远期猜想，不是未来几十年、上百年会发生的事。</p>
+<p>在这张图中，可以看到：</p>
+<ul>
+<li>荷兰全境、比利时、英国东部、德国北部平原全部沉入水下；</li>
+<li>法国北部巴黎盆地、意大利波河平原、多瑙河下游平原、土耳其伊斯坦布尔一带大面积淹没；</li>
+<li>北美东海岸：美国东部沿海、墨西哥湾沿岸城市全线被淹；</li>
+<li>非洲：北非地中海沿岸（埃及尼罗河三角洲、利比亚沿海）全部消失。</li>
+</ul>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-e7f9d22d0c13510ff4b7c340d106ceae-sz_513308.jpeg" alt="海平面模拟"></p>
+<p>也许有人会好奇，在这种极端环境下，我国时个什么状况？</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-332ab67b54ab40431d9e3709f1f7c160-sz_509834.jpeg" alt="海平面模拟"></p>
+<p>首先，华北平原被海水淹没，北京平均海拔不到50米，图中显示当海平面上升76米，已被淹没33m。左侧是太行山脉，海水进不去。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-d7bbcfda110cbe1559b59fde911bcde7-sz_842396.jpeg" alt="海平面模拟"></p>
+<p>上图中，江苏省全军覆没，上海市也是。浙江省、安徽省、江西省、湖北省、湖南省、河南省，都有不同程度的受灾。图中甚至可以隐约看出（武汉市右侧）大别山的轮廓。</p>
+<p><img src="https://blogphoto.planetgis.cn/PicGo/2026-11-12-e892684a033a2a47b819c39e0fd53cb2-sz_842861.jpeg" alt="海平面模拟"></p>
+<p>至于我国南方，可以看到大湾区受灾面积很大，但想来也正常，广州南部沿海，在古时候还是大海，成为陆地也不过几百年的事情，海拔自然较低。</p>
+<hr>
+<p><strong>最后说说</strong></p>
+<p>现在谈论海平面上升，其实是有点站着说话不腰疼了。特别是现在经济下行，生活本身就不容易的情况下，谈论这些宏大叙事无异于“杞人忧天”。</p>
+<p>但本文并不是为了传播焦虑，只是为了探索地球的地形特征，以及推演未来地球的样貌。特此声明。</p>
+
+<div class="wx-follow-card" style="--wx-accent:#07C160">
+  <div class="wx-follow-card__text">
+    <span class="wx-follow-card__badge"><i></i>WECHAT OFFICIAL ACCOUNT</span>
+    <div class="wx-follow-card__title">那山那海那座城<small>公众号</small></div>
+    <p class="wx-follow-card__desc">每周更新地理与 AI 交叉领域的深度长文——用地图讲清世界正在发生的变化。扫码关注，第一时间收到新文章。</p>
+    <div class="wx-follow-card__meta"><span class="wx-follow-card__chip">已更新 <b>288</b> 篇</span><span class="wx-follow-card__chip">地理 · GIS · AI</span><span class="wx-follow-card__chip">每周至少 1 更</span></div>
+  </div>
+  <div class="wx-follow-card__qr">
+    <div class="wx-follow-card__qrbox" role="button" tabindex="0" aria-label="点击放大二维码">
+      <img src="/img/wechat-qrcode.jpg" alt="公众号二维码">
+    </div>
+    <div class="wx-follow-card__cap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 12h10"/></svg>
+      微信扫一扫
+    </div>
+  </div>
+</div>]]></content>
+      <categories>
+        <category>海平面模拟</category>
+      </categories>
   </entry>
 </search>
