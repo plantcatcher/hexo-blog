@@ -127,8 +127,8 @@
       <name>星球小捕手</name>
     </author>
     <category term="互动地图" scheme="https://blog.planetgis.cn/categories/%E4%BA%92%E5%8A%A8%E5%9C%B0%E5%9B%BE/"/>
-    <category term="地图可视化" scheme="https://blog.planetgis.cn/tags/%E5%9C%B0%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
     <category term="中国" scheme="https://blog.planetgis.cn/tags/%E4%B8%AD%E5%9B%BD/"/>
+    <category term="地图可视化" scheme="https://blog.planetgis.cn/tags/%E5%9C%B0%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
     <category term="互动地图" scheme="https://blog.planetgis.cn/tags/%E4%BA%92%E5%8A%A8%E5%9C%B0%E5%9B%BE/"/>
     <category term="河流" scheme="https://blog.planetgis.cn/tags/%E6%B2%B3%E6%B5%81/"/>
     <id>https://blog.planetgis.cn/archives/38d11801.html</id>
@@ -144,8 +144,8 @@
     </author>
     <category term="地理科普" scheme="https://blog.planetgis.cn/categories/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/"/>
     <category term="地理科普" scheme="https://blog.planetgis.cn/tags/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/"/>
-    <category term="博客" scheme="https://blog.planetgis.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     <category term="中国" scheme="https://blog.planetgis.cn/tags/%E4%B8%AD%E5%9B%BD/"/>
+    <category term="博客" scheme="https://blog.planetgis.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     <id>https://blog.planetgis.cn/archives/45812786.html</id>
     <link href="https://blog.planetgis.cn/archives/45812786.html"/>
     <published>2026-09-30T20:54:07.000Z</published>

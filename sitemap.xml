@@ -2722,6 +2722,13 @@
 
   
   <url>
+    <loc>https://blog.planetgis.cn/categories/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.planetgis.cn/categories/%E5%9C%B0%E9%93%81/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2743,7 +2750,7 @@
   </url>
   
   <url>
-    <loc>https://blog.planetgis.cn/categories/%E5%9C%B0%E7%90%86%E7%A7%91%E6%99%AE/</loc>
+    <loc>https://blog.planetgis.cn/categories/GIS%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2751,13 +2758,6 @@
   
   <url>
     <loc>https://blog.planetgis.cn/categories/%E4%BA%92%E5%8A%A8%E5%9C%B0%E5%9B%BE/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.planetgis.cn/categories/GIS%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
