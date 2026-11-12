@@ -1,8 +1,7 @@
 User-agent: *
+# Allow: / 已经放开全站；归档页/标签页另由构建期 noindex 收敛，
+# 不必再单独 Allow 一遍（Allow 与 noindex 并存是互相矛盾的信号）。
 Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /about/
 
 # 只挡第三方组件目录；CSS / JS 必须放行，否则搜索引擎无法渲染页面、会误判移动端体验
 Disallow: /vendors/
